@@ -1,0 +1,113 @@
+/* src/components/FeaturedProducts.module.css */
+
+.featuredProducts { /* تغییر از .featured-products */
+  padding: 80px 40px; /* از 60px به 80px برگردانده شد */
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.heading { /* تغییر از h2 در .featured-products h2 */
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.productsGrid { /* تغییر از .products-grid */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.productCard {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative; /* مهم: برای موقعیت‌دهی صحیح تصویر/ویدیو */
+  overflow: hidden; /* مهم: برای جلوگیری از بیرون زدن ویدیو/تصویر */
+}
+
+.productCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.productCard img {
+  width: 100%;
+  height: 200px; /* ارتفاع ثابت برای عکس‌ها */
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.productCard h3 {
+  font-size: 20px;
+  margin-top: 15px; /* از 10px به 15px بازگردانده شد */
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.productCard p {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 15px;
+  /* min-height: 60px;  اگر توضیحات طولانی هستند، می‌توانید این را اضافه کنید تا ارتفاع یکسان باشد */
+  /* overflow: hidden; */
+  /* text-overflow: ellipsis; */
+  /* display: -webkit-box; */
+  /* -webkit-line-clamp: 3; */
+  /* -webkit-box-orient: vertical; */
+}
+.hoverMedia { /* <--- کلاس جدید */
+  width: 100%;
+  height: 200px; /* <--- ارتفاع ثابت برای هر دو (مطابق با طرح اصلی شما) */
+  object-fit: cover; /* <--- برای پوشش کامل فضا (اگر تصاویر/ویدیوها نسبت ابعاد متفاوتی دارند) */
+  border-radius: 8px; /* <--- Border-radius برای تصویر و ویدیو */
+  margin-bottom: 15px; /* <--- فاصله از محتوای متنی */
+  display: block; /* تضمین می‌کند که به عنوان یک بلاک رفتار کند */
+  /* transition: opacity 0.3s ease;  اگر می‌خواهید افکت محو شدن/ظاهر شدن داشته باشند */
+}
+
+
+.price { /* تغییر از .product-card .price */
+  margin-top: auto; /* این باعث می‌شود قیمت به پایین کارت چسبیده شود */
+  font-weight: bold;
+  margin-bottom: 15px; /* این را اضافه کنید */
+  color: #007bff;
+  font-size: 1.2rem;
+}
+
+.buyBtn { /* تغییر از .buy-btn */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  width: 100%; /* دکمه عرض کامل کارت را بگیرد */
+  margin-top: 10px; /* فاصله از قیمت */
+}
+
+.buyBtn:hover {
+  background-color: #0056b3;
+}
+
+/* استایل‌های Loading و Error */
+.loading, .error {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2rem;
+  color: #777;
+}
+.error {
+    color: #ff4d4d;
+}

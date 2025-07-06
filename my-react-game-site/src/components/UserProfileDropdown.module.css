@@ -1,0 +1,81 @@
+/* src/components/UserProfileDropdown.module.css */
+
+.dropdownContainer {
+  position: absolute;
+  top: 60px; /* <--- فاصله از بالای هدر (یا user-info) */
+  right: 0; /* <--- تراز با سمت راست user-info */
+  background-color: #2b2b2b; /* رنگ پس‌زمینه تیره */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  width: 280px; /* <--- عرض پاپ‌آپ */
+  padding: 10px 0;
+  z-index: 1002; /* <--- بالاتر از هدر و بقیه محتوا */
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.userInfoHeader {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 10px;
+}
+
+.userAvatarLarge {
+  width: 50px; /* اندازه آواتار بزرگتر */
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.usernameDisplayLarge {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.dropdownOption {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.dropdownOption button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 8px 0;
+  width: 100%;
+  text-align: left; /* متن چپ چین باشد */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 15px; /* فاصله بین آیکون و متن */
+  transition: background-color 0.2s ease;
+}
+
+.dropdownOption button:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* پس‌زمینه روشن‌تر هنگام هاور */
+}
+
+.dropdownOption i { /* استایل برای آیکون‌های Font Awesome */
+  font-size: 1.1rem;
+  width: 25px; /* عرض ثابت برای آیکون‌ها */
+  text-align: center;
+}
+
+.logoutOption {
+  border-top: 1px solid rgba(255, 255, 255, 0.1); /* خط جداکننده برای خروج */
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.logoutOption button {
+  color: #ff6347; /* رنگ قرمز برای خروج */
+}
+
+.logoutOption button:hover {
+  background-color: rgba(255, 99, 71, 0.2);
+}

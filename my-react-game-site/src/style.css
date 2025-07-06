@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%; /* مطمئن می‌شویم که کل ارتفاع را اشغال می‌کنند */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  /* overflow-y: auto;  */
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #121212;
+  color: white;
+  overflow-y: auto;
+}
+
+/* استایل برای layout اصلی صفحه Home */
+.home-page-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  overflow: hidden;
+}
+

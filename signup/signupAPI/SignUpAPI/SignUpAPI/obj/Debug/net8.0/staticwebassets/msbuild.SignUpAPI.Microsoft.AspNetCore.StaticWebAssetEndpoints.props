@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/SignUpAPI/avatars/4bde3917-d970-456c-b154-187bdafb3cb0.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\avatars\4bde3917-d970-456c-b154-187bdafb3cb0.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-3bFXraf\u002BHDGMP97eHAerLvKcxqdNpidWTsRW\u002B57bNyI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1214515"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00223bFXraf\u002BHDGMP97eHAerLvKcxqdNpidWTsRW\u002B57bNyI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Jul 2025 11:28:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SignUpAPI/avatars/4bde3917-d970-456c-b154-187bdafb3cb0.vhy6ii0i29.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\avatars\4bde3917-d970-456c-b154-187bdafb3cb0.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vhy6ii0i29"},{"Name":"integrity","Value":"sha256-3bFXraf\u002BHDGMP97eHAerLvKcxqdNpidWTsRW\u002B57bNyI="},{"Name":"label","Value":"_content/SignUpAPI/avatars/4bde3917-d970-456c-b154-187bdafb3cb0.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1214515"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00223bFXraf\u002BHDGMP97eHAerLvKcxqdNpidWTsRW\u002B57bNyI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Jul 2025 11:28:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

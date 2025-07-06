@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d071b;
+    /* رنگ پس‌زمینه‌ی تیره مطابق تصویر */
+}
+
+.nonedis,
+.display-none {
+    display: none;
+}
+
+/* ورودیه سایت */
+.god-login {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 40px;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.god-login video.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.containerlogin {
+    background-color: #fff;
+    border-radius: 80px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+        0 10px 10px rgba(0, 0, 0, 0.22);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+}
+
+.containerlogin p {
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin: 30px 0;
+}
+
+.containerlogin span {
+    font-size: 14px;
+}
+
+.containerlogin a {
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0 10px;
+}
+
+.containerlogin button {
+    border-radius: 20px;
+    border: 1px solid #0d6d0d;
+    background-color: #02a338;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 45px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    transition: transform 80ms ease-in;
+    cursor: pointer;
+}
+
+.containerlogin button.hidden {
+    background: rgba(60, 73, 186, 0.64);
+    border-color: #3d20cc;
+}
+
+.containerlogin form {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+}
+
+.containerlogin input {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    width: 100%;
+    margin: 14px 0;
+    font-size: 13px;
+    border-radius: 16px;
+    outline: none;
+}
+.containerlogin h1 {
+    margin: 0;
+    font-style: italic;
+}
+.captcha-container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.coptcha-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px 8px;
+}
+.coptcha-head div{
+    width: 58px;
+    height: 48px;
+    padding-top: 14px;
+    align-items: center;
+    background-color: #b0aeae;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.coptcha-head button{
+    width: 36px;
+    height: 36px;
+    font-size: 12px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 50%;
+}
+.form-container {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transition: all 0.6s ease-in-out;
+}
+
+.log-in-container {
+    right: 0;
+    width: 50%;
+    z-index: 2;
+}
+
+.sign-up-container {
+    right: 0;
+    width: 50%;
+    z-index: 1;
+}
+
+.containerlogin.active .sign-up-container {
+    transform: translateX(-100%);
+}
+
+.containerlogin.active .log-in-container {
+    transform: translateX(100%);
+    opacity: 1;
+    z-index: 5;
+    animation: move 0.5s;
+}
+
+@keyframes move {
+
+    0%,
+    49.99% {
+        opacity: 0;
+        z-index: 1;
+    }
+
+    50%,
+    100% {
+        opacity: 1;
+        z-index: 5;
+    }
+}
+
+.social-container {
+    margin: 20px 0;
+}
+
+.social-container a {
+    border: 1px solid #ccc;
+    font-size: large;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.toggle-container {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    width: 50%;
+    height: 100%;
+    border-radius: 0 150px 100px 0;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    z-index: 2000;
+}
+
+.containerlogin.active .toggle-container {
+    transform: translateX(100%);
+    border-radius: 150px 0 0 100px;
+}
+
+.toggle {
+    position: relative;
+    background-image: url("../images/kazgame-minilogo.png");
+    height: 100%;
+    width: 200%;
+    color: #fff;
+    right: -100%;
+    transform: translateX(0);
+    transition: 0.5s ease-in-out;
+}
+
+.containerlogin.active .toggle {
+    transform: translateX(-50%);
+}
+
+.toggle-panel {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 60px;
+    text-align: center;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.toggle-left {
+    transform: translateX(200%);
+}
+
+.containerlogin.active .toggle-left {
+    transform: translateX(0);
+}
+
+.toggle-right {
+    right: 0;
+    transform: translateX(-100%);
+}
+
+.containerlogin.active .toggle-right {
+    transform: translateX(-200%);
+}
+
+.social-container a:hover {
+    color: #1223b9;
+    background-color: #000;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:focus {
+    outline: none;
+}
+
+.welcom {
+    margin-bottom: 50px;
+}
+
+.welcom h1 {
+    font-style: italic;
+}

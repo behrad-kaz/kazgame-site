@@ -1,0 +1,80 @@
+/* src/components/HeroSection.module.css */
+
+/* Hero Section ******* */
+.hero {
+  position: relative;
+  height: 100vh;
+  width: 100vw; /* این خط را اضافه کنید تا عرض کامل viewport را بگیرد */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 40px;
+  overflow: hidden;
+}
+
+.bgVideo { /* تغییر از .hero video.bg-video به .bgVideo */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.heroContent { /* تغییر از .hero-content به .heroContent */
+  position: relative;
+  max-width: 800px;
+  z-index: 1;
+  /* برای تست: background-color: rgba(255, 0, 0, 0.3); */
+}
+
+/* اگر H1 و P مستقیماً فرزند heroContent هستند، استایل‌های زیر هم باید به همین شکل باشند: */
+.heroContent h1 { /* تغییر از .hero h1 به .heroContent h1 */
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.heroContent p { /* تغییر از .hero p به .heroContent p */
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.heroButtons { /* تغییر از .hero-buttons به .heroButtons */
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.primaryBtn, /* تغییر از .primary-btn به .primaryBtn */
+.secondaryBtn { /* تغییر از .secondary-btn به .secondaryBtn */
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.primaryBtn {
+  background-color: #fff;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.primaryBtn:hover {
+  background-color: #e6e6e6;
+}
+
+.secondaryBtn {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.secondaryBtn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}

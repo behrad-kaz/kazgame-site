@@ -1,0 +1,227 @@
+/* HEADER****** */
+
+
+.header {
+  background: rgba(20, 20, 20, 0.822);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.headerContainer {
+  /* className ها در React به camelCase تبدیل میشن */
+  max-width: 1200px;
+  margin: auto;
+  padding: 12px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoCircle {
+  width: 70px;
+  height: 70px;
+  border-radius: 40px;
+  overflow: hidden;
+  background: radial-gradient(circle at center, #007bff 0%, #001f3f 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 12px rgba(0, 123, 255, 0.7);
+}
+
+.logoCircle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nav {
+  display: flex;
+  gap: 24px;
+}
+
+.nav a {
+  color: #ddd;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #00d9ff;
+}
+
+.ctaButton {
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 50px;
+  /* margin-right: -90px; */
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.ctaButton:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(0, 114, 255, 0.5);
+}
+
+.userInfo {
+  /* .user-info */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 20px;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.1s ease;
+}
+
+.userAvatar {
+  /* .user-avatar */
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  /* <--- اضافه شد: برای اطمینان از پوشش کامل آواتار */
+  border: 2px solid transparent;
+  /* <--- اضافه شد: بردر پیش‌فرض */
+  transition: border-color 0.2s ease;
+  /* <--- انیمیشن نرم برای بردر */
+}
+
+/* **استایل هاور (Hover Style)** */
+.userInfo:hover {
+  color: #007bff;
+}
+
+/* **استایل فعال (Active/Clicked Style) - برای حس فشرده شدن دکمه** */
+.userInfo:active {
+  transform: translateY(1px);
+  /* <--- کمی به پایین حرکت کند */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.7);
+  /* <--- سایه کوچک‌تر هنگام کلیک */
+  background-color: rgba(255, 255, 255, 0.15);
+  /* <--- کمی پررنگ‌تر شود */
+}
+
+/* می‌توانید یک بردر بنفش یا آبی به آواتار در حالت هاور یا فعال اضافه کنید */
+.userInfo:hover .userAvatar {
+  border-color: #00d9ff;
+  /* <--- بردر آبی روشن به آواتار در هاور */
+}
+
+.menuToggle {
+  display: none;
+  /* در حالت دسکتاپ مخفی است */
+  width: 30px;
+  /* عرض کلی دکمه همبرگری */
+  height: 25px;
+  /* ارتفاع کلی دکمه همبرگری */
+  position: relative;
+  cursor: pointer;
+  z-index: 1001;
+  /* برای اینکه بالاتر از منوی باز شده باشد */
+  /* transition: all 0.3s ease-in-out;  برای انیمیشن کلی */
+}
+
+.hamburgerLine {
+  display: block;
+  width: 100%;
+  height: 3px;
+  /* ضخامت هر خط */
+  background-color: white;
+  /* رنگ خطوط */
+  border-radius: 2px;
+  position: absolute;
+  left: 0;
+  transition: all 0.3s ease-in-out;
+  /* انیمیشن برای هر خط */
+}
+
+/* موقعیت اولیه خطوط */
+.hamburgerLine:nth-child(1) {
+  top: 0;
+}
+
+.hamburgerLine:nth-child(2) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.hamburgerLine:nth-child(3) {
+  bottom: 0;
+}
+
+/* **استایل هنگام باز شدن منو (.open)** */
+.menuToggle.open .hamburgerLine:nth-child(1) {
+  transform: translateY(11px) rotate(45deg);
+  /* خط اول به X تبدیل می‌شود */
+}
+
+.menuToggle.open .hamburgerLine:nth-child(2) {
+  opacity: 0;
+  /* خط وسطی محو می‌شود */
+}
+
+.menuToggle.open .hamburgerLine:nth-child(3) {
+  transform: translateY(-11px) rotate(-45deg);
+  /* خط سوم به X تبدیل می‌شود */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .ctaButton {
+    margin-right: 0;
+  }
+
+  .logoCircle {
+    margin-left: 0;
+  }
+
+  .nav {
+    display: none;
+    flex-direction: column;
+    background-color: #1c1c1c;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    align-items: center;
+  }
+
+  .nav.active {
+    display: flex;
+    /* top: 80px;  این را از قبل داشتید، اگر هدر ثابت است این مقدار صحیح است */
+    top: 80px;
+    /* از ارتفاع هدر به پایین */
+    left: 0;
+    width: 100%;
+    /* height: calc(100vh - 80px); /* اگر می‌خواهید منو کل صفحه را پر کند */
+    padding: 20px 0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: flex-start;
+    /* آیتم‌ها از بالا شروع شوند */
+  }
+
+  .menuToggle {
+    display: block;
+  }
+
+  .ctaButton {
+    display: none;
+  }
+}

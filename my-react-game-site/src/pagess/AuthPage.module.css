@@ -1,0 +1,289 @@
+/* src/pages/AuthPage.module.css */
+
+.authPageContainer {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+background: #095682;
+background: linear-gradient(1deg, rgba(9, 86, 130, 1) 0%, rgba(1, 25, 82, 1) 50%, rgba(0, 0, 28, 1) 100%);
+    /* گرادیان پس‌زمینه کلی */
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* فونت پیشنهادی */
+    color: white;
+     justify-content: center; /* مرکز افقی */
+  align-items: center;   /* مرکز عمودی */
+    
+}
+.authFormWrapper {
+  display: flex; /* برای اینکه leftPanel و rightPanel کنار هم باشند */
+  width: 900px; /* <--- عرض ثابت برای کل فرم (left + right). می توانید تنظیم کنید */
+  height: 520px; /* <--- ارتفاع ثابت برای کل فرم. می توانید تنظیم کنید */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4); /* سایه کلی فرم */
+  border-radius: 15px; /* <--- گردی گوشه‌های کل فرم */
+  overflow: hidden; /* برای اینکه محتوا از گوشه‌های گرد بیرون نزند */
+  position: relative; /* برای هرگونه عنصر absolute داخل آن */
+}
+
+.leftPanel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    /* افکت شیشه */
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    position: relative;
+    /* برای لوگو و محتوا */
+    background-color: #0b0014;
+    max-width: 50%;
+}
+
+.leftPanel::before {
+    /* افکت نویز یا نورپردازی در پس زمینه چپ */
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/images/key-sharer-bg-pattern.png') no-repeat center center / cover;
+    /* الگوی پس‌زمینه یا تصویر */
+    opacity: 0.1;
+    z-index: -1;
+}
+
+.logo img {
+    width: 120px;
+    /* اندازه لوگو */
+    height: auto;
+    opacity: 0.8;
+}
+
+.leftPanelContent h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 1.1;
+    color: #c0c0ff;
+    /* رنگ بنفش روشن برای عنوان‌ها */
+}
+
+.leftPanelContent p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 20px;
+    max-width: 350px;
+}
+
+.rightPanel {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #121223;
+    /* رنگ تیره برای پنل راست */
+    position: relative;
+    max-width: 50%;
+}
+
+.authForms {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    /* background-color: rgba(255, 255, 255, 0.05); /* پس زمینه فرم شفاف */
+    /* padding: 30px; */
+    /* border-radius: 10px; */
+}
+
+.authTitle {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+    color: #e0e0ff;
+}
+
+.socialAuthButtons {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.socialButton {
+    flex: 1;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.socialButton img {
+    width: 20px;
+    height: 20px;
+}
+
+.socialButton:hover {
+    background-color: #555;
+}
+
+.orDivider {
+    margin: 10px 0;
+    position: relative;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.orDivider::before,
+.orDivider::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.orDivider::before {
+    left: 0;
+}
+
+.orDivider::after {
+    right: 0;
+}
+
+.authForm .inputGroup {
+    margin-bottom: 20px;
+    text-align: left;
+    /* برای تراز کردن متن راهنما */
+}
+
+.authForm input {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 12px;
+    /* فاصله بین فیلدها */
+    background-color: rgba(255, 255, 255, 0.1);
+    /* پس زمینه شفاف برای ورودی‌ها */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    color: white;
+    font-size: 0.8rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.authForm input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.authForm input:focus {
+    border-color: #8a2be2;
+    /* رنگ بنفش هنگام فوکوس */
+}
+
+.passwordHint {
+    direction: rtl;
+    font-size: 0.6rem;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.submitButton {
+    width: 100%;
+    background-color: #8a2be2;
+    /* رنگ بنفش برای دکمه اصلی */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 18px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+    background-color: #6a1aae;
+}
+
+.switchFormText {
+    margin-top: 10px;
+    font-size: 0.6rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.switchFormLink {
+    color: #8a2be2;
+    /* رنگ بنفش برای لینک جابجایی */
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.switchFormLink:hover {
+    color: #be8eff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .authPageContainer {
+        flex-direction: column;
+        height: auto;
+        /* ارتفاع خودکار در موبایل */
+        min-height: 100vh;
+    }
+
+    .leftPanel {
+        height: 30vh;
+        /* ارتفاع پنل چپ در موبایل */
+        padding: 20px;
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        justify-content: center;
+        /* مرکز کردن محتوا در موبایل */
+        text-align: center;
+    }
+
+    .logo {
+        position: static;
+        /* موقعیت استاتیک در موبایل */
+        margin-bottom: 20px;
+        /* فاصله از محتوا */
+    }
+
+    .leftPanelContent h1 {
+        font-size: 2rem;
+    }
+
+    .leftPanelContent p {
+        max-width: none;
+        /* بدون محدودیت عرض در موبایل */
+    }
+
+    .rightPanel {
+        flex-grow: 1;
+        /* فضای باقیمانده را اشغال کند */
+        padding: 30px;
+    }
+
+    .authForms {
+        max-width: 100%;
+    }
+
+    .socialAuthButtons {
+        flex-direction: column;
+    }
+}

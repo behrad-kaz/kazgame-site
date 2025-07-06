@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./images/kazgame-minilogo.png" type="image/png">
+  <title>KazGame</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+  <header>
+    <div class="header-container">
+      <div class="logo-circle">
+        <img src="./images/kazgame-logo.png" alt="KazGame" />
+      </div>
+      <nav id="nav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </nav>
+      <button class="cta-button" onclick="signUp()"> Sign up </button>
+      <div id="user-info" class="user-info" style="display: none;">
+  <img src="./images/default-user.png" alt="User Avatar" class="user-avatar">
+  <span id="username-display"></span>
+</div>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </div>
+  </header>
+  <section class="hero">
+    <video autoplay muted loop playsinline class="bg-video">
+      <source src="./video/Aurora-1746463269142.mp4" type="video/mp4">
+      مرورگر شما از ویدیو پشتیبانی نمی‌کند.
+    </video>
+    <div class="hero-content">
+      <h1>Build Your Dream Website</h1>
+      <p>We help you create stunning websites that grow your business and engage your customers.</p>
+      <div class="hero-buttons">
+        <button class="primary-btn">Get Started</button>
+        <button class="secondary-btn">Learn More</button>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="slider-section">
+    <h2 class="slider-title">Best Games</h2>
+    <div class="product-slider">
+      <button class="slider-btn prev">&#10094;</button>
+      <div class="slider-track-wrapper">
+        <div class="slider-track">
+          <div class="product-card"><img src="images/red.jpg" alt="">
+            <p>PS5 Console</p>
+          </div>
+          <div class="product-card"><img src="images/tlou.jpg" alt="">
+            <p>PS5 Pro</p>
+          </div>
+          <div class="product-card"><img src="images/gta.jpg" alt="">
+            <p>DualSense</p>
+          </div>
+          <div class="product-card"><img src="images/R.jpg" alt="">
+            <p>Portal Remote</p>
+          </div>
+          <div class="product-card"><img src="images/elden ring.jpg" alt="">
+            <p>PULSE Elite</p>
+          </div>
+          <div class="product-card"><img src="images/witcher3.jpg" alt="">
+            <p>Explore Earbuds</p>
+          </div>
+          <div class="product-card"><img src="images/mortal combat 1.jpg" alt="">
+            <p>Portal Remote</p>
+          </div>
+          <div class="product-card"><img src="images/fifa25.jpg" alt="">
+            <p>PULSE Elite</p>
+          </div>
+          <div class="product-card"><img src="images/witcher3.jpg" alt="">
+            <p>Explore Earbuds</p>
+          </div>
+        </div>
+      </div>
+      <button class="slider-btn next">&#10095;</button>
+    </div>
+    <div class="dots-container"></div>
+  </section>
+
+
+
+  <section class="featured-products">
+    <h2>Featured Products</h2>
+    <div id="products-container" class="products-grid">
+      <!-- محصولات از API بارگذاری می‌شوند -->
+    </div>
+  </section>
+
+  <!-- whats news  -->
+  <section class="whats-news-contaner">
+    <h1 class="whats-news-contaner-h1">Best Game</h1>
+    <div class="slider-wrapper">
+      <div class="slider-track" id="slider">
+        <div class="slide">
+          <div class="slide-content">
+            <div class="video-box">
+              <h2 class="video-head">Elden Ring</h2>
+              <video src="./videos/Elden-Ring-Shadow-of-the-Erdtree-Official-Launch-Trailer.webm" controls></video>
+              <div class="Game-Description">Elden Ring (الدن رینگ) یک ویدئو گیم در سبک نقش‌ آفرینی و همچنین اکشن و جهان
+                باز هست ؛ که توسط شرکت بازی سازی بزرگ فرام سافتور طراحی و توسط کمپانی باندای نامکو انترتینمنت در فوریه
+                ۲۰۲۲، برای PC مایکروسافت ویندوز، اکس‌باکس وان XBOX ONE ، اکس‌باکس سری اکس/اس، پلی‌استیشن ۴ PS4 و PS5
+                پلی‌استیشن ۵ منتشر شد</div>
+            </div>
+            <div class="thumbs-box">
+              <div class="thumb">
+                <img src="./images/elden ring/elden-ring-1_bzzt.jpg" alt="Overview Trailer">
+              </div>
+              <div class="thumb">
+                <img src="./images/elden ring/elden-ring-4_bzzt.jpg" alt="Overview Trailer">
+              </div>
+              <div class="thumb">
+                <img src="./images/elden ring/ELDEN_RING_Shadow_of_the_Erdtree-1.webp" alt="Overview Trailer">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-content">
+            <div class="video-box">
+              <h2 class="video-head">Read Dead Redemption 2</h2>
+              <video src="./videos/Red Dead Redemption 2  Official Gameplay Video.mp4" controls></video>
+              <div class="Game-Description">داستان بازی در سال ۱۸۹۹ رخ می دهد و داستان یکی از آخرین گروه های بازمانده از
+                غرب وحشی که گروه “پسران داچ” نام دارد را روایت می کند. رهبر گروه خود داچ ون در لیند است و بازیکن در نقش
+                دست راست او، یعنی آرتور مورگان قرار می گیرد و بازی داستان اتفاقات قبل از Red Dead Redemption 1 را روایت
+                می کند.
+
+                Red Dead Redemption 2 هم با داستانی حماسی زندگی بی رحم و خشن در منطقه مرکزی آمریکا و غرب وحشی را برای
+                شما به تصویر می کشاند و جلوی واقعی از تمام تضادهای موجود در بین مردم در این جامعه رخ می دهد را به مایش
+                می گذارد . بازی که چهره ی خوشونت ، خیانت ، فساد و… در دنیای متمدن غربی را به زیبایی هر چه تمام تر به
+                نمایش می گذارد .</div>
+            </div>
+            <div class="thumbs-box">
+              <div class="thumb">
+                <img src="./images/red dead redemption 2/Red_Dead_Redemption_2-1.webp" alt="Overview Trailer">
+              </div>
+              <div class="thumb">
+                <img src="./images/red dead redemption 2/Red_Dead_Redemption_2-2.jpg" alt="Overview Trailer">
+              </div>
+              <div class="thumb">
+                <img src="./images/red dead redemption 2/Red_Dead_Redemption_2-3.webp" alt="Overview Trailer">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="arrow arrow-left" onclick="prevSlide()">❮</button>
+      <button class="arrow arrow-right" onclick="nextSlide()">❯</button>
+    </div>
+
+    <!-- footer -->
+
+    <footer class="site-footer">
+  <div class="footer-content">
+    <div class="footer-left">
+      <h2>Don't miss any news</h2>
+      <p>Get the latest updates from our products and services</p>
+      <div class="subscribe-box">
+        <input type="email" placeholder="Your email">
+        <button>SUBSCRIBE</button>
+      </div>
+    </div>
+    <div class="footer-right">
+      <h2>Follow us</h2>
+      <p>Become part of the community</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.twitch.tv" target="_blank"><i class="fab fa-twitch"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+ <div class="footer-bottom">
+  <div class="footer-bottom-left">
+    <img src="./images/kazgame-minilogo.png" alt="KazGAME Logo">
+  </div>
+  <div class="footer-bottom-center">
+    <p>
+      © 2025 CD PROJEKT S.A. All rights reserved. CD PROJEKT, the CD PROJEKT logo, Cyberpunk, Cyberpunk 2077 and the Cyberpunk 2077 logo are trademarks and/or registered trademarks of CD PROJEKT S.A. in the US and/or other countries.
+    </p>
+  </div>
+  <div class="footer-bottom-right">
+    <a href="#"><img src="witcher-logo.png" alt="Witcher"></a>
+    <a href="#"><img src="gwent-logo.png" alt="Gwent"></a>
+    <a href="#"><img src="gear-logo.png" alt="Gear"></a>
+  </div>
+</div>
+  </section>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
