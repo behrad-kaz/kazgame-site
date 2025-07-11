@@ -30,12 +30,14 @@
   font-size: 1.8rem;
   color: white;
   margin-bottom: 0.5rem;
+  direction: rtl;
 }
 
 .footerLeft p,
 .footerRight p {
   font-size: 1rem;
   margin-bottom: 1rem;
+  direction: rtl;
 }
 
 .subscribeBox { /* .subscribe-box */
@@ -67,6 +69,7 @@
   display: flex;
   gap: 1rem;
   margin-top: 1rem;
+  direction: rtl;
 }
 
 .socialIcons a {

@@ -82,10 +82,10 @@ const Header = () => {
           <img src="/images/kazgame-logo.png" alt="KazGame" />
         </div>
         <nav id="nav" className={`${styles.nav} ${isMenuOpen ? styles.active : ''}`}>
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/services">Services</Link>
-          <Link to="/contact">Contact</Link>
+          <Link to="/">خانه</Link>
+          <Link to="/about">بازی ها </Link>
+          <Link to="/services">تماس با ما </Link>
+          <Link to="/contact">تبلیغات </Link>
         </nav>
 
         {!isLoggedIn ? (

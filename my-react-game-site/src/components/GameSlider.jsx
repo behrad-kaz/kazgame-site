@@ -19,8 +19,7 @@ const GameSlider = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null); // برای همگام‌سازی اسلایدر Thumbs
   const [activeIndex, setActiveIndex] = useState(0); // برای ردیابی اسلاید فعال
 
-  // داده‌های Dummy برای اسلایدها (مطابق با HTML اصلی شما)
-  // توجه: آدرس‌دهی ویدیوها و تصاویر باید دقیقاً مطابق با پوشه public شما باشد.
+
   const gamesData = [
     {
       id: 1,
@@ -42,6 +41,28 @@ const GameSlider = () => {
         "/images/red dead redemption 2/Red_Dead_Redemption_2-1.webp",
         "/images/red dead redemption 2/Red_Dead_Redemption_2-2.jpg",
         "/images/red dead redemption 2/Red_Dead_Redemption_2-3.webp",
+      ],
+    },
+    {
+      id: 3,
+      title: "GTA V",
+      videoUrl: "/videos/GTA-V-Trailer.mp4",
+      description: "بازی Grand Theft Auto V یا همان GTA V (جی تی ای 5)، یکی از مشهورترین و پرفروش‌ترین بازی‌های تاریخ، توسط استودیوی افسانه‌ای Rockstar Games ساخته شد و استودیوی Rockstar North در سال ۲۰۱۳ آن را منتشر کرد. این بازی جهان باز که در شهر خیالی Los Santos جریان دارد، ترکیبی فوق‌العاده از ژانر اکشن، ماجراجویی و جنایی در بازی‌ها است.",
+      thumbnails: [
+        "/images/GTAX.jpg",
+        "/images/GTV V.jpg",
+        "/images/gta-v-.jpg",
+      ],
+    },
+    {
+      id: 4,
+      title: "Batman Arkham Knight",
+      videoUrl: "/videos/Batman-Arkham-Knight-480p-trailer.webm",
+      description: "اتفاقات بازی Batman Arkham Knight بعد از وقایع آرکم سیتی (Arkham City) اتفاق می افتد. یک سال بعد از مرگ جوکر، بتمن که در نبود رقیب همیشگی خود دوباره به میدان بازگشته است. در این حال جمعی از دشمنان اصلی بتمن، یعنی Two-Face، Penguin و Harley Quinn نیز این فرصت را پیدا کرده اند که هر یک به دلیل خاص خود، باهم دیگر علیه بتمن متحد شوند. اما تهدید دیگری نیز متوجه شهر گاتام است.",
+      thumbnails: [
+        "/images/BATMAN.jpg",
+        "/images/BATMANI.jpg",
+        "/images/BATMANII.jpg",
       ],
     },
     // ... می‌توانید بازی‌های بیشتری را اینجا اضافه کنید
@@ -80,13 +101,13 @@ const GameSlider = () => {
           onSlideChange={(swiper) => {
             setActiveIndex(swiper.realIndex); // Index واقعی اسلاید فعال را بگیرید
           }}
-          // onSwiper={(swiper) => {
-          //   // Ensure current video starts playing when slider is initialized
-          //   const currentVideo = swiper.slides[swiper.activeIndex].querySelector('video');
-          //   if (currentVideo) {
-          //       currentVideo.play();
-          //   }
-          // }}
+        // onSwiper={(swiper) => {
+        //   // Ensure current video starts playing when slider is initialized
+        //   const currentVideo = swiper.slides[swiper.activeIndex].querySelector('video');
+        //   if (currentVideo) {
+        //       currentVideo.play();
+        //   }
+        // }}
         >
           {gamesData.map((game, index) => (
             <SwiperSlide key={game.id} className={styles.slide}>

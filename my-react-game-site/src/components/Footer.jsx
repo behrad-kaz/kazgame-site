@@ -7,8 +7,8 @@ const Footer = () => {
     <footer className={styles.siteFooter}>
       <div className={styles.footerContent}>
         <div className={styles.footerLeft}>
-          <h2>Don't miss any news</h2>
-          <p>Get the latest updates from our products and services</p>
+          <h2> ایمیل خود را وارد کنید :</h2>
+          <p>از آخرین خبر ها درمورد محصولات و خدمات ما مطلع شوید </p>
           <div className={styles.subscribeBox}>
             <input type="email" placeholder="Your email" />
             <button>SUBSCRIBE</button>
@@ -32,14 +32,14 @@ const Footer = () => {
         </div>
         <div className={styles.footerBottomCenter}>
           <p>
-            © 2025 CD PROJEKT S.A. All rights reserved. CD PROJEKT, the CD PROJEKT logo, Cyberpunk, Cyberpunk 2077 and the Cyberpunk 2077 logo are trademarks and/or registered trademarks of CD PROJEKT S.A. in the US and/or other countries.
+               ازینکه مارا انتخاب کردید کمال سپاس را داریم 
           </p>
         </div>
         <div className={styles.footerBottomRight}>
           {/* مطمئن شوید این تصاویر در public/images موجودند و آدرس دهی صحیح است */}
-          <a href="#"><img src="/images/witcher-logo.png" alt="Witcher" /></a>
-          <a href="#"><img src="/images/gwent-logo.png" alt="Gwent" /></a>
-          <a href="#"><img src="/images/gear-logo.png" alt="Gear" /></a>
+          <a href="#"><img src="/images/bonyad-meli.png" alt="bonyad-meli" /></a>
+          <a href="#"><img src="/images/enamad.webp" alt="enamad" /></a>
+          <a href="#"><img src="/images/samandehi.png" alt="samandehi" /></a>
         </div>
       </div>
     </footer>

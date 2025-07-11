@@ -1,82 +1,103 @@
 /* src/components/GameSlider.module.css */
 
-.whatsNewsContainer { /* .whats-news-contaner */
+.whatsNewsContainer {
   background-color: #121212;
   height: 115vh;
-  padding: 0; /* padding را از اینجا حذف می‌کنیم تا کانتینر اصلی تمام عرض را بگیرد */
+  padding: 0;
   text-align: center;
-  color: white; /* رنگ متن کلی */
-  overflow-x: hidden; /* جلوگیری از اسکرول افقی */
+  color: white;
+  overflow-x: hidden;
+  /* جلوگیری از اسکرول افقی */
 }
 
-.whatsNewsTitle { /* .whats-news-contaner-h1 */
+.whatsNewsTitle {
+  /* .whats-news-contaner-h1 */
   text-align: center;
-  margin: 1rem 0 2rem 0; /* فاصله بالا و پایین بیشتر */
+  margin: 1rem 0 2rem 0;
   font-size: 2.5rem;
   color: gold;
 }
 
-.sliderWrapper { /* .slider-wrapper */
+.sliderWrapper {
+  /* .slider-wrapper */
   position: relative;
-  width: 100vw; /* عرض کامل viewport */
-  height: 90vh; /* <--- تنظیم ارتفاع کلی اسلایدر (می‌توانید تغییر دهید) */
+  width: 100vw;
+  height: 90vh;
   overflow: hidden;
-  display: flex; /* برای چیدمان داخلی */
-  justify-content: center; /* مرکز کردن محتوا */
-  align-items: center; /* مرکز کردن محتوا */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.mainSlider { /* کلاس اعمال شده به Swiper اصلی */
+.mainSlider {
+  /* کلاس اعمال شده به Swiper اصلی */
   width: 100%;
   height: 100%;
-  position: relative; /* برای موقعیت‌دهی دکمه‌ها */
+  position: relative;
+  /* برای موقعیت‌دهی دکمه‌ها */
 }
 
-.slide { /* .slide (که توسط SwiperSlide رندر می‌شود) */
+.slide {
+  /* .slide (که توسط SwiperSlide رندر می‌شود) */
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-sizing: border-box; /* برای در نظر گرفتن padding در ابعاد */
+  box-sizing: border-box;
+  /* برای در نظر گرفتن padding در ابعاد */
 }
 
-.slideContent { /* .slide-content */
+.slideContent {
+  /* .slide-content */
   display: flex;
-  gap: 2rem; /* فاصله بین video-box و thumbs-box */
-  width: 100%;
-  max-width: 1000px; /* <--- عرض نهایی محتوای اسلاید (می‌توانید تنظیم کنید) */
-  height: 100%; /* برای اینکه محتوا تمام ارتفاع اسلاید را بگیرد */
-  align-items: center; /* آیتم‌ها را در مرکز عمودی تراز می‌کند */
-  margin: 0 auto; /* مرکز قرار گرفتن افقی */
+  gap: 2rem;
+  width: 90%;
+  max-width: 1000px;
+  height: 100%;
+  align-items: center;
+  margin: 0 auto;
 }
 
-.videoBox { /* .video-box */
-  flex: 1.5; /* 2 واحد از فضای Flex را اشغال کند */
+.videoBox {
+  /* .video-box */
+  flex: 1.5;
+  /* 2 واحد از فضای Flex را اشغال کند */
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* برای پخش عناصر در ارتفاع */
-  height: 100%; /* ارتفاع کامل videoBox */
-  padding-bottom: 2rem; /* فاصله برای توضیحات که زیر ویدیو باشد */
+  justify-content: space-between;
+  /* برای پخش عناصر در ارتفاع */
+  height: 100%;
+  /* ارتفاع کامل videoBox */
+  padding-bottom: 2rem;
+  /* فاصله برای توضیحات که زیر ویدیو باشد */
 }
 
-.gameVideo { /* video در .video-box video */
+.gameVideo {
+  /* video در .video-box video */
   width: 100%;
-  height: 100%; /* ارتفاع خودکار */
-  max-height: 55vh; /* <--- حداکثر ارتفاع ویدیو (می‌توانید تغییر دهید) */
-  min-height: 300px; /* حداقل ارتفاع برای پلیر */
-  object-fit: cover; /* <--- تغییر به contain برای حفظ نسبت و پر نکردن کامل (مطابق طرح شما) */
-  background-color: black; /* پس‌زمینه مشکی برای فضای خالی object-fit:contain */
+  height: 100%;
+  /* ارتفاع خودکار */
+  max-height: 55vh;
+  /* <--- حداکثر ارتفاع ویدیو (می‌توانید تغییر دهید) */
+  min-height: 300px;
+  /* حداقل ارتفاع برای پلیر */
+  object-fit: cover;
+  /* <--- تغییر به contain برای حفظ نسبت و پر نکردن کامل (مطابق طرح شما) */
+  background-color: black;
+  /* پس‌زمینه مشکی برای فضای خالی object-fit:contain */
   border-radius: 10px;
   margin-bottom: 20px;
 }
 
-.videoHead { /* .video-head */
+.videoHead {
+  /* .video-head */
   margin-bottom: 16px;
   color: red;
   text-align: left;
 }
 
-.gameDescription { /* .Game-Description */
+.gameDescription {
+  /* .Game-Description */
   direction: rtl;
   font-size: small;
   margin-top: 0.5rem;
@@ -88,25 +109,29 @@
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-   overflow-y: visible;
-  -webkit-line-clamp: 4; /* <--- تعداد خطوط مورد نظر شما (مثلاً 4) */
-  -webkit-box-orient: vertical; /* جهت باکس برای line-clamp */
-  white-space: normal; /* اطمینان از شکستن خطوط به صورت عادی */
+  overflow-y: visible;
+  -webkit-line-clamp: 4;
+  /* <--- تعداد خطوط مورد نظر شما (مثلاً 4) */
+  -webkit-box-orient: vertical;
+  /* جهت باکس برای line-clamp */
+  white-space: normal;
+  /* اطمینان از شکستن خطوط به صورت عادی */
 }
 
-.thumbsBox { /* .thumbs-box */
-  flex: 0.75; 
+.thumbsBox {
+  /* .thumbs-box */
+  flex: 0.75;
   display: flex;
-  flex-direction: column; /* تصاویر زیر هم قرار گیرند */
-  gap: 0.2rem; /* فاصله بین تصاویر کوچک */
-  height: 90%; /* برای اینکه thumbsBox ارتفاع کامل را بگیرد */
-  justify-content: space-between; /* از بالا شروع شوند */
+  flex-direction: column;
+  gap: 0.2rem;
+  height: 90%;
+  justify-content: space-between;
   padding: 6px 0;
 }
 
-.thumb { 
+.thumb {
   background-color: #222;
-  padding: 0.15rem; /* <--- padding کمتر */
+  padding: 0.15rem;
   border-radius: 8px;
   text-align: center;
   font-weight: bold;
@@ -116,21 +141,25 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  height: 140px; /* <--- ارتفاع ثابت برای هر thumb (مطابق طرح شما) */
+  height: 140px;
+  /* <--- ارتفاع ثابت برای هر thumb (مطابق طرح شما) */
   width: 90%;
 }
 
-.thumb img { /* img در .thumb img */
+.thumb img {
+  /* img در .thumb img */
   width: 100%;
   height: 100%;
-  object-fit: cover; /* <--- برای اینکه تصویر کل فضای thumb را بپوشاند */
+  object-fit: cover;
+  /* <--- برای اینکه تصویر کل فضای thumb را بپوشاند */
   border-radius: 6px;
 }
 
 /* **استایل برای دکمه‌های ناوبری Swiper (فلش‌ها)** */
 .whatsNewsContainer :global(.swiper-button-prev),
 .whatsNewsContainer :global(.swiper-button-next) {
-  background: rgba(0, 0, 0, 0.5) !important; /* پس‌زمینه نیمه شفاف مشکی (مطابق طرح اصلی) */
+  background: rgba(0, 0, 0, 0.5) !important;
+  /* پس‌زمینه نیمه شفاف مشکی (مطابق طرح اصلی) */
   color: white !important;
   border-radius: 50% !important;
   width: 40px !important;
@@ -139,22 +168,28 @@
   position: absolute !important;
   top: 50% !important;
   transform: translateY(-50%) !important;
-  z-index: 100 !important; /* z-index بالاتر برای روی همه چیز */
+  z-index: 100 !important;
+  /* z-index بالاتر برای روی همه چیز */
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
   background-image: none !important;
   transition: background-color 0.3s ease !important;
 }
 
 .whatsNewsContainer :global(.swiper-button-prev) {
-  left: 20px !important; /* <--- 10px از لبه کانتینر اصلی */
+  left: 20px !important;
+  /* <--- 10px از لبه کانتینر اصلی */
 }
 
 .whatsNewsContainer :global(.swiper-button-next) {
-  right: 20px !important; /* <--- 10px از لبه کانتینر اصلی */
+  right: 20px !important;
+  /* <--- 10px از لبه کانتینر اصلی */
 }
+
 .mainSlider :global(.swiper-wrapper) {
-    padding: 0 50px; /* <--- اضافه شد: فضای داخلی برای دکمه‌ها در wrapper Swiper */
-    box-sizing: border-box; /* برای در نظر گرفتن padding در عرض */
+  padding: 0 50px;
+  /* <--- اضافه شد: فضای داخلی برای دکمه‌ها در wrapper Swiper */
+  box-sizing: border-box;
+  /* برای در نظر گرفتن padding در عرض */
 }
 
 .whatsNewsContainer :global(.swiper-button-prev:hover),
@@ -174,12 +209,10 @@
   color: white !important;
 }
 
-/* **استایل برای دات‌های Pagination Swiper (اصلی)** */
-/* اگر دات‌ها در طرح اصلی نیستند، می‌توانید اینها را حذف کنید. */
-/* در تصویر اصلی شما، دات‌ها دیده نمی‌شوند. اگر نمی‌خواهید، pagination={false} در Swiper را تنظیم کنید. */
 .whatsNewsContainer :global(.swiper-pagination) {
   position: absolute !important;
-  bottom: 2px !important; /* <--- فاصله از پایین اسلایدر اصلی */
+  bottom: 2px !important;
+  /* <--- فاصله از پایین اسلایدر اصلی */
   left: 0 !important;
   width: 100% !important;
   text-align: center !important;
@@ -200,15 +233,108 @@
   background-color: #007bff !important;
 }
 
+/* src/components/GameSlider.module.css */
+
+/* ... (استایل‌های کلی برای دسکتاپ) ... */
+
 /* Responsive styles */
 @media (max-width: 768px) {
-  .whatsNewsTitle { font-size: 2rem; }
-  .sliderWrapper { height: 80vh; }
-  .slideContent { flex-direction: column; gap: 1rem; padding: 1rem; }
-  .videoBox { height: auto; padding-bottom: 1rem; }
-  .gameVideo { max-height: 40vh; min-height: 200px; }
-  .thumbsBox { flex-direction: row; flex-wrap: wrap; justify-content: center; }
-  .thumb { width: 30%; height: 90px; padding: 0.3rem; }
-  .whatsNewsContainer :global(.swiper-button-prev),
-  .whatsNewsContainer :global(.swiper-button-next) { display: none !important; } /* دکمه‌ها را در موبایل مخفی می‌کنیم */
+  .whatsNewsTitle {
+    font-size: 2rem;
+  }
+
+  .sliderWrapper {
+    height: auto;
+    padding-bottom: 2rem;
+  }
+
+  /* ارتفاع خودکار و پدینگ پایین */
+
+  .slideContent {
+    flex-direction: column;
+    /* ویدیو بالا، بقیه عناصر پایین */
+    gap: 1rem;
+    padding: 1rem;
+    max-width: 90%;
+    /* محدود کردن عرض در موبایل */
+    height: auto;
+    /* ارتفاع خودکار */
+    align-items: center;
+    /* <--- مهم: برای مرکز کردن محتوای داخلی slideContent افقی */
+    text-align: center;
+    /* <--- مهم: برای مرکز کردن متن داخل videoBox */
+    margin-right: 94px;
+  }
+
+  .videoBox {
+    width: 100%;
+    height: auto;
+    padding-bottom: 0;
+    margin-bottom: 1rem;
+    /* فاصله بین ویدیو و عناصر زیرین */
+    text-align: center;
+    /* <--- مهم: برای مرکز کردن عنوان ویدیو */
+    order: 1;
+    /* <--- ترتیب: ویدیو باکس اول باشد */
+  }
+
+  .gameVideo {
+    width: 100%;
+    height: auto;
+    max-height: 50vh;
+    min-height: 200px;
+    object-fit: contain;
+  }
+
+  .videoHead {
+    /* .video-head */
+    margin-bottom: 10px;
+    /* فاصله از ویدیو */
+    text-align: center;
+    /* <--- مهم: عنوان ویدیو وسط باشد */
+  }
+
+  .gameDescription {
+    max-height: none;
+    display: -webkit-box;
+    overflow-y: hidden;
+    -webkit-line-clamp: 4;
+    white-space: normal;
+    order: 3;
+    margin-bottom: 1rem;
+    text-align: justify;
+    direction: rtl;
+  }
+
+  .thumbsBox {
+    flex-direction: row;
+    /* تصاویر کوچک کنار هم */
+    flex-wrap: wrap;
+    justify-content: center;
+    /* <--- مهم: مرکز قرار گرفتن تصاویر */
+    gap: 0.5rem;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    order: 2;
+    /* <--- ترتیب: تصاویر کوچک سوم باشند (بعد از توضیحات) */
+  }
+
+  .thumb {
+    width: calc(33.33% - 1rem);
+    height: 100px;
+    padding: 0.15rem;
+    border: 1px dashed #555;
+  }
+
+  .thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  .whatsNewsContainer :global(.swiper-pagination) {
+    display: none;
+  }
 }
