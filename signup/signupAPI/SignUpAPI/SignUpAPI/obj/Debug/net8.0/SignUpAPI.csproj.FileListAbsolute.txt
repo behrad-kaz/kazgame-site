@@ -267,3 +267,4 @@ E:\web\Kazgame\signup\signupAPI\SignUpAPI\SignUpAPI\obj\Debug\net8.0\SignUpAPI.p
 E:\web\Kazgame\signup\signupAPI\SignUpAPI\SignUpAPI\obj\Debug\net8.0\SignUpAPI.genruntimeconfig.cache
 E:\web\Kazgame\signup\signupAPI\SignUpAPI\SignUpAPI\obj\Debug\net8.0\ref\SignUpAPI.dll
 E:\web\Kazgame\signup\signupAPI\SignUpAPI\SignUpAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\web\Kazgame\signup\signupAPI\SignUpAPI\SignUpAPI\obj\Debug\net8.0\SignUpAPI.sourcelink.json

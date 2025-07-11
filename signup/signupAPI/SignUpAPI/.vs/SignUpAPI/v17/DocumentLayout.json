@@ -58,8 +58,7 @@
               "RelativeToolTip": "SignUpAPI\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T20:41:44.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T20:41:44.856Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "SignUpAPI\\Models\\LoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T16:52:53.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T16:52:53.462Z"
             },
             {
               "$type": "Document",
@@ -84,8 +82,7 @@
               "RelativeToolTip": "SignUpAPI\\Models\\UserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T14:42:44.293Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T14:42:44.293Z"
             },
             {
               "$type": "Document",
@@ -110,8 +107,7 @@
               "RelativeToolTip": "SignUpAPI\\Controllers\\UserController.cs",
               "ViewState": "AgIAAGYAAAAAAAAAAAAkwHAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T20:48:56.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T20:48:56.162Z"
             },
             {
               "$type": "Document",
@@ -123,8 +119,7 @@
               "RelativeToolTip": "SignUpAPI\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T20:42:22.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T20:42:22.735Z"
             },
             {
               "$type": "Document",
@@ -136,8 +131,7 @@
               "RelativeToolTip": "SignUpAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-16T20:38:39.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T20:38:39.125Z"
             },
             {
               "$type": "Document",
@@ -149,8 +143,7 @@
               "RelativeToolTip": "SignUpAPI\\Program.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T20:38:35.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T20:38:35.443Z"
             }
           ]
         }

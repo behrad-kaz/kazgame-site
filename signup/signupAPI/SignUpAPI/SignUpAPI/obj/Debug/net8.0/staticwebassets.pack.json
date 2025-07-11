@@ -1,8 +1,16 @@
 {
   "Files": [
     {
+      "Id": "E:\\web\\Kazgame\\signup\\signupAPI\\SignUpAPI\\SignUpAPI\\wwwroot\\avatars\\1a96c6b2-6ba4-4779-a6fb-6888bca9c74b.png",
+      "PackagePath": "staticwebassets\\avatars\\1a96c6b2-6ba4-4779-a6fb-6888bca9c74b.png"
+    },
+    {
       "Id": "E:\\web\\Kazgame\\signup\\signupAPI\\SignUpAPI\\SignUpAPI\\wwwroot\\avatars\\4bde3917-d970-456c-b154-187bdafb3cb0.png",
       "PackagePath": "staticwebassets\\avatars\\4bde3917-d970-456c-b154-187bdafb3cb0.png"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\signup\\signupAPI\\SignUpAPI\\SignUpAPI\\wwwroot\\avatars\\7f9c7ef7-2d06-4b1a-a288-a95dac35f5f7.png",
+      "PackagePath": "staticwebassets\\avatars\\7f9c7ef7-2d06-4b1a-a288-a95dac35f5f7.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SignUpAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

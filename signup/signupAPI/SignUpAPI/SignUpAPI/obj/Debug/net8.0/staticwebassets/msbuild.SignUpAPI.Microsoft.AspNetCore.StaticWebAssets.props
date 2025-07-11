@@ -1,5 +1,23 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\avatars\1a96c6b2-6ba4-4779-a6fb-6888bca9c74b.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SignUpAPI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SignUpAPI</BasePath>
+      <RelativePath>avatars/1a96c6b2-6ba4-4779-a6fb-6888bca9c74b.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>b69f5nk9cb</Fingerprint>
+      <Integrity>zcIabKtrAyfH1QoUUDAXcag98PGsb1n0B/U9omzCesE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\avatars\1a96c6b2-6ba4-4779-a6fb-6888bca9c74b.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\avatars\4bde3917-d970-456c-b154-187bdafb3cb0.png'))">
       <SourceType>Package</SourceType>
       <SourceId>SignUpAPI</SourceId>
@@ -17,6 +35,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\avatars\4bde3917-d970-456c-b154-187bdafb3cb0.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\avatars\7f9c7ef7-2d06-4b1a-a288-a95dac35f5f7.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SignUpAPI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SignUpAPI</BasePath>
+      <RelativePath>avatars/7f9c7ef7-2d06-4b1a-a288-a95dac35f5f7.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jdyk8jcuwx</Fingerprint>
+      <Integrity>B1+q9YyyolIv/r5726HXhtZnm9C0zDFOad3TLZbRVqE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\avatars\7f9c7ef7-2d06-4b1a-a288-a95dac35f5f7.png'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>
