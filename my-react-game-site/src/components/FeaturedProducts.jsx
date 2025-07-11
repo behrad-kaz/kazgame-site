@@ -76,7 +76,7 @@ const FeaturedProducts = () => {
 
   return (
     <section className={styles.featuredProducts}>
-      <h2 className={styles.heading}>Featured Products</h2>
+      <h2 className={styles.heading}> GAMES </h2>
       <div className={styles.productsGrid}>
         {products.length > 0 ? (
           products.map(product => (
