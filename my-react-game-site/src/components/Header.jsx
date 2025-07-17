@@ -83,7 +83,7 @@ const Header = () => {
         </div>
         <nav id="nav" className={`${styles.nav} ${isMenuOpen ? styles.active : ''}`}>
           <Link to="/">خانه</Link>
-          <Link to="/about">بازی ها </Link>
+          <Link to="/games">بازی ها </Link> 
           <Link to="/services">تماس با ما </Link>
           <Link to="/contact">تبلیغات </Link>
         </nav>

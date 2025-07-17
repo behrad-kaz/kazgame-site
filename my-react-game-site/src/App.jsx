@@ -1,9 +1,10 @@
 // src/App.jsx
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-// Header از اینجا حذف شد و به Home منتقل شد
 import Home from './pagess/Home';
 import AuthPage from './pagess/AuthPage'; // <--- ایمپورت AuthPage
+import GamePage from './pagess/GamePage';
+import GamesList from './pagess/GamesList';
 
 import './style.css'; // استایل‌های گلوبال شما
 
@@ -12,8 +13,11 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/signup" element={<AuthPage />} /> {/* <--- مسیر جدید */}
-        {/* اینجا مسیرهای دیگه‌ای مثل /about, /services, /contact و صفحات بازی رو اضافه می‌کنیم */}
+        <Route path="/signup" element={<AuthPage />} />
+        {/* <--- مسیر جدید برای صفحات بازی (دینامیک) */}
+        <Route path="/games/:id" element={<GamePage />} /> 
+        {/* می‌توانید یک مسیر کلی /games هم برای لیست بازی‌ها اضافه کنید */}
+        <Route path="/games" element={<GamesList />} />
       </Routes>
     </Router>
   );

@@ -1,0 +1,120 @@
+/* src/pages/GamesList.module.css */
+
+.gamesListPageContainer {
+    background-color: #0d071b; /* رنگ پس‌زمینه تیره */
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.mainContent {
+    flex-grow: 1; /* فضای باقیمانده را اشغال کند */
+    padding: 100px 40px 40px 40px; /* فضای بالا برای هدر ثابت */
+    max-width: 1400px; /* حداکثر عرض محتوا */
+    margin: 0 auto; /* مرکز قرار گرفتن */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.pageTitle {
+    font-size: 3rem;
+    color: gold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.loading, .error, .noGames {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 50px;
+    color: #ccc;
+}
+
+.error {
+    color: #ff6347;
+}
+
+.gamesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    justify-content: center;
+    /* **مهم:** برای اینکه گرید از کادر خارج نشود */
+    width: 100%; /* <--- اضافه شد: عرض 100% را بگیرد */
+    box-sizing: border-box; /* <--- اضافه شد: padding/border در محاسبه عرض لحاظ شود */
+    padding: 0 15px; /* <--- اضافه شد: پدینگ افقی برای جلوگیری از چسبیدن کارت‌ها به لبه */
+}
+
+
+.gameCard {
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gameCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.gameCardImage {
+    width: 100%;
+    height: 250px; /* ارتفاع ثابت برای تصاویر کارت */
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+}
+
+.gameCardTitle {
+    font-size: 1.3rem;
+    color: #00d9ff;
+    margin: 15px 10px 5px 10px;
+    direction: rtl; /* برای فارسی */
+}
+
+.gameCardPrice {
+    font-size: 1.1rem;
+    color: #f0f0f0;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+/* **جدید: استایل برای Wrapper بخش بازی‌های مهم** */
+.featuredGamesSectionWrapper {
+    display: flex;
+    flex-direction: column; /* آیتم‌ها زیر هم قرار گیرند */
+    gap: 60px; /* <--- فاصله بین هر FeaturedGameHighlight */
+    padding: 60px 20px; /* <--- پدینگ بالا و پایین و از اطراف */
+    background-color: #0d071b; /* همان رنگ پس‌زمینه کلی */
+    align-items: center; /* مرکز کردن آیتم‌ها افقی */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .mainContent {
+        padding: 80px 20px 20px 20px;
+    }
+    .pageTitle {
+        font-size: 2.5rem;
+    }
+    .gamesGrid {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 20px;
+        padding: 0 10px;
+    }
+    .gameCardImage {
+        height: 200px;
+    }
+        .featuredGamesSectionWrapper {
+        gap: 30px; /* فاصله کمتر در موبایل */
+        padding: 30px 10px; /* پدینگ کمتر در موبایل */
+    }
+}

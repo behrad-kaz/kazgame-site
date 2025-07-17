@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\avatars\\7f9c7ef7-2d06-4b1a-a288-a95dac35f5f7.png"
     },
     {
+      "Id": "E:\\web\\Kazgame\\signup\\signupAPI\\SignUpAPI\\SignUpAPI\\wwwroot\\avatars\\fa053500-5fd0-44dd-ae45-927cae3fdbda.png",
+      "PackagePath": "staticwebassets\\avatars\\fa053500-5fd0-44dd-ae45-927cae3fdbda.png"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SignUpAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

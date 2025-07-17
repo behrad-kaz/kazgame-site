@@ -1,4 +1,5 @@
 wwwroot\images\army.png
+wwwroot\images\elden ring.jpg
 wwwroot\images\gta.jpg
 wwwroot\images\kazgame-logo.png
 wwwroot\images\kazgame-minilogo.png
@@ -7,6 +8,9 @@ wwwroot\images\R.jpg
 wwwroot\images\red.jpg
 wwwroot\images\telegram-logo-thin-svgrepo-com.svg
 wwwroot\images\user.png
+wwwroot\videos\Batman-Arkham-Knight-480p-trailer_1.mp4
 wwwroot\videos\Elden-Ring-Shadow-of-the-Erdtree-Official-Launch-Trailer.webm
+wwwroot\videos\Elden-Ring-Trailer_1.mp4
+wwwroot\videos\GTA-V-Trailer_1_1_1.mp4
 wwwroot\videos\r.mp4
 wwwroot\videos\Red Dead Redemption 2  Official Gameplay Video.mp4

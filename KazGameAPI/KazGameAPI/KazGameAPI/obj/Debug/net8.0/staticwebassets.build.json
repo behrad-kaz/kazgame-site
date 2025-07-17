@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Cxb/HMvF2kn55PN3cvL6YhJlC23Xf3j5srbeai5JzP8=",
+  "Hash": "44Od1cv/cQUrfNKQEPct4eaf4L/9sFEVpmgIQiHU5AY=",
   "Source": "KazGameAPI",
   "BasePath": "_content/KazGameAPI",
   "Mode": "Default",
@@ -36,6 +36,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\army.png"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden ring.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/elden ring#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hh3uxpeskd",
+      "Integrity": "JRInF8J6wqZPOC7TJpbxjpNU7CIztoD+ibuI3ttDHEI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\elden ring.jpg"
     },
     {
       "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\gta.jpg",
@@ -206,6 +227,27 @@
       "OriginalItemSpec": "wwwroot\\images\\user.png"
     },
     {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\Batman-Arkham-Knight-480p-trailer_1.mp4",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "videos/Batman-Arkham-Knight-480p-trailer_1#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nz8w1xlu7e",
+      "Integrity": "g4pWCXxcYIEW3xH0ZSRknU/AnSR8QEdf461KD5tZRQQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\Batman-Arkham-Knight-480p-trailer_1.mp4"
+    },
+    {
       "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\Elden-Ring-Shadow-of-the-Erdtree-Official-Launch-Trailer.webm",
       "SourceId": "KazGameAPI",
       "SourceType": "Discovered",
@@ -227,6 +269,48 @@
       "OriginalItemSpec": "wwwroot\\videos\\Elden-Ring-Shadow-of-the-Erdtree-Official-Launch-Trailer.webm"
     },
     {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\Elden-Ring-Trailer_1.mp4",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "videos/Elden-Ring-Trailer_1#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1guy774s39",
+      "Integrity": "ofGoECbZTUxgDTGhtGJTukUvmPwaXiW/Rqx8OQGY3Ng=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\Elden-Ring-Trailer_1.mp4"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\GTA-V-Trailer_1_1_1.mp4",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "videos/GTA-V-Trailer_1_1_1#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "izgcqxst0a",
+      "Integrity": "/l4N9E2f5DN6OEjecYaCadq2PGkS9IcWNBZ7TCJev24=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\GTA-V-Trailer_1_1_1.mp4"
+    },
+    {
       "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\r.mp4",
       "SourceId": "KazGameAPI",
       "SourceType": "Discovered",
@@ -241,8 +325,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "s9sofs89j8",
-      "Integrity": "IMSnfFIEoUFP5eM5Gn2l1KPVQ2/yZWuP3vRAzJgOP30=",
+      "Fingerprint": "fk8beyudmk",
+      "Integrity": "H7arc5CtnyJiisrVAwB6AZtrhqZNB+q+0sgePT6rS1Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\videos\\r.mp4"
@@ -349,6 +433,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-6C7epfctNb21IK2i+dmsbCifalVlsXlX5LAmQNasWso="
+        }
+      ]
+    },
+    {
+      "Route": "images/elden ring.hh3uxpeskd.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden ring.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "282002"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JRInF8J6wqZPOC7TJpbxjpNU7CIztoD+ibuI3ttDHEI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 12:48:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hh3uxpeskd"
+        },
+        {
+          "Name": "label",
+          "Value": "images/elden ring.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JRInF8J6wqZPOC7TJpbxjpNU7CIztoD+ibuI3ttDHEI="
+        }
+      ]
+    },
+    {
+      "Route": "images/elden ring.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden ring.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "282002"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JRInF8J6wqZPOC7TJpbxjpNU7CIztoD+ibuI3ttDHEI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 12:48:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JRInF8J6wqZPOC7TJpbxjpNU7CIztoD+ibuI3ttDHEI="
         }
       ]
     },
@@ -1009,6 +1175,88 @@
       ]
     },
     {
+      "Route": "videos/Batman-Arkham-Knight-480p-trailer_1.mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\Batman-Arkham-Knight-480p-trailer_1.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10075619"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g4pWCXxcYIEW3xH0ZSRknU/AnSR8QEdf461KD5tZRQQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Jul 2025 14:25:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g4pWCXxcYIEW3xH0ZSRknU/AnSR8QEdf461KD5tZRQQ="
+        }
+      ]
+    },
+    {
+      "Route": "videos/Batman-Arkham-Knight-480p-trailer_1.nz8w1xlu7e.mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\Batman-Arkham-Knight-480p-trailer_1.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10075619"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g4pWCXxcYIEW3xH0ZSRknU/AnSR8QEdf461KD5tZRQQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Jul 2025 14:25:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nz8w1xlu7e"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/Batman-Arkham-Knight-480p-trailer_1.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g4pWCXxcYIEW3xH0ZSRknU/AnSR8QEdf461KD5tZRQQ="
+        }
+      ]
+    },
+    {
       "Route": "videos/Elden-Ring-Shadow-of-the-Erdtree-Official-Launch-Trailer.4891zma4s7.webm",
       "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\Elden-Ring-Shadow-of-the-Erdtree-Official-Launch-Trailer.webm",
       "Selectors": [],
@@ -1091,6 +1339,215 @@
       ]
     },
     {
+      "Route": "videos/Elden-Ring-Trailer_1.1guy774s39.mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\Elden-Ring-Trailer_1.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8328445"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ofGoECbZTUxgDTGhtGJTukUvmPwaXiW/Rqx8OQGY3Ng=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Jul 2025 14:28:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1guy774s39"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/Elden-Ring-Trailer_1.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ofGoECbZTUxgDTGhtGJTukUvmPwaXiW/Rqx8OQGY3Ng="
+        }
+      ]
+    },
+    {
+      "Route": "videos/Elden-Ring-Trailer_1.mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\Elden-Ring-Trailer_1.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8328445"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ofGoECbZTUxgDTGhtGJTukUvmPwaXiW/Rqx8OQGY3Ng=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Jul 2025 14:28:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ofGoECbZTUxgDTGhtGJTukUvmPwaXiW/Rqx8OQGY3Ng="
+        }
+      ]
+    },
+    {
+      "Route": "videos/GTA-V-Trailer_1_1_1.izgcqxst0a.mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\GTA-V-Trailer_1_1_1.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9493647"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/l4N9E2f5DN6OEjecYaCadq2PGkS9IcWNBZ7TCJev24=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Jul 2025 14:21:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "izgcqxst0a"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/GTA-V-Trailer_1_1_1.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/l4N9E2f5DN6OEjecYaCadq2PGkS9IcWNBZ7TCJev24="
+        }
+      ]
+    },
+    {
+      "Route": "videos/GTA-V-Trailer_1_1_1.mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\GTA-V-Trailer_1_1_1.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9493647"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/l4N9E2f5DN6OEjecYaCadq2PGkS9IcWNBZ7TCJev24=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Jul 2025 14:21:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/l4N9E2f5DN6OEjecYaCadq2PGkS9IcWNBZ7TCJev24="
+        }
+      ]
+    },
+    {
+      "Route": "videos/r.fk8beyudmk.mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\r.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10157719"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H7arc5CtnyJiisrVAwB6AZtrhqZNB+q+0sgePT6rS1Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Jul 2025 14:39:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fk8beyudmk"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/r.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H7arc5CtnyJiisrVAwB6AZtrhqZNB+q+0sgePT6rS1Y="
+        }
+      ]
+    },
+    {
       "Route": "videos/r.mp4",
       "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\r.mp4",
       "Selectors": [],
@@ -1101,7 +1558,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "32847897"
+          "Value": "10157719"
         },
         {
           "Name": "Content-Type",
@@ -1109,11 +1566,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"IMSnfFIEoUFP5eM5Gn2l1KPVQ2/yZWuP3vRAzJgOP30=\""
+          "Value": "\"H7arc5CtnyJiisrVAwB6AZtrhqZNB+q+0sgePT6rS1Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Jun 2025 06:21:35 GMT"
+          "Value": "Fri, 11 Jul 2025 14:39:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1123,52 +1580,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-IMSnfFIEoUFP5eM5Gn2l1KPVQ2/yZWuP3vRAzJgOP30="
-        }
-      ]
-    },
-    {
-      "Route": "videos/r.s9sofs89j8.mp4",
-      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\r.mp4",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "32847897"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "video/mp4"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"IMSnfFIEoUFP5eM5Gn2l1KPVQ2/yZWuP3vRAzJgOP30=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 26 Jun 2025 06:21:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "s9sofs89j8"
-        },
-        {
-          "Name": "label",
-          "Value": "videos/r.mp4"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-IMSnfFIEoUFP5eM5Gn2l1KPVQ2/yZWuP3vRAzJgOP30="
+          "Value": "sha256-H7arc5CtnyJiisrVAwB6AZtrhqZNB+q+0sgePT6rS1Y="
         }
       ]
     },

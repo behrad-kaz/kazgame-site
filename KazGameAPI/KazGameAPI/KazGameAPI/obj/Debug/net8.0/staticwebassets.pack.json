@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\images\\army.png"
     },
     {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden ring.jpg",
+      "PackagePath": "staticwebassets\\images\\elden ring.jpg"
+    },
+    {
       "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\gta.jpg",
       "PackagePath": "staticwebassets\\images\\gta.jpg"
     },
@@ -37,8 +41,20 @@
       "PackagePath": "staticwebassets\\images\\user.png"
     },
     {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\Batman-Arkham-Knight-480p-trailer_1.mp4",
+      "PackagePath": "staticwebassets\\videos\\Batman-Arkham-Knight-480p-trailer_1.mp4"
+    },
+    {
       "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\Elden-Ring-Shadow-of-the-Erdtree-Official-Launch-Trailer.webm",
       "PackagePath": "staticwebassets\\videos\\Elden-Ring-Shadow-of-the-Erdtree-Official-Launch-Trailer.webm"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\Elden-Ring-Trailer_1.mp4",
+      "PackagePath": "staticwebassets\\videos\\Elden-Ring-Trailer_1.mp4"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\GTA-V-Trailer_1_1_1.mp4",
+      "PackagePath": "staticwebassets\\videos\\GTA-V-Trailer_1_1_1.mp4"
     },
     {
       "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\Red Dead Redemption 2  Official Gameplay Video.mp4",

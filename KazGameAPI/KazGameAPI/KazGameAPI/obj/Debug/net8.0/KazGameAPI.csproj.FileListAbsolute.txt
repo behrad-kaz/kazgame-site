@@ -517,3 +517,4 @@ E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\obj\Debug\net8.0\refint\KazGameA
 E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\obj\Debug\net8.0\KazGameAPI.pdb
 E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\obj\Debug\net8.0\KazGameAPI.genruntimeconfig.cache
 E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\obj\Debug\net8.0\ref\KazGameAPI.dll
+E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\obj\Debug\net8.0\KazGameAPI.sourcelink.json
