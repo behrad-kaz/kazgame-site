@@ -41,7 +41,7 @@ const AuthPage = () => {
         };
 
         try {
-            const response = await fetch("https://localhost:5001/api/User/register", {
+            const response = await fetch("https://localhost:7055/api/User/register", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(data)
@@ -79,7 +79,7 @@ const AuthPage = () => {
         };
 
         try {
-            const response = await fetch("https://localhost:5001/api/User/login", {
+            const response = await fetch("https://localhost:7055/api/User/login", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(data)

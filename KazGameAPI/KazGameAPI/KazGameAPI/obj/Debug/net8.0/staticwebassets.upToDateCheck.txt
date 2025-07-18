@@ -1,3 +1,9 @@
+wwwroot\avatars\0733bcd0-7332-4c1e-890f-d3d8583a28df.png
+wwwroot\avatars\1deae9d2-6ff2-4f8f-b25e-1c85408bfc53.png
+wwwroot\avatars\4bde3917-d970-456c-b154-187bdafb3cb0.png
+wwwroot\avatars\7f9c7ef7-2d06-4b1a-a288-a95dac35f5f7.png
+wwwroot\avatars\cfcd2cdb-0e70-404a-a125-e828d66f37b5.png
+wwwroot\avatars\fa053500-5fd0-44dd-ae45-927cae3fdbda.png
 wwwroot\images\army.png
 wwwroot\images\elden ring.jpg
 wwwroot\images\gta.jpg

@@ -1,4 +1,4 @@
-﻿namespace ProductApi.Models
+﻿namespace KazGameAPI.Models
 {
     public class Product
     {

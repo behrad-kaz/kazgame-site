@@ -1,10 +1,13 @@
-﻿// ProductApi.Controllers/ProductsController.cs
-using Microsoft.AspNetCore.Mvc;
-using ProductApi.Data;
-using ProductApi.Models;
-using Microsoft.EntityFrameworkCore; // برای استفاده از FindAsync یا FirstOrDefaultAsync
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace ProductAppL.Controllers
+using KazGameAPI.Data;   // برای AppDbContext
+using KazGameAPI.Models; // برای Product
+
+namespace KazGameAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
@@ -17,17 +20,17 @@ namespace ProductAppL.Controllers
             _context = context;
         }
 
-        [HttpGet] // Endpoint برای دریافت تمام محصولات
+        [HttpGet]
         public ActionResult<IEnumerable<Product>> GetAll()
         {
             var products = _context.Products.ToList();
             return Ok(products);
         }
 
-        [HttpGet("{id}")] // <--- Endpoint جدید برای دریافت یک محصول بر اساس ID
+        [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetProductById(int id)
         {
-            var product = await _context.Products.FindAsync(id); // یا FirstOrDefaultAsync(p => p.Id == id)
+            var product = await _context.Products.FindAsync(id);
 
             if (product == null)
             {

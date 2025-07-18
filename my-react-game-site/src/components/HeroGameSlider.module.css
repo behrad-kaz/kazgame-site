@@ -209,9 +209,6 @@
     box-shadow: none;
     padding: 0;
   }
-  .colorfulIcon {
-    display: none; /* در موبایل مخفی شود */
-  }
   .gameInfo {
     text-align: center;
     padding-left: 0;

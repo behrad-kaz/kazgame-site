@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import styles from './UserProfileDropdown.module.css';
 
 
-const API_BASE_URL = 'https://localhost:5001';
+const API_BASE_URL = 'https://localhost:7055';
 
 // **تابع کمکی در بیرون کامپوننت تعریف شود تا هر بار رندر نشود**
 const updateAvatarInLocalStorageAndHeader = (newRelativeAvatarUrl) => {

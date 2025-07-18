@@ -4,14 +4,13 @@
   background-color: #0d071b; /* رنگ پس‌زمینه تیره */
   width : 90%;
   margin: auto;
-  padding: 40px 0; /* <--- پدینگ بالا و پایین حفظ شود */
+  padding: 10px 0; /* <--- پدینگ بالا و پایین حفظ شود */
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  /* **جدید: padding افقی برای فاصله از اطراف** */
   padding-left: 20px; /* <--- اضافه شد */
   padding-right: 20px; /* <--- اضافه شد */
   box-sizing: border-box; /* <--- مهم: برای اینکه padding در width لحاظ شود */

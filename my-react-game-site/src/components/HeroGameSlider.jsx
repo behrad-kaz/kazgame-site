@@ -45,7 +45,6 @@ const HeroGameSlider = ({ slides }) => {
                 <a href="#"><i className="fab fa-telegram-plane"></i></a>
                 <a href="#"><i className="fab fa-instagram"></i></a>
                 <a href="#"><i className="fas fa-envelope"></i></a>
-                <a href="#" className={styles.colorfulIcon}></a> {/* آیکون رنگی */}
               </div>
 
               <div className={styles.gameInfo}>

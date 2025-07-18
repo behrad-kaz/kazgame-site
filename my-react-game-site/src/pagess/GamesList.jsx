@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import HeroGameSlider from '../components/HeroGameSlider'; // <--- ایمپورت HeroGameSlider
 import FeaturedGameHighlight from '../components/FeaturedGameHighlight'; // <--- ایمپورت FeaturedGameHighlight
+import CommentSection from '../components/CommentSection';
 import styles from './GamesList.module.css';
 
 const PRODUCTS_API_BASE_URL = 'https://localhost:7055';
@@ -123,7 +124,7 @@ const GamesList = () => {
           ))}
         </div>
       </main>
-
+       <CommentSection />
       <Footer />
     </div>
   );

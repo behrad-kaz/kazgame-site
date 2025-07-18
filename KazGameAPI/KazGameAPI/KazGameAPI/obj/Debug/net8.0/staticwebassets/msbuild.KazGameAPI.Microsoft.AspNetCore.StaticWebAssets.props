@@ -1,5 +1,113 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\avatars\0733bcd0-7332-4c1e-890f-d3d8583a28df.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>KazGameAPI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/KazGameAPI</BasePath>
+      <RelativePath>avatars/0733bcd0-7332-4c1e-890f-d3d8583a28df.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>nd65x0y1fl</Fingerprint>
+      <Integrity>dS+d+CcWB6+ZPKT2BigbwqBBLDzgVxuZwhaB+gENhMk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\avatars\0733bcd0-7332-4c1e-890f-d3d8583a28df.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\avatars\1deae9d2-6ff2-4f8f-b25e-1c85408bfc53.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>KazGameAPI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/KazGameAPI</BasePath>
+      <RelativePath>avatars/1deae9d2-6ff2-4f8f-b25e-1c85408bfc53.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vrspo43v6h</Fingerprint>
+      <Integrity>FQq7Pvk7XfrsJJ3kxn7qAyRZGkn/CEG91xApYWZgxqs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\avatars\1deae9d2-6ff2-4f8f-b25e-1c85408bfc53.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\avatars\4bde3917-d970-456c-b154-187bdafb3cb0.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>KazGameAPI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/KazGameAPI</BasePath>
+      <RelativePath>avatars/4bde3917-d970-456c-b154-187bdafb3cb0.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vhy6ii0i29</Fingerprint>
+      <Integrity>3bFXraf+HDGMP97eHAerLvKcxqdNpidWTsRW+57bNyI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\avatars\4bde3917-d970-456c-b154-187bdafb3cb0.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\avatars\7f9c7ef7-2d06-4b1a-a288-a95dac35f5f7.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>KazGameAPI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/KazGameAPI</BasePath>
+      <RelativePath>avatars/7f9c7ef7-2d06-4b1a-a288-a95dac35f5f7.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jdyk8jcuwx</Fingerprint>
+      <Integrity>B1+q9YyyolIv/r5726HXhtZnm9C0zDFOad3TLZbRVqE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\avatars\7f9c7ef7-2d06-4b1a-a288-a95dac35f5f7.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\avatars\cfcd2cdb-0e70-404a-a125-e828d66f37b5.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>KazGameAPI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/KazGameAPI</BasePath>
+      <RelativePath>avatars/cfcd2cdb-0e70-404a-a125-e828d66f37b5.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>b69f5nk9cb</Fingerprint>
+      <Integrity>zcIabKtrAyfH1QoUUDAXcag98PGsb1n0B/U9omzCesE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\avatars\cfcd2cdb-0e70-404a-a125-e828d66f37b5.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\avatars\fa053500-5fd0-44dd-ae45-927cae3fdbda.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>KazGameAPI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/KazGameAPI</BasePath>
+      <RelativePath>avatars/fa053500-5fd0-44dd-ae45-927cae3fdbda.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jdyk8jcuwx</Fingerprint>
+      <Integrity>B1+q9YyyolIv/r5726HXhtZnm9C0zDFOad3TLZbRVqE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\avatars\fa053500-5fd0-44dd-ae45-927cae3fdbda.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\army.png'))">
       <SourceType>Package</SourceType>
       <SourceId>KazGameAPI</SourceId>
