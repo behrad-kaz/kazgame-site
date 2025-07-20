@@ -26,7 +26,7 @@ const Header = () => {
         setUsername(storedUsername);
         const fullAvatarUrl = storedUserAvatarRelativePath
           ? `${API_BASE_URL}${storedUserAvatarRelativePath}?t=${new Date().getTime()}`
-          : `/images/default-user.png`; // اگر آدرس نبود، پیش‌فرض
+          : `/images/user.png`; // اگر آدرس نبود، پیش‌فرض
         setUserAvatarSrc(fullAvatarUrl);
       } else {
         setIsLoggedIn(false);

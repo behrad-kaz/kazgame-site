@@ -1,6 +1,7 @@
 // src/components/CommentSection.jsx
 import React, { useState, useEffect } from 'react';
 import styles from './CommentSection.module.css';
+import { Link } from 'react-router-dom';
 
 const API_BASE_URL = 'https://localhost:7055';
 
@@ -19,7 +20,7 @@ const CommentSection = () => {
     const loggedInUserAvatarPath = localStorage.getItem('userAvatar');
     const fullLoggedInUserAvatarUrl = loggedInUserAvatarPath
         ? `${API_BASE_URL}${loggedInUserAvatarPath}?t=${new Date().getTime()}`
-        : '/images/default-user.png';
+        : '/images/user.png';
 
     // تابع برای دریافت کامنت‌ها
     const fetchComments = async () => {
@@ -35,7 +36,7 @@ const CommentSection = () => {
                 // آدرس آواتار هر کامنت از API می‌آید (comment.UserAvatarUrl)
                 const fullCommentAvatarUrl = comment.UserAvatarUrl
                     ? `${API_BASE_URL}${comment.UserAvatarUrl}?t=${new Date().getTime()}` // <--- استفاده از API_BASE_URL
-                    : '/images/default-user.png'; // آواتار پیش‌فرض
+                    : '/images/user.png'; // آواتار پیش‌فرض
                 console.log(`Comment ID: ${comment.id}, Raw Avatar URL from API: ${comment.UserAvatarUrl}, Final Display URL: ${fullCommentAvatarUrl}`); // <--- **LOG جدید برای دیباگ**
                     return {
                     ...comment,
