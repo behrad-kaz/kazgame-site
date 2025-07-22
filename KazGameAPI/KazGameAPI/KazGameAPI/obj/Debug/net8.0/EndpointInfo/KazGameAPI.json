@@ -352,6 +352,18 @@
             "type": "number",
             "format": "double",
             "nullable": true
+          },
+          "galleryImagesJson": {
+            "type": "string",
+            "nullable": true
+          },
+          "backgroundImageUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "mainPageVideoUrl": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

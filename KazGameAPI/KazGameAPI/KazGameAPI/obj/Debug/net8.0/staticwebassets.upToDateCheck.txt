@@ -2,11 +2,16 @@ wwwroot\avatars\0733bcd0-7332-4c1e-890f-d3d8583a28df.png
 wwwroot\avatars\1deae9d2-6ff2-4f8f-b25e-1c85408bfc53.png
 wwwroot\avatars\4bde3917-d970-456c-b154-187bdafb3cb0.png
 wwwroot\avatars\7f9c7ef7-2d06-4b1a-a288-a95dac35f5f7.png
+wwwroot\avatars\c88b6a15-5736-47a4-891f-91d849a101b0.PNG
 wwwroot\avatars\cfcd2cdb-0e70-404a-a125-e828d66f37b5.png
 wwwroot\avatars\fa053500-5fd0-44dd-ae45-927cae3fdbda.png
 wwwroot\images\army.png
 wwwroot\images\elden ring.jpg
+wwwroot\images\Gran.jpg
+wwwroot\images\Grand.jpg
 wwwroot\images\gta.jpg
+wwwroot\images\GTAX.jpg
+wwwroot\images\GTV V.jpg
 wwwroot\images\kazgame-logo.png
 wwwroot\images\kazgame-minilogo.png
 wwwroot\images\keyboard-svgrepo-com.svg
@@ -17,6 +22,7 @@ wwwroot\images\user.png
 wwwroot\videos\Batman-Arkham-Knight-480p-trailer_1.mp4
 wwwroot\videos\Elden-Ring-Shadow-of-the-Erdtree-Official-Launch-Trailer.webm
 wwwroot\videos\Elden-Ring-Trailer_1.mp4
+wwwroot\videos\GTA-V-Trailer.mp4
 wwwroot\videos\GTA-V-Trailer_1_1_1.mp4
 wwwroot\videos\r.mp4
 wwwroot\videos\Red Dead Redemption 2  Official Gameplay Video.mp4

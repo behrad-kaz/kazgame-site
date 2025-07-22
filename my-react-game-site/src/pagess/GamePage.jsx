@@ -1,13 +1,17 @@
 // src/pages/GamePage.jsx
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom'; // برای خواندن ID از URL
-import styles from './GamePage.module.css'; // برای استایل‌ها
+import { useParams } from 'react-router-dom';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import GameOverviewSection from '../components/GameOverviewSection'; // <--- ایمپورت کامپوننت جدید
+import styles from './GamePage.module.css';
 
-// URL پایه API محصولات (همان API که محصولات را سرو می‌کند)
-const PRODUCTS_API_BASE_URL = 'https://localhost:7055'; // یا هر پورتی که API محصولات شما روی آن است
+const PRODUCTS_API_BASE_URL = 'https://localhost:7055';
+
+
 
 const GamePage = () => {
-  const { id } = useParams(); // خواندن 'id' از URL (مثلاً /games/1 -> id = 1)
+  const { id } = useParams();
   const [game, setGame] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -22,14 +26,36 @@ const GamePage = () => {
         }
 
         const data = await response.json();
-        setGame(data);
-        // اگر ویدیو در دیتابیس به صورت نسبی ذخیره شده، آدرس کامل آن را بسازید
+        // پردازش آدرس‌های نسبی به آدرس‌های کامل
         if (data.videoUrl && !data.videoUrl.startsWith('http')) {
-            data.videoUrl = `${PRODUCTS_API_BASE_URL}${data.videoUrl}`;
+          data.videoUrl = `${PRODUCTS_API_BASE_URL}${data.videoUrl}`;
         }
-        // اگر تصاویر کوچک در دیتابیس ذخیره نشده‌اند و می‌خواهید از تصاویر پیش‌فرض استفاده کنید
-        // این بخش نیاز به تعریف در مدل Product در API یا fetch جداگانه دارد.
-        // فعلاً به صورت Dummy Data برای thumbnails عمل می‌کنیم یا از ImageUrl استفاده می‌کنیم.
+
+        if (data.mainPageVideoUrl && !data.mainPageVideoUrl.startsWith('http')) {
+          data.mainPageVideoUrl = `${PRODUCTS_API_BASE_URL}${data.mainPageVideoUrl}`;
+        }
+        // فرض می‌کنیم `data.galleryImages` یک آرایه از مسیرهای نسبی است
+        const processedGalleryImages = data.galleryImagesJson
+          ? JSON.parse(data.galleryImagesJson).map(img =>
+            img.startsWith('http') ? img : `${PRODUCTS_API_BASE_URL}${img}`
+          )
+          : [];
+          console.log("Game Data fetched from API:", data); // <--- **LOG جدید ۱**
+
+        // **اگر GalleryImages در API شما وجود ندارد، می‌توانید Dummy Data اینجا اضافه کنید**
+        const dummyGalleryImages = [
+          `/images/elden ring/elden-ring-1_bzzt.jpg`,
+          `/images/elden ring/elden-ring-4_bzzt.jpg`,
+          `/images/elden ring/ELDEN_RING_Shadow_of_the_Erdtree-1.webp`,
+          `/images/red dead redemption 2/Red_Dead_Redemption_2-1.webp`,
+        ].map(img => `${PRODUCTS_API_BASE_URL}${img}`); // ساخت آدرس کامل برای Dummy Data
+
+        setGame({
+          ...data,
+          galleryImages: processedGalleryImages, // <--- آرایه تصاویر گالری
+          // BackgroundImageUrl نیز به صورت خودکار در data خواهد بود
+        });
+
       } catch (err) {
         console.error("خطا در دریافت جزئیات بازی:", err);
         setError("جزئیات بازی یافت نشد یا مشکلی در اتصال به سرور وجود دارد.");
@@ -38,62 +64,78 @@ const GamePage = () => {
       }
     };
 
-    if (id) { // فقط اگر id موجود بود، فچ کن
+    if (id) {
       fetchGameDetails();
     }
-  }, [id]); // هر بار که id در URL تغییر کند، دوباره فچ کن
+  }, [id]);
 
   if (loading) {
-    return <div className={styles.loading}>در حال بارگذاری جزئیات بازی...</div>;
+    return (
+      <div className={styles.gamePageWrapper}>
+        <Header />
+        <div className={styles.loading}>در حال بارگذاری جزئیات بازی...</div>
+        <Footer />
+      </div>
+    );
   }
 
   if (error) {
-    return <div className={styles.error}>{error}</div>;
+    return (
+      <div className={styles.gamePageWrapper}>
+        <Header />
+        <div className={styles.error}>{error}</div>
+        <Footer />
+      </div>
+    );
   }
 
   if (!game) {
-    return <div className={styles.notFound}>بازی مورد نظر یافت نشد.</div>;
+    return (
+      <div className={styles.gamePageWrapper}>
+        <Header />
+        <div className={styles.notFound}>بازی مورد نظر یافت نشد.</div>
+        <Footer />
+      </div>
+    );
   }
 
   return (
-    <div className={styles.gamePageContainer}>
-      <h1 className={styles.gameTitle}>{game.title}</h1>
-      
-      <div className={styles.gameContentWrapper}>
-        <div className={styles.mainMedia}>
-          {/* ویدئو یا تصویر اصلی بازی */}
-          {game.videoUrl ? (
-            <video controls className={styles.gameVideoPlayer} src={game.videoUrl}></video>
-          ) : (
-            <img src={game.imageUrl} alt={game.title} className={styles.gameImagePlayer} />
-          )}
-        </div>
+    <div className={styles.gamePageWrapper}>
+      <Header />
+      <GameOverviewSection game={game} /> {/* <--- کامپوننت جدید را اینجا اضافه می‌کنیم */}
 
-        <div className={styles.gameDetails}>
-          <p className={styles.gameDescription}>{game.description}</p>
-          <div className={styles.gamePrice}>قیمت: ${game.price}</div>
-          <button className={styles.buyGameButton}>خرید بازی</button>
+      <main className={styles.gamePageContent}>
+        {/* بقیه محتوای اصلی صفحه که قبلاً داشتیم (اطلاعات، قیمت، دکمه‌ها و گالری کوچک) */}
+        <h1 className={styles.gameTitle}>{game.title}</h1> {/* این شاید تکراری شود، می‌توانیم در GameOverviewSection قرار دهیم */}
 
-          {/* گالری تصاویر کوچک (Thumbnails) */}
-          <div className={styles.gameThumbnails}>
-            {/* فرض می‌کنیم game.thumbnails یک آرایه از URLهاست.
-                اگر API شما thumbnails را برنمی‌گرداند، باید این را در API اضافه کنید
-                یا از ImageUrl خود بازی استفاده کنید.
-                برای تست، می‌توانید از یک Dummy Array استفاده کنید.
-            */}
-            {game.imageUrl && ( // اگر فقط imageUrl دارید
-                <img src={game.imageUrl} alt={game.title} className={styles.thumbnailItem} />
+        <div className={styles.gameContentWrapper}>
+          <div className={styles.mainMedia}>
+            {game.videoUrl ? (
+              <video controls className={styles.gameVideoPlayer} src={game.videoUrl}></video>
+            ) : (
+              <img src={game.imageUrl} alt={game.title} className={styles.gameImagePlayer} />
             )}
-            {/* اگر بازی ویدیو دارد، می‌توانید فریم‌های ویدیو را به عنوان thumbnail استفاده کنید (پیچیده‌تر)
-                یا صرفا چند تصویر ثابت را در نظر بگیرید.
-            */}
-            {/* مثال با Dummy Thumbnails */}
-            {game.thumbnails && game.thumbnails.map((thumbUrl, index) => (
-                <img key={index} src={thumbUrl} alt={`Thumb ${index}`} className={styles.thumbnailItem} />
-            ))}
+          </div>
+
+          <div className={styles.gameDetails}>
+            <p className={styles.gameDescription}>{game.description}</p>
+            <div className={styles.gamePrice}>قیمت: ${game.price}</div>
+            <button className={styles.buyGameButton}>خرید بازی</button>
+
+            <div className={styles.gameThumbnails}>
+              {game.galleryImages && game.galleryImages.length > 0 ? (
+                game.galleryImages.map((thumbUrl, index) => (
+                  <img key={index} src={thumbUrl} alt={`Thumb ${index}`} className={styles.thumbnailItem} />
+                ))
+              ) : (
+                game.imageUrl && <img src={game.imageUrl} alt={game.title} className={styles.thumbnailItem} />
+              )}
+            </div>
           </div>
         </div>
-      </div>
+      </main>
+
+      <Footer />
     </div>
   );
 };

@@ -2,8 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import ProductSlider from '../components/ProductSlider';
-import GameCard from '../components/GameCard'; 
+import ProductSlider from '../components/gamelist components/ProductSlider';
+import GameCard from '../components/gamelist components/GameCard'; 
 import CommentSection from '../components/CommentSection';
 import styles from './GamesList.module.css';
 

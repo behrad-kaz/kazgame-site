@@ -1,0 +1,310 @@
+/* src/components/GameOverviewSection.module.css */
+
+.gameOverviewSection {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding: 60px 0; /* پدینگ کلی بخش */
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backgroundBlurOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.353); /* لایه تیره */
+  backdrop-filter: blur(8px); /* افکت محو */
+  z-index: 1;
+  background-size: cover;
+  background-position: center;
+}
+
+.gameOverviewSection[style*="background-image"]::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: inherit; /* استفاده از تصویر پس‌زمینه والد */
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px) brightness(0.5); /* محو کردن و تیره کردن تصویر */
+    z-index: 0;
+}
+
+
+.overviewContentWrapper {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  gap: 40px;
+  max-width: 1400px; /* عرض محتوای داخلی */
+  width: 100%;
+  padding: 0 40px; /* پدینگ داخلی از کناره‌ها */
+  box-sizing: border-box;
+  flex-wrap: wrap; /* برای ریسپانسیو */
+  justify-content: center;
+}
+
+.videoPlayerContainer {
+  flex: 2; /* ویدیو پلیر فضای بیشتری بگیرد */
+  min-width: 500px; /* حداقل عرض پلیر */
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainGameVideo, .mainGameVideoPlaceholder {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  border-radius: 10px;
+  object-fit: contain; /* ویدیو کامل دیده شود */
+  background-color: black;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.galleryThumbnails {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.galleryThumbnailItem, .videoThumbnailItem { /* <--- اضافه شد: videoThumbnailItem */
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+  position: relative; /* برای آیکون Play */
+  overflow: hidden; /* برای گوشه‌های گرد */
+}
+
+.galleryThumbnailItem:hover, .videoThumbnailItem:hover { /* <--- اضافه شد: videoThumbnailItem */
+  border-color: gold;
+  transform: scale(1.05); /* کمی بزرگتر شود هنگام هاور */
+}
+
+.videoThumbnailItem { /* استایل‌های خاص برای Thumbnail ویدیو */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black; /* پس‌زمینه مشکی برای ویدیو Thumbnail */
+}
+.videoThumbnailItem img { /* تصویر داخل Thumbnail ویدیو */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7; /* کمی تیره تر باشد */
+}
+.playIcon { /* آیکون Play روی Thumbnail ویدیو */
+    position: absolute;
+    font-size: 2.5rem; /* اندازه آیکون */
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    z-index: 2; /* روی تصویر باشد */
+}
+.gameInfoPanel {
+  flex: 1; /* پنل اطلاعات فضای باقیمانده را بگیرد */
+  min-width: 350px;
+  background-color: rgba(0, 0, 0, 0.6); /* پس‌زمینه نیمه شفاف برای پنل اطلاعات */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  text-align: right; /* برای فارسی */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gamePanelTitle {
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+.gamePanelSubtitle {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.gameTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+  justify-content: flex-end; /* راست چین کردن تگ ها */
+}
+
+.gameTag {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.releaseYearTag { background-color: #ffc107; color: #333; } /* رنگ زرد */
+.minAgeTag { background-color: #dc3545; } /* رنگ قرمز */
+
+.gamePanelDescription {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #e0e0e0;
+  margin-bottom: 25px;
+  text-align: justify;
+  direction: rtl;
+  max-height: 200px; /* برای جلوگیری از طولانی شدن بیش از حد */
+  overflow-y: auto; /* اسکرول برای متن زیاد */
+}
+
+.actionButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: auto; /* برای چسباندن به پایین پنل */
+}
+
+.downloadLinkButton, .commentsLinkButton {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.commentsLinkButton {
+  background-color: #6c757d; /* رنگ خاکستری برای کامنت‌ها */
+}
+
+.downloadLinkButton:hover { background-color: #0056b3; }
+.commentsLinkButton:hover { background-color: #5a6268; }
+
+.ratingInfo {
+  display: flex;
+  justify-content: flex-end; /* راست چین */
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.ratingBox {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 1.1rem;
+  color: gold;
+  font-weight: bold;
+}
+
+.ratingBox i {
+  font-size: 1.3rem;
+}
+
+.ageRating img {
+  height: 40px; /* اندازه آیکون PEGI */
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .overviewContentWrapper {
+    max-width: 95%;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .overviewContentWrapper {
+    flex-direction: column; /* در تبلت/موبایل: ویدیو بالا، اطلاعات پایین */
+    gap: 30px;
+    padding: 20px;
+  }
+  .videoPlayerContainer {
+    min-width: 100%; /* عرض کامل */
+    max-height: 400px;
+  }
+  .gameInfoPanel {
+    min-width: 100%;
+    padding: 20px;
+  }
+  .gamePanelTitle {
+    font-size: 2rem;
+  }
+  .gamePanelDescription {
+    max-height: 150px;
+  }
+  .actionButtons {
+    flex-direction: row; /* دکمه‌ها کنار هم */
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .downloadLinkButton, .commentsLinkButton {
+    width: auto;
+    flex-grow: 1; /* رشد کنند تا فضای موجود را پر کنند */
+  }
+  .gameTags {
+    justify-content: center; /* در موبایل وسط باشد */
+  }
+  .ratingInfo {
+    justify-content: center; /* در موبایل وسط باشد */
+  }
+  .platformIcons {
+    flex-direction: row; /* در موبایل آیکون‌های پلتفرم کنار هم */
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .gameOverviewSection {
+    padding: 30px 0;
+  }
+  .backgroundBlurOverlay {
+    backdrop-filter: blur(5px);
+  }
+  .gamePanelTitle {
+    font-size: 1.8rem;
+  }
+  .gamePanelDescription {
+    font-size: 0.9rem;
+  }
+  .downloadLinkButton, .commentsLinkButton {
+    font-size: 0.9rem;
+    padding: 10px 15px;
+  }
+  .galleryThumbnails {
+    gap: 5px;
+  }
+  .galleryThumbnailItem, .videoThumbnailItem { /* <--- اضافه شد: videoThumbnailItem */
+    width: 100px;
+    height: 60px;
+  }
+  .playIcon {
+      font-size: 2rem; /* اندازه کوچکتر در موبایل */
+  }
+}

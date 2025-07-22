@@ -17,12 +17,32 @@
       "PackagePath": "staticwebassets\\avatars\\7f9c7ef7-2d06-4b1a-a288-a95dac35f5f7.png"
     },
     {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\avatars\\c88b6a15-5736-47a4-891f-91d849a101b0.PNG",
+      "PackagePath": "staticwebassets\\avatars\\c88b6a15-5736-47a4-891f-91d849a101b0.PNG"
+    },
+    {
       "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\avatars\\cfcd2cdb-0e70-404a-a125-e828d66f37b5.png",
       "PackagePath": "staticwebassets\\avatars\\cfcd2cdb-0e70-404a-a125-e828d66f37b5.png"
     },
     {
       "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\avatars\\fa053500-5fd0-44dd-ae45-927cae3fdbda.png",
       "PackagePath": "staticwebassets\\avatars\\fa053500-5fd0-44dd-ae45-927cae3fdbda.png"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\GTAX.jpg",
+      "PackagePath": "staticwebassets\\images\\GTAX.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\GTV V.jpg",
+      "PackagePath": "staticwebassets\\images\\GTV V.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\Gran.jpg",
+      "PackagePath": "staticwebassets\\images\\Gran.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\Grand.jpg",
+      "PackagePath": "staticwebassets\\images\\Grand.jpg"
     },
     {
       "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\R.jpg",
@@ -75,6 +95,10 @@
     {
       "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\Elden-Ring-Trailer_1.mp4",
       "PackagePath": "staticwebassets\\videos\\Elden-Ring-Trailer_1.mp4"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\GTA-V-Trailer.mp4",
+      "PackagePath": "staticwebassets\\videos\\GTA-V-Trailer.mp4"
     },
     {
       "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\GTA-V-Trailer_1_1_1.mp4",

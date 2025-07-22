@@ -58,7 +58,13 @@ namespace KazGameAPI.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("BackgroundImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("GalleryImagesJson")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImageUrl")

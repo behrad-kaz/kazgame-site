@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "O97B4iqHrBfMkl7d+plH0Bznctbgceog2ALnBb7xQQc=",
+  "Hash": "32eQiNqIWiHFD5ohifNESW9lg6Fj1rhOeuDYc+B3sxo=",
   "Source": "KazGameAPI",
   "BasePath": "_content/KazGameAPI",
   "Mode": "Default",
@@ -101,6 +101,27 @@
       "OriginalItemSpec": "wwwroot\\avatars\\7f9c7ef7-2d06-4b1a-a288-a95dac35f5f7.png"
     },
     {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\avatars\\c88b6a15-5736-47a4-891f-91d849a101b0.PNG",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "avatars/c88b6a15-5736-47a4-891f-91d849a101b0#[.{fingerprint}]?.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f2kmb9noku",
+      "Integrity": "Fy4GWERYfJwZPnfCjPKDOcXOWaA7LnxwHpJWSRLXWmY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\avatars\\c88b6a15-5736-47a4-891f-91d849a101b0.PNG"
+    },
+    {
       "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\avatars\\cfcd2cdb-0e70-404a-a125-e828d66f37b5.png",
       "SourceId": "KazGameAPI",
       "SourceType": "Discovered",
@@ -185,6 +206,48 @@
       "OriginalItemSpec": "wwwroot\\images\\elden ring.jpg"
     },
     {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\Gran.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/Gran#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9fnt1xp6i8",
+      "Integrity": "1fBNpbETwmkKafPjs5GOD5g1rViCGQr9RJeueQ6+yl4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Gran.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\Grand.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/Grand#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s2rij0x3wn",
+      "Integrity": "bOPjWwFFEuKMq4Gyo5fqE+wz+hY5sSlGx7TS+ahLkJI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Grand.jpg"
+    },
+    {
       "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\gta.jpg",
       "SourceId": "KazGameAPI",
       "SourceType": "Discovered",
@@ -204,6 +267,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\gta.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\GTAX.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/GTAX#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8k9o9bai7q",
+      "Integrity": "aBujuZBTu3AFuq22BuLrBEXNBKmHqgYMHZblhngrlE4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\GTAX.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\GTV V.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/GTV V#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5v63z5kdf2",
+      "Integrity": "fwPK0pHyviqYp1BXHPmI3PJPfeH1zYhrjp3nxu6xRS4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\GTV V.jpg"
     },
     {
       "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\kazgame-logo.png",
@@ -414,6 +519,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\videos\\Elden-Ring-Trailer_1.mp4"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\GTA-V-Trailer.mp4",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "videos/GTA-V-Trailer#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bb0sciwpq0",
+      "Integrity": "abuoGb7SvCHAWe9rK1NJK6aKurFRGj3kZeo0PPq/sAQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\GTA-V-Trailer.mp4"
     },
     {
       "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\GTA-V-Trailer_1_1_1.mp4",
@@ -809,6 +935,88 @@
       ]
     },
     {
+      "Route": "avatars/c88b6a15-5736-47a4-891f-91d849a101b0.f2kmb9noku.PNG",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\avatars\\c88b6a15-5736-47a4-891f-91d849a101b0.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fy4GWERYfJwZPnfCjPKDOcXOWaA7LnxwHpJWSRLXWmY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Jul 2025 13:26:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f2kmb9noku"
+        },
+        {
+          "Name": "label",
+          "Value": "avatars/c88b6a15-5736-47a4-891f-91d849a101b0.PNG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fy4GWERYfJwZPnfCjPKDOcXOWaA7LnxwHpJWSRLXWmY="
+        }
+      ]
+    },
+    {
+      "Route": "avatars/c88b6a15-5736-47a4-891f-91d849a101b0.PNG",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\avatars\\c88b6a15-5736-47a4-891f-91d849a101b0.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fy4GWERYfJwZPnfCjPKDOcXOWaA7LnxwHpJWSRLXWmY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Jul 2025 13:26:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fy4GWERYfJwZPnfCjPKDOcXOWaA7LnxwHpJWSRLXWmY="
+        }
+      ]
+    },
+    {
       "Route": "avatars/cfcd2cdb-0e70-404a-a125-e828d66f37b5.b69f5nk9cb.png",
       "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\avatars\\cfcd2cdb-0e70-404a-a125-e828d66f37b5.png",
       "Selectors": [],
@@ -1137,6 +1345,170 @@
       ]
     },
     {
+      "Route": "images/Gran.9fnt1xp6i8.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\Gran.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89617"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1fBNpbETwmkKafPjs5GOD5g1rViCGQr9RJeueQ6+yl4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Jul 2025 15:12:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9fnt1xp6i8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Gran.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1fBNpbETwmkKafPjs5GOD5g1rViCGQr9RJeueQ6+yl4="
+        }
+      ]
+    },
+    {
+      "Route": "images/Gran.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\Gran.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89617"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1fBNpbETwmkKafPjs5GOD5g1rViCGQr9RJeueQ6+yl4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Jul 2025 15:12:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1fBNpbETwmkKafPjs5GOD5g1rViCGQr9RJeueQ6+yl4="
+        }
+      ]
+    },
+    {
+      "Route": "images/Grand.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\Grand.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "165160"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bOPjWwFFEuKMq4Gyo5fqE+wz+hY5sSlGx7TS+ahLkJI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Jul 2025 15:13:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bOPjWwFFEuKMq4Gyo5fqE+wz+hY5sSlGx7TS+ahLkJI="
+        }
+      ]
+    },
+    {
+      "Route": "images/Grand.s2rij0x3wn.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\Grand.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "165160"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bOPjWwFFEuKMq4Gyo5fqE+wz+hY5sSlGx7TS+ahLkJI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Jul 2025 15:13:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s2rij0x3wn"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Grand.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bOPjWwFFEuKMq4Gyo5fqE+wz+hY5sSlGx7TS+ahLkJI="
+        }
+      ]
+    },
+    {
       "Route": "images/gta.jpg",
       "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\gta.jpg",
       "Selectors": [],
@@ -1215,6 +1587,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-bBpp2x7hREfsXliJCK9rej2NVGOnwLYWSwbMkglEfPA="
+        }
+      ]
+    },
+    {
+      "Route": "images/GTAX.8k9o9bai7q.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\GTAX.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "547107"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aBujuZBTu3AFuq22BuLrBEXNBKmHqgYMHZblhngrlE4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Jul 2025 12:20:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8k9o9bai7q"
+        },
+        {
+          "Name": "label",
+          "Value": "images/GTAX.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aBujuZBTu3AFuq22BuLrBEXNBKmHqgYMHZblhngrlE4="
+        }
+      ]
+    },
+    {
+      "Route": "images/GTAX.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\GTAX.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "547107"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aBujuZBTu3AFuq22BuLrBEXNBKmHqgYMHZblhngrlE4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Jul 2025 12:20:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aBujuZBTu3AFuq22BuLrBEXNBKmHqgYMHZblhngrlE4="
+        }
+      ]
+    },
+    {
+      "Route": "images/GTV V.5v63z5kdf2.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\GTV V.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "690413"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fwPK0pHyviqYp1BXHPmI3PJPfeH1zYhrjp3nxu6xRS4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Jul 2025 12:20:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5v63z5kdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "images/GTV V.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fwPK0pHyviqYp1BXHPmI3PJPfeH1zYhrjp3nxu6xRS4="
+        }
+      ]
+    },
+    {
+      "Route": "images/GTV V.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\GTV V.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "690413"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fwPK0pHyviqYp1BXHPmI3PJPfeH1zYhrjp3nxu6xRS4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Jul 2025 12:20:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fwPK0pHyviqYp1BXHPmI3PJPfeH1zYhrjp3nxu6xRS4="
         }
       ]
     },
@@ -2035,6 +2571,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-ofGoECbZTUxgDTGhtGJTukUvmPwaXiW/Rqx8OQGY3Ng="
+        }
+      ]
+    },
+    {
+      "Route": "videos/GTA-V-Trailer.bb0sciwpq0.mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\GTA-V-Trailer.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19224116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"abuoGb7SvCHAWe9rK1NJK6aKurFRGj3kZeo0PPq/sAQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Jul 2025 12:10:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bb0sciwpq0"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/GTA-V-Trailer.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-abuoGb7SvCHAWe9rK1NJK6aKurFRGj3kZeo0PPq/sAQ="
+        }
+      ]
+    },
+    {
+      "Route": "videos/GTA-V-Trailer.mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\GTA-V-Trailer.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19224116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"abuoGb7SvCHAWe9rK1NJK6aKurFRGj3kZeo0PPq/sAQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Jul 2025 12:10:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-abuoGb7SvCHAWe9rK1NJK6aKurFRGj3kZeo0PPq/sAQ="
         }
       ]
     },

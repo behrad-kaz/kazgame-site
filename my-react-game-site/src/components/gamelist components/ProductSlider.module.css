@@ -1,0 +1,158 @@
+/* src/components/ProductSlider.module.css */
+
+.sliderSection {
+    padding: 40px 20px;
+    background: #0d071b;
+    text-align: center;
+}
+
+.sliderTitle {
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #ffea00;
+}
+
+.productSlider {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.swiperInner { /* <--- این کلاس جدید را اضافه کنید */
+    padding: 0 50px; /* <--- به خود Swiper پدینگ می‌دهیم (مقداری که دکمه‌ها را در خود جای دهد) */
+    width: 100%; /* مطمئن شوید که عرض کامل را می‌گیرد */
+     z-index: 1;
+}
+/* **مهم: استایل کارت‌های محصول** */
+.productCard {
+    min-width: 160px;
+    max-width: 200px;
+    height: 240px;
+    background: rgb(255, 255, 255);
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    flex-shrink: 0;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    /* اضافه کردن display: flex و flex-direction: column برای تراز عمودی بهتر */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* محتوا را پخش می‌کند */
+    align-items: center;
+}
+
+.productCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.productCard img {
+    width: 90%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.productCard p {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 0.75rem;
+    color: #333;
+}
+
+.productSlider :global(.swiper-button-prev),
+.productSlider :global(.swiper-button-next) {
+    background: #007bff !important;
+    color: white !important;
+    border: none !important;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50% !important;
+    font-size: 12px !important;
+    cursor: pointer !important;
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    z-index: 10 !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2) !important;
+    transition: background-color 0.3s ease, transform 0.2s ease !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+
+    background-image: none !important;
+}
+
+.productSlider :global(.swiper-button-prev) {
+    left: 10px !important;
+}
+
+.productSlider :global(.swiper-button-next) {
+    right: 10px !important;
+}
+.productSlider :global(.swiper) { /* <--- این کلاس را اضافه کنید */
+    margin: 0 20px !important; /* <--- 20px از چپ و راست margin به خود Swiper بدهید */
+    /* این margin باعث می‌شود کارت‌ها در Swiper از دکمه‌ها فاصله بگیرند */
+}
+
+.productSlider :global(.swiper-button-prev:hover),
+.productSlider :global(.swiper-button-next:hover) {
+    background-color: #01366e !important;
+    transform: translateY(-50%) scale(1.05) !important;
+}
+
+.productSlider :global(.swiper-button-prev::after),
+.productSlider :global(.swiper-button-next::after) {
+    font-size: 18px !important;
+    /* اندازه فلش */
+    color: white !important;
+    /* رنگ فلش */
+}
+
+.productSlider :global(.swiper-button-next::after) {
+    content: "❯" !important;
+}
+
+.productSlider :global(.swiper-button-prev::after) {
+    content: "❮" !important;
+}
+
+
+/* **مهم: استایل‌های دات‌های Pagination Swiper** */
+.productSlider :global(.swiper-pagination) {
+    position: relative;
+    /* برای اینکه margin-top کار کند */
+    margin-top: 20px;
+    /* فاصله از پایین کارت‌ها (مطابق با HTML اصلی) */
+    bottom: auto !important;
+    /* reset کردن استایل bottom پیش‌فرض Swiper */
+    left: auto !important;
+    /* reset */
+    width: auto !important;
+    /* reset */
+    text-align: center;
+    z-index: 5 !important;
+}
+
+.productSlider :global(.swiper-pagination-bullet) {
+    height: 10px !important;
+    width: 10px !important;
+    margin: 0 6px !important;
+    /* فاصله 6px بین دات‌ها */
+    background-color: #ccc !important;
+    border-radius: 50% !important;
+    opacity: 1 !important;
+    /* برای اینکه همیشه کاملاً واضح باشد */
+    display: inline-block !important;
+    transition: background-color 0.3s ease !important;
+}
+
+.productSlider :global(.swiper-pagination-bullet-active) {
+    background-color: #007bff !important;
+    /* دات فعال آبی */
+}
