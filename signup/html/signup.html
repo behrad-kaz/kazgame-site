@@ -1,96 +1,0 @@
-<!DOCTYPE html>
-<html dir="rtl" lang="fa">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KazGAME_SignUp</title>
-  <link rel="icon" href="../images/kazgame-minilogo.png" type="image/png">
-  <link rel="shortcut icon" href="path/to/your/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-keyboard@latest/build/css/index.css" />
-  <link rel="stylesheet" href="../css/signup-css.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-</head>
-
-<body>
-
-  <!-- ورودیه سایت -->
-  <div class="god-login" id="god-login">
-    <video autoplay muted loop playsinline class="bg-video">
-      <source src="../video/Wave-1746463374517.mp4" type="video/mp4">
-      مرورگر شما از ویدیو پشتیبانی نمی‌کند.
-    </video>
-
-    <div class="containerlogin" id="containerlogin">
-      <!-- فرم ورود -->
-      <div class="form-container log-in-container">
-        <form>
-          <h1>Login</h1>
-          <div class="social-container">
-            <a href="#" class="social"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#" class="social"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#" class="social"><i class="fa-brands fa-telegram"></i></a>
-          </div>
-          <input id="emailvorod" type="email" placeholder="ایمیل ...">
-          <input id="passvorod" type="password" placeholder="رمز عبور ...">
-          <div class="captcha-container">
-            <div class="coptcha-head">
-              <div><span id="captcha-text"></span></div>
-              <button class="captcha-generator" type="button" onclick="generateCaptcha()">🔄</button>
-            </div>
-            <input type="text" id="captcha-input" class="btns-inputs input" placeholder="کد را وارد کنید" />
-          </div>
-          <button type="button" class="vorod" id="vorod">Login</button>
-        </form>
-      </div>
-
-      <!-- فرم ثبت‌نام -->
-      <div class="form-container sign-up-container">
-        <form>
-          <h1>Sign-In</h1>
-          <div class="social-container">
-            <a href="#" class="social"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#" class="social"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#" class="social"><i class="fa-brands fa-telegram"></i></a>
-          </div>
-          <input id="namsabt" type="text" placeholder="نام و نام خانوادگی ...">
-          <input id="emailsabt" type="email" placeholder="ایمیل ...">
-          <input id="passsabt" type="password" placeholder="رمز عبور ...">
-          <button type="button" class="sabtnam" id="sabtnam">Sign-In</button>
-        </form>
-      </div>
-
-      <!-- پنل تغییر بین ورود و ثبت‌نام -->
-      <div class="toggle-container">
-        <div class="toggle">
-          <div class="toggle-panel toggle-right">
-            <div class="welcom">
-              <h1>Welcom</h1>
-              <p>برای استفاده از تمامی امکانات وب‌سایت حساب کاربری ایجاد نمایید.</p>
-            </div>
-            <button type="button" class="hidden" id="register">Sign-In</button>
-          </div>
-
-          <div class="toggle-panel toggle-left">
-            <div class="welcom">
-              <h1>Welcom</h1>
-              <p>اگر حساب کاربری دارید با استفاده از دکمه زیر وارد شوید.</p>
-            </div>
-            <button type="button" class="hidden" id="login">Login</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- اسکریپت‌ها -->
-  <script src="https://cdn.jsdelivr.net/npm/simple-keyboard@latest/build/index.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.1.1/marked.min.js"></script>
-  <script src="../javascript/signup-js.js"></script>
-
-</body>
-
-</html>

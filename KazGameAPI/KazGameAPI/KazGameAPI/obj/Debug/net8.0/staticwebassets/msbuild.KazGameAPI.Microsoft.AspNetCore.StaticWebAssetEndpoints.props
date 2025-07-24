@@ -216,6 +216,54 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"prhfxhqrpg"},{"Name":"integrity","Value":"sha256-tQzvfHQMW2x70ADBJjwta8Rq2hi21H3KwTbpUEDR7GU="},{"Name":"label","Value":"_content/KazGameAPI/images/R.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"998813"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022tQzvfHQMW2x70ADBJjwta8Rq2hi21H3KwTbpUEDR7GU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 06 May 2025 13:42:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/rate-12.97u2cnihyc.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\rate-12.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"97u2cnihyc"},{"Name":"integrity","Value":"sha256-m1IyBbK669z/bGklGsb5FusAWG0f6Hs8wFBB6RXEClc="},{"Name":"label","Value":"_content/KazGameAPI/images/rate-12.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6417"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022m1IyBbK669z/bGklGsb5FusAWG0f6Hs8wFBB6RXEClc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Jul 2025 15:04:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/rate-12.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\rate-12.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-m1IyBbK669z/bGklGsb5FusAWG0f6Hs8wFBB6RXEClc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"6417"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022m1IyBbK669z/bGklGsb5FusAWG0f6Hs8wFBB6RXEClc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Jul 2025 15:04:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/rate-15.j0q2xthhm1.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\rate-15.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"j0q2xthhm1"},{"Name":"integrity","Value":"sha256-M5WwLDzvd1J9oOVR4VnNY2c1aqpvLsvqXJVpcjrUWJI="},{"Name":"label","Value":"_content/KazGameAPI/images/rate-15.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6884"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022M5WwLDzvd1J9oOVR4VnNY2c1aqpvLsvqXJVpcjrUWJI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Jul 2025 15:03:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/rate-15.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\rate-15.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-M5WwLDzvd1J9oOVR4VnNY2c1aqpvLsvqXJVpcjrUWJI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"6884"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022M5WwLDzvd1J9oOVR4VnNY2c1aqpvLsvqXJVpcjrUWJI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Jul 2025 15:03:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/rate-18.lp9bsieobx.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\rate-18.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lp9bsieobx"},{"Name":"integrity","Value":"sha256-6Qk9E9N6cVhK/DO4j1SbdEFYqcXfzN6m5JrL/vcpWYg="},{"Name":"label","Value":"_content/KazGameAPI/images/rate-18.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6388"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00226Qk9E9N6cVhK/DO4j1SbdEFYqcXfzN6m5JrL/vcpWYg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Jul 2025 15:03:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/rate-18.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\rate-18.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6Qk9E9N6cVhK/DO4j1SbdEFYqcXfzN6m5JrL/vcpWYg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"6388"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00226Qk9E9N6cVhK/DO4j1SbdEFYqcXfzN6m5JrL/vcpWYg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Jul 2025 15:03:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/rate-3.ng3nzd0k9j.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\rate-3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ng3nzd0k9j"},{"Name":"integrity","Value":"sha256-R8jdJwDrMLhOk/wCtfDBqnDvjnjjTZGpU8ob20FIw7g="},{"Name":"label","Value":"_content/KazGameAPI/images/rate-3.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6345"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022R8jdJwDrMLhOk/wCtfDBqnDvjnjjTZGpU8ob20FIw7g=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Jul 2025 15:04:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/rate-3.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\rate-3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-R8jdJwDrMLhOk/wCtfDBqnDvjnjjTZGpU8ob20FIw7g="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"6345"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022R8jdJwDrMLhOk/wCtfDBqnDvjnjjTZGpU8ob20FIw7g=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Jul 2025 15:04:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/red.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\red.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

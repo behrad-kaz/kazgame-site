@@ -361,7 +361,39 @@
             "type": "string",
             "nullable": true
           },
+          "fullDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "middleImagesJson": {
+            "type": "string",
+            "nullable": true
+          },
+          "developer": {
+            "type": "string",
+            "nullable": true
+          },
+          "publisher": {
+            "type": "string",
+            "nullable": true
+          },
+          "releaseDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "genre": {
+            "type": "string",
+            "nullable": true
+          },
+          "rating": {
+            "type": "string",
+            "nullable": true
+          },
           "mainPageVideoUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "pegi": {
             "type": "string",
             "nullable": true
           }

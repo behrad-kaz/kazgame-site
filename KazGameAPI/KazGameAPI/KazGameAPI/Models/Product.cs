@@ -11,6 +11,18 @@
 
         public string? GalleryImagesJson { get; set; } // آدرس تصاویر گالری به صورت JSON string
         public string? BackgroundImageUrl { get; set; } // تصویر پس‌زمینه برای GameOverviewSection
+
+        // <--- **فیلدهای جدید برای توضیحات کامل و تصاویر میانی و ویژگی‌ها**
+        public string? FullDescription { get; set; } // متن کامل توضیحات بازی
+        public string? MiddleImagesJson { get; set; } // آدرس تصاویر میانی به صورت JSON string
+        public string? Developer { get; set; }
+        public string? Publisher { get; set; }
+        public string? ReleaseDate { get; set; }
+        public string? Genre { get; set; }
+        public string? Rating { get; set; }
+
         public string? MainPageVideoUrl { get; set; }
+        public string? Pegi { get; set; }
+        // <--- **پایان فیلدهای جدید**
     }
 }

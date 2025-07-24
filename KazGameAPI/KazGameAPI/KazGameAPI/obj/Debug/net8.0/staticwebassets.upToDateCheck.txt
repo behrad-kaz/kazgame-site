@@ -16,6 +16,10 @@ wwwroot\images\kazgame-logo.png
 wwwroot\images\kazgame-minilogo.png
 wwwroot\images\keyboard-svgrepo-com.svg
 wwwroot\images\R.jpg
+wwwroot\images\rate-12.png
+wwwroot\images\rate-15.png
+wwwroot\images\rate-18.png
+wwwroot\images\rate-3.png
 wwwroot\images\red.jpg
 wwwroot\images\telegram-logo-thin-svgrepo-com.svg
 wwwroot\images\user.png

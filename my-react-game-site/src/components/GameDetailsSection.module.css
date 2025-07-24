@@ -1,0 +1,100 @@
+/* src/components/GameDetailsSection.module.css */
+
+.gameDetailsSection {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 50px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.detailsHeader {
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 30px;
+}
+
+.sectionTitle {
+    font-size: 2.2rem;
+    color: gold;
+    text-align: center;
+}
+
+.detailsContentWrapper {
+    display: flex;
+    gap: 40px;
+    max-width: 1200px;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gameDescriptionLong {
+    width: 80%;
+    flex: 2;
+    min-width: 400px;
+    text-align: justify;
+    direction: rtl;
+    line-height: 1.8;
+    color: #e0e0e0;
+}
+
+.gameDescriptionLong p {
+    margin-bottom: 15px;
+}
+
+.middleImagesGallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.middleImage {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+}
+
+.middleImage:hover {
+    transform: scale(1.02);
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .detailsContentWrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .gameDescriptionLong,
+    .gameFeaturesPanel {
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .gameDetailsSection {
+        padding: 30px 15px;
+    }
+
+    .sectionTitle {
+        font-size: 1.8rem;
+    }
+
+    .gameDescriptionLong {
+        font-size: 0.9rem;
+    }
+
+    .middleImage {
+        max-width: 100%;
+    }
+}

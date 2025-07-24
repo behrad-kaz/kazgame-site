@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "32eQiNqIWiHFD5ohifNESW9lg6Fj1rhOeuDYc+B3sxo=",
+  "Hash": "RK0FmekoWenyPn2w38bxmtVm2WbM+0CZlugkzpyyvN8=",
   "Source": "KazGameAPI",
   "BasePath": "_content/KazGameAPI",
   "Mode": "Default",
@@ -393,6 +393,90 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\R.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\rate-12.png",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/rate-12#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "97u2cnihyc",
+      "Integrity": "m1IyBbK669z/bGklGsb5FusAWG0f6Hs8wFBB6RXEClc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\rate-12.png"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\rate-15.png",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/rate-15#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j0q2xthhm1",
+      "Integrity": "M5WwLDzvd1J9oOVR4VnNY2c1aqpvLsvqXJVpcjrUWJI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\rate-15.png"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\rate-18.png",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/rate-18#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lp9bsieobx",
+      "Integrity": "6Qk9E9N6cVhK/DO4j1SbdEFYqcXfzN6m5JrL/vcpWYg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\rate-18.png"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\rate-3.png",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/rate-3#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ng3nzd0k9j",
+      "Integrity": "R8jdJwDrMLhOk/wCtfDBqnDvjnjjTZGpU8ob20FIw7g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\rate-3.png"
     },
     {
       "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red.jpg",
@@ -2079,6 +2163,334 @@
         {
           "Name": "integrity",
           "Value": "sha256-tQzvfHQMW2x70ADBJjwta8Rq2hi21H3KwTbpUEDR7GU="
+        }
+      ]
+    },
+    {
+      "Route": "images/rate-12.97u2cnihyc.png",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\rate-12.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6417"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m1IyBbK669z/bGklGsb5FusAWG0f6Hs8wFBB6RXEClc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Jul 2025 15:04:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "97u2cnihyc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/rate-12.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m1IyBbK669z/bGklGsb5FusAWG0f6Hs8wFBB6RXEClc="
+        }
+      ]
+    },
+    {
+      "Route": "images/rate-12.png",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\rate-12.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6417"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m1IyBbK669z/bGklGsb5FusAWG0f6Hs8wFBB6RXEClc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Jul 2025 15:04:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m1IyBbK669z/bGklGsb5FusAWG0f6Hs8wFBB6RXEClc="
+        }
+      ]
+    },
+    {
+      "Route": "images/rate-15.j0q2xthhm1.png",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\rate-15.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6884"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M5WwLDzvd1J9oOVR4VnNY2c1aqpvLsvqXJVpcjrUWJI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Jul 2025 15:03:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j0q2xthhm1"
+        },
+        {
+          "Name": "label",
+          "Value": "images/rate-15.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-M5WwLDzvd1J9oOVR4VnNY2c1aqpvLsvqXJVpcjrUWJI="
+        }
+      ]
+    },
+    {
+      "Route": "images/rate-15.png",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\rate-15.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6884"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M5WwLDzvd1J9oOVR4VnNY2c1aqpvLsvqXJVpcjrUWJI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Jul 2025 15:03:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-M5WwLDzvd1J9oOVR4VnNY2c1aqpvLsvqXJVpcjrUWJI="
+        }
+      ]
+    },
+    {
+      "Route": "images/rate-18.lp9bsieobx.png",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\rate-18.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6388"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6Qk9E9N6cVhK/DO4j1SbdEFYqcXfzN6m5JrL/vcpWYg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Jul 2025 15:03:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lp9bsieobx"
+        },
+        {
+          "Name": "label",
+          "Value": "images/rate-18.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6Qk9E9N6cVhK/DO4j1SbdEFYqcXfzN6m5JrL/vcpWYg="
+        }
+      ]
+    },
+    {
+      "Route": "images/rate-18.png",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\rate-18.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6388"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6Qk9E9N6cVhK/DO4j1SbdEFYqcXfzN6m5JrL/vcpWYg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Jul 2025 15:03:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6Qk9E9N6cVhK/DO4j1SbdEFYqcXfzN6m5JrL/vcpWYg="
+        }
+      ]
+    },
+    {
+      "Route": "images/rate-3.ng3nzd0k9j.png",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\rate-3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6345"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R8jdJwDrMLhOk/wCtfDBqnDvjnjjTZGpU8ob20FIw7g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Jul 2025 15:04:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ng3nzd0k9j"
+        },
+        {
+          "Name": "label",
+          "Value": "images/rate-3.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R8jdJwDrMLhOk/wCtfDBqnDvjnjjTZGpU8ob20FIw7g="
+        }
+      ]
+    },
+    {
+      "Route": "images/rate-3.png",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\rate-3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6345"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R8jdJwDrMLhOk/wCtfDBqnDvjnjjTZGpU8ob20FIw7g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Jul 2025 15:04:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R8jdJwDrMLhOk/wCtfDBqnDvjnjjTZGpU8ob20FIw7g="
         }
       ]
     },

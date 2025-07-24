@@ -73,6 +73,22 @@
       "PackagePath": "staticwebassets\\images\\keyboard-svgrepo-com.svg"
     },
     {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\rate-12.png",
+      "PackagePath": "staticwebassets\\images\\rate-12.png"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\rate-15.png",
+      "PackagePath": "staticwebassets\\images\\rate-15.png"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\rate-18.png",
+      "PackagePath": "staticwebassets\\images\\rate-18.png"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\rate-3.png",
+      "PackagePath": "staticwebassets\\images\\rate-3.png"
+    },
+    {
       "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red.jpg",
       "PackagePath": "staticwebassets\\images\\red.jpg"
     },
