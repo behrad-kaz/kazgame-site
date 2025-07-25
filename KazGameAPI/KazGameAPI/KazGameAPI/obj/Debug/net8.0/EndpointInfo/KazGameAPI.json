@@ -396,6 +396,58 @@
           "pegi": {
             "type": "string",
             "nullable": true
+          },
+          "minOS": {
+            "type": "string",
+            "nullable": true
+          },
+          "minProcessor": {
+            "type": "string",
+            "nullable": true
+          },
+          "minMemory": {
+            "type": "string",
+            "nullable": true
+          },
+          "minGraphics": {
+            "type": "string",
+            "nullable": true
+          },
+          "minStorage": {
+            "type": "string",
+            "nullable": true
+          },
+          "minDirectX": {
+            "type": "string",
+            "nullable": true
+          },
+          "recOS": {
+            "type": "string",
+            "nullable": true
+          },
+          "recProcessor": {
+            "type": "string",
+            "nullable": true
+          },
+          "recMemory": {
+            "type": "string",
+            "nullable": true
+          },
+          "recGraphics": {
+            "type": "string",
+            "nullable": true
+          },
+          "recStorage": {
+            "type": "string",
+            "nullable": true
+          },
+          "recDirectX": {
+            "type": "string",
+            "nullable": true
+          },
+          "downloadLinksJson": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

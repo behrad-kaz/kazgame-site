@@ -1,0 +1,208 @@
+/* src/components/DownloadSection.module.css */
+
+.downloadSection {
+  background-color: #1a1a1a;
+  color: white;
+  width: 90%;
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: 40px auto;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  direction: rtl; /* برای فارسی */
+  text-align: right;
+}
+
+.sectionTitle {
+  font-size: 2.2rem;
+  color: gold;
+  margin-bottom: 30px;
+  text-align: center;
+  display: flex; /* برای آیکون دانلود کنار عنوان */
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.sectionTitle i {
+  font-size: 2rem;
+  color: #00d9ff;
+}
+
+/* **Accordion Styles (inspired by serfil.cc)** */
+.accordionContainer {
+  width: 100%;
+}
+
+.accordionItem {
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  overflow: hidden; /* برای transition در accordion content */
+}
+
+.accordionHeader {
+  background-color: #3a3a3a; /* رنگ سربرگ Accordion */
+  color: white;
+  padding: 15px 20px;
+  width: 100%;
+  border: none;
+  text-align: right; /* برای فارسی */
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.accordionHeader:hover {
+  background-color: #4a4a4a;
+}
+
+.accordionHeader.active {
+  background-color: #007bff; /* رنگ آبی برای سربرگ فعال */
+}
+
+.accordionIcon {
+  margin-right: 10px; /* فاصله از متن */
+  transition: transform 0.3s ease;
+}
+
+.accordionHeader.active .accordionIcon {
+  transform: rotate(180deg); /* چرخش فلش هنگام باز شدن */
+}
+
+.accordionContent {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out; /* انیمیشن باز شدن */
+  background-color: #2a2a2a;
+  padding: 0 20px; /* پدینگ برای محتوا */
+}
+
+.accordionContent.show {
+  max-height: 5500px; /* ارتفاع حداکثری برای نمایش (تنظیم شود) */
+  padding: 15px 20px;
+}
+
+.linksList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.downloadItem {
+  background-color: #3a3a3a;
+  border-radius: 5px;
+  padding: 12px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px; /* فاصله بین آیتم‌ها */
+}
+
+.partInfo {
+  direction: rtl;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-grow: 1;
+  justify-content: flex-start; /* راست چین */
+}
+
+.partNumber {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #00d9ff;
+}
+
+.fileSize {
+  direction: ltr;
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+.downloadLinkButton {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+}
+
+.downloadLinkButton:hover {
+  background-color: #0056b3;
+}
+
+.passwordContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 15px;
+  white-space: nowrap;
+}
+
+.passwordLabel {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.passwordText {
+  font-weight: bold;
+  color: #00d9ff;
+}
+
+.togglePasswordButton {
+  background: none;
+  border: none;
+  color: #00d9ff;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.togglePasswordButton:hover {
+  color: gold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .downloadSection {
+    padding: 30px 15px;
+  }
+  .sectionTitle {
+    font-size: 1.8rem;
+  }
+  .accordionHeader {
+    font-size: 1.1rem;
+    padding: 12px 15px;
+  }
+  .downloadItem {
+    flex-direction: column; /* در موبایل زیر هم قرار گیرند */
+    align-items: flex-end; /* راست چین شوند */
+    gap: 5px;
+  }
+  .partInfo {
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .downloadLinkButton {
+    width: 100%;
+    justify-content: center;
+  }
+  .passwordContainer {
+    width: 100%;
+    justify-content: flex-end;
+    margin-left: 0;
+  }
+}

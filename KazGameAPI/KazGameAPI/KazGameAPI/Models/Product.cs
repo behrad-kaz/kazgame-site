@@ -12,9 +12,8 @@
         public string? GalleryImagesJson { get; set; } // آدرس تصاویر گالری به صورت JSON string
         public string? BackgroundImageUrl { get; set; } // تصویر پس‌زمینه برای GameOverviewSection
 
-        // <--- **فیلدهای جدید برای توضیحات کامل و تصاویر میانی و ویژگی‌ها**
-        public string? FullDescription { get; set; } // متن کامل توضیحات بازی
-        public string? MiddleImagesJson { get; set; } // آدرس تصاویر میانی به صورت JSON string
+        public string? FullDescription { get; set; }
+        public string? MiddleImagesJson { get; set; } 
         public string? Developer { get; set; }
         public string? Publisher { get; set; }
         public string? ReleaseDate { get; set; }
@@ -23,6 +22,32 @@
 
         public string? MainPageVideoUrl { get; set; }
         public string? Pegi { get; set; }
-        // <--- **پایان فیلدهای جدید**
+
+
+        // **فیلدهای جدید برای سیستم مورد نیاز**
+        public string? MinOS { get; set; }
+        public string? MinProcessor { get; set; }
+        public string? MinMemory { get; set; }
+        public string? MinGraphics { get; set; }
+        public string? MinStorage { get; set; }
+        public string? MinDirectX { get; set; }
+
+        public string? RecOS { get; set; }
+        public string? RecProcessor { get; set; }
+        public string? RecMemory { get; set; }
+        public string? RecGraphics { get; set; }
+        public string? RecStorage { get; set; }
+        public string? RecDirectX { get; set; }
+        public string? DownloadLinksJson { get; set; } // لینک‌های دانلود به صورت JSON string
+        // <--- **پایان فیلد جدید**
+    }
+
+    // <--- **مدل‌های داخلی برای لینک‌های دانلود (می‌توانند در همین فایل باشند)**
+    public class DownloadLink
+    {
+        public int PartNumber { get; set; }
+        public string Url { get; set; } = string.Empty;
+        public string? FileSize { get; set; } // مثلا "2 GB"
+        public string? Password { get; set; } // رمز عبور برای لینک (اگر نیاز باشد)
     }
 }

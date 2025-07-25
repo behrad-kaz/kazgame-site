@@ -5,6 +5,9 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import GameOverviewSection from '../components/GameOverviewSection';
 import GameDetailsSection from '../components/GameDetailsSection';
+import GameSystemRequirementsSection from '../components/GameSystemRequirementsSection';
+import DownloadSection from '../components/DownloadSection'; // <--- **ایمپورت جدید**
+
 import styles from './GamePage.module.css';
 
 const PRODUCTS_API_BASE_URL = 'https://localhost:7055';
@@ -27,6 +30,17 @@ const GamePage = () => {
         }
 
         const data = await response.json();
+        // **تابع کمکی برای پردازش URLها از API**
+        const processUrl = (url) => {
+          if (!url) return null;
+          // اگر URL از قبل کامل است (شامل http/s)، همان را برگردان
+          if (url.startsWith('http://') || url.startsWith('https://')) {
+            return url;
+          }
+          // در غیر این صورت (اگر نسبی بود)، PRODUCTS_API_BASE_URL را اضافه کن
+          return `${PRODUCTS_API_BASE_URL}${url}`;
+        };
+        console.log("Raw downloadLinksJson from API:", data.downloadLinksJson); 
 
         if (data.videoUrl && !data.videoUrl.startsWith('http')) { data.videoUrl = `${PRODUCTS_API_BASE_URL}${data.videoUrl}`; }
         if (data.mainPageVideoUrl && !data.mainPageVideoUrl.startsWith('http')) { data.mainPageVideoUrl = `${PRODUCTS_API_BASE_URL}${data.mainPageVideoUrl}`; }
@@ -46,6 +60,15 @@ const GamePage = () => {
             img.startsWith('http') ? img : `${PRODUCTS_API_BASE_URL}${img}`
           )
           : [];
+        const processedDownloadLinks = data.downloadLinksJson
+          ? JSON.parse(data.downloadLinksJson).map(link => ({
+            ...link,
+            // Url باید خودش کامل باشد یا با تابع processUrl کامل شود
+            Url: processUrl(link.Url) // <--- **استفاده از تابع processUrl**
+          }))
+          : [];
+          console.log("Processed Download Links (Final to DownloadSection):", processedDownloadLinks);
+
         const processedGameData = {
           ...data, // کپی کردن تمام فیلدها
           fullDescription: data.fullDescription, // اگر از API به همین نام می آید
@@ -54,7 +77,7 @@ const GamePage = () => {
           releaseDate: data.releaseDate,
           genre: data.genre,
           rating: data.rating,
-          pegi : data.pegi
+          pegi: data.pegi
         };
         console.log("Game Data fetched from API:", data); // <--- **LOG جدید ۱**
 
@@ -71,7 +94,8 @@ const GamePage = () => {
           ...data,
           galleryImages: processedGalleryImages,
           middleImages: processedMiddleImages,
-          gameData : processedGalleryImages,
+          gameData: processedGalleryImages,
+          downloadLinks: processedDownloadLinks,
         });
 
       } catch (err) {
@@ -122,6 +146,8 @@ const GamePage = () => {
       <Header />
       <GameOverviewSection game={game} />
       <GameDetailsSection game={game} />
+      <GameSystemRequirementsSection game={game} />
+      <DownloadSection game={game} />
       <Footer />
     </div>
   );
