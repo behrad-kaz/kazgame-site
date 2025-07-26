@@ -47,7 +47,7 @@ const GameCard = ({ game }) => {
             {game.price && <p className={styles.gameCardPrice}>${game.price}</p>}
             {game.description && <p className={styles.gameCardDescription}>{game.description}</p>} {/* توضیحات (اختیاری) */}
 
-            <Link to={`/games/${game.id}`} className={styles.viewDetailsButton}>
+            <Link to={`/games/${game.slug}`} className={styles.viewDetailsButton}>
                 توضیحات بیشتر
             </Link>
         </div>

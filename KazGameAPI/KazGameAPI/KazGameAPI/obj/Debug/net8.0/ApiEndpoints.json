@@ -82,6 +82,32 @@
     ]
   },
   {
+    "ContainingType": "KazGameAPI.Controllers.ProductsController",
+    "Method": "GetProductBySlug",
+    "RelativePath": "api/Products/by-slug/{slug}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "slug",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "KazGameAPI.Models.Product",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "KazGameAPI.Controllers.UserController",
     "Method": "Login",
     "RelativePath": "api/User/login",

@@ -4,6 +4,7 @@
     {
         public int Id { get; set; }
         public string? Title { get; set; }
+        public string? Slug { get; set; } // آدرس URL-friendly برای بازی
         public string? Description { get; set; }
         public string? ImageUrl { get; set; } // تصویر اصلی کارت بازی
         public string? VideoUrl { get; set; } // ویدیوی اصلی بازی (تریلر)
@@ -39,6 +40,7 @@
         public string? RecStorage { get; set; }
         public string? RecDirectX { get; set; }
         public string? DownloadLinksJson { get; set; } // لینک‌های دانلود به صورت JSON string
+        public string? RelatedGameIdsJson { get; set; }
         // <--- **پایان فیلد جدید**
     }
 

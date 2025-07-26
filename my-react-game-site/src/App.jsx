@@ -15,7 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/signup" element={<AuthPage />} />
         {/* <--- مسیر جدید برای صفحات بازی (دینامیک) */}
-        <Route path="/games/:id" element={<GamePage />} /> 
+        <Route path="/games/:slug" element={<GamePage />} /> 
         {/* می‌توانید یک مسیر کلی /games هم برای لیست بازی‌ها اضافه کنید */}
         <Route path="/games" element={<GamesList />} />
       </Routes>

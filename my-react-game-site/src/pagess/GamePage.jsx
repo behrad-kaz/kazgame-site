@@ -6,7 +6,8 @@ import Footer from '../components/Footer';
 import GameOverviewSection from '../components/GameOverviewSection';
 import GameDetailsSection from '../components/GameDetailsSection';
 import GameSystemRequirementsSection from '../components/GameSystemRequirementsSection';
-import DownloadSection from '../components/DownloadSection'; // <--- **ایمپورت جدید**
+import DownloadSection from '../components/DownloadSection'; 
+import RelatedGamesSection from '../components/RelatedGamesSection';
 
 import styles from './GamePage.module.css';
 
@@ -15,7 +16,7 @@ const PRODUCTS_API_BASE_URL = 'https://localhost:7055';
 
 
 const GamePage = () => {
-  const { id } = useParams();
+  const { slug } = useParams();
   const [game, setGame] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -23,7 +24,7 @@ const GamePage = () => {
   useEffect(() => {
     const fetchGameDetails = async () => {
       try {
-        const response = await fetch(`${PRODUCTS_API_BASE_URL}/api/Products/${id}`);
+        const response = await fetch(`${PRODUCTS_API_BASE_URL}/api/Products/by-slug/${slug}`);
 
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
@@ -40,7 +41,7 @@ const GamePage = () => {
           // در غیر این صورت (اگر نسبی بود)، PRODUCTS_API_BASE_URL را اضافه کن
           return `${PRODUCTS_API_BASE_URL}${url}`;
         };
-        console.log("Raw downloadLinksJson from API:", data.downloadLinksJson); 
+        console.log("Raw downloadLinksJson from API:", data.downloadLinksJson);
 
         if (data.videoUrl && !data.videoUrl.startsWith('http')) { data.videoUrl = `${PRODUCTS_API_BASE_URL}${data.videoUrl}`; }
         if (data.mainPageVideoUrl && !data.mainPageVideoUrl.startsWith('http')) { data.mainPageVideoUrl = `${PRODUCTS_API_BASE_URL}${data.mainPageVideoUrl}`; }
@@ -67,7 +68,7 @@ const GamePage = () => {
             Url: processUrl(link.Url) // <--- **استفاده از تابع processUrl**
           }))
           : [];
-          console.log("Processed Download Links (Final to DownloadSection):", processedDownloadLinks);
+        console.log("Processed Download Links (Final to DownloadSection):", processedDownloadLinks);
 
         const processedGameData = {
           ...data, // کپی کردن تمام فیلدها
@@ -106,10 +107,10 @@ const GamePage = () => {
       }
     };
 
-    if (id) {
+    if (slug) {
       fetchGameDetails();
     }
-  }, [id]);
+  }, [slug]);
 
   if (loading) {
     return (
@@ -148,6 +149,7 @@ const GamePage = () => {
       <GameDetailsSection game={game} />
       <GameSystemRequirementsSection game={game} />
       <DownloadSection game={game} />
+      <RelatedGamesSection game={game} />
       <Footer />
     </div>
   );

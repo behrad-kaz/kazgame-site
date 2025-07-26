@@ -29,30 +29,26 @@ namespace KazGameAPI.Controllers
             return Ok(products);
         }
 
-        [HttpGet("{id}")] // Endpoint جدید برای دریافت یک محصول بر اساس ID
+
+        [HttpGet("{id}")] // این Endpoint برای فچ بر اساس ID باقی می‌ماند
         public async Task<ActionResult<Product>> GetProductById(int id)
         {
-            // این FindAsync باید تمام فیلدها را برگرداند.
             var product = await _context.Products.FindAsync(id);
-
-            // **LOG برای دیباگ در API**
-            Console.WriteLine($"API: GetProductById called for ID: {id}");
-            if (product != null)
-            {
-                Console.WriteLine($"API: Product found - Title: {product.Title}, Genre: {product.Genre ?? "null"}, Developer: {product.Developer ?? "null"}, FullDescription: {product.FullDescription ?? "null"}");
-                Console.WriteLine($"API: MainPageVideoUrl: {product.MainPageVideoUrl ?? "null"}");
-                Console.WriteLine($"API: GalleryImagesJson: {product.GalleryImagesJson ?? "null"}");
-            }
-            else
-            {
-                Console.WriteLine($"API: Product with ID {id} not found.");
-            }
-            // **پایان LOG برای دیباگ**
-
-
             if (product == null)
             {
                 return NotFound(new { message = "محصول یافت نشد." });
+            }
+            return Ok(product);
+        }
+
+        [HttpGet("by-slug/{slug}")] // <--- **Endpoint جدید برای فچ بر اساس Slug**
+        public async Task<ActionResult<Product>> GetProductBySlug(string slug)
+        {
+            var product = await _context.Products.FirstOrDefaultAsync(p => p.Slug == slug);
+
+            if (product == null)
+            {
+                return NotFound(new { message = "محصول با این Slug یافت نشد." });
             }
 
             return Ok(product);

@@ -1,0 +1,61 @@
+/* src/components/RelatedGamesSection.module.css */
+
+.relatedGamesSection {
+    width: 90%;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+    /* فاصله از بخش‌های بالا و پایین و مرکز */
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.sectionTitle {
+    font-size: 2.2rem;
+    color: gold;
+    margin-bottom: 30px;
+}
+
+.loading,
+.error,
+.noRelatedGames {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 20px;
+    color: #ccc;
+}
+
+.error {
+    color: #ff6347;
+}
+
+.relatedGamesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /* گرید ریسپانسیو */
+    gap: 20px;
+    justify-content: center;
+}
+
+/* کارت‌های بازی (که از GameCard.module.css می‌آیند) */
+/* نیازی به استایل دهی مجدد GameCard در اینجا نیست */
+
+/* Responsive */
+@media (max-width: 768px) {
+    .relatedGamesSection {
+        padding: 30px 15px;
+    }
+
+    .sectionTitle {
+        font-size: 1.8rem;
+    }
+
+    .relatedGamesGrid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 15px;
+    }
+}

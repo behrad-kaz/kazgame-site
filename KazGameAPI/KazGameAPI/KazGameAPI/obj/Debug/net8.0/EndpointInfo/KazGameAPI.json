@@ -150,6 +150,45 @@
         }
       }
     },
+    "/api/Products/by-slug/{slug}": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "parameters": [
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Product"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Product"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Product"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/User/register": {
       "post": {
         "tags": [
@@ -336,6 +375,10 @@
             "type": "string",
             "nullable": true
           },
+          "slug": {
+            "type": "string",
+            "nullable": true
+          },
           "description": {
             "type": "string",
             "nullable": true
@@ -446,6 +489,10 @@
             "nullable": true
           },
           "downloadLinksJson": {
+            "type": "string",
+            "nullable": true
+          },
+          "relatedGameIdsJson": {
             "type": "string",
             "nullable": true
           }
