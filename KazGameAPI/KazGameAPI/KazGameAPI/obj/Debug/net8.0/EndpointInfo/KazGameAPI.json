@@ -10,6 +10,16 @@
         "tags": [
           "Comments"
         ],
+        "parameters": [
+          {
+            "name": "gameId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK",
@@ -308,6 +318,10 @@
             "type": "string",
             "nullable": true
           },
+          "gameId": {
+            "type": "integer",
+            "format": "int32"
+          },
           "text": {
             "type": "string",
             "nullable": true
@@ -341,6 +355,10 @@
           "userAvatarUrl": {
             "type": "string",
             "nullable": true
+          },
+          "gameId": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

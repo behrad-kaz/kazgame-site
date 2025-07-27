@@ -1,4 +1,5 @@
-﻿using System;
+﻿// KazGameAPI.Models/Comment.cs
+using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace KazGameAPI.Models
@@ -8,6 +9,7 @@ namespace KazGameAPI.Models
         public int Id { get; set; }
         public int UserId { get; set; }
         public string FullName { get; set; } = string.Empty;
+        public int GameId { get; set; } // <--- **فیلد جدید: ID بازی مربوط به کامنت**
         [Required(ErrorMessage = "متن کامنت الزامی است.")]
         [MaxLength(500, ErrorMessage = "کامنت نمی‌تواند بیشتر از ۵۰۰ کاراکتر باشد.")]
         public string Text { get; set; } = string.Empty;
@@ -18,6 +20,7 @@ namespace KazGameAPI.Models
     {
         public int UserId { get; set; }
         public string FullName { get; set; } = string.Empty;
+        public int GameId { get; set; } // <--- **فیلد جدید در DTO**
         public string Text { get; set; } = string.Empty;
     }
 }

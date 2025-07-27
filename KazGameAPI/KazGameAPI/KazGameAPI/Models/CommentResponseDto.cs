@@ -10,5 +10,6 @@ namespace KazGameAPI.Models
         public string Text { get; set; } = string.Empty;
         public DateTime Timestamp { get; set; }
         public string? UserAvatarUrl { get; set; }
+        public int GameId { get; set; } 
     }
 }

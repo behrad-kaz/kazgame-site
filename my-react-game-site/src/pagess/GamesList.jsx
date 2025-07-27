@@ -71,7 +71,7 @@ const GamesList = () => {
           ))}
         </div>
       </main>
-      <CommentSection />
+      <CommentSection gameId={9999} />
       <Footer />
     </div>
   );

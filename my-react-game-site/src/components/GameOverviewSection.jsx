@@ -1,11 +1,11 @@
 // src/components/GameOverviewSection.jsx
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, forwardRef } from 'react'; 
 import { Link } from 'react-router-dom';
 import styles from './GameOverviewSection.module.css';
 
 const PRODUCTS_API_BASE_URL = 'https://localhost:7055'; // URL پایه API
 
-const GameOverviewSection = ({ game }) => {
+const GameOverviewSection = ({ game, scrollToDownload, scrollToComments }) => {
   const [currentMainMediaUrl, setCurrentMainMediaUrl] = useState('');
   const [isMainMediaVideo, setIsMainMediaVideo] = useState(false);
 
@@ -23,8 +23,8 @@ const GameOverviewSection = ({ game }) => {
       }
       // اگر گالری تصاویر دارد و هیچ ویدیوی اصلی/تریلری وجود ندارد، از اولین تصویر گالری به عنوان رسانه اصلی استفاده کن
       if (game.galleryImages && game.galleryImages.length > 0 && !game.mainPageVideoUrl && !game.videoUrl) {
-          setCurrentMainMediaUrl(game.galleryImages[0]);
-          setIsMainMediaVideo(false);
+        setCurrentMainMediaUrl(game.galleryImages[0]);
+        setIsMainMediaVideo(false);
       }
 
       // **LOG برای دیباگ: بررسی داده‌های Genre**
@@ -119,12 +119,12 @@ const GameOverviewSection = ({ game }) => {
           <p className={styles.gamePanelDescription}>{game.description}</p>
 
           <div className={styles.actionButtons}>
-            <Link to={game.moreInfoLink || `/games/${game.id}`} className={styles.downloadLinkButton}>
+            <button type="button" className={styles.downloadLinkButton} onClick={scrollToDownload}>
               لینک‌های دانلود <i className="fas fa-download"></i>
-            </Link>
-            <Link to={`/comments/${game.id || ''}`} className={styles.commentsLinkButton}>
+            </button>
+            <button type="button" className={styles.commentsLinkButton} onClick={scrollToComments}>
               نظرات <i className="fas fa-comments"></i>
-            </Link>
+            </button>
           </div>
 
           <div className={styles.ratingInfo}>

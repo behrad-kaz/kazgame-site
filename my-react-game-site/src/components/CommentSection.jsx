@@ -1,12 +1,12 @@
 // src/components/CommentSection.jsx
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, forwardRef } from 'react'; 
 import styles from './CommentSection.module.css';
 import { Link } from 'react-router-dom';
 
 const API_BASE_URL = 'https://localhost:7055';
 
 
-const CommentSection = () => {
+const CommentSection = forwardRef(({ gameId }, ref) => {
     const [comments, setComments] = useState([]);
     const [newCommentText, setNewCommentText] = useState('');
     const [loading, setLoading] = useState(true);
@@ -26,7 +26,8 @@ const CommentSection = () => {
     const fetchComments = async () => {
         setLoading(true);
         try {
-            const response = await fetch(`${API_BASE_URL}/api/Comments`);
+            const url = `${API_BASE_URL}/api/Comments?gameId=${gameId || 0}`;
+            const response = await fetch(`${API_BASE_URL}/api/Comments?gameId=${gameId}`);
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
@@ -38,7 +39,7 @@ const CommentSection = () => {
                     ? `${API_BASE_URL}${comment.UserAvatarUrl}?t=${new Date().getTime()}` // <--- استفاده از API_BASE_URL
                     : '/images/user.png'; // آواتار پیش‌فرض
                 console.log(`Comment ID: ${comment.id}, Raw Avatar URL from API: ${comment.UserAvatarUrl}, Final Display URL: ${fullCommentAvatarUrl}`); // <--- **LOG جدید برای دیباگ**
-                    return {
+                return {
                     ...comment,
                     fullCommentAvatarUrl: fullCommentAvatarUrl // یک فیلد جدید برای آدرس کامل آواتار هر کامنت
                 };
@@ -53,8 +54,13 @@ const CommentSection = () => {
     };
 
     useEffect(() => {
-        fetchComments();
-    }, []); // بارگذاری کامنت‌ها هنگام Mount شدن کامپوننت
+        if (gameId) {
+            console.log("CommentSection received gameId:", gameId); // <--- **LOG ۲**
+            fetchComments();
+        } else {
+            console.log("CommentSection did NOT receive gameId."); // <--- **LOG ۳**
+        }
+    }, [gameId]);
 
     // تابع برای ارسال کامنت جدید
     const handleSubmitComment = async (e) => {
@@ -83,6 +89,7 @@ const CommentSection = () => {
                 body: JSON.stringify({
                     userId: parseInt(loggedInUserId), // به عدد تبدیل شود
                     fullName: loggedInFullName,
+                    gameId: gameId || 0,
                     text: newCommentText
                     // GameId: gameId // اگر کامنت برای بازی خاصی است
                 })
@@ -94,12 +101,12 @@ const CommentSection = () => {
                 alert(responseData.message || "خطا در ارسال کامنت.");
             } else {
                 alert("کامنت با موفقیت ارسال شد.");
-                setNewCommentText(""); // پاک کردن فیلد متن
+                setNewCommentText("");
                 const newComment = {
                     ...responseData.comment, // CommentResponseDto از API
                     fullCommentAvatarUrl: responseData.comment.UserAvatarUrl // اگر از API می‌آید
                         ? `${API_BASE_URL}${responseData.comment.UserAvatarUrl}?t=${new Date().getTime()}`
-                        : '/images/default-user.png'
+                        : '/images/user.png'
                 };
                 setComments(prevComments => [newComment, ...prevComments]); // اضافه کردن به ابتدای لیست
             }
@@ -117,7 +124,7 @@ const CommentSection = () => {
     };
 
     return (
-        <section className={styles.commentSection}>
+        <section className={styles.commentSection} ref={ref}>
             <h2 className={styles.sectionTitle}>نظرات کاربران</h2>
 
             {/* فرم ارسال کامنت */}
@@ -157,7 +164,7 @@ const CommentSection = () => {
                 {!loading && !error && comments.map((comment) => (
                     <div key={comment.id} className={styles.commentItem}>
                         <div className={styles.commentHeader}>
-                             <img src={comment.fullCommentAvatarUrl} alt="User Avatar" className={styles.commentAvatar} />
+                            <img src={comment.fullCommentAvatarUrl} alt="User Avatar" className={styles.commentAvatar} />
                             <span className={styles.commentAuthor}>{comment.fullName}</span>
                             <span className={styles.commentTimestamp}>در {formatCommentTimestamp(comment.timestamp)}</span>
                         </div>
@@ -167,6 +174,5 @@ const CommentSection = () => {
             </div>
         </section>
     );
-};
-
+});
 export default CommentSection;

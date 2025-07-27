@@ -85,7 +85,7 @@ const Home = () => {
         <FeaturedGameHighlight key={game.id} game={game} />
       ))}
       <GameSlider />
-      <CommentSection />
+       <CommentSection gameId={9999} />
       <Footer />
 
     </div>

@@ -1,11 +1,11 @@
 // src/components/DownloadSection.jsx
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, forwardRef } from 'react';
 import styles from './DownloadSection.module.css';
 
 // PRODUCTS_API_BASE_URL در اینجا لازم نیست اگر همه URLها از GamePage پردازش شده‌اند
 
 
-const DownloadSection = ({ game }) => {
+const DownloadSection = forwardRef(({ game }, ref) => {
   const [downloadLinks, setDownloadLinks] = useState([]);
   const [showPassword, setShowPassword] = useState({});
   const [activeAccordion, setActiveAccordion] = useState(null);
@@ -34,7 +34,7 @@ const DownloadSection = ({ game }) => {
   }
 
   return (
-    <section className={styles.downloadSection}>
+    <section className={styles.downloadSection} ref={ref}>
       <h2 className={styles.sectionTitle}>باکس دانلود <i className="fas fa-download"></i></h2>
 
       <div className={styles.accordionContainer}>
@@ -86,6 +86,6 @@ const DownloadSection = ({ game }) => {
       </div>
     </section>
   );
-};
+});
 
 export default DownloadSection;

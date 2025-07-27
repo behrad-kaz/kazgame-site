@@ -1,5 +1,5 @@
 // src/pages/GamePage.jsx
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useParams } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -8,6 +8,7 @@ import GameDetailsSection from '../components/GameDetailsSection';
 import GameSystemRequirementsSection from '../components/GameSystemRequirementsSection';
 import DownloadSection from '../components/DownloadSection'; 
 import RelatedGamesSection from '../components/RelatedGamesSection';
+import CommentSection from '../components/CommentSection'; 
 
 import styles from './GamePage.module.css';
 
@@ -20,6 +21,19 @@ const GamePage = () => {
   const [game, setGame] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+
+
+   // **تعریف Refs برای بخش‌های هدف**
+  const downloadSectionRef = useRef(null); // <--- **جدید**
+  const commentSectionRef = useRef(null); // <--- **جدید**
+
+  // **تابع اسکرول به یک عنصر**
+  const scrollToSection = (ref) => {
+    if (ref.current) {
+      ref.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
 
   useEffect(() => {
     const fetchGameDetails = async () => {
@@ -98,6 +112,7 @@ const GamePage = () => {
           gameData: processedGalleryImages,
           downloadLinks: processedDownloadLinks,
         });
+        console.log("Game ID after fetching and setting state:", data.id);
 
       } catch (err) {
         console.error("خطا در دریافت جزئیات بازی:", err);
@@ -145,11 +160,16 @@ const GamePage = () => {
   return (
     <div className={styles.gamePageWrapper}>
       <Header />
-      <GameOverviewSection game={game} />
+     <GameOverviewSection
+        game={game}
+        scrollToDownload={() => scrollToSection(downloadSectionRef)} // <--- **جدید**
+        scrollToComments={() => scrollToSection(commentSectionRef)} // <--- **جدید**
+      />
       <GameDetailsSection game={game} />
       <GameSystemRequirementsSection game={game} />
-      <DownloadSection game={game} />
+      <DownloadSection game={game} ref={downloadSectionRef} />
       <RelatedGamesSection game={game} />
+      <CommentSection gameId={game.id} ref={commentSectionRef} />
       <Footer />
     </div>
   );

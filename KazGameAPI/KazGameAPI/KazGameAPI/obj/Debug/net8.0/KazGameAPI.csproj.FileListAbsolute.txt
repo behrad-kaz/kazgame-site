@@ -1,3 +1,11 @@
+E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\obj\Debug\net8.0\KazGameAPI.csproj.AssemblyReference.cache
+E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\obj\Debug\net8.0\KazGameAPI.GeneratedMSBuildEditorConfig.editorconfig
+E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\obj\Debug\net8.0\KazGameAPI.AssemblyInfoInputs.cache
+E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\obj\Debug\net8.0\KazGameAPI.AssemblyInfo.cs
+E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\obj\Debug\net8.0\KazGameAPI.csproj.CoreCompileInputs.cache
+E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\obj\Debug\net8.0\KazGameAPI.MvcApplicationPartsAssemblyInfo.cs
+E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\obj\Debug\net8.0\KazGameAPI.MvcApplicationPartsAssemblyInfo.cache
+E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\obj\Debug\net8.0\KazGameAPI.sourcelink.json
 E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\bin\Debug\net8.0\appsettings.Development.json
 E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\bin\Debug\net8.0\appsettings.json
 E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\bin\Debug\net8.0\KazGameAPI.staticwebassets.runtime.json
@@ -148,14 +156,6 @@ E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\bin\Debug\net8.0\runtimes\win\li
 E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\obj\Debug\net8.0\KazGameAPI.csproj.AssemblyReference.cache
-E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\obj\Debug\net8.0\KazGameAPI.GeneratedMSBuildEditorConfig.editorconfig
-E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\obj\Debug\net8.0\KazGameAPI.AssemblyInfoInputs.cache
-E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\obj\Debug\net8.0\KazGameAPI.AssemblyInfo.cs
-E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\obj\Debug\net8.0\KazGameAPI.csproj.CoreCompileInputs.cache
-E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\obj\Debug\net8.0\KazGameAPI.MvcApplicationPartsAssemblyInfo.cs
-E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\obj\Debug\net8.0\KazGameAPI.MvcApplicationPartsAssemblyInfo.cache
-E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\obj\Debug\net8.0\KazGameAPI.sourcelink.json
 E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\obj\Debug\net8.0\scopedcss\bundle\KazGameAPI.styles.css
 E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\obj\Debug\net8.0\staticwebassets.build.json
 E:\web\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\obj\Debug\net8.0\staticwebassets.development.json

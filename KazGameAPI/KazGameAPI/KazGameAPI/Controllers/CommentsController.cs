@@ -1,12 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿// KazGameAPI.Controllers/CommentsController.cs
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using System; // برای DateTime
+using System;
 
-using KazGameAPI.Data;   // برای AppDbContext
-using KazGameAPI.Models; // برای Comment, User, CommentDto, CommentResponseDto
+using KazGameAPI.Data;
+using KazGameAPI.Models;
 
 namespace KazGameAPI.Controllers
 {
@@ -21,10 +22,18 @@ namespace KazGameAPI.Controllers
             _context = context;
         }
 
+        // **اصلاح: GetComments حالا می‌تواند GameId را به عنوان پارامتر دریافت کند**
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<CommentResponseDto>>> GetComments()
+        public async Task<ActionResult<IEnumerable<CommentResponseDto>>> GetComments([FromQuery] int? gameId)
         {
-            var comments = await _context.Comments
+            IQueryable<Comment> query = _context.Comments;
+
+            if (gameId.HasValue)
+            {
+                query = query.Where(c => c.GameId == gameId.Value); // <--- فیلتر کردن بر اساس GameId
+            }
+
+            var comments = await query
                 .OrderByDescending(c => c.Timestamp)
                 .Join(
                     _context.Users,
@@ -34,7 +43,7 @@ namespace KazGameAPI.Controllers
                     {
                         Id = comment.Id,
                         UserId = comment.UserId,
-                        FullName = comment.FullName, // از مدل Comment (که از دیتابیس می آید)
+                        FullName = comment.FullName,
                         Text = comment.Text,
                         Timestamp = comment.Timestamp,
                         UserAvatarUrl = user.AvatarUrl // از مدل User
@@ -45,7 +54,7 @@ namespace KazGameAPI.Controllers
             return Ok(comments);
         }
 
-        [HttpPost]
+        [HttpPost] // ارسال کامنت جدید
         public async Task<IActionResult> PostComment([FromBody] CommentDto commentDto)
         {
             if (!ModelState.IsValid)
@@ -66,7 +75,8 @@ namespace KazGameAPI.Controllers
             var comment = new Comment
             {
                 UserId = commentDto.UserId,
-                FullName = user.FullName, // از FullName کاربر دیتابیس استفاده کن
+                FullName = user.FullName,
+                GameId = commentDto.GameId, // <--- **اضافه شد: دریافت GameId از DTO**
                 Text = commentDto.Text,
                 Timestamp = DateTime.UtcNow
             };
@@ -82,6 +92,7 @@ namespace KazGameAPI.Controllers
                     Id = comment.Id,
                     UserId = comment.UserId,
                     FullName = comment.FullName,
+                    GameId = comment.GameId, // <--- **اضافه شد: GameId در پاسخ**
                     Text = comment.Text,
                     Timestamp = comment.Timestamp,
                     UserAvatarUrl = user.AvatarUrl
