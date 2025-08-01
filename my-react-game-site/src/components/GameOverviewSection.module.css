@@ -19,7 +19,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.401);
   backdrop-filter: blur(8px);
   z-index: 1;
   background-size: cover;
@@ -141,11 +141,7 @@
   line-height: 1.2;
 }
 
-.gamePanelSubtitle {
-  font-size: 1.1rem;
-  color: #ccc;
-  margin-bottom: 20px;
-}
+
 
 .gameTags {
   display: flex;

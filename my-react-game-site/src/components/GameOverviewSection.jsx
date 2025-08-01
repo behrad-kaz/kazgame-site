@@ -104,7 +104,6 @@ const GameOverviewSection = ({ game, scrollToDownload, scrollToComments }) => {
 
         <div className={styles.gameInfoPanel}>
           <h2 className={styles.gamePanelTitle}>{game.title}</h2>
-          <p className={styles.gamePanelSubtitle}>دانلود بازی - P2P - UPDATE v23939 برای کامپیوتر</p>
 
           <div className={styles.gameTags}>
             {/* **استفاده از آرایه genres پردازش شده** */}

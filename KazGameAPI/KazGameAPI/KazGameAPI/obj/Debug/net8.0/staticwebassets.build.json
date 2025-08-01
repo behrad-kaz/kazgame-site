@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RK0FmekoWenyPn2w38bxmtVm2WbM+0CZlugkzpyyvN8=",
+  "Hash": "oqSzN9ATeWGQHr+nkhebOvSoOEwwQKV8WOyEjPmsaOY=",
   "Source": "KazGameAPI",
   "BasePath": "_content/KazGameAPI",
   "Mode": "Default",
@@ -185,6 +185,111 @@
       "OriginalItemSpec": "wwwroot\\images\\army.png"
     },
     {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\batman-arkham-knight\\b.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/batman-arkham-knight/b#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "htxq2b1noo",
+      "Integrity": "S7RVCW1FmqCFmvNnFGk6S5eqiqB8LFcG0AjE0MhLQxY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\batman-arkham-knight\\b.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\batman-arkham-knight\\ba.webp",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/batman-arkham-knight/ba#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fe6r6dfdmb",
+      "Integrity": "2Vx7KhNlhp+/NuK5ZEUKHwfV03OWih+EXQVPeZbm01I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\batman-arkham-knight\\ba.webp"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\batman-arkham-knight\\bat.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/batman-arkham-knight/bat#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bjpkq5xgda",
+      "Integrity": "R1z49y3Uekse9YAjTG82BOTDktXU1N56Sr4BDhcv+Ow=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\batman-arkham-knight\\bat.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\batman-arkham-knight\\batm.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/batman-arkham-knight/batm#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z0nymas686",
+      "Integrity": "EyfyMxS9xrUR964JvNv3j1NZjGL+gr9C4Pm4g3H9GU0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\batman-arkham-knight\\batm.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\eeel.png",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/eeel#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8jhf9afgxh",
+      "Integrity": "hAfXae3WhVc/1p9Tw/h/2eIdTDbTdqHj5GmB4Q99vjw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\eeel.png"
+    },
+    {
       "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden ring.jpg",
       "SourceId": "KazGameAPI",
       "SourceType": "Discovered",
@@ -204,6 +309,216 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\elden ring.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\eldenr.png",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/eldenr#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rmq943p07b",
+      "Integrity": "E+/onp1sn3QP3+q2fE3xw1jzV5L7wNz9S8MpWc0FYOM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\eldenr.png"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\eldenring.png",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/eldenring#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h247t0umnh",
+      "Integrity": "Wa0UIc2NHhY/VsYtICqmcRoNh+0PJcWZxQFcrqW632o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\eldenring.png"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\e.webp",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/elden-ring/e#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xjs8e9uc5x",
+      "Integrity": "c0uLHGCvH8n+x3eo4NkALlNPOF6sw3VjFnuEGAsjG/c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\elden-ring\\e.webp"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\eeel.png",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/elden-ring/eeel#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8jhf9afgxh",
+      "Integrity": "hAfXae3WhVc/1p9Tw/h/2eIdTDbTdqHj5GmB4Q99vjw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\elden-ring\\eeel.png"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\el.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/elden-ring/el#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aeovu1gnrw",
+      "Integrity": "Qs8F0XpZF4NYWw3woK/xyskZ8jJP9PD7/QtDiLQnkbE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\elden-ring\\el.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\eld.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/elden-ring/eld#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gqcbaeb8n6",
+      "Integrity": "yPjrVLKTaP+Xg606BRD1Pf+wxHVBF5V/nTjAOup0ajw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\elden-ring\\eld.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\elde.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/elden-ring/elde#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "im4z6nuv1c",
+      "Integrity": "1tsZEQI+T8jUZg7mUC4RxnfyalL55ncXf6hcsB5EOEM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\elden-ring\\elde.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\elden.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/elden-ring/elden#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q9qimu19oa",
+      "Integrity": "gkwwkHDAGuPZoWETGUUgmC04jkHXHVxTebbpD/7rznE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\elden-ring\\elden.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\eldenr.png",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/elden-ring/eldenr#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rmq943p07b",
+      "Integrity": "E+/onp1sn3QP3+q2fE3xw1jzV5L7wNz9S8MpWc0FYOM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\elden-ring\\eldenr.png"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\eldenring.png",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/elden-ring/eldenring#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h247t0umnh",
+      "Integrity": "Wa0UIc2NHhY/VsYtICqmcRoNh+0PJcWZxQFcrqW632o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\elden-ring\\eldenring.png"
     },
     {
       "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\Gran.jpg",
@@ -479,6 +794,27 @@
       "OriginalItemSpec": "wwwroot\\images\\rate-3.png"
     },
     {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\Read-Dead-Redemption-2-Review_bzzt.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/Read-Dead-Redemption-2-Review_bzzt#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r4pld3tl9j",
+      "Integrity": "hWROGHAqiK6WlqwwdACuxON4sw2s9Ikpu3O2vu0zYBM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Read-Dead-Redemption-2-Review_bzzt.jpg"
+    },
+    {
       "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red.jpg",
       "SourceId": "KazGameAPI",
       "SourceType": "Discovered",
@@ -493,11 +829,263 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "yjxupth1lg",
-      "Integrity": "ol2BdRBP+jvT6jaX0vqEhc4H5T48UjVKOyNeFAhn5KQ=",
+      "Fingerprint": "1qrnxy8n9q",
+      "Integrity": "50qWe15tASPdVMwQJXRDCYVwT9Ixsfv3oQABGJc8lV8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\red.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\Red.webp",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/Red#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rthh0nnta8",
+      "Integrity": "f+Aylxm7/9RBJxpwU6Aj9AMflIpqHy52mu5hEpwbSP0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Red.webp"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\Red_Dead_Redemption_2-1.webp",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/Red_Dead_Redemption_2-1#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fli2hyo42l",
+      "Integrity": "o8MnundYP3hZMgHd7TsKE6c7MB/Is53Q5X0oN1H2vTY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Red_Dead_Redemption_2-1.webp"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\eee.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/red-dead-redemption-2/eee#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "89kw27nztc",
+      "Integrity": "dONg3lqWQ7Xa8d+MoNMPd63goWpohL87d25hNNUElDI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\red-dead-redemption-2\\eee.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\red.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/red-dead-redemption-2/red#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1qrnxy8n9q",
+      "Integrity": "50qWe15tASPdVMwQJXRDCYVwT9Ixsfv3oQABGJc8lV8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\red-dead-redemption-2\\red.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-1.webp",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/red-dead-redemption-2/Red_Dead_Redemption_2-1#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fli2hyo42l",
+      "Integrity": "o8MnundYP3hZMgHd7TsKE6c7MB/Is53Q5X0oN1H2vTY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-1.webp"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-2.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/red-dead-redemption-2/Red_Dead_Redemption_2-2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "92b8fbfxh6",
+      "Integrity": "AZXMLzni7Yc5vSeQ2eJ0z6oSDG69x6ZGeYKdj+xyw7Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-2.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-3.webp",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/red-dead-redemption-2/Red_Dead_Redemption_2-3#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rthh0nnta8",
+      "Integrity": "f+Aylxm7/9RBJxpwU6Aj9AMflIpqHy52mu5hEpwbSP0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-3.webp"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-4.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/red-dead-redemption-2/Red_Dead_Redemption_2-4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6mw0tq4x6p",
+      "Integrity": "4vW2lLjvpwmz6wi51ky6YDYv4Z9zYlJYeRk+NxSdeOA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-4.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-5.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/red-dead-redemption-2/Red_Dead_Redemption_2-5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0izkycl85c",
+      "Integrity": "SK0mwu37PULNxaBsKqBQ2SgUCCiuc2C8Vgyc2CNNuc0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-5.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\redd.webp",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/red-dead-redemption-2/redd#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iilm65lbv3",
+      "Integrity": "aiDTpP/18+MylQOYZ+pbyv6AnQ1X/sAcQ+ZReio11Zs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\red-dead-redemption-2\\redd.webp"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\rrr.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/red-dead-redemption-2/rrr#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1cfecydd8q",
+      "Integrity": "Ian0LdRa0rg+vOmPx5U8Hk/J5r3slO75c+ITgNNRps8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\red-dead-redemption-2\\rrr.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2_41_bzzt.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/red-dead-redemption-2_41_bzzt#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vlwmvgoknb",
+      "Integrity": "k42e/V90lPorDrrSmV+9x3fkEdlc7DPUgz+UAuUczeY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\red-dead-redemption-2_41_bzzt.jpg"
     },
     {
       "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\telegram-logo-thin-svgrepo-com.svg",
@@ -540,6 +1128,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\user.png"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\Batman.Arkham.Knight.Trailer.mp4",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "videos/Batman.Arkham.Knight.Trailer#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g5kee1krfd",
+      "Integrity": "hM+cBTAVtqwy9Au1U8TUMplrpllZl3JMBEimSQJRWAE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\Batman.Arkham.Knight.Trailer.mp4"
     },
     {
       "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\Batman-Arkham-Knight-480p-trailer_1.mp4",
@@ -661,8 +1270,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "fk8beyudmk",
-      "Integrity": "H7arc5CtnyJiisrVAwB6AZtrhqZNB+q+0sgePT6rS1Y=",
+      "Fingerprint": "ru86prf5u5",
+      "Integrity": "U6fvR19JYT4Z5b5zmuK/mRlSXuGKBq6ubomWbV2BA9c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\videos\\r.mp4"
@@ -1347,6 +1956,416 @@
       ]
     },
     {
+      "Route": "images/batman-arkham-knight/b.htxq2b1noo.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\batman-arkham-knight\\b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "391888"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S7RVCW1FmqCFmvNnFGk6S5eqiqB8LFcG0AjE0MhLQxY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 16:56:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "htxq2b1noo"
+        },
+        {
+          "Name": "label",
+          "Value": "images/batman-arkham-knight/b.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S7RVCW1FmqCFmvNnFGk6S5eqiqB8LFcG0AjE0MhLQxY="
+        }
+      ]
+    },
+    {
+      "Route": "images/batman-arkham-knight/b.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\batman-arkham-knight\\b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "391888"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S7RVCW1FmqCFmvNnFGk6S5eqiqB8LFcG0AjE0MhLQxY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 16:56:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S7RVCW1FmqCFmvNnFGk6S5eqiqB8LFcG0AjE0MhLQxY="
+        }
+      ]
+    },
+    {
+      "Route": "images/batman-arkham-knight/ba.fe6r6dfdmb.webp",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\batman-arkham-knight\\ba.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "777538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2Vx7KhNlhp+/NuK5ZEUKHwfV03OWih+EXQVPeZbm01I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 16:56:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fe6r6dfdmb"
+        },
+        {
+          "Name": "label",
+          "Value": "images/batman-arkham-knight/ba.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2Vx7KhNlhp+/NuK5ZEUKHwfV03OWih+EXQVPeZbm01I="
+        }
+      ]
+    },
+    {
+      "Route": "images/batman-arkham-knight/ba.webp",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\batman-arkham-knight\\ba.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "777538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2Vx7KhNlhp+/NuK5ZEUKHwfV03OWih+EXQVPeZbm01I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 16:56:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2Vx7KhNlhp+/NuK5ZEUKHwfV03OWih+EXQVPeZbm01I="
+        }
+      ]
+    },
+    {
+      "Route": "images/batman-arkham-knight/bat.bjpkq5xgda.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\batman-arkham-knight\\bat.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "832820"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R1z49y3Uekse9YAjTG82BOTDktXU1N56Sr4BDhcv+Ow=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 16:57:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bjpkq5xgda"
+        },
+        {
+          "Name": "label",
+          "Value": "images/batman-arkham-knight/bat.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R1z49y3Uekse9YAjTG82BOTDktXU1N56Sr4BDhcv+Ow="
+        }
+      ]
+    },
+    {
+      "Route": "images/batman-arkham-knight/bat.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\batman-arkham-knight\\bat.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "832820"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R1z49y3Uekse9YAjTG82BOTDktXU1N56Sr4BDhcv+Ow=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 16:57:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R1z49y3Uekse9YAjTG82BOTDktXU1N56Sr4BDhcv+Ow="
+        }
+      ]
+    },
+    {
+      "Route": "images/batman-arkham-knight/batm.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\batman-arkham-knight\\batm.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "774226"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EyfyMxS9xrUR964JvNv3j1NZjGL+gr9C4Pm4g3H9GU0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 16:57:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EyfyMxS9xrUR964JvNv3j1NZjGL+gr9C4Pm4g3H9GU0="
+        }
+      ]
+    },
+    {
+      "Route": "images/batman-arkham-knight/batm.z0nymas686.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\batman-arkham-knight\\batm.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "774226"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EyfyMxS9xrUR964JvNv3j1NZjGL+gr9C4Pm4g3H9GU0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 16:57:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z0nymas686"
+        },
+        {
+          "Name": "label",
+          "Value": "images/batman-arkham-knight/batm.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EyfyMxS9xrUR964JvNv3j1NZjGL+gr9C4Pm4g3H9GU0="
+        }
+      ]
+    },
+    {
+      "Route": "images/eeel.8jhf9afgxh.png",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\eeel.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "439553"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hAfXae3WhVc/1p9Tw/h/2eIdTDbTdqHj5GmB4Q99vjw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 19:11:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8jhf9afgxh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/eeel.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hAfXae3WhVc/1p9Tw/h/2eIdTDbTdqHj5GmB4Q99vjw="
+        }
+      ]
+    },
+    {
+      "Route": "images/eeel.png",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\eeel.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "439553"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hAfXae3WhVc/1p9Tw/h/2eIdTDbTdqHj5GmB4Q99vjw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 19:11:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hAfXae3WhVc/1p9Tw/h/2eIdTDbTdqHj5GmB4Q99vjw="
+        }
+      ]
+    },
+    {
       "Route": "images/elden ring.hh3uxpeskd.jpg",
       "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden ring.jpg",
       "Selectors": [],
@@ -1425,6 +2444,826 @@
         {
           "Name": "integrity",
           "Value": "sha256-JRInF8J6wqZPOC7TJpbxjpNU7CIztoD+ibuI3ttDHEI="
+        }
+      ]
+    },
+    {
+      "Route": "images/eldenr.png",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\eldenr.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "386410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E+/onp1sn3QP3+q2fE3xw1jzV5L7wNz9S8MpWc0FYOM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 19:10:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E+/onp1sn3QP3+q2fE3xw1jzV5L7wNz9S8MpWc0FYOM="
+        }
+      ]
+    },
+    {
+      "Route": "images/eldenr.rmq943p07b.png",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\eldenr.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "386410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E+/onp1sn3QP3+q2fE3xw1jzV5L7wNz9S8MpWc0FYOM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 19:10:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rmq943p07b"
+        },
+        {
+          "Name": "label",
+          "Value": "images/eldenr.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E+/onp1sn3QP3+q2fE3xw1jzV5L7wNz9S8MpWc0FYOM="
+        }
+      ]
+    },
+    {
+      "Route": "images/eldenring.h247t0umnh.png",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\eldenring.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "424843"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wa0UIc2NHhY/VsYtICqmcRoNh+0PJcWZxQFcrqW632o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 19:10:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h247t0umnh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/eldenring.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wa0UIc2NHhY/VsYtICqmcRoNh+0PJcWZxQFcrqW632o="
+        }
+      ]
+    },
+    {
+      "Route": "images/eldenring.png",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\eldenring.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "424843"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wa0UIc2NHhY/VsYtICqmcRoNh+0PJcWZxQFcrqW632o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 19:10:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wa0UIc2NHhY/VsYtICqmcRoNh+0PJcWZxQFcrqW632o="
+        }
+      ]
+    },
+    {
+      "Route": "images/elden-ring/e.webp",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\e.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "363816"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c0uLHGCvH8n+x3eo4NkALlNPOF6sw3VjFnuEGAsjG/c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 19:00:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c0uLHGCvH8n+x3eo4NkALlNPOF6sw3VjFnuEGAsjG/c="
+        }
+      ]
+    },
+    {
+      "Route": "images/elden-ring/e.xjs8e9uc5x.webp",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\e.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "363816"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c0uLHGCvH8n+x3eo4NkALlNPOF6sw3VjFnuEGAsjG/c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 19:00:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xjs8e9uc5x"
+        },
+        {
+          "Name": "label",
+          "Value": "images/elden-ring/e.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c0uLHGCvH8n+x3eo4NkALlNPOF6sw3VjFnuEGAsjG/c="
+        }
+      ]
+    },
+    {
+      "Route": "images/elden-ring/eeel.8jhf9afgxh.png",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\eeel.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "439553"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hAfXae3WhVc/1p9Tw/h/2eIdTDbTdqHj5GmB4Q99vjw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 19:11:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8jhf9afgxh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/elden-ring/eeel.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hAfXae3WhVc/1p9Tw/h/2eIdTDbTdqHj5GmB4Q99vjw="
+        }
+      ]
+    },
+    {
+      "Route": "images/elden-ring/eeel.png",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\eeel.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "439553"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hAfXae3WhVc/1p9Tw/h/2eIdTDbTdqHj5GmB4Q99vjw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 19:11:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hAfXae3WhVc/1p9Tw/h/2eIdTDbTdqHj5GmB4Q99vjw="
+        }
+      ]
+    },
+    {
+      "Route": "images/elden-ring/el.aeovu1gnrw.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\el.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2286149"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Qs8F0XpZF4NYWw3woK/xyskZ8jJP9PD7/QtDiLQnkbE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 19:00:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aeovu1gnrw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/elden-ring/el.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qs8F0XpZF4NYWw3woK/xyskZ8jJP9PD7/QtDiLQnkbE="
+        }
+      ]
+    },
+    {
+      "Route": "images/elden-ring/el.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\el.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2286149"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Qs8F0XpZF4NYWw3woK/xyskZ8jJP9PD7/QtDiLQnkbE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 19:00:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qs8F0XpZF4NYWw3woK/xyskZ8jJP9PD7/QtDiLQnkbE="
+        }
+      ]
+    },
+    {
+      "Route": "images/elden-ring/eld.gqcbaeb8n6.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\eld.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "663612"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yPjrVLKTaP+Xg606BRD1Pf+wxHVBF5V/nTjAOup0ajw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 19:01:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gqcbaeb8n6"
+        },
+        {
+          "Name": "label",
+          "Value": "images/elden-ring/eld.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yPjrVLKTaP+Xg606BRD1Pf+wxHVBF5V/nTjAOup0ajw="
+        }
+      ]
+    },
+    {
+      "Route": "images/elden-ring/eld.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\eld.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "663612"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yPjrVLKTaP+Xg606BRD1Pf+wxHVBF5V/nTjAOup0ajw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 19:01:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yPjrVLKTaP+Xg606BRD1Pf+wxHVBF5V/nTjAOup0ajw="
+        }
+      ]
+    },
+    {
+      "Route": "images/elden-ring/elde.im4z6nuv1c.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\elde.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "643305"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1tsZEQI+T8jUZg7mUC4RxnfyalL55ncXf6hcsB5EOEM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 19:01:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "im4z6nuv1c"
+        },
+        {
+          "Name": "label",
+          "Value": "images/elden-ring/elde.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1tsZEQI+T8jUZg7mUC4RxnfyalL55ncXf6hcsB5EOEM="
+        }
+      ]
+    },
+    {
+      "Route": "images/elden-ring/elde.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\elde.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "643305"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1tsZEQI+T8jUZg7mUC4RxnfyalL55ncXf6hcsB5EOEM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 19:01:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1tsZEQI+T8jUZg7mUC4RxnfyalL55ncXf6hcsB5EOEM="
+        }
+      ]
+    },
+    {
+      "Route": "images/elden-ring/elden.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\elden.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "295680"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gkwwkHDAGuPZoWETGUUgmC04jkHXHVxTebbpD/7rznE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 19:01:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gkwwkHDAGuPZoWETGUUgmC04jkHXHVxTebbpD/7rznE="
+        }
+      ]
+    },
+    {
+      "Route": "images/elden-ring/elden.q9qimu19oa.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\elden.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "295680"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gkwwkHDAGuPZoWETGUUgmC04jkHXHVxTebbpD/7rznE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 19:01:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q9qimu19oa"
+        },
+        {
+          "Name": "label",
+          "Value": "images/elden-ring/elden.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gkwwkHDAGuPZoWETGUUgmC04jkHXHVxTebbpD/7rznE="
+        }
+      ]
+    },
+    {
+      "Route": "images/elden-ring/eldenr.png",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\eldenr.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "386410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E+/onp1sn3QP3+q2fE3xw1jzV5L7wNz9S8MpWc0FYOM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 19:10:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E+/onp1sn3QP3+q2fE3xw1jzV5L7wNz9S8MpWc0FYOM="
+        }
+      ]
+    },
+    {
+      "Route": "images/elden-ring/eldenr.rmq943p07b.png",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\eldenr.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "386410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E+/onp1sn3QP3+q2fE3xw1jzV5L7wNz9S8MpWc0FYOM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 19:10:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rmq943p07b"
+        },
+        {
+          "Name": "label",
+          "Value": "images/elden-ring/eldenr.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E+/onp1sn3QP3+q2fE3xw1jzV5L7wNz9S8MpWc0FYOM="
+        }
+      ]
+    },
+    {
+      "Route": "images/elden-ring/eldenring.h247t0umnh.png",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\eldenring.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "424843"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wa0UIc2NHhY/VsYtICqmcRoNh+0PJcWZxQFcrqW632o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 19:10:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h247t0umnh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/elden-ring/eldenring.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wa0UIc2NHhY/VsYtICqmcRoNh+0PJcWZxQFcrqW632o="
+        }
+      ]
+    },
+    {
+      "Route": "images/elden-ring/eldenring.png",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\eldenring.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "424843"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wa0UIc2NHhY/VsYtICqmcRoNh+0PJcWZxQFcrqW632o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 19:10:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wa0UIc2NHhY/VsYtICqmcRoNh+0PJcWZxQFcrqW632o="
         }
       ]
     },
@@ -2495,6 +4334,133 @@
       ]
     },
     {
+      "Route": "images/Read-Dead-Redemption-2-Review_bzzt.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\Read-Dead-Redemption-2-Review_bzzt.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25407"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hWROGHAqiK6WlqwwdACuxON4sw2s9Ikpu3O2vu0zYBM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 15:36:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hWROGHAqiK6WlqwwdACuxON4sw2s9Ikpu3O2vu0zYBM="
+        }
+      ]
+    },
+    {
+      "Route": "images/Read-Dead-Redemption-2-Review_bzzt.r4pld3tl9j.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\Read-Dead-Redemption-2-Review_bzzt.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25407"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hWROGHAqiK6WlqwwdACuxON4sw2s9Ikpu3O2vu0zYBM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 15:36:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r4pld3tl9j"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Read-Dead-Redemption-2-Review_bzzt.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hWROGHAqiK6WlqwwdACuxON4sw2s9Ikpu3O2vu0zYBM="
+        }
+      ]
+    },
+    {
+      "Route": "images/red.1qrnxy8n9q.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "263921"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"50qWe15tASPdVMwQJXRDCYVwT9Ixsfv3oQABGJc8lV8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 14:28:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1qrnxy8n9q"
+        },
+        {
+          "Name": "label",
+          "Value": "images/red.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-50qWe15tASPdVMwQJXRDCYVwT9Ixsfv3oQABGJc8lV8="
+        }
+      ]
+    },
+    {
       "Route": "images/red.jpg",
       "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red.jpg",
       "Selectors": [],
@@ -2505,7 +4471,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "53716"
+          "Value": "263921"
         },
         {
           "Name": "Content-Type",
@@ -2513,11 +4479,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ol2BdRBP+jvT6jaX0vqEhc4H5T48UjVKOyNeFAhn5KQ=\""
+          "Value": "\"50qWe15tASPdVMwQJXRDCYVwT9Ixsfv3oQABGJc8lV8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 13:41:28 GMT"
+          "Value": "Wed, 30 Jul 2025 14:28:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2527,13 +4493,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ol2BdRBP+jvT6jaX0vqEhc4H5T48UjVKOyNeFAhn5KQ="
+          "Value": "sha256-50qWe15tASPdVMwQJXRDCYVwT9Ixsfv3oQABGJc8lV8="
         }
       ]
     },
     {
-      "Route": "images/red.yjxupth1lg.jpg",
-      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red.jpg",
+      "Route": "images/Red.rthh0nnta8.webp",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\Red.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2542,19 +4508,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "53716"
+          "Value": "31590"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/webp"
         },
         {
           "Name": "ETag",
-          "Value": "\"ol2BdRBP+jvT6jaX0vqEhc4H5T48UjVKOyNeFAhn5KQ=\""
+          "Value": "\"f+Aylxm7/9RBJxpwU6Aj9AMflIpqHy52mu5hEpwbSP0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 13:41:28 GMT"
+          "Value": "Fri, 09 May 2025 14:41:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2564,15 +4530,954 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "yjxupth1lg"
+          "Value": "rthh0nnta8"
         },
         {
           "Name": "label",
-          "Value": "images/red.jpg"
+          "Value": "images/Red.webp"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ol2BdRBP+jvT6jaX0vqEhc4H5T48UjVKOyNeFAhn5KQ="
+          "Value": "sha256-f+Aylxm7/9RBJxpwU6Aj9AMflIpqHy52mu5hEpwbSP0="
+        }
+      ]
+    },
+    {
+      "Route": "images/Red.webp",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\Red.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31590"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f+Aylxm7/9RBJxpwU6Aj9AMflIpqHy52mu5hEpwbSP0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 14:41:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-f+Aylxm7/9RBJxpwU6Aj9AMflIpqHy52mu5hEpwbSP0="
+        }
+      ]
+    },
+    {
+      "Route": "images/Red_Dead_Redemption_2-1.fli2hyo42l.webp",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\Red_Dead_Redemption_2-1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21526"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o8MnundYP3hZMgHd7TsKE6c7MB/Is53Q5X0oN1H2vTY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 14:42:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fli2hyo42l"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Red_Dead_Redemption_2-1.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o8MnundYP3hZMgHd7TsKE6c7MB/Is53Q5X0oN1H2vTY="
+        }
+      ]
+    },
+    {
+      "Route": "images/Red_Dead_Redemption_2-1.webp",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\Red_Dead_Redemption_2-1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21526"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o8MnundYP3hZMgHd7TsKE6c7MB/Is53Q5X0oN1H2vTY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 14:42:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o8MnundYP3hZMgHd7TsKE6c7MB/Is53Q5X0oN1H2vTY="
+        }
+      ]
+    },
+    {
+      "Route": "images/red-dead-redemption-2/eee.89kw27nztc.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\eee.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206717"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dONg3lqWQ7Xa8d+MoNMPd63goWpohL87d25hNNUElDI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 14:46:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "89kw27nztc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/red-dead-redemption-2/eee.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dONg3lqWQ7Xa8d+MoNMPd63goWpohL87d25hNNUElDI="
+        }
+      ]
+    },
+    {
+      "Route": "images/red-dead-redemption-2/eee.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\eee.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206717"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dONg3lqWQ7Xa8d+MoNMPd63goWpohL87d25hNNUElDI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 14:46:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dONg3lqWQ7Xa8d+MoNMPd63goWpohL87d25hNNUElDI="
+        }
+      ]
+    },
+    {
+      "Route": "images/red-dead-redemption-2/red.1qrnxy8n9q.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\red.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "263921"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"50qWe15tASPdVMwQJXRDCYVwT9Ixsfv3oQABGJc8lV8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 14:28:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1qrnxy8n9q"
+        },
+        {
+          "Name": "label",
+          "Value": "images/red-dead-redemption-2/red.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-50qWe15tASPdVMwQJXRDCYVwT9Ixsfv3oQABGJc8lV8="
+        }
+      ]
+    },
+    {
+      "Route": "images/red-dead-redemption-2/red.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\red.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "263921"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"50qWe15tASPdVMwQJXRDCYVwT9Ixsfv3oQABGJc8lV8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 14:28:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-50qWe15tASPdVMwQJXRDCYVwT9Ixsfv3oQABGJc8lV8="
+        }
+      ]
+    },
+    {
+      "Route": "images/red-dead-redemption-2/Red_Dead_Redemption_2-1.fli2hyo42l.webp",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21526"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o8MnundYP3hZMgHd7TsKE6c7MB/Is53Q5X0oN1H2vTY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 14:42:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fli2hyo42l"
+        },
+        {
+          "Name": "label",
+          "Value": "images/red-dead-redemption-2/Red_Dead_Redemption_2-1.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o8MnundYP3hZMgHd7TsKE6c7MB/Is53Q5X0oN1H2vTY="
+        }
+      ]
+    },
+    {
+      "Route": "images/red-dead-redemption-2/Red_Dead_Redemption_2-1.webp",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21526"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o8MnundYP3hZMgHd7TsKE6c7MB/Is53Q5X0oN1H2vTY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 14:42:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o8MnundYP3hZMgHd7TsKE6c7MB/Is53Q5X0oN1H2vTY="
+        }
+      ]
+    },
+    {
+      "Route": "images/red-dead-redemption-2/Red_Dead_Redemption_2-2.92b8fbfxh6.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "64329"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AZXMLzni7Yc5vSeQ2eJ0z6oSDG69x6ZGeYKdj+xyw7Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 14:42:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "92b8fbfxh6"
+        },
+        {
+          "Name": "label",
+          "Value": "images/red-dead-redemption-2/Red_Dead_Redemption_2-2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AZXMLzni7Yc5vSeQ2eJ0z6oSDG69x6ZGeYKdj+xyw7Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/red-dead-redemption-2/Red_Dead_Redemption_2-2.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "64329"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AZXMLzni7Yc5vSeQ2eJ0z6oSDG69x6ZGeYKdj+xyw7Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 14:42:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AZXMLzni7Yc5vSeQ2eJ0z6oSDG69x6ZGeYKdj+xyw7Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/red-dead-redemption-2/Red_Dead_Redemption_2-3.rthh0nnta8.webp",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31590"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f+Aylxm7/9RBJxpwU6Aj9AMflIpqHy52mu5hEpwbSP0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 14:41:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rthh0nnta8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/red-dead-redemption-2/Red_Dead_Redemption_2-3.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-f+Aylxm7/9RBJxpwU6Aj9AMflIpqHy52mu5hEpwbSP0="
+        }
+      ]
+    },
+    {
+      "Route": "images/red-dead-redemption-2/Red_Dead_Redemption_2-3.webp",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31590"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f+Aylxm7/9RBJxpwU6Aj9AMflIpqHy52mu5hEpwbSP0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 14:41:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-f+Aylxm7/9RBJxpwU6Aj9AMflIpqHy52mu5hEpwbSP0="
+        }
+      ]
+    },
+    {
+      "Route": "images/red-dead-redemption-2/Red_Dead_Redemption_2-4.6mw0tq4x6p.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53275"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4vW2lLjvpwmz6wi51ky6YDYv4Z9zYlJYeRk+NxSdeOA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 14:42:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6mw0tq4x6p"
+        },
+        {
+          "Name": "label",
+          "Value": "images/red-dead-redemption-2/Red_Dead_Redemption_2-4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4vW2lLjvpwmz6wi51ky6YDYv4Z9zYlJYeRk+NxSdeOA="
+        }
+      ]
+    },
+    {
+      "Route": "images/red-dead-redemption-2/Red_Dead_Redemption_2-4.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53275"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4vW2lLjvpwmz6wi51ky6YDYv4Z9zYlJYeRk+NxSdeOA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 14:42:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4vW2lLjvpwmz6wi51ky6YDYv4Z9zYlJYeRk+NxSdeOA="
+        }
+      ]
+    },
+    {
+      "Route": "images/red-dead-redemption-2/Red_Dead_Redemption_2-5.0izkycl85c.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54959"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SK0mwu37PULNxaBsKqBQ2SgUCCiuc2C8Vgyc2CNNuc0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 14:41:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0izkycl85c"
+        },
+        {
+          "Name": "label",
+          "Value": "images/red-dead-redemption-2/Red_Dead_Redemption_2-5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SK0mwu37PULNxaBsKqBQ2SgUCCiuc2C8Vgyc2CNNuc0="
+        }
+      ]
+    },
+    {
+      "Route": "images/red-dead-redemption-2/Red_Dead_Redemption_2-5.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54959"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SK0mwu37PULNxaBsKqBQ2SgUCCiuc2C8Vgyc2CNNuc0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 14:41:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SK0mwu37PULNxaBsKqBQ2SgUCCiuc2C8Vgyc2CNNuc0="
+        }
+      ]
+    },
+    {
+      "Route": "images/red-dead-redemption-2/redd.iilm65lbv3.webp",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\redd.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4557255"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aiDTpP/18+MylQOYZ+pbyv6AnQ1X/sAcQ+ZReio11Zs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 14:28:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iilm65lbv3"
+        },
+        {
+          "Name": "label",
+          "Value": "images/red-dead-redemption-2/redd.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aiDTpP/18+MylQOYZ+pbyv6AnQ1X/sAcQ+ZReio11Zs="
+        }
+      ]
+    },
+    {
+      "Route": "images/red-dead-redemption-2/redd.webp",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\redd.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4557255"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aiDTpP/18+MylQOYZ+pbyv6AnQ1X/sAcQ+ZReio11Zs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 14:28:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aiDTpP/18+MylQOYZ+pbyv6AnQ1X/sAcQ+ZReio11Zs="
+        }
+      ]
+    },
+    {
+      "Route": "images/red-dead-redemption-2/rrr.1cfecydd8q.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\rrr.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "245594"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ian0LdRa0rg+vOmPx5U8Hk/J5r3slO75c+ITgNNRps8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 14:45:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1cfecydd8q"
+        },
+        {
+          "Name": "label",
+          "Value": "images/red-dead-redemption-2/rrr.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ian0LdRa0rg+vOmPx5U8Hk/J5r3slO75c+ITgNNRps8="
+        }
+      ]
+    },
+    {
+      "Route": "images/red-dead-redemption-2/rrr.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\rrr.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "245594"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ian0LdRa0rg+vOmPx5U8Hk/J5r3slO75c+ITgNNRps8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 14:45:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ian0LdRa0rg+vOmPx5U8Hk/J5r3slO75c+ITgNNRps8="
+        }
+      ]
+    },
+    {
+      "Route": "images/red-dead-redemption-2_41_bzzt.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2_41_bzzt.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k42e/V90lPorDrrSmV+9x3fkEdlc7DPUgz+UAuUczeY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 15:36:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k42e/V90lPorDrrSmV+9x3fkEdlc7DPUgz+UAuUczeY="
+        }
+      ]
+    },
+    {
+      "Route": "images/red-dead-redemption-2_41_bzzt.vlwmvgoknb.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2_41_bzzt.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k42e/V90lPorDrrSmV+9x3fkEdlc7DPUgz+UAuUczeY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 15:36:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vlwmvgoknb"
+        },
+        {
+          "Name": "label",
+          "Value": "images/red-dead-redemption-2_41_bzzt.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k42e/V90lPorDrrSmV+9x3fkEdlc7DPUgz+UAuUczeY="
         }
       ]
     },
@@ -2737,6 +5642,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-LFXn5rucZccZmiHNUrb+2uiILhIRf9qe+IergC8X18k="
+        }
+      ]
+    },
+    {
+      "Route": "videos/Batman.Arkham.Knight.Trailer.g5kee1krfd.mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\Batman.Arkham.Knight.Trailer.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20373961"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hM+cBTAVtqwy9Au1U8TUMplrpllZl3JMBEimSQJRWAE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 17:14:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g5kee1krfd"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/Batman.Arkham.Knight.Trailer.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hM+cBTAVtqwy9Au1U8TUMplrpllZl3JMBEimSQJRWAE="
+        }
+      ]
+    },
+    {
+      "Route": "videos/Batman.Arkham.Knight.Trailer.mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\Batman.Arkham.Knight.Trailer.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20373961"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hM+cBTAVtqwy9Au1U8TUMplrpllZl3JMBEimSQJRWAE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 17:14:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hM+cBTAVtqwy9Au1U8TUMplrpllZl3JMBEimSQJRWAE="
         }
       ]
     },
@@ -3151,51 +6138,6 @@
       ]
     },
     {
-      "Route": "videos/r.fk8beyudmk.mp4",
-      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\r.mp4",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10157719"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "video/mp4"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"H7arc5CtnyJiisrVAwB6AZtrhqZNB+q+0sgePT6rS1Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 14:39:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "fk8beyudmk"
-        },
-        {
-          "Name": "label",
-          "Value": "videos/r.mp4"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-H7arc5CtnyJiisrVAwB6AZtrhqZNB+q+0sgePT6rS1Y="
-        }
-      ]
-    },
-    {
       "Route": "videos/r.mp4",
       "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\r.mp4",
       "Selectors": [],
@@ -3206,7 +6148,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10157719"
+          "Value": "27994054"
         },
         {
           "Name": "Content-Type",
@@ -3214,11 +6156,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"H7arc5CtnyJiisrVAwB6AZtrhqZNB+q+0sgePT6rS1Y=\""
+          "Value": "\"U6fvR19JYT4Z5b5zmuK/mRlSXuGKBq6ubomWbV2BA9c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 14:39:39 GMT"
+          "Value": "Fri, 09 May 2025 14:41:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3228,7 +6170,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-H7arc5CtnyJiisrVAwB6AZtrhqZNB+q+0sgePT6rS1Y="
+          "Value": "sha256-U6fvR19JYT4Z5b5zmuK/mRlSXuGKBq6ubomWbV2BA9c="
+        }
+      ]
+    },
+    {
+      "Route": "videos/r.ru86prf5u5.mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\r.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27994054"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U6fvR19JYT4Z5b5zmuK/mRlSXuGKBq6ubomWbV2BA9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 14:41:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ru86prf5u5"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/r.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-U6fvR19JYT4Z5b5zmuK/mRlSXuGKBq6ubomWbV2BA9c="
         }
       ]
     },

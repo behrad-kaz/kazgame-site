@@ -96,6 +96,66 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6C7epfctNb21IK2i\u002BdmsbCifalVlsXlX5LAmQNasWso="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"248667"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00226C7epfctNb21IK2i\u002BdmsbCifalVlsXlX5LAmQNasWso=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Mar 2025 09:00:17 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/batman-arkham-knight/b.htxq2b1noo.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\batman-arkham-knight\b.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"htxq2b1noo"},{"Name":"integrity","Value":"sha256-S7RVCW1FmqCFmvNnFGk6S5eqiqB8LFcG0AjE0MhLQxY="},{"Name":"label","Value":"_content/KazGameAPI/images/batman-arkham-knight/b.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"391888"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022S7RVCW1FmqCFmvNnFGk6S5eqiqB8LFcG0AjE0MhLQxY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 16:56:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/batman-arkham-knight/b.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\batman-arkham-knight\b.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-S7RVCW1FmqCFmvNnFGk6S5eqiqB8LFcG0AjE0MhLQxY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"391888"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022S7RVCW1FmqCFmvNnFGk6S5eqiqB8LFcG0AjE0MhLQxY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 16:56:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/batman-arkham-knight/ba.fe6r6dfdmb.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\batman-arkham-knight\ba.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fe6r6dfdmb"},{"Name":"integrity","Value":"sha256-2Vx7KhNlhp\u002B/NuK5ZEUKHwfV03OWih\u002BEXQVPeZbm01I="},{"Name":"label","Value":"_content/KazGameAPI/images/batman-arkham-knight/ba.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"777538"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00222Vx7KhNlhp\u002B/NuK5ZEUKHwfV03OWih\u002BEXQVPeZbm01I=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 16:56:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/batman-arkham-knight/ba.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\batman-arkham-knight\ba.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2Vx7KhNlhp\u002B/NuK5ZEUKHwfV03OWih\u002BEXQVPeZbm01I="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"777538"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00222Vx7KhNlhp\u002B/NuK5ZEUKHwfV03OWih\u002BEXQVPeZbm01I=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 16:56:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/batman-arkham-knight/bat.bjpkq5xgda.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\batman-arkham-knight\bat.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bjpkq5xgda"},{"Name":"integrity","Value":"sha256-R1z49y3Uekse9YAjTG82BOTDktXU1N56Sr4BDhcv\u002BOw="},{"Name":"label","Value":"_content/KazGameAPI/images/batman-arkham-knight/bat.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"832820"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022R1z49y3Uekse9YAjTG82BOTDktXU1N56Sr4BDhcv\u002BOw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 16:57:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/batman-arkham-knight/bat.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\batman-arkham-knight\bat.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-R1z49y3Uekse9YAjTG82BOTDktXU1N56Sr4BDhcv\u002BOw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"832820"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022R1z49y3Uekse9YAjTG82BOTDktXU1N56Sr4BDhcv\u002BOw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 16:57:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/batman-arkham-knight/batm.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\batman-arkham-knight\batm.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EyfyMxS9xrUR964JvNv3j1NZjGL\u002Bgr9C4Pm4g3H9GU0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"774226"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022EyfyMxS9xrUR964JvNv3j1NZjGL\u002Bgr9C4Pm4g3H9GU0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 16:57:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/batman-arkham-knight/batm.z0nymas686.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\batman-arkham-knight\batm.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"z0nymas686"},{"Name":"integrity","Value":"sha256-EyfyMxS9xrUR964JvNv3j1NZjGL\u002Bgr9C4Pm4g3H9GU0="},{"Name":"label","Value":"_content/KazGameAPI/images/batman-arkham-knight/batm.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"774226"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022EyfyMxS9xrUR964JvNv3j1NZjGL\u002Bgr9C4Pm4g3H9GU0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 16:57:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/eeel.8jhf9afgxh.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\eeel.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8jhf9afgxh"},{"Name":"integrity","Value":"sha256-hAfXae3WhVc/1p9Tw/h/2eIdTDbTdqHj5GmB4Q99vjw="},{"Name":"label","Value":"_content/KazGameAPI/images/eeel.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"439553"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022hAfXae3WhVc/1p9Tw/h/2eIdTDbTdqHj5GmB4Q99vjw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 19:11:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/eeel.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\eeel.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hAfXae3WhVc/1p9Tw/h/2eIdTDbTdqHj5GmB4Q99vjw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"439553"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022hAfXae3WhVc/1p9Tw/h/2eIdTDbTdqHj5GmB4Q99vjw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 19:11:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/elden ring.hh3uxpeskd.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\elden ring.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -107,6 +167,126 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JRInF8J6wqZPOC7TJpbxjpNU7CIztoD\u002BibuI3ttDHEI="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"282002"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022JRInF8J6wqZPOC7TJpbxjpNU7CIztoD\u002BibuI3ttDHEI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 12:48:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/elden-ring/e.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\elden-ring\e.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-c0uLHGCvH8n\u002Bx3eo4NkALlNPOF6sw3VjFnuEGAsjG/c="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"363816"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022c0uLHGCvH8n\u002Bx3eo4NkALlNPOF6sw3VjFnuEGAsjG/c=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 19:00:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/elden-ring/e.xjs8e9uc5x.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\elden-ring\e.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xjs8e9uc5x"},{"Name":"integrity","Value":"sha256-c0uLHGCvH8n\u002Bx3eo4NkALlNPOF6sw3VjFnuEGAsjG/c="},{"Name":"label","Value":"_content/KazGameAPI/images/elden-ring/e.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"363816"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022c0uLHGCvH8n\u002Bx3eo4NkALlNPOF6sw3VjFnuEGAsjG/c=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 19:00:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/elden-ring/eeel.8jhf9afgxh.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\elden-ring\eeel.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8jhf9afgxh"},{"Name":"integrity","Value":"sha256-hAfXae3WhVc/1p9Tw/h/2eIdTDbTdqHj5GmB4Q99vjw="},{"Name":"label","Value":"_content/KazGameAPI/images/elden-ring/eeel.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"439553"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022hAfXae3WhVc/1p9Tw/h/2eIdTDbTdqHj5GmB4Q99vjw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 19:11:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/elden-ring/eeel.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\elden-ring\eeel.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hAfXae3WhVc/1p9Tw/h/2eIdTDbTdqHj5GmB4Q99vjw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"439553"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022hAfXae3WhVc/1p9Tw/h/2eIdTDbTdqHj5GmB4Q99vjw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 19:11:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/elden-ring/el.aeovu1gnrw.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\elden-ring\el.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"aeovu1gnrw"},{"Name":"integrity","Value":"sha256-Qs8F0XpZF4NYWw3woK/xyskZ8jJP9PD7/QtDiLQnkbE="},{"Name":"label","Value":"_content/KazGameAPI/images/elden-ring/el.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2286149"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Qs8F0XpZF4NYWw3woK/xyskZ8jJP9PD7/QtDiLQnkbE=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 19:00:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/elden-ring/el.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\elden-ring\el.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Qs8F0XpZF4NYWw3woK/xyskZ8jJP9PD7/QtDiLQnkbE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2286149"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Qs8F0XpZF4NYWw3woK/xyskZ8jJP9PD7/QtDiLQnkbE=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 19:00:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/elden-ring/eld.gqcbaeb8n6.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\elden-ring\eld.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gqcbaeb8n6"},{"Name":"integrity","Value":"sha256-yPjrVLKTaP\u002BXg606BRD1Pf\u002BwxHVBF5V/nTjAOup0ajw="},{"Name":"label","Value":"_content/KazGameAPI/images/elden-ring/eld.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"663612"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022yPjrVLKTaP\u002BXg606BRD1Pf\u002BwxHVBF5V/nTjAOup0ajw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 19:01:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/elden-ring/eld.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\elden-ring\eld.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yPjrVLKTaP\u002BXg606BRD1Pf\u002BwxHVBF5V/nTjAOup0ajw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"663612"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022yPjrVLKTaP\u002BXg606BRD1Pf\u002BwxHVBF5V/nTjAOup0ajw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 19:01:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/elden-ring/elde.im4z6nuv1c.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\elden-ring\elde.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"im4z6nuv1c"},{"Name":"integrity","Value":"sha256-1tsZEQI\u002BT8jUZg7mUC4RxnfyalL55ncXf6hcsB5EOEM="},{"Name":"label","Value":"_content/KazGameAPI/images/elden-ring/elde.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"643305"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00221tsZEQI\u002BT8jUZg7mUC4RxnfyalL55ncXf6hcsB5EOEM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 19:01:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/elden-ring/elde.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\elden-ring\elde.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-1tsZEQI\u002BT8jUZg7mUC4RxnfyalL55ncXf6hcsB5EOEM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"643305"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00221tsZEQI\u002BT8jUZg7mUC4RxnfyalL55ncXf6hcsB5EOEM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 19:01:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/elden-ring/elden.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\elden-ring\elden.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gkwwkHDAGuPZoWETGUUgmC04jkHXHVxTebbpD/7rznE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"295680"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022gkwwkHDAGuPZoWETGUUgmC04jkHXHVxTebbpD/7rznE=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 19:01:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/elden-ring/elden.q9qimu19oa.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\elden-ring\elden.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"q9qimu19oa"},{"Name":"integrity","Value":"sha256-gkwwkHDAGuPZoWETGUUgmC04jkHXHVxTebbpD/7rznE="},{"Name":"label","Value":"_content/KazGameAPI/images/elden-ring/elden.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"295680"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022gkwwkHDAGuPZoWETGUUgmC04jkHXHVxTebbpD/7rznE=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 19:01:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/elden-ring/eldenr.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\elden-ring\eldenr.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-E\u002B/onp1sn3QP3\u002Bq2fE3xw1jzV5L7wNz9S8MpWc0FYOM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"386410"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022E\u002B/onp1sn3QP3\u002Bq2fE3xw1jzV5L7wNz9S8MpWc0FYOM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 19:10:39 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/elden-ring/eldenr.rmq943p07b.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\elden-ring\eldenr.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rmq943p07b"},{"Name":"integrity","Value":"sha256-E\u002B/onp1sn3QP3\u002Bq2fE3xw1jzV5L7wNz9S8MpWc0FYOM="},{"Name":"label","Value":"_content/KazGameAPI/images/elden-ring/eldenr.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"386410"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022E\u002B/onp1sn3QP3\u002Bq2fE3xw1jzV5L7wNz9S8MpWc0FYOM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 19:10:39 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/elden-ring/eldenring.h247t0umnh.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\elden-ring\eldenring.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"h247t0umnh"},{"Name":"integrity","Value":"sha256-Wa0UIc2NHhY/VsYtICqmcRoNh\u002B0PJcWZxQFcrqW632o="},{"Name":"label","Value":"_content/KazGameAPI/images/elden-ring/eldenring.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"424843"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Wa0UIc2NHhY/VsYtICqmcRoNh\u002B0PJcWZxQFcrqW632o=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 19:10:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/elden-ring/eldenring.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\elden-ring\eldenring.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Wa0UIc2NHhY/VsYtICqmcRoNh\u002B0PJcWZxQFcrqW632o="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"424843"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Wa0UIc2NHhY/VsYtICqmcRoNh\u002B0PJcWZxQFcrqW632o=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 19:10:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/eldenr.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\eldenr.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-E\u002B/onp1sn3QP3\u002Bq2fE3xw1jzV5L7wNz9S8MpWc0FYOM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"386410"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022E\u002B/onp1sn3QP3\u002Bq2fE3xw1jzV5L7wNz9S8MpWc0FYOM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 19:10:39 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/eldenr.rmq943p07b.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\eldenr.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rmq943p07b"},{"Name":"integrity","Value":"sha256-E\u002B/onp1sn3QP3\u002Bq2fE3xw1jzV5L7wNz9S8MpWc0FYOM="},{"Name":"label","Value":"_content/KazGameAPI/images/eldenr.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"386410"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022E\u002B/onp1sn3QP3\u002Bq2fE3xw1jzV5L7wNz9S8MpWc0FYOM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 19:10:39 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/eldenring.h247t0umnh.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\eldenring.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"h247t0umnh"},{"Name":"integrity","Value":"sha256-Wa0UIc2NHhY/VsYtICqmcRoNh\u002B0PJcWZxQFcrqW632o="},{"Name":"label","Value":"_content/KazGameAPI/images/eldenring.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"424843"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Wa0UIc2NHhY/VsYtICqmcRoNh\u002B0PJcWZxQFcrqW632o=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 19:10:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/eldenring.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\eldenring.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Wa0UIc2NHhY/VsYtICqmcRoNh\u002B0PJcWZxQFcrqW632o="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"424843"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Wa0UIc2NHhY/VsYtICqmcRoNh\u002B0PJcWZxQFcrqW632o=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 19:10:59 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/Gran.9fnt1xp6i8.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Gran.jpg'))</AssetFile>
@@ -264,17 +444,173 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-R8jdJwDrMLhOk/wCtfDBqnDvjnjjTZGpU8ob20FIw7g="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"6345"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022R8jdJwDrMLhOk/wCtfDBqnDvjnjjTZGpU8ob20FIw7g=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Jul 2025 15:04:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/Read-Dead-Redemption-2-Review_bzzt.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Read-Dead-Redemption-2-Review_bzzt.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hWROGHAqiK6WlqwwdACuxON4sw2s9Ikpu3O2vu0zYBM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"25407"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022hWROGHAqiK6WlqwwdACuxON4sw2s9Ikpu3O2vu0zYBM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 15:36:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/Read-Dead-Redemption-2-Review_bzzt.r4pld3tl9j.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Read-Dead-Redemption-2-Review_bzzt.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"r4pld3tl9j"},{"Name":"integrity","Value":"sha256-hWROGHAqiK6WlqwwdACuxON4sw2s9Ikpu3O2vu0zYBM="},{"Name":"label","Value":"_content/KazGameAPI/images/Read-Dead-Redemption-2-Review_bzzt.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"25407"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022hWROGHAqiK6WlqwwdACuxON4sw2s9Ikpu3O2vu0zYBM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 15:36:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/red-dead-redemption-2/eee.89kw27nztc.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\red-dead-redemption-2\eee.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"89kw27nztc"},{"Name":"integrity","Value":"sha256-dONg3lqWQ7Xa8d\u002BMoNMPd63goWpohL87d25hNNUElDI="},{"Name":"label","Value":"_content/KazGameAPI/images/red-dead-redemption-2/eee.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"206717"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022dONg3lqWQ7Xa8d\u002BMoNMPd63goWpohL87d25hNNUElDI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 14:46:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/red-dead-redemption-2/eee.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\red-dead-redemption-2\eee.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dONg3lqWQ7Xa8d\u002BMoNMPd63goWpohL87d25hNNUElDI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"206717"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022dONg3lqWQ7Xa8d\u002BMoNMPd63goWpohL87d25hNNUElDI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 14:46:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/red-dead-redemption-2/red.1qrnxy8n9q.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\red-dead-redemption-2\red.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1qrnxy8n9q"},{"Name":"integrity","Value":"sha256-50qWe15tASPdVMwQJXRDCYVwT9Ixsfv3oQABGJc8lV8="},{"Name":"label","Value":"_content/KazGameAPI/images/red-dead-redemption-2/red.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"263921"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u002250qWe15tASPdVMwQJXRDCYVwT9Ixsfv3oQABGJc8lV8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 14:28:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/red-dead-redemption-2/red.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\red-dead-redemption-2\red.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-50qWe15tASPdVMwQJXRDCYVwT9Ixsfv3oQABGJc8lV8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"263921"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u002250qWe15tASPdVMwQJXRDCYVwT9Ixsfv3oQABGJc8lV8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 14:28:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/red-dead-redemption-2/redd.iilm65lbv3.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\red-dead-redemption-2\redd.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"iilm65lbv3"},{"Name":"integrity","Value":"sha256-aiDTpP/18\u002BMylQOYZ\u002Bpbyv6AnQ1X/sAcQ\u002BZReio11Zs="},{"Name":"label","Value":"_content/KazGameAPI/images/red-dead-redemption-2/redd.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4557255"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022aiDTpP/18\u002BMylQOYZ\u002Bpbyv6AnQ1X/sAcQ\u002BZReio11Zs=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 14:28:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/red-dead-redemption-2/redd.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\red-dead-redemption-2\redd.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-aiDTpP/18\u002BMylQOYZ\u002Bpbyv6AnQ1X/sAcQ\u002BZReio11Zs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"4557255"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022aiDTpP/18\u002BMylQOYZ\u002Bpbyv6AnQ1X/sAcQ\u002BZReio11Zs=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 14:28:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/red-dead-redemption-2/Red_Dead_Redemption_2-1.fli2hyo42l.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\red-dead-redemption-2\Red_Dead_Redemption_2-1.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fli2hyo42l"},{"Name":"integrity","Value":"sha256-o8MnundYP3hZMgHd7TsKE6c7MB/Is53Q5X0oN1H2vTY="},{"Name":"label","Value":"_content/KazGameAPI/images/red-dead-redemption-2/Red_Dead_Redemption_2-1.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"21526"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022o8MnundYP3hZMgHd7TsKE6c7MB/Is53Q5X0oN1H2vTY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 14:42:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/red-dead-redemption-2/Red_Dead_Redemption_2-1.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\red-dead-redemption-2\Red_Dead_Redemption_2-1.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-o8MnundYP3hZMgHd7TsKE6c7MB/Is53Q5X0oN1H2vTY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"21526"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022o8MnundYP3hZMgHd7TsKE6c7MB/Is53Q5X0oN1H2vTY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 14:42:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/red-dead-redemption-2/Red_Dead_Redemption_2-2.92b8fbfxh6.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\red-dead-redemption-2\Red_Dead_Redemption_2-2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"92b8fbfxh6"},{"Name":"integrity","Value":"sha256-AZXMLzni7Yc5vSeQ2eJ0z6oSDG69x6ZGeYKdj\u002Bxyw7Q="},{"Name":"label","Value":"_content/KazGameAPI/images/red-dead-redemption-2/Red_Dead_Redemption_2-2.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"64329"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022AZXMLzni7Yc5vSeQ2eJ0z6oSDG69x6ZGeYKdj\u002Bxyw7Q=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 14:42:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/red-dead-redemption-2/Red_Dead_Redemption_2-2.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\red-dead-redemption-2\Red_Dead_Redemption_2-2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-AZXMLzni7Yc5vSeQ2eJ0z6oSDG69x6ZGeYKdj\u002Bxyw7Q="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"64329"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022AZXMLzni7Yc5vSeQ2eJ0z6oSDG69x6ZGeYKdj\u002Bxyw7Q=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 14:42:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/red-dead-redemption-2/Red_Dead_Redemption_2-3.rthh0nnta8.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\red-dead-redemption-2\Red_Dead_Redemption_2-3.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rthh0nnta8"},{"Name":"integrity","Value":"sha256-f\u002BAylxm7/9RBJxpwU6Aj9AMflIpqHy52mu5hEpwbSP0="},{"Name":"label","Value":"_content/KazGameAPI/images/red-dead-redemption-2/Red_Dead_Redemption_2-3.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"31590"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022f\u002BAylxm7/9RBJxpwU6Aj9AMflIpqHy52mu5hEpwbSP0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 14:41:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/red-dead-redemption-2/Red_Dead_Redemption_2-3.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\red-dead-redemption-2\Red_Dead_Redemption_2-3.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-f\u002BAylxm7/9RBJxpwU6Aj9AMflIpqHy52mu5hEpwbSP0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"31590"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022f\u002BAylxm7/9RBJxpwU6Aj9AMflIpqHy52mu5hEpwbSP0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 14:41:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/red-dead-redemption-2/Red_Dead_Redemption_2-4.6mw0tq4x6p.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\red-dead-redemption-2\Red_Dead_Redemption_2-4.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6mw0tq4x6p"},{"Name":"integrity","Value":"sha256-4vW2lLjvpwmz6wi51ky6YDYv4Z9zYlJYeRk\u002BNxSdeOA="},{"Name":"label","Value":"_content/KazGameAPI/images/red-dead-redemption-2/Red_Dead_Redemption_2-4.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"53275"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00224vW2lLjvpwmz6wi51ky6YDYv4Z9zYlJYeRk\u002BNxSdeOA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 14:42:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/red-dead-redemption-2/Red_Dead_Redemption_2-4.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\red-dead-redemption-2\Red_Dead_Redemption_2-4.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4vW2lLjvpwmz6wi51ky6YDYv4Z9zYlJYeRk\u002BNxSdeOA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"53275"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00224vW2lLjvpwmz6wi51ky6YDYv4Z9zYlJYeRk\u002BNxSdeOA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 14:42:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/red-dead-redemption-2/Red_Dead_Redemption_2-5.0izkycl85c.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\red-dead-redemption-2\Red_Dead_Redemption_2-5.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0izkycl85c"},{"Name":"integrity","Value":"sha256-SK0mwu37PULNxaBsKqBQ2SgUCCiuc2C8Vgyc2CNNuc0="},{"Name":"label","Value":"_content/KazGameAPI/images/red-dead-redemption-2/Red_Dead_Redemption_2-5.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"54959"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022SK0mwu37PULNxaBsKqBQ2SgUCCiuc2C8Vgyc2CNNuc0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 14:41:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/red-dead-redemption-2/Red_Dead_Redemption_2-5.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\red-dead-redemption-2\Red_Dead_Redemption_2-5.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SK0mwu37PULNxaBsKqBQ2SgUCCiuc2C8Vgyc2CNNuc0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"54959"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022SK0mwu37PULNxaBsKqBQ2SgUCCiuc2C8Vgyc2CNNuc0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 14:41:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/red-dead-redemption-2/rrr.1cfecydd8q.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\red-dead-redemption-2\rrr.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1cfecydd8q"},{"Name":"integrity","Value":"sha256-Ian0LdRa0rg\u002BvOmPx5U8Hk/J5r3slO75c\u002BITgNNRps8="},{"Name":"label","Value":"_content/KazGameAPI/images/red-dead-redemption-2/rrr.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"245594"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Ian0LdRa0rg\u002BvOmPx5U8Hk/J5r3slO75c\u002BITgNNRps8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 14:45:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/red-dead-redemption-2/rrr.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\red-dead-redemption-2\rrr.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Ian0LdRa0rg\u002BvOmPx5U8Hk/J5r3slO75c\u002BITgNNRps8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"245594"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Ian0LdRa0rg\u002BvOmPx5U8Hk/J5r3slO75c\u002BITgNNRps8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 14:45:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/red-dead-redemption-2_41_bzzt.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\red-dead-redemption-2_41_bzzt.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-k42e/V90lPorDrrSmV\u002B9x3fkEdlc7DPUgz\u002BUAuUczeY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"29995"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022k42e/V90lPorDrrSmV\u002B9x3fkEdlc7DPUgz\u002BUAuUczeY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 15:36:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/red-dead-redemption-2_41_bzzt.vlwmvgoknb.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\red-dead-redemption-2_41_bzzt.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vlwmvgoknb"},{"Name":"integrity","Value":"sha256-k42e/V90lPorDrrSmV\u002B9x3fkEdlc7DPUgz\u002BUAuUczeY="},{"Name":"label","Value":"_content/KazGameAPI/images/red-dead-redemption-2_41_bzzt.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"29995"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022k42e/V90lPorDrrSmV\u002B9x3fkEdlc7DPUgz\u002BUAuUczeY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 15:36:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/red.1qrnxy8n9q.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\red.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1qrnxy8n9q"},{"Name":"integrity","Value":"sha256-50qWe15tASPdVMwQJXRDCYVwT9Ixsfv3oQABGJc8lV8="},{"Name":"label","Value":"_content/KazGameAPI/images/red.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"263921"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u002250qWe15tASPdVMwQJXRDCYVwT9Ixsfv3oQABGJc8lV8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 14:28:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/red.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\red.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ol2BdRBP\u002BjvT6jaX0vqEhc4H5T48UjVKOyNeFAhn5KQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"53716"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ol2BdRBP\u002BjvT6jaX0vqEhc4H5T48UjVKOyNeFAhn5KQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 06 May 2025 13:41:28 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-50qWe15tASPdVMwQJXRDCYVwT9Ixsfv3oQABGJc8lV8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"263921"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u002250qWe15tASPdVMwQJXRDCYVwT9Ixsfv3oQABGJc8lV8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 14:28:04 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/red.yjxupth1lg.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\red.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/Red.rthh0nnta8.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Red.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yjxupth1lg"},{"Name":"integrity","Value":"sha256-ol2BdRBP\u002BjvT6jaX0vqEhc4H5T48UjVKOyNeFAhn5KQ="},{"Name":"label","Value":"_content/KazGameAPI/images/red.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"53716"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ol2BdRBP\u002BjvT6jaX0vqEhc4H5T48UjVKOyNeFAhn5KQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 06 May 2025 13:41:28 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rthh0nnta8"},{"Name":"integrity","Value":"sha256-f\u002BAylxm7/9RBJxpwU6Aj9AMflIpqHy52mu5hEpwbSP0="},{"Name":"label","Value":"_content/KazGameAPI/images/Red.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"31590"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022f\u002BAylxm7/9RBJxpwU6Aj9AMflIpqHy52mu5hEpwbSP0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 14:41:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/Red.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Red.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-f\u002BAylxm7/9RBJxpwU6Aj9AMflIpqHy52mu5hEpwbSP0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"31590"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022f\u002BAylxm7/9RBJxpwU6Aj9AMflIpqHy52mu5hEpwbSP0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 14:41:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/Red_Dead_Redemption_2-1.fli2hyo42l.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Red_Dead_Redemption_2-1.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fli2hyo42l"},{"Name":"integrity","Value":"sha256-o8MnundYP3hZMgHd7TsKE6c7MB/Is53Q5X0oN1H2vTY="},{"Name":"label","Value":"_content/KazGameAPI/images/Red_Dead_Redemption_2-1.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"21526"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022o8MnundYP3hZMgHd7TsKE6c7MB/Is53Q5X0oN1H2vTY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 14:42:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/Red_Dead_Redemption_2-1.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Red_Dead_Redemption_2-1.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-o8MnundYP3hZMgHd7TsKE6c7MB/Is53Q5X0oN1H2vTY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"21526"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022o8MnundYP3hZMgHd7TsKE6c7MB/Is53Q5X0oN1H2vTY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 14:42:14 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KazGameAPI/images/telegram-logo-thin-svgrepo-com.plbiwpmsss.svg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\telegram-logo-thin-svgrepo-com.svg'))</AssetFile>
@@ -311,6 +647,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nz8w1xlu7e"},{"Name":"integrity","Value":"sha256-g4pWCXxcYIEW3xH0ZSRknU/AnSR8QEdf461KD5tZRQQ="},{"Name":"label","Value":"_content/KazGameAPI/videos/Batman-Arkham-Knight-480p-trailer_1.mp4"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10075619"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022g4pWCXxcYIEW3xH0ZSRknU/AnSR8QEdf461KD5tZRQQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 11 Jul 2025 14:25:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/videos/Batman.Arkham.Knight.Trailer.g5kee1krfd.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\videos\Batman.Arkham.Knight.Trailer.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"g5kee1krfd"},{"Name":"integrity","Value":"sha256-hM\u002BcBTAVtqwy9Au1U8TUMplrpllZl3JMBEimSQJRWAE="},{"Name":"label","Value":"_content/KazGameAPI/videos/Batman.Arkham.Knight.Trailer.mp4"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"20373961"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022hM\u002BcBTAVtqwy9Au1U8TUMplrpllZl3JMBEimSQJRWAE=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 17:14:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/videos/Batman.Arkham.Knight.Trailer.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\videos\Batman.Arkham.Knight.Trailer.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hM\u002BcBTAVtqwy9Au1U8TUMplrpllZl3JMBEimSQJRWAE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"20373961"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022hM\u002BcBTAVtqwy9Au1U8TUMplrpllZl3JMBEimSQJRWAE=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Jul 2025 17:14:58 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KazGameAPI/videos/Elden-Ring-Shadow-of-the-Erdtree-Official-Launch-Trailer.4891zma4s7.webm">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\videos\Elden-Ring-Shadow-of-the-Erdtree-Official-Launch-Trailer.webm'))</AssetFile>
@@ -360,17 +708,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/l4N9E2f5DN6OEjecYaCadq2PGkS9IcWNBZ7TCJev24="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"9493647"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022/l4N9E2f5DN6OEjecYaCadq2PGkS9IcWNBZ7TCJev24=\u0022"},{"Name":"Last-Modified","Value":"Fri, 11 Jul 2025 14:21:34 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/KazGameAPI/videos/r.fk8beyudmk.mp4">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\videos\r.mp4'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fk8beyudmk"},{"Name":"integrity","Value":"sha256-H7arc5CtnyJiisrVAwB6AZtrhqZNB\u002Bq\u002B0sgePT6rS1Y="},{"Name":"label","Value":"_content/KazGameAPI/videos/r.mp4"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10157719"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022H7arc5CtnyJiisrVAwB6AZtrhqZNB\u002Bq\u002B0sgePT6rS1Y=\u0022"},{"Name":"Last-Modified","Value":"Fri, 11 Jul 2025 14:39:39 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KazGameAPI/videos/r.mp4">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\videos\r.mp4'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-H7arc5CtnyJiisrVAwB6AZtrhqZNB\u002Bq\u002B0sgePT6rS1Y="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"10157719"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022H7arc5CtnyJiisrVAwB6AZtrhqZNB\u002Bq\u002B0sgePT6rS1Y=\u0022"},{"Name":"Last-Modified","Value":"Fri, 11 Jul 2025 14:39:39 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-U6fvR19JYT4Z5b5zmuK/mRlSXuGKBq6ubomWbV2BA9c="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"27994054"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022U6fvR19JYT4Z5b5zmuK/mRlSXuGKBq6ubomWbV2BA9c=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 14:41:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KazGameAPI/videos/r.ru86prf5u5.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\videos\r.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ru86prf5u5"},{"Name":"integrity","Value":"sha256-U6fvR19JYT4Z5b5zmuK/mRlSXuGKBq6ubomWbV2BA9c="},{"Name":"label","Value":"_content/KazGameAPI/videos/r.mp4"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"27994054"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022U6fvR19JYT4Z5b5zmuK/mRlSXuGKBq6ubomWbV2BA9c=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 14:41:42 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KazGameAPI/videos/Red Dead Redemption 2  Official Gameplay Video.mp4">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\videos\Red Dead Redemption 2  Official Gameplay Video.mp4'))</AssetFile>

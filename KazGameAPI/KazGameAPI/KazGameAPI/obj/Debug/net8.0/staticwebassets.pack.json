@@ -49,12 +49,84 @@
       "PackagePath": "staticwebassets\\images\\R.jpg"
     },
     {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\Read-Dead-Redemption-2-Review_bzzt.jpg",
+      "PackagePath": "staticwebassets\\images\\Read-Dead-Redemption-2-Review_bzzt.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\Red.webp",
+      "PackagePath": "staticwebassets\\images\\Red.webp"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\Red_Dead_Redemption_2-1.webp",
+      "PackagePath": "staticwebassets\\images\\Red_Dead_Redemption_2-1.webp"
+    },
+    {
       "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\army.png",
       "PackagePath": "staticwebassets\\images\\army.png"
     },
     {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\batman-arkham-knight\\b.jpg",
+      "PackagePath": "staticwebassets\\images\\batman-arkham-knight\\b.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\batman-arkham-knight\\ba.webp",
+      "PackagePath": "staticwebassets\\images\\batman-arkham-knight\\ba.webp"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\batman-arkham-knight\\bat.jpg",
+      "PackagePath": "staticwebassets\\images\\batman-arkham-knight\\bat.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\batman-arkham-knight\\batm.jpg",
+      "PackagePath": "staticwebassets\\images\\batman-arkham-knight\\batm.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\eeel.png",
+      "PackagePath": "staticwebassets\\images\\eeel.png"
+    },
+    {
       "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden ring.jpg",
       "PackagePath": "staticwebassets\\images\\elden ring.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\e.webp",
+      "PackagePath": "staticwebassets\\images\\elden-ring\\e.webp"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\eeel.png",
+      "PackagePath": "staticwebassets\\images\\elden-ring\\eeel.png"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\el.jpg",
+      "PackagePath": "staticwebassets\\images\\elden-ring\\el.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\eld.jpg",
+      "PackagePath": "staticwebassets\\images\\elden-ring\\eld.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\elde.jpg",
+      "PackagePath": "staticwebassets\\images\\elden-ring\\elde.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\elden.jpg",
+      "PackagePath": "staticwebassets\\images\\elden-ring\\elden.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\eldenr.png",
+      "PackagePath": "staticwebassets\\images\\elden-ring\\eldenr.png"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\elden-ring\\eldenring.png",
+      "PackagePath": "staticwebassets\\images\\elden-ring\\eldenring.png"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\eldenr.png",
+      "PackagePath": "staticwebassets\\images\\eldenr.png"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\eldenring.png",
+      "PackagePath": "staticwebassets\\images\\eldenring.png"
     },
     {
       "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\gta.jpg",
@@ -89,6 +161,46 @@
       "PackagePath": "staticwebassets\\images\\rate-3.png"
     },
     {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-1.webp",
+      "PackagePath": "staticwebassets\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-1.webp"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-2.jpg",
+      "PackagePath": "staticwebassets\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-2.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-3.webp",
+      "PackagePath": "staticwebassets\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-3.webp"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-4.jpg",
+      "PackagePath": "staticwebassets\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-4.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-5.jpg",
+      "PackagePath": "staticwebassets\\images\\red-dead-redemption-2\\Red_Dead_Redemption_2-5.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\eee.jpg",
+      "PackagePath": "staticwebassets\\images\\red-dead-redemption-2\\eee.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\red.jpg",
+      "PackagePath": "staticwebassets\\images\\red-dead-redemption-2\\red.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\redd.webp",
+      "PackagePath": "staticwebassets\\images\\red-dead-redemption-2\\redd.webp"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2\\rrr.jpg",
+      "PackagePath": "staticwebassets\\images\\red-dead-redemption-2\\rrr.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red-dead-redemption-2_41_bzzt.jpg",
+      "PackagePath": "staticwebassets\\images\\red-dead-redemption-2_41_bzzt.jpg"
+    },
+    {
       "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\red.jpg",
       "PackagePath": "staticwebassets\\images\\red.jpg"
     },
@@ -103,6 +215,10 @@
     {
       "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\Batman-Arkham-Knight-480p-trailer_1.mp4",
       "PackagePath": "staticwebassets\\videos\\Batman-Arkham-Knight-480p-trailer_1.mp4"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\Batman.Arkham.Knight.Trailer.mp4",
+      "PackagePath": "staticwebassets\\videos\\Batman.Arkham.Knight.Trailer.mp4"
     },
     {
       "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\Elden-Ring-Shadow-of-the-Erdtree-Official-Launch-Trailer.webm",
