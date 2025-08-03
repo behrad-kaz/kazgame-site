@@ -3,11 +3,13 @@ import React, { useState, useEffect } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ProductSlider from '../components/gamelist components/ProductSlider';
-import GameCard from '../components/gamelist components/GameCard'; 
+import GameCard from '../components/gamelist components/GameCard';
+import Pagination from '../components/gamelist components/Pagination';
 import CommentSection from '../components/CommentSection';
 import styles from './GamesList.module.css';
 
 const PRODUCTS_API_BASE_URL = 'https://localhost:7055';
+const PAGE_SIZE = 16; // <--- تعداد بازی در هر صفحه
 
 const dummyProducts = [
   { id: 1, title: 'PS5 Console', imageUrl: '/images/red.jpg', description: 'Experience lightning-fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers and 3D Audio, and an all-new generation of incredible PlayStation games.', price: 499.99 },
@@ -27,19 +29,57 @@ const GamesList = () => {
   const [games, setGames] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [currentPage, setCurrentPage] = useState(1); // <--- **State برای شماره صفحه فعلی**
+  const [totalPages, setTotalPages] = useState(1); // <--- **State برای تعداد کل صفحات**
+
 
   useEffect(() => {
     const fetchGames = async () => {
+      setLoading(true);
+      setError(null);
       try {
-        const response = await fetch(`${PRODUCTS_API_BASE_URL}/api/Products`);
+       const response = await fetch(`${PRODUCTS_API_BASE_URL}/api/Products?pageNumber=${currentPage}&pageSize=${PAGE_SIZE}`);
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
-        const data = await response.json();
-        
-        console.log("Data fetched from API (Products):", data); // <--- **LOG جدید ۱**
+         const pagedData = await response.json(); // <--- API حالا PagedResult برمی‌گرداند
+        console.log("Paged Data fetched from API:", pagedData);
 
-        setGames(data);
+        const processedGames = pagedData.items.map(game => { // <--- map روی pagedData.items
+          // تابع processUrl را اینجا تعریف می کنیم یا از یک فایل utilities ایمپورت می کنیم
+          const processUrl = (url) => {
+            if (!url) return null;
+            if (url.startsWith('http://') || url.startsWith('https://')) {
+              return url;
+            }
+            return `${PRODUCTS_API_BASE_URL}${url}`;
+          };
+
+          game.imageUrl = processUrl(game.imageUrl);
+          game.videoUrl = processUrl(game.videoUrl);
+          game.mainPageVideoUrl = processUrl(game.mainPageVideoUrl);
+          game.backgroundImageUrl = processUrl(game.backgroundImageUrl);
+
+          game.galleryImages = game.galleryImagesJson
+              ? JSON.parse(game.galleryImagesJson).map(img => processUrl(img))
+              : [];
+          game.middleImages = game.middleImagesJson
+              ? JSON.parse(game.middleImagesJson).map(img => processUrl(img))
+              : [];
+          game.downloadLinks = game.downloadLinksJson
+              ? JSON.parse(game.downloadLinksJson).map(link => ({
+                  ...link,
+                  Url: processUrl(link.Url)
+              }))
+              : [];
+            // مطمئن شوید slug هم در GameCard موجود است
+            game.moreInfoLink = `/games/${game.slug}`; // برای دکمه جزئیات GameCard
+
+          return game;
+        });
+
+        setGames(processedGames);
+        setTotalPages(pagedData.totalPages); // <--- **تنظیم تعداد کل صفحات**
       } catch (err) {
         console.error("خطا در دریافت لیست بازی‌ها:", err);
         setError("لیست بازی‌ها یافت نشد یا مشکلی در اتصال به سرور وجود دارد.");
@@ -48,13 +88,17 @@ const GamesList = () => {
       }
     };
     fetchGames();
-  }, []);
+  }, [currentPage]); // <--- **هر بار که currentPage تغییر کند، دوباره فچ کن**
 
+  const handlePageChange = (pageNumber) => { // <--- **تابع برای تغییر صفحه**
+    setCurrentPage(pageNumber);
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // اسکرول به بالای صفحه
+  };
   return (
     <div className={styles.gamesListPageContainer}>
       <Header />
       <ProductSlider products={dummyProducts} />
-  <main className={styles.mainContent}>
+      <main className={styles.mainContent}>
         <h1 className={styles.pageTitle}>لیست بازی‌ها</h1>
 
         {loading && <div className={styles.loading}>در حال بارگذاری لیست بازی‌ها...</div>}
@@ -70,6 +114,14 @@ const GamesList = () => {
             <GameCard key={game.id} game={game} />
           ))}
         </div>
+         {/* **اضافه کردن کامپوننت Pagination** */}
+        {!loading && !error && totalPages > 1 && (
+          <Pagination
+            currentPage={currentPage}
+            totalPages={totalPages}
+            onPageChange={handlePageChange}
+          />
+        )}
       </main>
       <CommentSection gameId={9999} />
       <Footer />

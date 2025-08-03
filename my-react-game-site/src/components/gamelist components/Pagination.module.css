@@ -1,0 +1,65 @@
+/* src/components/Pagination.module.css */
+
+.paginationContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* فاصله بین دکمه‌ها */
+  margin-top: 40px; /* فاصله از لیست بازی‌ها */
+  margin-bottom: 40px; /* فاصله از فوتر */
+  direction: rtl; /* برای فارسی */
+}
+
+.pageButton {
+  background-color: #3a3a3a; /* رنگ خاکستری تیره */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  white-space: nowrap; /* جلوگیری از شکستن خط */
+}
+
+.pageButton:hover {
+  background-color: #555;
+  transform: translateY(-1px);
+}
+
+.pageButton:disabled {
+  background-color: #2a2a2a;
+  color: #888;
+  cursor: not-allowed;
+}
+
+.pageButton.active {
+  background-color: #007bff; /* رنگ آبی برای صفحه فعال */
+  color: gold; /* رنگ طلایی برای متن صفحه فعال */
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  transform: scale(1.05);
+}
+
+.ellipsis {
+  color: #ccc;
+  font-size: 1.2rem;
+  padding: 0 5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .paginationContainer {
+    gap: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap; /* دکمه‌ها در موبایل بشکنند */
+  }
+  .pageButton {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+  }
+  .ellipsis {
+    font-size: 1rem;
+  }
+}

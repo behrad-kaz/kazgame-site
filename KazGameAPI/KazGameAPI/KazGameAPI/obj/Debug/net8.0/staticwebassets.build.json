@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oqSzN9ATeWGQHr+nkhebOvSoOEwwQKV8WOyEjPmsaOY=",
+  "Hash": "9pAn9RtjFPsWC0plyzsDHGiexc8f8lRgTY4NNVwKDGA=",
   "Source": "KazGameAPI",
   "BasePath": "_content/KazGameAPI",
   "Mode": "Default",
@@ -521,6 +521,174 @@
       "OriginalItemSpec": "wwwroot\\images\\elden-ring\\eldenring.png"
     },
     {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\g.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/god-of-war-ragnarok/g#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7afe4fm0sm",
+      "Integrity": "ITtAuyzRh2KYuTZVAWCvh53rR/W5eSSKK+LJjQb5CO4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\god-of-war-ragnarok\\g.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\go.png",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/god-of-war-ragnarok/go#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qti6p3f65y",
+      "Integrity": "zrkJmnBvxuljwSfIAbIcyP7BJAaNXIo4RhDxwDKmvb0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\god-of-war-ragnarok\\go.png"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\god o.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/god-of-war-ragnarok/god o#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tp2x5jjcyi",
+      "Integrity": "//K6N/sdvEmsO0PVGjNo3a5NTcqUJY/48Qz7phaWsE8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\god-of-war-ragnarok\\god o.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\god.webp",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/god-of-war-ragnarok/god#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "isquyyeq4m",
+      "Integrity": "Im1Yk/U+eLIQszaEF2sStU7ZGtvvhLEiJIiWDI/OpkI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\god-of-war-ragnarok\\god.webp"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\god-of.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/god-of-war-ragnarok/god-of#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0fy3jl1voz",
+      "Integrity": "BPj5N9wt2bnsP9yjilKUP2E8tPvvm0UFnwyaoZQfUbM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\god-of-war-ragnarok\\god-of.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\God-of-War-2.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/god-of-war-ragnarok/God-of-War-2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tsaqtjhzik",
+      "Integrity": "LfJoWpjLmGgIz12ok9qGlSEBxPb1AAcHhzL0+bJQXlc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\god-of-war-ragnarok\\God-of-War-2.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\God-of-War-5.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/god-of-war-ragnarok/God-of-War-5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xk78yox8s8",
+      "Integrity": "n1WE5RwCuZOQZRBiFS4FS4ToTyqKObY8dON0NmyFDwM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\god-of-war-ragnarok\\God-of-War-5.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\God-of-War-6.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/god-of-war-ragnarok/God-of-War-6#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l56w0hx4uh",
+      "Integrity": "KdvHBAHO25tmLsvTpQyqeEPT4j6QTpjjHGKVRJnKTdE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\god-of-war-ragnarok\\God-of-War-6.jpg"
+    },
+    {
       "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\Gran.jpg",
       "SourceId": "KazGameAPI",
       "SourceType": "Discovered",
@@ -687,6 +855,531 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\keyboard-svgrepo-com.svg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-1\\4-8152.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/last-of-us-1/4-8152#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1ewibv9u6b",
+      "Integrity": "h7SZBnKX3nOFm/2/6FXNNHd6fj8Wk9X33VeiVdwFGps=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\last-of-us-1\\4-8152.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-1\\5-4993.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/last-of-us-1/5-4993#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hljtod64n3",
+      "Integrity": "iytj7oYOxpuw3Ih6J5WvsnfaNKxa+ufeOhdO7Bz7vWw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\last-of-us-1\\5-4993.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-1\\l.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/last-of-us-1/l#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d7pbltj1b2",
+      "Integrity": "WY22DGEfg3xDS1NjGK2aEtojrTiBCHt3jNGmrcPRuKg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\last-of-us-1\\l.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-1\\la.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/last-of-us-1/la#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1pkin08gkk",
+      "Integrity": "RTDbuFzMvt1Y4RIhZ6BUTYHczzRjDM6j5WeZd39Izig=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\last-of-us-1\\la.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-1\\las.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/last-of-us-1/las#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eim1r7onaw",
+      "Integrity": "Nt+6d+eEmr9HA9iRd43forIaAP1hvXj25fGtXGSLwDY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\last-of-us-1\\las.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-1\\last.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/last-of-us-1/last#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gttz92cp1t",
+      "Integrity": "TI1c03w1NavzdcxQqG5spu7dKh1vR9pQCRh+gTWs8Zg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\last-of-us-1\\last.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-1\\ss_fd9e.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/last-of-us-1/ss_fd9e#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qo3mcvf7ik",
+      "Integrity": "1ivr5RvVKZu0vBwFsFy20b3DGO4MCy5Re+Ko/aysr2A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\last-of-us-1\\ss_fd9e.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\1-6544.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/last-of-us-2/1-6544#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jsr136s0b4",
+      "Integrity": "DUIh4jCe3tnu3LFx5ALPfCgpywIgr8NC/K2cOzKsYKY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\last-of-us-2\\1-6544.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\l.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/last-of-us-2/l#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3xz1qfjuf0",
+      "Integrity": "6e1rZj09qRf6RtHzyxh+qrwttteUFa2yvWLCSF5RnUY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\last-of-us-2\\l.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\la.webp",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/last-of-us-2/la#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xbu24otfzi",
+      "Integrity": "DXoNf+MOj7sSHPwuAaC9TSoSkoNiAG0c1+M7IM3O9cI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\last-of-us-2\\la.webp"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\las.png",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/last-of-us-2/las#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hvy9e1h4lt",
+      "Integrity": "M2V1pGwUB8uMGAKQTentKWEwuqX3TUPIzsuf/iEmZNs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\last-of-us-2\\las.png"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\last.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/last-of-us-2/last#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rematq0ips",
+      "Integrity": "DQuT849iWv2h02qjvBkBfuLzkKeBWBpZQY1Yl03NdUU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\last-of-us-2\\last.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\last-o.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/last-of-us-2/last-o#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "93a373ngmc",
+      "Integrity": "K+dFs5ifCRyF9+aXa8LRpW6i4uVfLaqBdNfnmZwTHlQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\last-of-us-2\\last-o.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\last-of.webp",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/last-of-us-2/last-of#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7axxcb0tiz",
+      "Integrity": "QQFUvHwqMhShZeZbYyeOudMPzZ3jsYiOTUmbSIJZG8Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\last-of-us-2\\last-of.webp"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\The_Last_of_Us_Part_II_Remastered.2.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/last-of-us-2/The_Last_of_Us_Part_II_Remastered.2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9svr8mj5op",
+      "Integrity": "qWmsXx10190t+12XvULxDtmvOZ7axabLlVG7WQUGD+A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\last-of-us-2\\The_Last_of_Us_Part_II_Remastered.2.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\The_Last_of_Us_Part_II_Remastered.6.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/last-of-us-2/The_Last_of_Us_Part_II_Remastered.6#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x8vvm2oj7t",
+      "Integrity": "D/L8EqwbpwqIsUnRKL0p3AnPB5BsUlt3kmh8IjD57lc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\last-of-us-2\\The_Last_of_Us_Part_II_Remastered.6.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\1.Marvels_SpiderMan_2-1.webp",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/marvel-spider-man-2/1.Marvels_SpiderMan_2-1#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "arjyyl61sa",
+      "Integrity": "evFjHRFUtHzKjmsT5VO5ZyZaDg6PrZvAvbxa3OGb398=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\marvel-spider-man-2\\1.Marvels_SpiderMan_2-1.webp"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\1.Marvels_SpiderMan_2-2.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/marvel-spider-man-2/1.Marvels_SpiderMan_2-2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "973vdstd7s",
+      "Integrity": "C7HNQsyzTFO8jFs90Sxm/VZGqCTAAzYNOSYhiDZQUyI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\marvel-spider-man-2\\1.Marvels_SpiderMan_2-2.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\1-8239.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/marvel-spider-man-2/1-8239#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "595znmtq4l",
+      "Integrity": "WeQvQG5TSgoC+u82KOQtQeqY+XoHYcfStfC+C+eITTs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\marvel-spider-man-2\\1-8239.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\3-4361.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/marvel-spider-man-2/3-4361#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t5qzq8e869",
+      "Integrity": "zzaI3ZfpNm/mxrN9qzLV+ZGEewga6+sUmoWFKWoZ89Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\marvel-spider-man-2\\3-4361.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\m.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/marvel-spider-man-2/m#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "35e43bkwmr",
+      "Integrity": "l0+M/J9Td+BuW0izNZ5XCq6Ic7WVXwvGdugY7IynVM0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\marvel-spider-man-2\\m.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\ma.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/marvel-spider-man-2/ma#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lb2pxrnvln",
+      "Integrity": "ARU0BlREmfwdSHSBVkf4FSbmUyGBE6DODEVw4sphvV8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\marvel-spider-man-2\\ma.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\mar.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/marvel-spider-man-2/mar#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f9un68eepm",
+      "Integrity": "DcEEQZYSC4rMLIVKHTCGJhH3krdhRHTieS2YY3QuJWI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\marvel-spider-man-2\\mar.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\marvel.jpg",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/marvel-spider-man-2/marvel#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jkcad8bew0",
+      "Integrity": "3SQZTjCFsQK90WFrBMC1fC9hcmgRH9M6q1SxUTXbfiY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\marvel-spider-man-2\\marvel.jpg"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\marvels-spider-man-2.webp",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "images/marvel-spider-man-2/marvels-spider-man-2#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7mrzous20q",
+      "Integrity": "cflld/O75JTZ+qvYeMEH/LEp8SDwo+tfxs4gnt9PLiM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\marvel-spider-man-2\\marvels-spider-man-2.webp"
     },
     {
       "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\R.jpg",
@@ -1214,6 +1907,69 @@
       "OriginalItemSpec": "wwwroot\\videos\\Elden-Ring-Trailer_1.mp4"
     },
     {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\God-of-War-Ragnarok-480p-trailer_1.mp4",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "videos/God-of-War-Ragnarok-480p-trailer_1#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lathzn8vea",
+      "Integrity": "c1KV/t1LnSKBek6W9zR7DMa9x5ygmQR8EIWewQRixxc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\God-of-War-Ragnarok-480p-trailer_1.mp4"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\God-of-War-Ragnarok-PC-Announcement-Trailer.webm",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "videos/God-of-War-Ragnarok-PC-Announcement-Trailer#[.{fingerprint}]?.webm",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sh1cm7jn6p",
+      "Integrity": "cCuJUJSPeFaX+WA32Ju767n8HUZY66L0muyR8yb1mow=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\God-of-War-Ragnarok-PC-Announcement-Trailer.webm"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\god-of-war-ragnarok-trailer.mp4",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "videos/god-of-war-ragnarok-trailer#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sh1cm7jn6p",
+      "Integrity": "cCuJUJSPeFaX+WA32Ju767n8HUZY66L0muyR8yb1mow=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\god-of-war-ragnarok-trailer.mp4"
+    },
+    {
       "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\GTA-V-Trailer.mp4",
       "SourceId": "KazGameAPI",
       "SourceType": "Discovered",
@@ -1256,6 +2012,153 @@
       "OriginalItemSpec": "wwwroot\\videos\\GTA-V-Trailer_1_1_1.mp4"
     },
     {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\last-of-us-1\\The_Last_of_Us_Part_I_Official_Launch_Trailer_1080p.mp4",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "videos/last-of-us-1/The_Last_of_Us_Part_I_Official_Launch_Trailer_1080p#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qx1lltboij",
+      "Integrity": "8olY8w9EMH7T0f8Kdw3Zdw8FljkV80BGy4LDfh8f8Rs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\last-of-us-1\\The_Last_of_Us_Part_I_Official_Launch_Trailer_1080p.mp4"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\last-of-us-1\\The_Last_of_Us_Part_I_Official_Launch_Trailer_1080p_1.mp4",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "videos/last-of-us-1/The_Last_of_Us_Part_I_Official_Launch_Trailer_1080p_1#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8evl65a0s2",
+      "Integrity": "MCzJXpfPEf5UoBvSGMvpGI6+7XfV7KZJ2yiKpcJ/HR0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\last-of-us-1\\The_Last_of_Us_Part_I_Official_Launch_Trailer_1080p_1.mp4"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\last-of-us-2\\The.Last.of.Us.Part.II.mp4",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "videos/last-of-us-2/The.Last.of.Us.Part.II#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n3iexjxg9y",
+      "Integrity": "I1AoyS8fiiBwC5chx5duQ8EoyDT2m5/7XidgZJUzI6o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\last-of-us-2\\The.Last.of.Us.Part.II.mp4"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\last-of-us-2\\The.Last.of.Us.Part.II.Remastered..mp4",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "videos/last-of-us-2/The.Last.of.Us.Part.II.Remastered.#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wjf80u1j2v",
+      "Integrity": "vAiRNaKw7LkELs6+lXNW6G6tjiL8ipHJLHe84nT3jlI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\last-of-us-2\\The.Last.of.Us.Part.II.Remastered..mp4"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\marvel-spider-man-2\\Marvels_SpiderMan_2.webm",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "videos/marvel-spider-man-2/Marvels_SpiderMan_2#[.{fingerprint}]?.webm",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "50zf6w13ig",
+      "Integrity": "C4taZDXzS9eQPKO2rx6ZJpqFaDvF0f29aWU2HaL2x+I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\marvel-spider-man-2\\Marvels_SpiderMan_2.webm"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\marvel-spider-man-2\\Marvels_SpiderMan_2_1.mp4",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "videos/marvel-spider-man-2/Marvels_SpiderMan_2_1#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3gq6n5bofh",
+      "Integrity": "ndnZiwmKKkab8riqTHttxUF/RenOY751bzvNuUL6bqY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\marvel-spider-man-2\\Marvels_SpiderMan_2_1.mp4"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\marvel-spider-man-2\\Marve-s-Spider-Man-2.mp4",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "videos/marvel-spider-man-2/Marve-s-Spider-Man-2#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "avits94lvg",
+      "Integrity": "xuRYWfavfYQ00FbAtv5rrl5jvuL+v30vXx7sLW/dI+0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\marvel-spider-man-2\\Marve-s-Spider-Man-2.mp4"
+    },
+    {
       "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\r.mp4",
       "SourceId": "KazGameAPI",
       "SourceType": "Discovered",
@@ -1296,6 +2199,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\videos\\Red Dead Redemption 2  Official Gameplay Video.mp4"
+    },
+    {
+      "Identity": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\spider-man-2-trailer.mp4",
+      "SourceId": "KazGameAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\",
+      "BasePath": "_content/KazGameAPI",
+      "RelativePath": "videos/spider-man-2-trailer#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "50zf6w13ig",
+      "Integrity": "C4taZDXzS9eQPKO2rx6ZJpqFaDvF0f29aWU2HaL2x+I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\spider-man-2-trailer.mp4"
     }
   ],
   "Endpoints": [
@@ -3268,6 +4192,662 @@
       ]
     },
     {
+      "Route": "images/god-of-war-ragnarok/g.7afe4fm0sm.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\g.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "209998"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ITtAuyzRh2KYuTZVAWCvh53rR/W5eSSKK+LJjQb5CO4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 14:33:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7afe4fm0sm"
+        },
+        {
+          "Name": "label",
+          "Value": "images/god-of-war-ragnarok/g.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ITtAuyzRh2KYuTZVAWCvh53rR/W5eSSKK+LJjQb5CO4="
+        }
+      ]
+    },
+    {
+      "Route": "images/god-of-war-ragnarok/g.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\g.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "209998"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ITtAuyzRh2KYuTZVAWCvh53rR/W5eSSKK+LJjQb5CO4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 14:33:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ITtAuyzRh2KYuTZVAWCvh53rR/W5eSSKK+LJjQb5CO4="
+        }
+      ]
+    },
+    {
+      "Route": "images/god-of-war-ragnarok/go.png",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\go.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11684891"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zrkJmnBvxuljwSfIAbIcyP7BJAaNXIo4RhDxwDKmvb0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 14:33:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zrkJmnBvxuljwSfIAbIcyP7BJAaNXIo4RhDxwDKmvb0="
+        }
+      ]
+    },
+    {
+      "Route": "images/god-of-war-ragnarok/go.qti6p3f65y.png",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\go.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11684891"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zrkJmnBvxuljwSfIAbIcyP7BJAaNXIo4RhDxwDKmvb0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 14:33:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qti6p3f65y"
+        },
+        {
+          "Name": "label",
+          "Value": "images/god-of-war-ragnarok/go.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zrkJmnBvxuljwSfIAbIcyP7BJAaNXIo4RhDxwDKmvb0="
+        }
+      ]
+    },
+    {
+      "Route": "images/god-of-war-ragnarok/god o.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\god o.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "360199"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"//K6N/sdvEmsO0PVGjNo3a5NTcqUJY/48Qz7phaWsE8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 14:35:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-//K6N/sdvEmsO0PVGjNo3a5NTcqUJY/48Qz7phaWsE8="
+        }
+      ]
+    },
+    {
+      "Route": "images/god-of-war-ragnarok/god o.tp2x5jjcyi.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\god o.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "360199"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"//K6N/sdvEmsO0PVGjNo3a5NTcqUJY/48Qz7phaWsE8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 14:35:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tp2x5jjcyi"
+        },
+        {
+          "Name": "label",
+          "Value": "images/god-of-war-ragnarok/god o.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-//K6N/sdvEmsO0PVGjNo3a5NTcqUJY/48Qz7phaWsE8="
+        }
+      ]
+    },
+    {
+      "Route": "images/god-of-war-ragnarok/god.isquyyeq4m.webp",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\god.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "114568"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Im1Yk/U+eLIQszaEF2sStU7ZGtvvhLEiJIiWDI/OpkI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 14:34:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "isquyyeq4m"
+        },
+        {
+          "Name": "label",
+          "Value": "images/god-of-war-ragnarok/god.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Im1Yk/U+eLIQszaEF2sStU7ZGtvvhLEiJIiWDI/OpkI="
+        }
+      ]
+    },
+    {
+      "Route": "images/god-of-war-ragnarok/god.webp",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\god.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "114568"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Im1Yk/U+eLIQszaEF2sStU7ZGtvvhLEiJIiWDI/OpkI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 14:34:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Im1Yk/U+eLIQszaEF2sStU7ZGtvvhLEiJIiWDI/OpkI="
+        }
+      ]
+    },
+    {
+      "Route": "images/god-of-war-ragnarok/god-of.0fy3jl1voz.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\god-of.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "285641"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BPj5N9wt2bnsP9yjilKUP2E8tPvvm0UFnwyaoZQfUbM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 14:36:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0fy3jl1voz"
+        },
+        {
+          "Name": "label",
+          "Value": "images/god-of-war-ragnarok/god-of.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BPj5N9wt2bnsP9yjilKUP2E8tPvvm0UFnwyaoZQfUbM="
+        }
+      ]
+    },
+    {
+      "Route": "images/god-of-war-ragnarok/god-of.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\god-of.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "285641"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BPj5N9wt2bnsP9yjilKUP2E8tPvvm0UFnwyaoZQfUbM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 14:36:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BPj5N9wt2bnsP9yjilKUP2E8tPvvm0UFnwyaoZQfUbM="
+        }
+      ]
+    },
+    {
+      "Route": "images/god-of-war-ragnarok/God-of-War-2.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\God-of-War-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "103837"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LfJoWpjLmGgIz12ok9qGlSEBxPb1AAcHhzL0+bJQXlc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 15:05:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LfJoWpjLmGgIz12ok9qGlSEBxPb1AAcHhzL0+bJQXlc="
+        }
+      ]
+    },
+    {
+      "Route": "images/god-of-war-ragnarok/God-of-War-2.tsaqtjhzik.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\God-of-War-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "103837"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LfJoWpjLmGgIz12ok9qGlSEBxPb1AAcHhzL0+bJQXlc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 15:05:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tsaqtjhzik"
+        },
+        {
+          "Name": "label",
+          "Value": "images/god-of-war-ragnarok/God-of-War-2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LfJoWpjLmGgIz12ok9qGlSEBxPb1AAcHhzL0+bJQXlc="
+        }
+      ]
+    },
+    {
+      "Route": "images/god-of-war-ragnarok/God-of-War-5.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\God-of-War-5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "96681"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n1WE5RwCuZOQZRBiFS4FS4ToTyqKObY8dON0NmyFDwM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 14:36:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-n1WE5RwCuZOQZRBiFS4FS4ToTyqKObY8dON0NmyFDwM="
+        }
+      ]
+    },
+    {
+      "Route": "images/god-of-war-ragnarok/God-of-War-5.xk78yox8s8.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\God-of-War-5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "96681"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n1WE5RwCuZOQZRBiFS4FS4ToTyqKObY8dON0NmyFDwM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 14:36:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xk78yox8s8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/god-of-war-ragnarok/God-of-War-5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-n1WE5RwCuZOQZRBiFS4FS4ToTyqKObY8dON0NmyFDwM="
+        }
+      ]
+    },
+    {
+      "Route": "images/god-of-war-ragnarok/God-of-War-6.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\God-of-War-6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97102"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KdvHBAHO25tmLsvTpQyqeEPT4j6QTpjjHGKVRJnKTdE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 14:36:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KdvHBAHO25tmLsvTpQyqeEPT4j6QTpjjHGKVRJnKTdE="
+        }
+      ]
+    },
+    {
+      "Route": "images/god-of-war-ragnarok/God-of-War-6.l56w0hx4uh.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\God-of-War-6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97102"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KdvHBAHO25tmLsvTpQyqeEPT4j6QTpjjHGKVRJnKTdE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 14:36:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l56w0hx4uh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/god-of-war-ragnarok/God-of-War-6.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KdvHBAHO25tmLsvTpQyqeEPT4j6QTpjjHGKVRJnKTdE="
+        }
+      ]
+    },
+    {
       "Route": "images/Gran.9fnt1xp6i8.jpg",
       "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\Gran.jpg",
       "Selectors": [],
@@ -3920,6 +5500,2056 @@
         {
           "Name": "integrity",
           "Value": "sha256-bBEU1koo7XfnXXtlk6gj1X5bekzCkP0qasCGZjfp9+o="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-1/4-8152.1ewibv9u6b.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-1\\4-8152.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "334479"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h7SZBnKX3nOFm/2/6FXNNHd6fj8Wk9X33VeiVdwFGps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 07:44:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1ewibv9u6b"
+        },
+        {
+          "Name": "label",
+          "Value": "images/last-of-us-1/4-8152.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-h7SZBnKX3nOFm/2/6FXNNHd6fj8Wk9X33VeiVdwFGps="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-1/4-8152.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-1\\4-8152.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "334479"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h7SZBnKX3nOFm/2/6FXNNHd6fj8Wk9X33VeiVdwFGps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 07:44:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-h7SZBnKX3nOFm/2/6FXNNHd6fj8Wk9X33VeiVdwFGps="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-1/5-4993.hljtod64n3.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-1\\5-4993.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "524944"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iytj7oYOxpuw3Ih6J5WvsnfaNKxa+ufeOhdO7Bz7vWw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 07:44:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hljtod64n3"
+        },
+        {
+          "Name": "label",
+          "Value": "images/last-of-us-1/5-4993.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iytj7oYOxpuw3Ih6J5WvsnfaNKxa+ufeOhdO7Bz7vWw="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-1/5-4993.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-1\\5-4993.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "524944"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iytj7oYOxpuw3Ih6J5WvsnfaNKxa+ufeOhdO7Bz7vWw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 07:44:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iytj7oYOxpuw3Ih6J5WvsnfaNKxa+ufeOhdO7Bz7vWw="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-1/l.d7pbltj1b2.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-1\\l.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "906036"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WY22DGEfg3xDS1NjGK2aEtojrTiBCHt3jNGmrcPRuKg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 07:39:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d7pbltj1b2"
+        },
+        {
+          "Name": "label",
+          "Value": "images/last-of-us-1/l.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WY22DGEfg3xDS1NjGK2aEtojrTiBCHt3jNGmrcPRuKg="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-1/l.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-1\\l.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "906036"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WY22DGEfg3xDS1NjGK2aEtojrTiBCHt3jNGmrcPRuKg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 07:39:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WY22DGEfg3xDS1NjGK2aEtojrTiBCHt3jNGmrcPRuKg="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-1/la.1pkin08gkk.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-1\\la.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "540792"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RTDbuFzMvt1Y4RIhZ6BUTYHczzRjDM6j5WeZd39Izig=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 07:40:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1pkin08gkk"
+        },
+        {
+          "Name": "label",
+          "Value": "images/last-of-us-1/la.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RTDbuFzMvt1Y4RIhZ6BUTYHczzRjDM6j5WeZd39Izig="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-1/la.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-1\\la.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "540792"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RTDbuFzMvt1Y4RIhZ6BUTYHczzRjDM6j5WeZd39Izig=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 07:40:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RTDbuFzMvt1Y4RIhZ6BUTYHczzRjDM6j5WeZd39Izig="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-1/las.eim1r7onaw.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-1\\las.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "747749"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nt+6d+eEmr9HA9iRd43forIaAP1hvXj25fGtXGSLwDY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 07:41:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eim1r7onaw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/last-of-us-1/las.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nt+6d+eEmr9HA9iRd43forIaAP1hvXj25fGtXGSLwDY="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-1/las.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-1\\las.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "747749"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nt+6d+eEmr9HA9iRd43forIaAP1hvXj25fGtXGSLwDY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 07:41:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nt+6d+eEmr9HA9iRd43forIaAP1hvXj25fGtXGSLwDY="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-1/last.gttz92cp1t.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-1\\last.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2193487"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TI1c03w1NavzdcxQqG5spu7dKh1vR9pQCRh+gTWs8Zg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 07:44:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gttz92cp1t"
+        },
+        {
+          "Name": "label",
+          "Value": "images/last-of-us-1/last.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TI1c03w1NavzdcxQqG5spu7dKh1vR9pQCRh+gTWs8Zg="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-1/last.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-1\\last.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2193487"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TI1c03w1NavzdcxQqG5spu7dKh1vR9pQCRh+gTWs8Zg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 07:44:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TI1c03w1NavzdcxQqG5spu7dKh1vR9pQCRh+gTWs8Zg="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-1/ss_fd9e.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-1\\ss_fd9e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46781"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1ivr5RvVKZu0vBwFsFy20b3DGO4MCy5Re+Ko/aysr2A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 07:44:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1ivr5RvVKZu0vBwFsFy20b3DGO4MCy5Re+Ko/aysr2A="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-1/ss_fd9e.qo3mcvf7ik.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-1\\ss_fd9e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46781"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1ivr5RvVKZu0vBwFsFy20b3DGO4MCy5Re+Ko/aysr2A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 07:44:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qo3mcvf7ik"
+        },
+        {
+          "Name": "label",
+          "Value": "images/last-of-us-1/ss_fd9e.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1ivr5RvVKZu0vBwFsFy20b3DGO4MCy5Re+Ko/aysr2A="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-2/1-6544.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\1-6544.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "127529"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DUIh4jCe3tnu3LFx5ALPfCgpywIgr8NC/K2cOzKsYKY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 07:12:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DUIh4jCe3tnu3LFx5ALPfCgpywIgr8NC/K2cOzKsYKY="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-2/1-6544.jsr136s0b4.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\1-6544.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "127529"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DUIh4jCe3tnu3LFx5ALPfCgpywIgr8NC/K2cOzKsYKY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 07:12:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jsr136s0b4"
+        },
+        {
+          "Name": "label",
+          "Value": "images/last-of-us-2/1-6544.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DUIh4jCe3tnu3LFx5ALPfCgpywIgr8NC/K2cOzKsYKY="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-2/l.3xz1qfjuf0.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\l.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "103690"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6e1rZj09qRf6RtHzyxh+qrwttteUFa2yvWLCSF5RnUY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 06:37:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3xz1qfjuf0"
+        },
+        {
+          "Name": "label",
+          "Value": "images/last-of-us-2/l.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6e1rZj09qRf6RtHzyxh+qrwttteUFa2yvWLCSF5RnUY="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-2/l.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\l.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "103690"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6e1rZj09qRf6RtHzyxh+qrwttteUFa2yvWLCSF5RnUY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 06:37:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6e1rZj09qRf6RtHzyxh+qrwttteUFa2yvWLCSF5RnUY="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-2/la.webp",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\la.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "278724"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DXoNf+MOj7sSHPwuAaC9TSoSkoNiAG0c1+M7IM3O9cI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 06:38:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DXoNf+MOj7sSHPwuAaC9TSoSkoNiAG0c1+M7IM3O9cI="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-2/la.xbu24otfzi.webp",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\la.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "278724"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DXoNf+MOj7sSHPwuAaC9TSoSkoNiAG0c1+M7IM3O9cI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 06:38:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xbu24otfzi"
+        },
+        {
+          "Name": "label",
+          "Value": "images/last-of-us-2/la.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DXoNf+MOj7sSHPwuAaC9TSoSkoNiAG0c1+M7IM3O9cI="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-2/las.hvy9e1h4lt.png",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\las.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14198523"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M2V1pGwUB8uMGAKQTentKWEwuqX3TUPIzsuf/iEmZNs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 06:38:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hvy9e1h4lt"
+        },
+        {
+          "Name": "label",
+          "Value": "images/last-of-us-2/las.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-M2V1pGwUB8uMGAKQTentKWEwuqX3TUPIzsuf/iEmZNs="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-2/las.png",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\las.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14198523"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M2V1pGwUB8uMGAKQTentKWEwuqX3TUPIzsuf/iEmZNs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 06:38:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-M2V1pGwUB8uMGAKQTentKWEwuqX3TUPIzsuf/iEmZNs="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-2/last.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\last.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "469850"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DQuT849iWv2h02qjvBkBfuLzkKeBWBpZQY1Yl03NdUU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 06:38:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DQuT849iWv2h02qjvBkBfuLzkKeBWBpZQY1Yl03NdUU="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-2/last.rematq0ips.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\last.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "469850"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DQuT849iWv2h02qjvBkBfuLzkKeBWBpZQY1Yl03NdUU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 06:38:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rematq0ips"
+        },
+        {
+          "Name": "label",
+          "Value": "images/last-of-us-2/last.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DQuT849iWv2h02qjvBkBfuLzkKeBWBpZQY1Yl03NdUU="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-2/last-o.93a373ngmc.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\last-o.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "361664"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K+dFs5ifCRyF9+aXa8LRpW6i4uVfLaqBdNfnmZwTHlQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 06:39:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "93a373ngmc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/last-of-us-2/last-o.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-K+dFs5ifCRyF9+aXa8LRpW6i4uVfLaqBdNfnmZwTHlQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-2/last-o.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\last-o.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "361664"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K+dFs5ifCRyF9+aXa8LRpW6i4uVfLaqBdNfnmZwTHlQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 06:39:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-K+dFs5ifCRyF9+aXa8LRpW6i4uVfLaqBdNfnmZwTHlQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-2/last-of.7axxcb0tiz.webp",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\last-of.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "98636"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QQFUvHwqMhShZeZbYyeOudMPzZ3jsYiOTUmbSIJZG8Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 06:39:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7axxcb0tiz"
+        },
+        {
+          "Name": "label",
+          "Value": "images/last-of-us-2/last-of.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QQFUvHwqMhShZeZbYyeOudMPzZ3jsYiOTUmbSIJZG8Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-2/last-of.webp",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\last-of.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "98636"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QQFUvHwqMhShZeZbYyeOudMPzZ3jsYiOTUmbSIJZG8Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 06:39:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QQFUvHwqMhShZeZbYyeOudMPzZ3jsYiOTUmbSIJZG8Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-2/The_Last_of_Us_Part_II_Remastered.2.9svr8mj5op.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\The_Last_of_Us_Part_II_Remastered.2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26184"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qWmsXx10190t+12XvULxDtmvOZ7axabLlVG7WQUGD+A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 07:17:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9svr8mj5op"
+        },
+        {
+          "Name": "label",
+          "Value": "images/last-of-us-2/The_Last_of_Us_Part_II_Remastered.2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qWmsXx10190t+12XvULxDtmvOZ7axabLlVG7WQUGD+A="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-2/The_Last_of_Us_Part_II_Remastered.2.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\The_Last_of_Us_Part_II_Remastered.2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26184"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qWmsXx10190t+12XvULxDtmvOZ7axabLlVG7WQUGD+A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 07:17:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qWmsXx10190t+12XvULxDtmvOZ7axabLlVG7WQUGD+A="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-2/The_Last_of_Us_Part_II_Remastered.6.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\The_Last_of_Us_Part_II_Remastered.6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77300"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D/L8EqwbpwqIsUnRKL0p3AnPB5BsUlt3kmh8IjD57lc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 07:12:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-D/L8EqwbpwqIsUnRKL0p3AnPB5BsUlt3kmh8IjD57lc="
+        }
+      ]
+    },
+    {
+      "Route": "images/last-of-us-2/The_Last_of_Us_Part_II_Remastered.6.x8vvm2oj7t.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\The_Last_of_Us_Part_II_Remastered.6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77300"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D/L8EqwbpwqIsUnRKL0p3AnPB5BsUlt3kmh8IjD57lc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 07:12:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x8vvm2oj7t"
+        },
+        {
+          "Name": "label",
+          "Value": "images/last-of-us-2/The_Last_of_Us_Part_II_Remastered.6.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-D/L8EqwbpwqIsUnRKL0p3AnPB5BsUlt3kmh8IjD57lc="
+        }
+      ]
+    },
+    {
+      "Route": "images/marvel-spider-man-2/1.Marvels_SpiderMan_2-1.arjyyl61sa.webp",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\1.Marvels_SpiderMan_2-1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65338"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"evFjHRFUtHzKjmsT5VO5ZyZaDg6PrZvAvbxa3OGb398=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 09:50:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "arjyyl61sa"
+        },
+        {
+          "Name": "label",
+          "Value": "images/marvel-spider-man-2/1.Marvels_SpiderMan_2-1.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-evFjHRFUtHzKjmsT5VO5ZyZaDg6PrZvAvbxa3OGb398="
+        }
+      ]
+    },
+    {
+      "Route": "images/marvel-spider-man-2/1.Marvels_SpiderMan_2-1.webp",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\1.Marvels_SpiderMan_2-1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65338"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"evFjHRFUtHzKjmsT5VO5ZyZaDg6PrZvAvbxa3OGb398=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 09:50:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-evFjHRFUtHzKjmsT5VO5ZyZaDg6PrZvAvbxa3OGb398="
+        }
+      ]
+    },
+    {
+      "Route": "images/marvel-spider-man-2/1.Marvels_SpiderMan_2-2.973vdstd7s.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\1.Marvels_SpiderMan_2-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "83091"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C7HNQsyzTFO8jFs90Sxm/VZGqCTAAzYNOSYhiDZQUyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 09:50:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "973vdstd7s"
+        },
+        {
+          "Name": "label",
+          "Value": "images/marvel-spider-man-2/1.Marvels_SpiderMan_2-2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-C7HNQsyzTFO8jFs90Sxm/VZGqCTAAzYNOSYhiDZQUyI="
+        }
+      ]
+    },
+    {
+      "Route": "images/marvel-spider-man-2/1.Marvels_SpiderMan_2-2.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\1.Marvels_SpiderMan_2-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "83091"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C7HNQsyzTFO8jFs90Sxm/VZGqCTAAzYNOSYhiDZQUyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 09:50:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-C7HNQsyzTFO8jFs90Sxm/VZGqCTAAzYNOSYhiDZQUyI="
+        }
+      ]
+    },
+    {
+      "Route": "images/marvel-spider-man-2/1-8239.595znmtq4l.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\1-8239.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202374"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WeQvQG5TSgoC+u82KOQtQeqY+XoHYcfStfC+C+eITTs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 09:50:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "595znmtq4l"
+        },
+        {
+          "Name": "label",
+          "Value": "images/marvel-spider-man-2/1-8239.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WeQvQG5TSgoC+u82KOQtQeqY+XoHYcfStfC+C+eITTs="
+        }
+      ]
+    },
+    {
+      "Route": "images/marvel-spider-man-2/1-8239.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\1-8239.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202374"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WeQvQG5TSgoC+u82KOQtQeqY+XoHYcfStfC+C+eITTs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 09:50:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WeQvQG5TSgoC+u82KOQtQeqY+XoHYcfStfC+C+eITTs="
+        }
+      ]
+    },
+    {
+      "Route": "images/marvel-spider-man-2/3-4361.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\3-4361.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "215639"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zzaI3ZfpNm/mxrN9qzLV+ZGEewga6+sUmoWFKWoZ89Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 09:51:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zzaI3ZfpNm/mxrN9qzLV+ZGEewga6+sUmoWFKWoZ89Y="
+        }
+      ]
+    },
+    {
+      "Route": "images/marvel-spider-man-2/3-4361.t5qzq8e869.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\3-4361.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "215639"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zzaI3ZfpNm/mxrN9qzLV+ZGEewga6+sUmoWFKWoZ89Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 09:51:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t5qzq8e869"
+        },
+        {
+          "Name": "label",
+          "Value": "images/marvel-spider-man-2/3-4361.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zzaI3ZfpNm/mxrN9qzLV+ZGEewga6+sUmoWFKWoZ89Y="
+        }
+      ]
+    },
+    {
+      "Route": "images/marvel-spider-man-2/m.35e43bkwmr.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\m.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "292757"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l0+M/J9Td+BuW0izNZ5XCq6Ic7WVXwvGdugY7IynVM0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 09:48:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "35e43bkwmr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/marvel-spider-man-2/m.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l0+M/J9Td+BuW0izNZ5XCq6Ic7WVXwvGdugY7IynVM0="
+        }
+      ]
+    },
+    {
+      "Route": "images/marvel-spider-man-2/m.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\m.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "292757"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l0+M/J9Td+BuW0izNZ5XCq6Ic7WVXwvGdugY7IynVM0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 09:48:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l0+M/J9Td+BuW0izNZ5XCq6Ic7WVXwvGdugY7IynVM0="
+        }
+      ]
+    },
+    {
+      "Route": "images/marvel-spider-man-2/ma.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\ma.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "340157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ARU0BlREmfwdSHSBVkf4FSbmUyGBE6DODEVw4sphvV8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 09:49:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ARU0BlREmfwdSHSBVkf4FSbmUyGBE6DODEVw4sphvV8="
+        }
+      ]
+    },
+    {
+      "Route": "images/marvel-spider-man-2/ma.lb2pxrnvln.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\ma.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "340157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ARU0BlREmfwdSHSBVkf4FSbmUyGBE6DODEVw4sphvV8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 09:49:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lb2pxrnvln"
+        },
+        {
+          "Name": "label",
+          "Value": "images/marvel-spider-man-2/ma.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ARU0BlREmfwdSHSBVkf4FSbmUyGBE6DODEVw4sphvV8="
+        }
+      ]
+    },
+    {
+      "Route": "images/marvel-spider-man-2/mar.f9un68eepm.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\mar.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1121714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DcEEQZYSC4rMLIVKHTCGJhH3krdhRHTieS2YY3QuJWI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 09:50:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f9un68eepm"
+        },
+        {
+          "Name": "label",
+          "Value": "images/marvel-spider-man-2/mar.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DcEEQZYSC4rMLIVKHTCGJhH3krdhRHTieS2YY3QuJWI="
+        }
+      ]
+    },
+    {
+      "Route": "images/marvel-spider-man-2/mar.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\mar.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1121714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DcEEQZYSC4rMLIVKHTCGJhH3krdhRHTieS2YY3QuJWI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 09:50:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DcEEQZYSC4rMLIVKHTCGJhH3krdhRHTieS2YY3QuJWI="
+        }
+      ]
+    },
+    {
+      "Route": "images/marvel-spider-man-2/marvel.jkcad8bew0.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\marvel.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "379338"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3SQZTjCFsQK90WFrBMC1fC9hcmgRH9M6q1SxUTXbfiY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 10:06:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jkcad8bew0"
+        },
+        {
+          "Name": "label",
+          "Value": "images/marvel-spider-man-2/marvel.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3SQZTjCFsQK90WFrBMC1fC9hcmgRH9M6q1SxUTXbfiY="
+        }
+      ]
+    },
+    {
+      "Route": "images/marvel-spider-man-2/marvel.jpg",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\marvel.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "379338"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3SQZTjCFsQK90WFrBMC1fC9hcmgRH9M6q1SxUTXbfiY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 10:06:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3SQZTjCFsQK90WFrBMC1fC9hcmgRH9M6q1SxUTXbfiY="
+        }
+      ]
+    },
+    {
+      "Route": "images/marvel-spider-man-2/marvels-spider-man-2.7mrzous20q.webp",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\marvels-spider-man-2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26324"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cflld/O75JTZ+qvYeMEH/LEp8SDwo+tfxs4gnt9PLiM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 10:04:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7mrzous20q"
+        },
+        {
+          "Name": "label",
+          "Value": "images/marvel-spider-man-2/marvels-spider-man-2.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cflld/O75JTZ+qvYeMEH/LEp8SDwo+tfxs4gnt9PLiM="
+        }
+      ]
+    },
+    {
+      "Route": "images/marvel-spider-man-2/marvels-spider-man-2.webp",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\marvels-spider-man-2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26324"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cflld/O75JTZ+qvYeMEH/LEp8SDwo+tfxs4gnt9PLiM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 10:04:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cflld/O75JTZ+qvYeMEH/LEp8SDwo+tfxs4gnt9PLiM="
         }
       ]
     },
@@ -5974,6 +9604,252 @@
       ]
     },
     {
+      "Route": "videos/God-of-War-Ragnarok-480p-trailer_1.lathzn8vea.mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\God-of-War-Ragnarok-480p-trailer_1.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38643660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c1KV/t1LnSKBek6W9zR7DMa9x5ygmQR8EIWewQRixxc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 14:49:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lathzn8vea"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/God-of-War-Ragnarok-480p-trailer_1.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c1KV/t1LnSKBek6W9zR7DMa9x5ygmQR8EIWewQRixxc="
+        }
+      ]
+    },
+    {
+      "Route": "videos/God-of-War-Ragnarok-480p-trailer_1.mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\God-of-War-Ragnarok-480p-trailer_1.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38643660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c1KV/t1LnSKBek6W9zR7DMa9x5ygmQR8EIWewQRixxc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 14:49:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c1KV/t1LnSKBek6W9zR7DMa9x5ygmQR8EIWewQRixxc="
+        }
+      ]
+    },
+    {
+      "Route": "videos/God-of-War-Ragnarok-PC-Announcement-Trailer.sh1cm7jn6p.webm",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\God-of-War-Ragnarok-PC-Announcement-Trailer.webm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35892366"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/webm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cCuJUJSPeFaX+WA32Ju767n8HUZY66L0muyR8yb1mow=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 14:40:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sh1cm7jn6p"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/God-of-War-Ragnarok-PC-Announcement-Trailer.webm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cCuJUJSPeFaX+WA32Ju767n8HUZY66L0muyR8yb1mow="
+        }
+      ]
+    },
+    {
+      "Route": "videos/God-of-War-Ragnarok-PC-Announcement-Trailer.webm",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\God-of-War-Ragnarok-PC-Announcement-Trailer.webm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35892366"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/webm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cCuJUJSPeFaX+WA32Ju767n8HUZY66L0muyR8yb1mow=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 14:40:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cCuJUJSPeFaX+WA32Ju767n8HUZY66L0muyR8yb1mow="
+        }
+      ]
+    },
+    {
+      "Route": "videos/god-of-war-ragnarok-trailer.mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\god-of-war-ragnarok-trailer.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35892366"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cCuJUJSPeFaX+WA32Ju767n8HUZY66L0muyR8yb1mow=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Jul 2025 15:54:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cCuJUJSPeFaX+WA32Ju767n8HUZY66L0muyR8yb1mow="
+        }
+      ]
+    },
+    {
+      "Route": "videos/god-of-war-ragnarok-trailer.sh1cm7jn6p.mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\god-of-war-ragnarok-trailer.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35892366"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cCuJUJSPeFaX+WA32Ju767n8HUZY66L0muyR8yb1mow=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Jul 2025 15:54:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sh1cm7jn6p"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/god-of-war-ragnarok-trailer.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cCuJUJSPeFaX+WA32Ju767n8HUZY66L0muyR8yb1mow="
+        }
+      ]
+    },
+    {
       "Route": "videos/GTA-V-Trailer.bb0sciwpq0.mp4",
       "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\GTA-V-Trailer.mp4",
       "Selectors": [],
@@ -6138,6 +10014,580 @@
       ]
     },
     {
+      "Route": "videos/last-of-us-1/The_Last_of_Us_Part_I_Official_Launch_Trailer_1080p.mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\last-of-us-1\\The_Last_of_Us_Part_I_Official_Launch_Trailer_1080p.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30754986"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8olY8w9EMH7T0f8Kdw3Zdw8FljkV80BGy4LDfh8f8Rs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Jul 2025 15:57:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8olY8w9EMH7T0f8Kdw3Zdw8FljkV80BGy4LDfh8f8Rs="
+        }
+      ]
+    },
+    {
+      "Route": "videos/last-of-us-1/The_Last_of_Us_Part_I_Official_Launch_Trailer_1080p.qx1lltboij.mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\last-of-us-1\\The_Last_of_Us_Part_I_Official_Launch_Trailer_1080p.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30754986"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8olY8w9EMH7T0f8Kdw3Zdw8FljkV80BGy4LDfh8f8Rs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Jul 2025 15:57:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qx1lltboij"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/last-of-us-1/The_Last_of_Us_Part_I_Official_Launch_Trailer_1080p.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8olY8w9EMH7T0f8Kdw3Zdw8FljkV80BGy4LDfh8f8Rs="
+        }
+      ]
+    },
+    {
+      "Route": "videos/last-of-us-1/The_Last_of_Us_Part_I_Official_Launch_Trailer_1080p_1.8evl65a0s2.mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\last-of-us-1\\The_Last_of_Us_Part_I_Official_Launch_Trailer_1080p_1.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62913463"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MCzJXpfPEf5UoBvSGMvpGI6+7XfV7KZJ2yiKpcJ/HR0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 06:48:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8evl65a0s2"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/last-of-us-1/The_Last_of_Us_Part_I_Official_Launch_Trailer_1080p_1.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MCzJXpfPEf5UoBvSGMvpGI6+7XfV7KZJ2yiKpcJ/HR0="
+        }
+      ]
+    },
+    {
+      "Route": "videos/last-of-us-1/The_Last_of_Us_Part_I_Official_Launch_Trailer_1080p_1.mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\last-of-us-1\\The_Last_of_Us_Part_I_Official_Launch_Trailer_1080p_1.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62913463"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MCzJXpfPEf5UoBvSGMvpGI6+7XfV7KZJ2yiKpcJ/HR0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 06:48:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MCzJXpfPEf5UoBvSGMvpGI6+7XfV7KZJ2yiKpcJ/HR0="
+        }
+      ]
+    },
+    {
+      "Route": "videos/last-of-us-2/The.Last.of.Us.Part.II.mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\last-of-us-2\\The.Last.of.Us.Part.II.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53955508"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I1AoyS8fiiBwC5chx5duQ8EoyDT2m5/7XidgZJUzI6o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 06:48:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I1AoyS8fiiBwC5chx5duQ8EoyDT2m5/7XidgZJUzI6o="
+        }
+      ]
+    },
+    {
+      "Route": "videos/last-of-us-2/The.Last.of.Us.Part.II.n3iexjxg9y.mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\last-of-us-2\\The.Last.of.Us.Part.II.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53955508"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I1AoyS8fiiBwC5chx5duQ8EoyDT2m5/7XidgZJUzI6o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 06:48:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n3iexjxg9y"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/last-of-us-2/The.Last.of.Us.Part.II.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I1AoyS8fiiBwC5chx5duQ8EoyDT2m5/7XidgZJUzI6o="
+        }
+      ]
+    },
+    {
+      "Route": "videos/last-of-us-2/The.Last.of.Us.Part.II.Remastered..mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\last-of-us-2\\The.Last.of.Us.Part.II.Remastered..mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29906089"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vAiRNaKw7LkELs6+lXNW6G6tjiL8ipHJLHe84nT3jlI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 06:47:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vAiRNaKw7LkELs6+lXNW6G6tjiL8ipHJLHe84nT3jlI="
+        }
+      ]
+    },
+    {
+      "Route": "videos/last-of-us-2/The.Last.of.Us.Part.II.Remastered..wjf80u1j2v.mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\last-of-us-2\\The.Last.of.Us.Part.II.Remastered..mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29906089"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vAiRNaKw7LkELs6+lXNW6G6tjiL8ipHJLHe84nT3jlI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 06:47:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wjf80u1j2v"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/last-of-us-2/The.Last.of.Us.Part.II.Remastered..mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vAiRNaKw7LkELs6+lXNW6G6tjiL8ipHJLHe84nT3jlI="
+        }
+      ]
+    },
+    {
+      "Route": "videos/marvel-spider-man-2/Marvels_SpiderMan_2.50zf6w13ig.webm",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\marvel-spider-man-2\\Marvels_SpiderMan_2.webm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6666388"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/webm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C4taZDXzS9eQPKO2rx6ZJpqFaDvF0f29aWU2HaL2x+I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 09:56:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "50zf6w13ig"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/marvel-spider-man-2/Marvels_SpiderMan_2.webm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-C4taZDXzS9eQPKO2rx6ZJpqFaDvF0f29aWU2HaL2x+I="
+        }
+      ]
+    },
+    {
+      "Route": "videos/marvel-spider-man-2/Marvels_SpiderMan_2.webm",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\marvel-spider-man-2\\Marvels_SpiderMan_2.webm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6666388"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/webm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C4taZDXzS9eQPKO2rx6ZJpqFaDvF0f29aWU2HaL2x+I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 09:56:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-C4taZDXzS9eQPKO2rx6ZJpqFaDvF0f29aWU2HaL2x+I="
+        }
+      ]
+    },
+    {
+      "Route": "videos/marvel-spider-man-2/Marvels_SpiderMan_2_1.3gq6n5bofh.mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\marvel-spider-man-2\\Marvels_SpiderMan_2_1.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34398298"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ndnZiwmKKkab8riqTHttxUF/RenOY751bzvNuUL6bqY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 09:58:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3gq6n5bofh"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/marvel-spider-man-2/Marvels_SpiderMan_2_1.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ndnZiwmKKkab8riqTHttxUF/RenOY751bzvNuUL6bqY="
+        }
+      ]
+    },
+    {
+      "Route": "videos/marvel-spider-man-2/Marvels_SpiderMan_2_1.mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\marvel-spider-man-2\\Marvels_SpiderMan_2_1.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34398298"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ndnZiwmKKkab8riqTHttxUF/RenOY751bzvNuUL6bqY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 09:58:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ndnZiwmKKkab8riqTHttxUF/RenOY751bzvNuUL6bqY="
+        }
+      ]
+    },
+    {
+      "Route": "videos/marvel-spider-man-2/Marve-s-Spider-Man-2.avits94lvg.mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\marvel-spider-man-2\\Marve-s-Spider-Man-2.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13985161"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xuRYWfavfYQ00FbAtv5rrl5jvuL+v30vXx7sLW/dI+0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 09:56:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "avits94lvg"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/marvel-spider-man-2/Marve-s-Spider-Man-2.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xuRYWfavfYQ00FbAtv5rrl5jvuL+v30vXx7sLW/dI+0="
+        }
+      ]
+    },
+    {
+      "Route": "videos/marvel-spider-man-2/Marve-s-Spider-Man-2.mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\marvel-spider-man-2\\Marve-s-Spider-Man-2.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13985161"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xuRYWfavfYQ00FbAtv5rrl5jvuL+v30vXx7sLW/dI+0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Aug 2025 09:56:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xuRYWfavfYQ00FbAtv5rrl5jvuL+v30vXx7sLW/dI+0="
+        }
+      ]
+    },
+    {
       "Route": "videos/r.mp4",
       "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\r.mp4",
       "Selectors": [],
@@ -6298,6 +10748,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-MkcBcoRr7tgpl93vbTqwpDnqNPAFXGJ5GXMeARP4Fi0="
+        }
+      ]
+    },
+    {
+      "Route": "videos/spider-man-2-trailer.50zf6w13ig.mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\spider-man-2-trailer.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6666388"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C4taZDXzS9eQPKO2rx6ZJpqFaDvF0f29aWU2HaL2x+I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Jul 2025 14:40:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "50zf6w13ig"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/spider-man-2-trailer.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-C4taZDXzS9eQPKO2rx6ZJpqFaDvF0f29aWU2HaL2x+I="
+        }
+      ]
+    },
+    {
+      "Route": "videos/spider-man-2-trailer.mp4",
+      "AssetFile": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\spider-man-2-trailer.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6666388"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C4taZDXzS9eQPKO2rx6ZJpqFaDvF0f29aWU2HaL2x+I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Jul 2025 14:40:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-C4taZDXzS9eQPKO2rx6ZJpqFaDvF0f29aWU2HaL2x+I="
         }
       ]
     }

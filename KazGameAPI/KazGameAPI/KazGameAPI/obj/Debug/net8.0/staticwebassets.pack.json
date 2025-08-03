@@ -129,6 +129,38 @@
       "PackagePath": "staticwebassets\\images\\eldenring.png"
     },
     {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\God-of-War-2.jpg",
+      "PackagePath": "staticwebassets\\images\\god-of-war-ragnarok\\God-of-War-2.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\God-of-War-5.jpg",
+      "PackagePath": "staticwebassets\\images\\god-of-war-ragnarok\\God-of-War-5.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\God-of-War-6.jpg",
+      "PackagePath": "staticwebassets\\images\\god-of-war-ragnarok\\God-of-War-6.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\g.jpg",
+      "PackagePath": "staticwebassets\\images\\god-of-war-ragnarok\\g.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\go.png",
+      "PackagePath": "staticwebassets\\images\\god-of-war-ragnarok\\go.png"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\god o.jpg",
+      "PackagePath": "staticwebassets\\images\\god-of-war-ragnarok\\god o.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\god-of.jpg",
+      "PackagePath": "staticwebassets\\images\\god-of-war-ragnarok\\god-of.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\god-of-war-ragnarok\\god.webp",
+      "PackagePath": "staticwebassets\\images\\god-of-war-ragnarok\\god.webp"
+    },
+    {
       "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\gta.jpg",
       "PackagePath": "staticwebassets\\images\\gta.jpg"
     },
@@ -143,6 +175,106 @@
     {
       "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\keyboard-svgrepo-com.svg",
       "PackagePath": "staticwebassets\\images\\keyboard-svgrepo-com.svg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-1\\4-8152.jpg",
+      "PackagePath": "staticwebassets\\images\\last-of-us-1\\4-8152.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-1\\5-4993.jpg",
+      "PackagePath": "staticwebassets\\images\\last-of-us-1\\5-4993.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-1\\l.jpg",
+      "PackagePath": "staticwebassets\\images\\last-of-us-1\\l.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-1\\la.jpg",
+      "PackagePath": "staticwebassets\\images\\last-of-us-1\\la.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-1\\las.jpg",
+      "PackagePath": "staticwebassets\\images\\last-of-us-1\\las.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-1\\last.jpg",
+      "PackagePath": "staticwebassets\\images\\last-of-us-1\\last.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-1\\ss_fd9e.jpg",
+      "PackagePath": "staticwebassets\\images\\last-of-us-1\\ss_fd9e.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\1-6544.jpg",
+      "PackagePath": "staticwebassets\\images\\last-of-us-2\\1-6544.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\The_Last_of_Us_Part_II_Remastered.2.jpg",
+      "PackagePath": "staticwebassets\\images\\last-of-us-2\\The_Last_of_Us_Part_II_Remastered.2.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\The_Last_of_Us_Part_II_Remastered.6.jpg",
+      "PackagePath": "staticwebassets\\images\\last-of-us-2\\The_Last_of_Us_Part_II_Remastered.6.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\l.jpg",
+      "PackagePath": "staticwebassets\\images\\last-of-us-2\\l.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\la.webp",
+      "PackagePath": "staticwebassets\\images\\last-of-us-2\\la.webp"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\las.png",
+      "PackagePath": "staticwebassets\\images\\last-of-us-2\\las.png"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\last-o.jpg",
+      "PackagePath": "staticwebassets\\images\\last-of-us-2\\last-o.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\last-of.webp",
+      "PackagePath": "staticwebassets\\images\\last-of-us-2\\last-of.webp"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\last-of-us-2\\last.jpg",
+      "PackagePath": "staticwebassets\\images\\last-of-us-2\\last.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\1-8239.jpg",
+      "PackagePath": "staticwebassets\\images\\marvel-spider-man-2\\1-8239.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\1.Marvels_SpiderMan_2-1.webp",
+      "PackagePath": "staticwebassets\\images\\marvel-spider-man-2\\1.Marvels_SpiderMan_2-1.webp"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\1.Marvels_SpiderMan_2-2.jpg",
+      "PackagePath": "staticwebassets\\images\\marvel-spider-man-2\\1.Marvels_SpiderMan_2-2.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\3-4361.jpg",
+      "PackagePath": "staticwebassets\\images\\marvel-spider-man-2\\3-4361.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\m.jpg",
+      "PackagePath": "staticwebassets\\images\\marvel-spider-man-2\\m.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\ma.jpg",
+      "PackagePath": "staticwebassets\\images\\marvel-spider-man-2\\ma.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\mar.jpg",
+      "PackagePath": "staticwebassets\\images\\marvel-spider-man-2\\mar.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\marvel.jpg",
+      "PackagePath": "staticwebassets\\images\\marvel-spider-man-2\\marvel.jpg"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\marvel-spider-man-2\\marvels-spider-man-2.webp",
+      "PackagePath": "staticwebassets\\images\\marvel-spider-man-2\\marvels-spider-man-2.webp"
     },
     {
       "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\images\\rate-12.png",
@@ -237,12 +369,56 @@
       "PackagePath": "staticwebassets\\videos\\GTA-V-Trailer_1_1_1.mp4"
     },
     {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\God-of-War-Ragnarok-480p-trailer_1.mp4",
+      "PackagePath": "staticwebassets\\videos\\God-of-War-Ragnarok-480p-trailer_1.mp4"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\God-of-War-Ragnarok-PC-Announcement-Trailer.webm",
+      "PackagePath": "staticwebassets\\videos\\God-of-War-Ragnarok-PC-Announcement-Trailer.webm"
+    },
+    {
       "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\Red Dead Redemption 2  Official Gameplay Video.mp4",
       "PackagePath": "staticwebassets\\videos\\Red Dead Redemption 2  Official Gameplay Video.mp4"
     },
     {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\god-of-war-ragnarok-trailer.mp4",
+      "PackagePath": "staticwebassets\\videos\\god-of-war-ragnarok-trailer.mp4"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\last-of-us-1\\The_Last_of_Us_Part_I_Official_Launch_Trailer_1080p.mp4",
+      "PackagePath": "staticwebassets\\videos\\last-of-us-1\\The_Last_of_Us_Part_I_Official_Launch_Trailer_1080p.mp4"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\last-of-us-1\\The_Last_of_Us_Part_I_Official_Launch_Trailer_1080p_1.mp4",
+      "PackagePath": "staticwebassets\\videos\\last-of-us-1\\The_Last_of_Us_Part_I_Official_Launch_Trailer_1080p_1.mp4"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\last-of-us-2\\The.Last.of.Us.Part.II.Remastered..mp4",
+      "PackagePath": "staticwebassets\\videos\\last-of-us-2\\The.Last.of.Us.Part.II.Remastered..mp4"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\last-of-us-2\\The.Last.of.Us.Part.II.mp4",
+      "PackagePath": "staticwebassets\\videos\\last-of-us-2\\The.Last.of.Us.Part.II.mp4"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\marvel-spider-man-2\\Marve-s-Spider-Man-2.mp4",
+      "PackagePath": "staticwebassets\\videos\\marvel-spider-man-2\\Marve-s-Spider-Man-2.mp4"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\marvel-spider-man-2\\Marvels_SpiderMan_2.webm",
+      "PackagePath": "staticwebassets\\videos\\marvel-spider-man-2\\Marvels_SpiderMan_2.webm"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\marvel-spider-man-2\\Marvels_SpiderMan_2_1.mp4",
+      "PackagePath": "staticwebassets\\videos\\marvel-spider-man-2\\Marvels_SpiderMan_2_1.mp4"
+    },
+    {
       "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\r.mp4",
       "PackagePath": "staticwebassets\\videos\\r.mp4"
+    },
+    {
+      "Id": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\wwwroot\\videos\\spider-man-2-trailer.mp4",
+      "PackagePath": "staticwebassets\\videos\\spider-man-2-trailer.mp4"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.KazGameAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

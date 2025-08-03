@@ -20,13 +20,33 @@ namespace KazGameAPI.Controllers
             _context = context;
         }
 
-        [HttpGet] // Endpoint برای دریافت تمام محصولات
-        public async Task<ActionResult<IEnumerable<Product>>> GetAll()
+        [HttpGet] // Endpoint برای دریافت تمام محصولات با صفحه‌بندی
+        public async Task<ActionResult<PagedResult<Product>>> GetAll(
+             [FromQuery] int pageNumber = 1, // شماره صفحه (پیش‌فرض 1)
+             [FromQuery] int pageSize = 16)  // تعداد آیتم در هر صفحه (پیش‌فرض 16)
         {
-            // برای اطمینان از اینکه همه فیلدها از جمله جدیدترین ها برگردانده شوند.
-            // اگر FindAsync به تنهایی کافی نبود، از ToListAsync برای همه فیلدها استفاده کنید.
-            var products = await _context.Products.ToListAsync();
-            return Ok(products);
+            if (pageNumber < 1) pageNumber = 1;
+            if (pageSize < 1) pageSize = 16; // حداقل 16 آیتم در صفحه
+            if (pageSize > 100) pageSize = 100; // حداکثر 100 آیتم در صفحه
+
+            var query = _context.Products.AsQueryable();
+            var totalCount = await query.CountAsync(); // تعداد کل آیتم‌ها
+
+            var products = await query
+                .Skip((pageNumber - 1) * pageSize) // رد کردن آیتم‌های صفحات قبلی
+                .Take(pageSize) // گرفتن آیتم‌های صفحه فعلی
+                .ToListAsync();
+
+            var pagedResult = new PagedResult<Product> // ساخت شیء نتیجه صفحه‌بندی شده
+            {
+                Items = products,
+                TotalCount = totalCount,
+                PageNumber = pageNumber,
+                PageSize = pageSize,
+                TotalPages = (int)Math.Ceiling(totalCount / (double)pageSize)
+            };
+
+            return Ok(pagedResult);
         }
 
 
