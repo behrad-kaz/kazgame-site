@@ -1,50 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\",
+  "WorkspaceRootPath": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|e:\\web\\kazgame\\kazgameapi\\kazgameapi\\kazgameapi\\models\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|solutionrelative:kazgameapi\\models\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|e:\\web\\kazgame\\kazgameapi\\kazgameapi\\kazgameapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|e:\\kazgame\\kazgameapi\\kazgameapi\\kazgameapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|solutionrelative:kazgameapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|e:\\web\\kazgame\\kazgameapi\\kazgameapi\\kazgameapi\\controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|solutionrelative:kazgameapi\\controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|e:\\web\\kazgame\\kazgameapi\\kazgameapi\\kazgameapi\\models\\commentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|solutionrelative:kazgameapi\\models\\commentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|e:\\web\\kazgame\\kazgameapi\\kazgameapi\\kazgameapi\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|solutionrelative:kazgameapi\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|e:\\web\\kazgame\\kazgameapi\\kazgameapi\\kazgameapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|e:\\kazgame\\kazgameapi\\kazgameapi\\kazgameapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|solutionrelative:kazgameapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|e:\\web\\kazgame\\kazgameapi\\kazgameapi\\kazgameapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|solutionrelative:kazgameapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|e:\\web\\kazgame\\kazgameapi\\kazgameapi\\kazgameapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|solutionrelative:kazgameapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|e:\\web\\kazgame\\kazgameapi\\kazgameapi\\kazgameapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|e:\\kazgame\\kazgameapi\\kazgameapi\\kazgameapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|solutionrelative:kazgameapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|e:\\web\\kazgame\\kazgameapi\\kazgameapi\\kazgameapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|e:\\kazgame\\kazgameapi\\kazgameapi\\kazgameapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|solutionrelative:kazgameapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|e:\\kazgame\\kazgameapi\\kazgameapi\\kazgameapi\\models\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|solutionrelative:kazgameapi\\models\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|e:\\kazgame\\kazgameapi\\kazgameapi\\kazgameapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|solutionrelative:kazgameapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|e:\\kazgame\\kazgameapi\\kazgameapi\\kazgameapi\\migrations\\20250722145623_addgalleryandbackgroundtoproducts_v2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|solutionrelative:kazgameapi\\migrations\\20250722145623_addgalleryandbackgroundtoproducts_v2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|e:\\kazgame\\kazgameapi\\kazgameapi\\kazgameapi\\controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|solutionrelative:kazgameapi\\controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|e:\\kazgame\\kazgameapi\\kazgameapi\\kazgameapi\\models\\commentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|solutionrelative:kazgameapi\\models\\commentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|e:\\kazgame\\kazgameapi\\kazgameapi\\kazgameapi\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|solutionrelative:kazgameapi\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|e:\\kazgame\\kazgameapi\\kazgameapi\\kazgameapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|solutionrelative:kazgameapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|e:\\kazgame\\kazgameapi\\kazgameapi\\kazgameapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|solutionrelative:kazgameapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|e:\\web\\kazgame\\kazgameapi\\kazgameapi\\kazgameapi\\migrations\\20250722145623_addgalleryandbackgroundtoproducts_v2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|solutionrelative:kazgameapi\\migrations\\20250722145623_addgalleryandbackgroundtoproducts_v2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|e:\\kazgame\\kazgameapi\\kazgameapi\\kazgameapi\\migrations\\20250805210016_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1393507E-763A-4BDE-A3D1-5E2E54180B13}|KazGameAPI\\KazGameAPI.csproj|solutionrelative:kazgameapi\\migrations\\20250805210016_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,24 +70,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "PagedResult.cs",
-              "DocumentMoniker": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Models\\PagedResult.cs",
+              "DocumentMoniker": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Models\\PagedResult.cs",
               "RelativeDocumentMoniker": "KazGameAPI\\Models\\PagedResult.cs",
-              "ToolTip": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Models\\PagedResult.cs",
+              "ToolTip": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Models\\PagedResult.cs",
               "RelativeToolTip": "KazGameAPI\\Models\\PagedResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T08:31:12.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-03T08:31:12.341Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "20250722145623_AddGalleryAndBackgroundToProducts_v2.cs",
-              "DocumentMoniker": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Migrations\\20250722145623_AddGalleryAndBackgroundToProducts_v2.cs",
+              "DocumentMoniker": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Migrations\\20250722145623_AddGalleryAndBackgroundToProducts_v2.cs",
               "RelativeDocumentMoniker": "KazGameAPI\\Migrations\\20250722145623_AddGalleryAndBackgroundToProducts_v2.cs",
-              "ToolTip": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Migrations\\20250722145623_AddGalleryAndBackgroundToProducts_v2.cs",
+              "ToolTip": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Migrations\\20250722145623_AddGalleryAndBackgroundToProducts_v2.cs",
               "RelativeToolTip": "KazGameAPI\\Migrations\\20250722145623_AddGalleryAndBackgroundToProducts_v2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -87,73 +94,97 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\appsettings.json",
+              "DocumentMoniker": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\appsettings.json",
               "RelativeDocumentMoniker": "KazGameAPI\\appsettings.json",
-              "ToolTip": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\appsettings.json",
+              "ToolTip": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\appsettings.json",
               "RelativeToolTip": "KazGameAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-07-22T14:44:59.853Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Product.cs",
-              "DocumentMoniker": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Models\\Product.cs",
+              "DocumentMoniker": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Models\\Product.cs",
               "RelativeDocumentMoniker": "KazGameAPI\\Models\\Product.cs",
-              "ToolTip": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Models\\Product.cs",
+              "ToolTip": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Models\\Product.cs",
               "RelativeToolTip": "KazGameAPI\\Models\\Product.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAwwC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T14:32:25.224Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Program.cs",
-              "RelativeDocumentMoniker": "KazGameAPI\\Program.cs",
-              "ToolTip": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Program.cs",
-              "RelativeToolTip": "KazGameAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T14:32:42.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CommentsController.cs",
-              "DocumentMoniker": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Controllers\\CommentsController.cs",
-              "RelativeDocumentMoniker": "KazGameAPI\\Controllers\\CommentsController.cs",
-              "ToolTip": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Controllers\\CommentsController.cs",
-              "RelativeToolTip": "KazGameAPI\\Controllers\\CommentsController.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAgwAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T13:39:49.286Z",
+              "WhenOpened": "2025-07-22T14:32:25.224Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ProductsController.cs",
-              "DocumentMoniker": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Controllers\\ProductsController.cs",
+              "DocumentMoniker": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "KazGameAPI\\Controllers\\ProductsController.cs",
-              "ToolTip": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Controllers\\ProductsController.cs",
+              "ToolTip": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "KazGameAPI\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAowDEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAiwFoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-18T13:39:55.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
+              "Title": "20250805210016_InitialCreate.cs",
+              "DocumentMoniker": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Migrations\\20250805210016_InitialCreate.cs",
+              "RelativeDocumentMoniker": "KazGameAPI\\Migrations\\20250805210016_InitialCreate.cs",
+              "ToolTip": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Migrations\\20250805210016_InitialCreate.cs",
+              "RelativeToolTip": "KazGameAPI\\Migrations\\20250805210016_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T21:00:17.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "KazGameAPI\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "KazGameAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-06T07:42:40.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Program.cs",
+              "RelativeDocumentMoniker": "KazGameAPI\\Program.cs",
+              "ToolTip": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Program.cs",
+              "RelativeToolTip": "KazGameAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T14:32:42.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CommentsController.cs",
+              "DocumentMoniker": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Controllers\\CommentsController.cs",
+              "RelativeDocumentMoniker": "KazGameAPI\\Controllers\\CommentsController.cs",
+              "ToolTip": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Controllers\\CommentsController.cs",
+              "RelativeToolTip": "KazGameAPI\\Controllers\\CommentsController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAgwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T13:39:49.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "KazGameAPI\\Data\\AppDbContext.cs",
-              "ToolTip": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Data\\AppDbContext.cs",
+              "ToolTip": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Data\\AppDbContext.cs",
               "RelativeToolTip": "KazGameAPI\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -161,11 +192,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Comment.cs",
-              "DocumentMoniker": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Models\\Comment.cs",
+              "DocumentMoniker": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Models\\Comment.cs",
               "RelativeDocumentMoniker": "KazGameAPI\\Models\\Comment.cs",
-              "ToolTip": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Models\\Comment.cs",
+              "ToolTip": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Models\\Comment.cs",
               "RelativeToolTip": "KazGameAPI\\Models\\Comment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -173,11 +204,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "CommentResponseDto.cs",
-              "DocumentMoniker": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Models\\CommentResponseDto.cs",
+              "DocumentMoniker": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Models\\CommentResponseDto.cs",
               "RelativeDocumentMoniker": "KazGameAPI\\Models\\CommentResponseDto.cs",
-              "ToolTip": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Models\\CommentResponseDto.cs",
+              "ToolTip": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Models\\CommentResponseDto.cs",
               "RelativeToolTip": "KazGameAPI\\Models\\CommentResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -185,11 +216,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "UserController.cs",
-              "DocumentMoniker": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Controllers\\UserController.cs",
+              "DocumentMoniker": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "KazGameAPI\\Controllers\\UserController.cs",
-              "ToolTip": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\Controllers\\UserController.cs",
               "RelativeToolTip": "KazGameAPI\\Controllers\\UserController.cs",
               "ViewState": "AgIAAEcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

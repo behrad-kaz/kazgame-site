@@ -34,6 +34,9 @@ namespace KazGameAPI.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("GameId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Text")
                         .IsRequired()
                         .HasMaxLength(500)
@@ -64,15 +67,87 @@ namespace KazGameAPI.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Developer")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DownloadLinksJson")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FullDescription")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("GalleryImagesJson")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Genre")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImageUrl")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("MainPageVideoUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MiddleImagesJson")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MinDirectX")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MinGraphics")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MinMemory")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MinOS")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MinProcessor")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MinStorage")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Pegi")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<decimal?>("Price")
                         .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("Publisher")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Rating")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RecDirectX")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RecGraphics")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RecMemory")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RecOS")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RecProcessor")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RecStorage")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RelatedGameIdsJson")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ReleaseDate")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Slug")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Title")
                         .HasColumnType("nvarchar(max)");

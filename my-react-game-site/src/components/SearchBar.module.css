@@ -1,0 +1,86 @@
+/* src/components/SearchBar.module.css */
+
+.searchBarContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 350px; /* عرض حداکثر نوار جستجو */
+  flex-grow: 1; /* می‌تواند رشد کند */
+}
+
+.searchInput {
+  width: 100%;
+  padding: 10px 40px 10px 15px; /* پدینگ برای آیکون جستجو */
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+  direction: rtl; /* برای فارسی */
+}
+
+.searchInput::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.searchInput:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+.searchIcon {
+  position: absolute;
+  right: 15px; /* موقعیت آیکون */
+  color: #ccc;
+  font-size: 1rem;
+}
+
+.loadingIndicator {
+    position: absolute;
+    left: 15px; /* موقعیت نشانگر لودینگ */
+    color: #007bff;
+}
+
+.searchResultsDropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  z-index: 100;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.searchResultItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.2s ease;
+  border-radius: 8px;
+}
+
+.searchResultItem:hover {
+  background-color: #3a3a3a;
+}
+
+.resultImage {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+
+.resultTitle {
+  font-size: 1rem;
+  font-weight: bold;
+}

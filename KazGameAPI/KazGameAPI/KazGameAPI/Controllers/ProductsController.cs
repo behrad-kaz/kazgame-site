@@ -73,5 +73,21 @@ namespace KazGameAPI.Controllers
 
             return Ok(product);
         }
+        [HttpGet("search")] // مسیر: /api/Products/search?q=searchterm
+        public async Task<ActionResult<IEnumerable<Product>>> Search([FromQuery] string q)
+        {
+            if (string.IsNullOrWhiteSpace(q))
+            {
+                // اگر عبارت جستجو خالی بود، لیست خالی برگردان
+                return Ok(new List<Product>());
+            }
+
+            var products = await _context.Products
+                .Where(p => p.Title.Contains(q) || p.Description.Contains(q)) // جستجو در عنوان و توضیحات
+                .Take(10) // حداکثر 10 نتیجه
+                .ToListAsync();
+
+            return Ok(products);
+        }
     }
 }

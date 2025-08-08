@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\KazGameAPI.csproj": {}
+    "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\KazGameAPI.csproj": {}
   },
   "projects": {
-    "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\KazGameAPI.csproj": {
+    "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\KazGameAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\KazGameAPI.csproj",
+        "projectUniqueName": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\KazGameAPI.csproj",
         "projectName": "KazGameAPI",
-        "projectPath": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\KazGameAPI.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "E:\\web\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\obj\\",
+        "projectPath": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\KazGameAPI.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "E:\\Kazgame\\KazGameAPI\\KazGameAPI\\KazGameAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -56,27 +57,31 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.6, )"
+              "version": "[9.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.6, )"
+              "version": "[9.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[9.0.6, )"
+              "version": "[9.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.6, )"
+              "version": "[9.0.8, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[9.0.3, )"
             }
           },
           "imports": [
@@ -98,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

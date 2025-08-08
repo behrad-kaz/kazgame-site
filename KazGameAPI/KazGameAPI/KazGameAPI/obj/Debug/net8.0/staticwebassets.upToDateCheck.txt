@@ -2,6 +2,7 @@ wwwroot\avatars\0733bcd0-7332-4c1e-890f-d3d8583a28df.png
 wwwroot\avatars\1deae9d2-6ff2-4f8f-b25e-1c85408bfc53.png
 wwwroot\avatars\4bde3917-d970-456c-b154-187bdafb3cb0.png
 wwwroot\avatars\7f9c7ef7-2d06-4b1a-a288-a95dac35f5f7.png
+wwwroot\avatars\b6a69a32-8454-42d5-89bd-6c8f229ad057.png
 wwwroot\avatars\c88b6a15-5736-47a4-891f-91d849a101b0.PNG
 wwwroot\avatars\cfcd2cdb-0e70-404a-a125-e828d66f37b5.png
 wwwroot\avatars\fa053500-5fd0-44dd-ae45-927cae3fdbda.png
@@ -12,8 +13,6 @@ wwwroot\images\batman-arkham-knight\bat.jpg
 wwwroot\images\batman-arkham-knight\batm.jpg
 wwwroot\images\eeel.png
 wwwroot\images\elden ring.jpg
-wwwroot\images\eldenr.png
-wwwroot\images\eldenring.png
 wwwroot\images\elden-ring\e.webp
 wwwroot\images\elden-ring\eeel.png
 wwwroot\images\elden-ring\el.jpg
@@ -22,14 +21,16 @@ wwwroot\images\elden-ring\elde.jpg
 wwwroot\images\elden-ring\elden.jpg
 wwwroot\images\elden-ring\eldenr.png
 wwwroot\images\elden-ring\eldenring.png
+wwwroot\images\eldenr.png
+wwwroot\images\eldenring.png
 wwwroot\images\god-of-war-ragnarok\g.jpg
 wwwroot\images\god-of-war-ragnarok\go.png
 wwwroot\images\god-of-war-ragnarok\god o.jpg
-wwwroot\images\god-of-war-ragnarok\god.webp
-wwwroot\images\god-of-war-ragnarok\god-of.jpg
 wwwroot\images\god-of-war-ragnarok\God-of-War-2.jpg
 wwwroot\images\god-of-war-ragnarok\God-of-War-5.jpg
 wwwroot\images\god-of-war-ragnarok\God-of-War-6.jpg
+wwwroot\images\god-of-war-ragnarok\god-of.jpg
+wwwroot\images\god-of-war-ragnarok\god.webp
 wwwroot\images\Gran.jpg
 wwwroot\images\Grand.jpg
 wwwroot\images\gta.jpg
@@ -49,14 +50,14 @@ wwwroot\images\last-of-us-2\1-6544.jpg
 wwwroot\images\last-of-us-2\l.jpg
 wwwroot\images\last-of-us-2\la.webp
 wwwroot\images\last-of-us-2\las.png
-wwwroot\images\last-of-us-2\last.jpg
 wwwroot\images\last-of-us-2\last-o.jpg
 wwwroot\images\last-of-us-2\last-of.webp
+wwwroot\images\last-of-us-2\last.jpg
 wwwroot\images\last-of-us-2\The_Last_of_Us_Part_II_Remastered.2.jpg
 wwwroot\images\last-of-us-2\The_Last_of_Us_Part_II_Remastered.6.jpg
+wwwroot\images\marvel-spider-man-2\1-8239.jpg
 wwwroot\images\marvel-spider-man-2\1.Marvels_SpiderMan_2-1.webp
 wwwroot\images\marvel-spider-man-2\1.Marvels_SpiderMan_2-2.jpg
-wwwroot\images\marvel-spider-man-2\1-8239.jpg
 wwwroot\images\marvel-spider-man-2\3-4361.jpg
 wwwroot\images\marvel-spider-man-2\m.jpg
 wwwroot\images\marvel-spider-man-2\ma.jpg
@@ -69,23 +70,23 @@ wwwroot\images\rate-15.png
 wwwroot\images\rate-18.png
 wwwroot\images\rate-3.png
 wwwroot\images\Read-Dead-Redemption-2-Review_bzzt.jpg
-wwwroot\images\red.jpg
-wwwroot\images\Red.webp
-wwwroot\images\Red_Dead_Redemption_2-1.webp
 wwwroot\images\red-dead-redemption-2\eee.jpg
 wwwroot\images\red-dead-redemption-2\red.jpg
+wwwroot\images\red-dead-redemption-2\redd.webp
 wwwroot\images\red-dead-redemption-2\Red_Dead_Redemption_2-1.webp
 wwwroot\images\red-dead-redemption-2\Red_Dead_Redemption_2-2.jpg
 wwwroot\images\red-dead-redemption-2\Red_Dead_Redemption_2-3.webp
 wwwroot\images\red-dead-redemption-2\Red_Dead_Redemption_2-4.jpg
 wwwroot\images\red-dead-redemption-2\Red_Dead_Redemption_2-5.jpg
-wwwroot\images\red-dead-redemption-2\redd.webp
 wwwroot\images\red-dead-redemption-2\rrr.jpg
 wwwroot\images\red-dead-redemption-2_41_bzzt.jpg
+wwwroot\images\red.jpg
+wwwroot\images\Red.webp
+wwwroot\images\Red_Dead_Redemption_2-1.webp
 wwwroot\images\telegram-logo-thin-svgrepo-com.svg
 wwwroot\images\user.png
-wwwroot\videos\Batman.Arkham.Knight.Trailer.mp4
 wwwroot\videos\Batman-Arkham-Knight-480p-trailer_1.mp4
+wwwroot\videos\Batman.Arkham.Knight.Trailer.mp4
 wwwroot\videos\Elden-Ring-Shadow-of-the-Erdtree-Official-Launch-Trailer.webm
 wwwroot\videos\Elden-Ring-Trailer_1.mp4
 wwwroot\videos\God-of-War-Ragnarok-480p-trailer_1.mp4
@@ -97,9 +98,9 @@ wwwroot\videos\last-of-us-1\The_Last_of_Us_Part_I_Official_Launch_Trailer_1080p.
 wwwroot\videos\last-of-us-1\The_Last_of_Us_Part_I_Official_Launch_Trailer_1080p_1.mp4
 wwwroot\videos\last-of-us-2\The.Last.of.Us.Part.II.mp4
 wwwroot\videos\last-of-us-2\The.Last.of.Us.Part.II.Remastered..mp4
-wwwroot\videos\marvel-spider-man-2\Marvels_SpiderMan_2.webm
-wwwroot\videos\marvel-spider-man-2\Marvels_SpiderMan_2_1.mp4
-wwwroot\videos\marvel-spider-man-2\Marve-s-Spider-Man-2.mp4
+wwwroot\videos\marvel-spider-man-2\Marvels.Spider.Man.2 - Copy.mp4
+wwwroot\videos\marvel-spider-man-2\Marvels.Spider.Man.2.mp4
+wwwroot\videos\marvel-spider-man-2\Untitled.mp4
 wwwroot\videos\r.mp4
 wwwroot\videos\Red Dead Redemption 2  Official Gameplay Video.mp4
 wwwroot\videos\spider-man-2-trailer.mp4
