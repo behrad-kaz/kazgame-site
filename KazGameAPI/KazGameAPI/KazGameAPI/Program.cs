@@ -1,6 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
-using KazGameAPI.Data; // <--- این خط باید باشد
+﻿using KazGameAPI.Data; // <--- این خط باید باشد
 using Microsoft.AspNetCore.Hosting; // برای IWebHostEnvironment (در User Controller)
+using Microsoft.EntityFrameworkCore;
+using KazGameAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,6 +25,8 @@ builder.Services.AddCors(options =>
               .AllowAnyMethod();
     });
 });
+builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
+builder.Services.AddSingleton<EmailService>();
 
 var app = builder.Build();
 

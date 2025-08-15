@@ -5,25 +5,35 @@
     display: flex;
     height: 100vh;
     width: 100vw;
-background: #095682;
-background: linear-gradient(1deg, rgba(9, 86, 130, 1) 0%, rgba(1, 25, 82, 1) 50%, rgba(0, 0, 28, 1) 100%);
+    background: #095682;
+    background: linear-gradient(1deg, rgba(9, 86, 130, 1) 0%, rgba(1, 25, 82, 1) 50%, rgba(0, 0, 28, 1) 100%);
     /* گرادیان پس‌زمینه کلی */
     overflow: hidden;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* فونت پیشنهادی */
     color: white;
-     justify-content: center; /* مرکز افقی */
-  align-items: center;   /* مرکز عمودی */
-    
+    justify-content: center;
+    /* مرکز افقی */
+    align-items: center;
+    /* مرکز عمودی */
+
 }
+
 .authFormWrapper {
-  display: flex; /* برای اینکه leftPanel و rightPanel کنار هم باشند */
-  width: 900px; /* <--- عرض ثابت برای کل فرم (left + right). می توانید تنظیم کنید */
-  height: 520px; /* <--- ارتفاع ثابت برای کل فرم. می توانید تنظیم کنید */
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4); /* سایه کلی فرم */
-  border-radius: 15px; /* <--- گردی گوشه‌های کل فرم */
-  overflow: hidden; /* برای اینکه محتوا از گوشه‌های گرد بیرون نزند */
-  position: relative; /* برای هرگونه عنصر absolute داخل آن */
+    display: flex;
+    /* برای اینکه leftPanel و rightPanel کنار هم باشند */
+    width: 900px;
+    /* <--- عرض ثابت برای کل فرم (left + right). می توانید تنظیم کنید */
+    height: 660px;
+    /* <--- ارتفاع ثابت برای کل فرم. می توانید تنظیم کنید */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    /* سایه کلی فرم */
+    border-radius: 15px;
+    /* <--- گردی گوشه‌های کل فرم */
+    overflow: hidden;
+    /* برای اینکه محتوا از گوشه‌های گرد بیرون نزند */
+    position: relative;
+    /* برای هرگونه عنصر absolute داخل آن */
 }
 
 .leftPanel {
@@ -36,7 +46,7 @@ background: linear-gradient(1deg, rgba(9, 86, 130, 1) 0%, rgba(1, 25, 82, 1) 50%
     border-right: 1px solid rgba(255, 255, 255, 0.1);
     position: relative;
     /* برای لوگو و محتوا */
-    background-color: #0b0014;
+    background-color: #090613;
     max-width: 50%;
 }
 
@@ -236,6 +246,48 @@ background: linear-gradient(1deg, rgba(9, 86, 130, 1) 0%, rgba(1, 25, 82, 1) 50%
 .switchFormLink:hover {
     color: #be8eff;
 }
+.forgotPasswordLink {
+  margin-top: 5px; /* فاصله از input پسورد */
+  margin-bottom: 20px; /* فاصله از دکمه Login */
+  font-size: 0.7rem;
+  color: #8a2be2;
+  cursor: pointer;
+  text-decoration: underline; /* زیرخط دار برای شبیه شدن به لینک */
+  transition: color 0.3s ease;
+  text-align: right;
+}
+.forgotPasswordLink:hover {
+    color: #be8eff;
+}
+
+.forgotPasswordForm h2 {
+  font-size: 1.8rem;
+  color: #e0e0ff;
+  margin-bottom: 0;
+}
+.forgotPasswordForm p {
+  color: #ccc;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.forgotPasswordForm .formButtons {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.cancelButton {
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.cancelButton:hover {
+    background-color: #5a6268;
+}
+
 
 /* Responsive Styles */
 @media (max-width: 768px) {

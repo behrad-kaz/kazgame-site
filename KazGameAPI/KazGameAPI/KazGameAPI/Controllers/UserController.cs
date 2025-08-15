@@ -1,13 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using System.IO;
-using Microsoft.AspNetCore.Hosting;
-using System.Linq;
-using System; // برای Guid
-using BCrypt.Net; // برای BCrypt
-
+﻿using BCrypt.Net; // برای BCrypt
 using KazGameAPI.Data;   // برای AppDbContext
 using KazGameAPI.Models; // برای User, UserDto, LoginDto
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System; // برای Guid
+using System.IO;
+using System.Linq;
+using KazGameAPI.Services;
 
 namespace KazGameAPI.Controllers
 {
@@ -17,11 +17,13 @@ namespace KazGameAPI.Controllers
     {
         private readonly AppDbContext _context;
         private readonly IWebHostEnvironment _hostingEnvironment;
+        private readonly EmailService _emailService;
 
-        public UserController(AppDbContext context, IWebHostEnvironment hostingEnvironment)
+        public UserController(AppDbContext context, IWebHostEnvironment hostingEnvironment, EmailService emailService)
         {
             _context = context;
             _hostingEnvironment = hostingEnvironment;
+            _emailService = emailService;
         }
 
         [HttpPost("register")]
@@ -54,6 +56,16 @@ namespace KazGameAPI.Controllers
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
 
+            try
+            {
+                await _emailService.SendWelcomeEmailAsync(user.Email, user.FullName);
+            }
+            catch (Exception ex)
+            {
+                // ایمیل ارسال نشد، اما ثبت‌نام موفق بود. می‌توانید خطا را لاگ کنید.
+                Console.WriteLine($"Failed to send welcome email to {user.Email}: {ex.Message}");
+            }
+
             return Ok(new { message = "ثبت‌نام با موفقیت انجام شد." });
         }
 
@@ -74,6 +86,55 @@ namespace KazGameAPI.Controllers
                 userId = user.Id,
                 avatarUrl = user.AvatarUrl
             });
+        }
+        [HttpPost("forgot-password")]
+        public async Task<IActionResult> ForgotPassword([FromBody] ForgotPasswordDto dto)
+        {
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == dto.Email);
+            if (user == null)
+            {
+                // برای امنیت، نباید بگوییم که آیا ایمیل در دیتابیس است یا خیر.
+                return Ok(new { message = "اگر ایمیل معتبر باشد، لینک بازیابی رمز ارسال خواهد شد." });
+            }
+
+            // تولید توکن و تاریخ انقضا
+            user.ResetToken = Guid.NewGuid().ToString();
+            user.ResetTokenExpires = DateTime.UtcNow.AddMinutes(30); // توکن تا 30 دقیقه دیگر منقضی می شود
+
+            await _context.SaveChangesAsync();
+
+            // ارسال ایمیل
+            try
+            {
+                await _emailService.SendPasswordResetEmailAsync(user.Email, user.FullName, user.ResetToken);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error sending password reset email: {ex.Message}");
+            }
+
+            return Ok(new { message = "اگر ایمیل معتبر باشد، لینک بازیابی رمز ارسال خواهد شد." });
+        }
+
+        // **Endpoint جدید برای تغییر رمز عبور**
+        [HttpPost("reset-password")]
+        public async Task<IActionResult> ResetPassword([FromBody] ResetPasswordDto dto)
+        {
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.ResetToken == dto.ResetToken && u.ResetTokenExpires > DateTime.UtcNow);
+
+            if (user == null)
+            {
+                return BadRequest(new { message = "لینک تغییر رمز نامعتبر یا منقضی شده است." });
+            }
+
+            // هش کردن رمز عبور جدید و ذخیره
+            user.Password = BCrypt.Net.BCrypt.HashPassword(dto.NewPassword);
+            user.ResetToken = null; // توکن را پس از استفاده پاک کن
+            user.ResetTokenExpires = null; // تاریخ انقضا را پاک کن
+
+            await _context.SaveChangesAsync();
+
+            return Ok(new { message = "رمز عبور با موفقیت تغییر یافت." });
         }
 
         [HttpPost("upload-avatar/{userId}")]

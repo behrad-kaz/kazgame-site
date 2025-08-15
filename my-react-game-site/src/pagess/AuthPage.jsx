@@ -16,9 +16,6 @@ const AuthPage = () => {
 
     const navigate = useNavigate();
 
-    // در طراحی Key Sharer کپچا دیده نمی‌شود، پس آن را حذف می‌کنیم
-    // اگر نیاز دارید بعداً کپچا را به طراحی جدید اضافه کنیم، اطلاع دهید.
-
     // تابع برای مدیریت ثبت‌نام
     const handleRegisterSubmit = async (e) => {
         e.preventDefault();
@@ -101,6 +98,26 @@ const AuthPage = () => {
             console.error("Login Error:", error);
         }
     };
+        const handleForgotPasswordClick = async () => {
+        if (!loginEmail) {
+            alert("لطفاً ایمیل خود را در فیلد بالا وارد کنید.");
+            return;
+        }
+
+        try {
+            const response = await fetch("https://localhost:7055/api/User/forgot-password", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ email: loginEmail })
+            });
+
+            const responseData = await response.json();
+            alert(responseData.message || "خطا در ارسال درخواست.");
+        } catch (error) {
+            alert("خطا در ارتباط با سرور.");
+            console.error("Forgot Password Error:", error);
+        }
+    };
 
     return (
         <div className={styles.authPageContainer}>
@@ -110,10 +127,10 @@ const AuthPage = () => {
                         <img src="/images/key-sharer-logo.png" alt="Key Sharer Logo" /> {/* لوگوی Key Sharer */}
                     </div>
                     <div className={styles.leftPanelContent}>
-                        <h1>Your Keys.</h1>
-                        <h1>Your Chats.</h1>
-                        <h1>Your Security.</h1>
-                        <p>Take control of your conversations, ensuring that only you and your recipients have access to your communication.</p>
+                        <h1>Your Games</h1>
+                        <h1>Your Story</h1>
+                        <h1>Your Destiny</h1>
+                        <p>Take control of your word, ensuring that only you and your recipients have access to your communication.</p>
                     </div>
                 </div>
 
@@ -153,7 +170,9 @@ const AuthPage = () => {
                                 </div>
                                 <div className={styles.inputGroup}>
                                     <input type="password" placeholder="Password" value={loginPassword} onChange={(e) => setLoginPassword(e.target.value)} required />
+                                     <p className={styles.forgotPasswordLink} onClick={handleForgotPasswordClick}> Forget password ? </p> 
                                 </div>
+                                 
                                 <button type="submit" className={styles.submitButton}>Log In</button>
                                 <p className={styles.switchFormText}>Don't have an account? <span onClick={() => setIsLoginActive(false)} className={styles.switchFormLink}>Sign Up</span></p>
                             </form>
