@@ -6,8 +6,22 @@
   padding: 3rem 2rem;
   display: flex;
   justify-content: center;
-  flex-direction: column; /* <--- اضافه شد: برای اینکه محتوای فوتر به صورت ستونی باشد */
-  align-items: center; /* <--- اضافه شد: برای مرکز کردن محتوا */
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.footerBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/images/footer-background.jpg'); /* <--- **این را با آدرس عکس خود جایگزین کنید** */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2; /* <--- شفافیت عکس را تنظیم کنید */
+  z-index: 0; /* <--- پشت محتوای فوتر قرار گیرد */
 }
 
 .footerContent { /* .footer-content */
@@ -92,7 +106,7 @@
 }
 
 .footerBottom { /* .footer-bottom */
-  background-color: #000;
+  background-color: #000000b2;
   color: #ccc;
   display: flex; /* <--- حفظ شود: برای چیدمان لوگوها و متن در یک ردیف */
   justify-content: space-between;
@@ -101,12 +115,18 @@
   gap: 1.5rem;
   flex-wrap: wrap;
   border-top: 1px solid #222;
+  border-radius: 50px;
   width: 100%; /* <--- اضافه شد: برای اینکه عرض کامل .siteFooter را بگیرد */
   max-width: 1200px; /* <--- اضافه شد: برای محدود کردن عرض همانند footerContent */
   margin-top: 2rem; /* <--- اضافه شد: فاصله از بخش بالایی فوتر */
 }
+.footerContent, .footerBottom {
+  position: relative;
+  z-index: 1; /* <--- مهم: محتوای فوتر روی پس‌زمینه باشد */
+}
 
 .footerBottomLeft img {
+  border-radius: 50%;
   max-height: 50px;
 }
 
@@ -132,6 +152,10 @@
 
 /* Responsive styles */
 @media (max-width: 768px) {
+    .footerBackground {
+    background-position: left; /* برای موبایل پس‌زمینه را به چپ منتقل کن */
+    opacity: 0.1;
+  }
   .footerBottom {
     flex-direction: column;
     align-items: flex-start;

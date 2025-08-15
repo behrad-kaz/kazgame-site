@@ -5,6 +5,7 @@ import styles from './Footer.module.css'; // برای استایل‌های فو
 const Footer = () => {
   return (
     <footer className={styles.siteFooter}>
+      <div className={styles.footerBackground}></div>
       <div className={styles.footerContent}>
         <div className={styles.footerLeft}>
           <h2> ایمیل خود را وارد کنید :</h2>
