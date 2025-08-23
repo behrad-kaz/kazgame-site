@@ -1,0 +1,66 @@
+/* src/components/GameNewsSection.module.css (نسخه نهایی سه ستونه) */
+.newsSection {
+    direction: rtl;
+    width: 100%;
+    max-width: 1600px; /* برای جا دادن سه ستون، عرض حداکثر را کمی بیشتر می‌کنیم */
+    margin: 4rem auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-family: 'Vazirmatn', sans-serif;
+}
+
+.sectionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #333;
+    padding-bottom: 1rem;
+}
+
+.sectionTitle {
+    font-size: 2.2rem;
+    color: white;
+}
+
+.seeAllLink {
+    color: #00aaff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.newsLayout {
+    display: flex;
+    gap: 2rem;
+}
+
+.sidebarContainer {
+    flex: 1; /* هر دو سایدبار ۱ واحد از فضا را می‌گیرند */
+    min-width: 300px;
+}
+
+.articlesGrid {
+    flex: 2; /* ستون وسط ۲ برابر سایدبارها فضا می‌گیرد */
+    display: grid;
+    /* در حالت سه ستونه، بهتر است مقالات تک ستونه و زیر هم باشند */
+    grid-template-columns: 1fr; 
+    gap: 1.5rem;
+}
+
+.loading {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    padding: 3rem;
+}
+
+/* **اصلاح بخش ریسپانسیو برای سه ستون** */
+@media (max-width: 1200px) { /* در این عرض، سایدبارها به زیر محتوا منتقل می‌شوند */
+    .newsLayout {
+        flex-direction: column;
+    }
+    .articlesGrid {
+        /* برای حفظ ترتیب، ستون وسط را در اولویت قرار می‌دهیم */
+        order: -1; 
+    }
+}

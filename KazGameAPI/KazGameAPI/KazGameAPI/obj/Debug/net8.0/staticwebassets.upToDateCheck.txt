@@ -83,6 +83,7 @@ wwwroot\images\red-dead-redemption-2_41_bzzt.jpg
 wwwroot\images\red.jpg
 wwwroot\images\Red.webp
 wwwroot\images\Red_Dead_Redemption_2-1.webp
+wwwroot\images\steam.jpg
 wwwroot\images\telegram-logo-thin-svgrepo-com.svg
 wwwroot\images\user.png
 wwwroot\videos\Batman-Arkham-Knight-480p-trailer_1.mp4

@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using KazGameAPI.Models; // <--- حالا این برای Product, Comment, User است
+using KazGameAPI.Models; 
 
 namespace KazGameAPI.Data
 {
@@ -10,6 +10,8 @@ namespace KazGameAPI.Data
         public DbSet<Product> Products { get; set; }
         public DbSet<Comment> Comments { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<NewsArticle> NewsArticles { get; set; }
+        public DbSet<Poll> Polls { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

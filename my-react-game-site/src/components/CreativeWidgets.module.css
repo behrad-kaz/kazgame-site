@@ -1,0 +1,16 @@
+/* src/components/CreativeWidgets.module.css */
+
+.widgetsContainer {
+    display: flex;
+    flex-direction: column;
+    /* 'gap' بهترین راه برای ایجاد فاصله ثابت بین آیتم‌هاست */
+    gap: 2rem; /* یک فاصله ۲ واحدی بین هر ویجت */
+}
+
+.widgetItem {
+    /* این استایل‌ها باعث می‌شوند هر ویجت کادر مشخص خود را داشته باشد
+       و مشکل درهم‌رفتگی به طور کامل حل شود. */
+    background-color: #1a1a2e;
+    border-radius: 8px;
+    padding: 1rem; /* یک پدینگ داخلی برای زیبایی */
+}

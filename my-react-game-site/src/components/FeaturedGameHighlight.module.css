@@ -1,215 +1,195 @@
-/* src/components/FeaturedGameHighlight.module.css */
+/* src/components/FeaturedGameHighlight.module.css (بر اساس دیزاین اصلی با اصلاحات) */
 
 .featuredGameSection {
-  background-color: #0d071b; /* رنگ پس‌زمینه تیره */
-  width : 75%;
-  height: 140vh;
-  margin: -50px auto;
-  /* padding: 10px 0; <--- پدینگ بالا و پایین حفظ شود */
-  color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  padding-left: 20px; /* <--- اضافه شد */
-  padding-right: 20px; /* <--- اضافه شد */
-  box-sizing: border-box; /* <--- مهم: برای اینکه padding در width لحاظ شود */
+    background-color: #0d071b;
+    width: 75%;
+    /* FIX 2: ارتفاع ثابت حذف شد تا کامپوننت به اندازه محتوایش باشد و فضای خالی اضافه ایجاد نکند */
+    /* height: 140vh; <-- حذف شد */
+    
+    /* FIX 1: مارجین منفی بالا حذف و با مارجین مثبت جایگزین شد تا از زیر heroSlider بیرون بیاید و فاصله مناسب ایجاد شود */
+    margin: 100px auto 50px auto; /* 100px از بالا، 50px از پایین */
+
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
 }
 
 .featuredGameHeader {
-  width: 100%;
-  max-width: 1400px; /* عرض تصویر اصلی */
-  height: 400px; /* ارتفاع تصویر اصلی */
-  overflow: hidden;
-  border-radius: 15px;
-  margin-bottom: -100px; /* برای همپوشانی با کارت اطلاعات بازی */
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-  position: relative;
-  z-index: 1;
-  /* **جدید: افکت هاور برای تصویر اصلی** */
-  transition: transform 0.3s ease-in-out; /* <--- انیمیشن نرم */
+    width: 100%;
+    max-width: 1400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-bottom: -100px; /* این مارجین منفی برای همپوشانی کارت و تصویر حفظ شده است */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease-in-out;
 }
+
 .featuredGameHeader:hover {
-  transform: scale(1.02); /* <--- کمی بزرگتر شود هنگام هاور */
+    transform: scale(1.02);
 }
 
 .mainGameImage {
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
+    width: 100%;
+    height: 100%;
+    object-fit: fill; /* همان استایل اصلی شما */
 }
 
 .gameInfoCard {
-  width: 100%;
-  max-width: 1200px; /* عرض کارت اطلاعات بازی */
-  background-color: transparent;
-  border-radius: 15px;
-  padding: 30px;
-  display: flex;
-  gap: 30px;
-  position: relative;
-  z-index: 2;
-  flex-wrap: wrap;
-  justify-content: center; /* برای مرکز کردن در حالت ریسپانسیو */
+    width: 100%;
+    max-width: 1200px;
+    background-color: transparent; /* همان استایل اصلی شما */
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+    position: relative;
+    z-index: 2;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .trailerBox {
-  position: relative;
-  width: 320px;
-  height: 180px;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  flex-shrink: 0;
-  /* **جدید: افکت هاور برای ویدیو/عکس تریلر** */
-  transition: transform 0.3s ease-in-out; /* <--- انیمیشن نرم */
+    position: relative;
+    width: 320px;
+    height: 180px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    flex-shrink: 0;
+    transition: transform 0.3s ease-in-out;
 }
 
-.trailerVideo, .trailerVideoPlaceholder {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.trailerVideo,
+.trailerVideoPlaceholder {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
 .gameDetailsContent {
-  flex: 1; /* فضای باقیمانده را اشغال کند */
-  text-align: right; /* برای فارسی */
+    flex: 1;
+    text-align: right;
 }
 
 .gameTitle {
-  font-size: 2.5rem;
-  color: white;
-  margin-bottom: 15px;
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 15px;
 }
 
 .gameDescription {
-  font-size: 1rem;
-  line-height: 1.6;
-  color: #e0e0e0;
-  margin-bottom: 25px;
-  text-align: justify;
-  direction: rtl; /* برای فارسی */
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #e0e0e0;
+    margin-bottom: 25px;
+    text-align: justify;
+    direction: rtl;
 }
 
 .buyButtons {
-  display: flex;
-  gap: 15px;
-  margin-bottom: 20px;
-  flex-wrap: wrap; /* برای ریسپانسیو */
-  justify-content: flex-end; /* برای فارسی */
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 .buyButton {
-  background-color: #007bff;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 0.9rem;
-  font-weight: bold;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
 }
 
 .buyButton:hover {
-  background-color: #0056b3;
+    background-color: #0056b3;
 }
 
 .moreInfoButton {
-  background-color: transparent;
-  color: #007bff;
-  border: 1px solid #007bff;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 0.9rem;
-  font-weight: bold;
-  text-decoration: none;
-  transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: transparent;
+    color: #007bff;
+    border: 1px solid #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .moreInfoButton:hover {
-  background-color: #007bff;
-  color: white;
+    background-color: #007bff;
+    color: white;
 }
 
-.platformIcons {
-  display: flex;
-  flex-direction: column; /* عمودی */
-  gap: 10px;
-  margin-left: 20px; /* فاصله از محتوا */
-  justify-content: flex-start; /* از بالا شروع شود */
-}
-
-.platformIcon {
-  width: 30px;
-  height: 30px;
-  opacity: 0.7;
-  transition: opacity 0.2s ease;
-}
-
-.platformIcon:hover {
-  opacity: 1;
-}
-
-/* Responsive */
+/* بخش ریسپانسیو بدون تغییر در ظاهر، فقط با اصلاحات فنی */
 @media (max-width: 1200px) {
-  .featuredGameHeader, .gameInfoCard {
-    max-width: 95%; /* کمی کوچکتر در لپ‌تاپ‌های کوچکتر */
-  }
+    .featuredGameHeader,
+    .gameInfoCard {
+        max-width: 95%;
+    }
 }
 
 @media (max-width: 992px) {
-      .featuredGameSection {
-    padding-left: 10px; /* <--- پدینگ کمتر در تبلت */
-    padding-right: 10px; /* <--- پدینگ کمتر در تبلت */
-    margin: 20px auto;
-  }
+    .featuredGameSection {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 50px auto 20px auto; /* کاهش فاصله در تبلت */
+    }
     .featuredGameHeader {
-    min-height: 200px; /* کمی کوچکتر در لپ‌تاپ‌های کوچکتر */
-  }
-  .gameInfoCard {
-    flex-direction: column; /* در تبلت/موبایل، ویدیو بالا، اطلاعات پایین */
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-    margin-bottom: 120px;
-  }
-  .trailerBox {
-    width: 90%; /* عرض کامل در موبایل */
-    height: auto;
-    max-height: 250px; /* حداکثر ارتفاع برای تریلر */
-    margin-bottom: 20px;
-  }
-  .gameDetailsContent {
-    width: 100%;
-    text-align: center;
-  }
-  .buyButtons {
-    justify-content: center; /* دکمه‌ها در مرکز */
-  }
-  .platformIcons {
-    flex-direction: row; /* در موبایل آیکون‌ها کنار هم */
-    margin-left: 0;
-    margin-top: 20px;
-    width: 100%;
-    justify-content: center;
-  }
+        min-height: 200px;
+    }
+    .gameInfoCard {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        /* margin-bottom: 120px; <-- این مارجین اضافه بود و حذف شد */
+    }
+    .trailerBox {
+        width: 90%;
+        height: auto;
+        max-height: 250px;
+        margin-bottom: 20px;
+    }
+    .gameDetailsContent {
+        width: 100%;
+        text-align: center;
+    }
+    .buyButtons {
+        justify-content: center;
+    }
 }
 
 @media (max-width: 768px) {
-  .featuredGameHeader {
-    height: 5400px;
-    margin-bottom: -50px; /* همپوشانی کمتر */
-  }
-  .gameTitle {
-    font-size: 2rem;
-  }
-  .gameDescription {
-    font-size: 0.9rem;
-  }
-  .buyButton, .moreInfoButton {
-    font-size: 0.8rem;
-    padding: 8px 15px;
-  }
+    .featuredGameHeader {
+        /* FIX 3: مقدار ارتفاع که اشتباه تایپی بود (5400px) اصلاح شد */
+        height: 220px;
+        margin-bottom: -100px; /* همپوشانی در موبایل کمی بیشتر شد تا شبیه دسکتاپ باشد */
+    }
+    .gameTitle {
+        font-size: 2rem;
+    }
+    .gameDescription {
+        font-size: 0.9rem;
+    }
+    .buyButton,
+    .moreInfoButton {
+        font-size: 0.8rem;
+        padding: 8px 15px;
+    }
 }

@@ -1,0 +1,66 @@
+.widgetContainer {
+    padding: 1rem;
+    color: white;
+    /* این دو خط اضافه یا اصلاح شوند */
+    background-color: #1a1a2e;
+    border-radius: 8px;
+}
+
+.widgetTitle {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.dealsList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.dealItem {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 0.5rem;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+.dealImage {
+    width: 100px;
+    height: 47px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.dealInfo {
+    flex-grow: 1;
+    padding: 0 1rem;
+}
+
+.dealName {
+    display: block;
+    font-size: 0.9rem;
+}
+
+.dealPrice {
+    font-size: 0.8rem;
+    color: #0f0;
+}
+
+.discountBadge {
+    position: absolute;
+    right: -15px;
+    top: -10px;
+    background-color: #ffc107;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 15px;
+    transform: rotate(20deg);
+    font-size: 1.2rem;
+}

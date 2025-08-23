@@ -42,6 +42,69 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "NewsArticlesController",
+    "Method": "GetRecentArticles",
+    "RelativePath": "api/NewsArticles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "count",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewsArticlesController",
+    "Method": "GetArticleBySlug",
+    "RelativePath": "api/NewsArticles/{slug}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "slug",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PollsController",
+    "Method": "Vote",
+    "RelativePath": "api/Polls/{id}/vote/{option}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "option",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PollsController",
+    "Method": "GetActivePoll",
+    "RelativePath": "api/Polls/active",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "KazGameAPI.Controllers.ProductsController",
     "Method": "GetAll",
     "RelativePath": "api/Products",
@@ -126,6 +189,22 @@
   },
   {
     "ContainingType": "KazGameAPI.Controllers.ProductsController",
+    "Method": "GetLatestReleases",
+    "RelativePath": "api/Products/latest-releases",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "count",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KazGameAPI.Controllers.ProductsController",
     "Method": "Search",
     "RelativePath": "api/Products/search",
     "HttpMethod": "GET",
@@ -149,6 +228,16 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "SteamDealsController",
+    "Method": "GetTopDeals",
+    "RelativePath": "api/SteamDeals/top-deals",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "KazGameAPI.Controllers.UserController",

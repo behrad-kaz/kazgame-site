@@ -85,17 +85,6 @@
     font-weight: bold;
     margin-bottom: 15px;
 }
-/* **جدید: استایل برای Wrapper بخش بازی‌های مهم** */
-.featuredGamesSectionWrapper {
-    display: flex;
-    flex-direction: column; /* آیتم‌ها زیر هم قرار گیرند */
-    gap: 60px; /* <--- فاصله بین هر FeaturedGameHighlight */
-    padding: 60px 20px; /* <--- پدینگ بالا و پایین و از اطراف */
-    background-color: #0d071b; /* همان رنگ پس‌زمینه کلی */
-    align-items: center; /* مرکز کردن آیتم‌ها افقی */
-    width: 100%;
-    box-sizing: border-box;
-}
 
 /* Responsive */
 @media (max-width: 768px) {
@@ -112,9 +101,5 @@
     }
     .gameCardImage {
         height: 200px;
-    }
-        .featuredGamesSectionWrapper {
-        gap: 30px; /* فاصله کمتر در موبایل */
-        padding: 30px 10px; /* پدینگ کمتر در موبایل */
     }
 }

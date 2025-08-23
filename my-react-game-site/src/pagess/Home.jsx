@@ -5,6 +5,7 @@ import GameSlider from '../components/GameSlider';
 import Footer from '../components/Footer';
 import HeroGameSlider from '../components/HeroGameSlider'; // <--- ایمپورت HeroGameSlider
 import FeaturedGameHighlight from '../components/FeaturedGameHighlight'; // <--- ایمپورت FeaturedGameHighlight
+import GameNewsSection from '../components/GameNewsSection';
 import CommentSection from '../components/CommentSection';
 
 import styles from './GamesList.module.css';
@@ -79,11 +80,10 @@ const Home = () => {
     <div className="home-page-layout">
       <Header />
       <HeroGameSlider slides={heroSlidesData} /> {/* <--- HeroGameSlider را اضافه می‌کنیم */}
-      <section className={styles.featuredGamesSectionWrapper}>
-      </section>
       {featuredGameData.map(game => (
         <FeaturedGameHighlight key={game.id} game={game} />
       ))}
+      <GameNewsSection />
       <GameSlider />
        <CommentSection gameId={9999} />
       <Footer />

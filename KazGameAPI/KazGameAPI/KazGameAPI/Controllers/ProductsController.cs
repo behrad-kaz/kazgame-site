@@ -73,6 +73,16 @@ namespace KazGameAPI.Controllers
 
             return Ok(product);
         }
+        [HttpGet("latest-releases")]
+        public async Task<IActionResult> GetLatestReleases([FromQuery] int count = 5)
+        {
+            var latestProducts = await _context.Products
+                .OrderByDescending(p => p.ReleaseDate) // فرض می‌کنیم فیلد ReleaseDate دارید
+                .Take(count)
+                .ToListAsync();
+
+            return Ok(latestProducts);
+        }
         [HttpGet("search")] // مسیر: /api/Products/search?q=searchterm
         public async Task<ActionResult<IEnumerable<Product>>> Search([FromQuery] string q)
         {

@@ -1,0 +1,87 @@
+.widgetContainer {
+    padding: 1rem;
+    color: white;
+    /* این دو خط اضافه یا اصلاح شوند */
+    background-color: #1a1a2e;
+    border-radius: 8px;
+}
+
+.widgetTitle {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.pollQuestion {
+    text-align: center;
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 1.5rem;
+}
+
+.battleground {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.option {
+    position: relative;
+    width: 45%;
+    cursor: pointer;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+}
+
+.option:hover {
+    border-color: #00aaff;
+    transform: scale(1.05);
+}
+
+.option img {
+    width: 100%;
+    display: block;
+}
+
+.optionName {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+    text-align: center;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+.vs {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffc107;
+}
+
+.results {
+    display: flex;
+    margin-top: 1.5rem;
+    height: 30px;
+    background-color: #444;
+    border-radius: 15px;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.resultBarA {
+    background-color: #007bff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resultBarB {
+    background-color: #dc3545;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
