@@ -18,22 +18,22 @@ const Header = () => {
 
   useEffect(() => {
     const loadUserInfo = () => {
-        const storedUsername = localStorage.getItem('loggedInUsername');
-        const storedUserId = localStorage.getItem('loggedInUserId');
-        const storedUserAvatarRelativePath = localStorage.getItem('userAvatar');
+      const storedUsername = localStorage.getItem('loggedInUsername');
+      const storedUserId = localStorage.getItem('loggedInUserId');
+      const storedUserAvatarRelativePath = localStorage.getItem('userAvatar');
 
-        if (storedUsername && storedUserId) {
-            setIsLoggedIn(true);
-            setUsername(storedUsername);
-            const fullAvatarUrl = storedUserAvatarRelativePath
-                                    ? `${API_BASE_URL}${storedUserAvatarRelativePath}?t=${new Date().getTime()}`
-                                    : '/images/default-user.png';
-            setUserAvatarSrc(fullAvatarUrl);
-        } else {
-            setIsLoggedIn(false);
-            setUsername('');
-            setUserAvatarSrc('/images/default-user.png');
-        }
+      if (storedUsername && storedUserId) {
+        setIsLoggedIn(true);
+        setUsername(storedUsername);
+        const fullAvatarUrl = storedUserAvatarRelativePath
+          ? `${API_BASE_URL}${storedUserAvatarRelativePath}?t=${new Date().getTime()}`
+          : '/images/default-user.png';
+        setUserAvatarSrc(fullAvatarUrl);
+      } else {
+        setIsLoggedIn(false);
+        setUsername('');
+        setUserAvatarSrc('/images/default-user.png');
+      }
     };
 
     loadUserInfo();
@@ -43,10 +43,10 @@ const Header = () => {
     };
 
     const handleAvatarUpdated = (event) => {
-        const newRelativeAvatarUrl = event.detail;
-        const fullNewAvatarUrl = `${API_BASE_URL}${newRelativeAvatarUrl}?t=${new Date().getTime()}`;
-        setUserAvatarSrc(fullNewAvatarUrl);
-        localStorage.setItem('userAvatar', newRelativeAvatarUrl);
+      const newRelativeAvatarUrl = event.detail;
+      const fullNewAvatarUrl = `${API_BASE_URL}${newRelativeAvatarUrl}?t=${new Date().getTime()}`;
+      setUserAvatarSrc(fullNewAvatarUrl);
+      localStorage.setItem('userAvatar', newRelativeAvatarUrl);
     };
 
     window.addEventListener('storage', handleStorageChange);
@@ -54,7 +54,7 @@ const Header = () => {
 
     const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target) &&
-          userInfoRef.current && !userInfoRef.current.contains(event.target)) {
+        userInfoRef.current && !userInfoRef.current.contains(event.target)) {
         setIsDropdownOpen(false);
       }
     };
@@ -82,8 +82,8 @@ const Header = () => {
         <div className={styles.logoCircle}>
           <img src="/images/kazgame-logo.png" alt="KazGame" />
         </div>
-        
-        <SearchBar /> 
+
+        <SearchBar />
 
         <nav id="nav" className={`${styles.nav} ${isMenuOpen ? styles.active : ''}`}>
           <Link to="/">خانه</Link>
@@ -102,6 +102,7 @@ const Header = () => {
             className={styles.userInfo}
             onClick={toggleDropdown}
             ref={userInfoRef}
+            style={{ position: 'relative' }} // **** این خط را برای موقعیت‌دهی صحیح اضافه کنید ****
           >
             <img src={userAvatarSrc} alt="User Avatar" className={styles.userAvatar} />
             <span id="username-display">{username}</span>

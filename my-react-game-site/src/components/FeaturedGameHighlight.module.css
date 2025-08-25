@@ -3,10 +3,6 @@
 .featuredGameSection {
     background-color: #0d071b;
     width: 75%;
-    /* FIX 2: ارتفاع ثابت حذف شد تا کامپوننت به اندازه محتوایش باشد و فضای خالی اضافه ایجاد نکند */
-    /* height: 140vh; <-- حذف شد */
-    
-    /* FIX 1: مارجین منفی بالا حذف و با مارجین مثبت جایگزین شد تا از زیر heroSlider بیرون بیاید و فاصله مناسب ایجاد شود */
     margin: 100px auto 50px auto; /* 100px از بالا، 50px از پایین */
 
     color: white;
@@ -23,7 +19,7 @@
 .featuredGameHeader {
     width: 100%;
     max-width: 1400px;
-    height: 400px;
+    height: 40rem;
     overflow: hidden;
     border-radius: 15px;
     margin-bottom: -100px; /* این مارجین منفی برای همپوشانی کارت و تصویر حفظ شده است */
@@ -59,8 +55,8 @@
 
 .trailerBox {
     position: relative;
-    width: 320px;
-    height: 180px;
+    width: 30rem;
+    height: 16rem;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -151,7 +147,8 @@
         margin: 50px auto 20px auto; /* کاهش فاصله در تبلت */
     }
     .featuredGameHeader {
-        min-height: 200px;
+        max-height: 20rem;
+        min-height: 100px;
     }
     .gameInfoCard {
         flex-direction: column;
@@ -162,7 +159,7 @@
     }
     .trailerBox {
         width: 90%;
-        height: auto;
+        height: 15rem;
         max-height: 250px;
         margin-bottom: 20px;
     }

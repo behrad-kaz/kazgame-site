@@ -86,7 +86,7 @@ const GameSlider = () => {
 
   return (
     <section className={styles.whatsNewsContainer}>
-      <h1 className={styles.whatsNewsTitle}>Best Game</h1>
+      <h1 className={styles.whatsNewsTitle}>New Games</h1>
       <div className={styles.sliderWrapper}>
         {/* Swiper اصلی برای ویدیو و محتوا */}
         <Swiper

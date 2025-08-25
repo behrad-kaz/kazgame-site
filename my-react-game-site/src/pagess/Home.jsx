@@ -15,17 +15,17 @@ import '../style.css'; // استایل‌های گلوبال شما
 
 const featuredGameData = [
   {
-    id: 5,
+    id: 8,
     title: "Marvel's Spider-Man 2",
     description: "پیتر و مایلز این بار در مقابل شرورهای نمادین مانند ونوم، کریون شکارچی و لیزارد قرار می‌گیرند. قهرمانان ما برای چالش نهایی خود آماده می‌شوند، زیرا اصول آن‌ها در معرض آزمایش قرار می‌گیرد تا از شهر نیویورک و عزیزانشان محافظت کنند.",
     mainImageUrl: "/images/spider-man-2-main.jpg", // تصویر بزرگ بالای بخش
     trailerVideoUrl: "/videos/spider-man-2-trailer.mp4", // ویدئوی تریلر کوچک
     steamLink: "https://store.steampowered.com/",
     epicGamesLink: "https://store.epicgames.com/",
-    moreInfoLink: "/games/spider-man-2", // لینک به صفحه جزئیات این بازی
+    moreInfoLink: "/games/marvel-spider-man-2", // لینک به صفحه جزئیات این بازی
   },
   {
-    id: 6,
+    id: 7,
     title: "The Last of Us Part I",
     description: "یک بازی نقش‌آفرینی اکشن و ماجراجویی در دنیای باز که در نایت سیتی، یک کلان‌شهر آینده‌نگر که با قدرت، زرق و برق و اصلاحات بی‌پایان بدن وسواس دارد، اتفاق می‌افتد.",
     mainImageUrl: "/images/the-last-of-us-part-i-pc-screenshot-11-en-09mar23.webp",
@@ -35,14 +35,14 @@ const featuredGameData = [
     moreInfoLink: "/games/the-last-of-us-part-1",
   },
   {
-    id: 7,
+    id: 5,
     title: "God of War Ragnarök",
     description: "فیمبول‌وینتر به خوبی در جریان است. کریتوس و آترئوس باید به هر قیمتی زنده بمانند، زیرا نیروهای آسگارد برای یک نبرد پیشگویی شده آماده می‌شوند که به دنیا پایان خواهد داد.",
     mainImageUrl: "/images/god-of-war-ragnarok-main.jpg",
     trailerVideoUrl: "/videos/god-of-war-ragnarok-trailer.mp4",
     steamLink: "https://store.steampowered.com/app/1885900/God_of_War_Ragnarok/",
     epicGamesLink: "https://store.epicgames.com/en-US/p/god-of-war-ragnarok",
-    moreInfoLink: "/games/god-of-war-ragnarök",
+    moreInfoLink: "/games/god-of-war-ragnarok",
   },
   // **می‌توانید بازی‌های بیشتری را اینجا اضافه کنید**
 ];
@@ -50,16 +50,16 @@ const featuredGameData = [
 const heroSlidesData = [
   {
     id: 1,
-    title: "Resident Evil 1: HD Remaster",
-    subtitle: "با زیرنویس فارسی",
-    description: "Resident Evil 1: HD Remaster.Farsi همین الان در جی باز کن",
+    title: "Alan Wake Remastered",
+    subtitle: " KazGame فقط در ",
+    description: "Resident Evil 1: HD Remaster",
     backgroundImageUrl: "/images/resident-evil-1.jpg",
     link: "/games/resident-evil-1-hd-remaster",
   },
   {
     id: 2,
     title: "EA SPORTS FC 25",
-    subtitle: "فقط در «جی باز»",
+    subtitle: " KazGame فقط در  ",
     description: "دیگه لازم نیست منتظر کرک شدن EA SPORTS FC 25 نمونی! فقط کافیه جی باز را نصب کنی و این بازی را دانلود و اجرا کنی!",
     backgroundImageUrl: "/images/ea-sports-fc-25.jpg",
     link: "/games/ea-sports-fc-25",
@@ -67,8 +67,8 @@ const heroSlidesData = [
   {
     id: 3,
     title: "Silent Hill 2 Remake",
-    subtitle: "همراه با زیرنویس فارسی",
-    description: "Silent Hill 2 Remake.Farsi همین الان در جی باز کن",
+    subtitle: " KazGame فقط در ",
+    description: "Silent Hill 2 Remake ",
     backgroundImageUrl: "/images/silent-hill-2.jpg",
     link: "/games/silent-hill-2-remake",
   },

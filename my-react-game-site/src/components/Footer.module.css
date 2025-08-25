@@ -17,26 +17,25 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/images/footer-background.jpg'); /* <--- **این را با آدرس عکس خود جایگزین کنید** */
+  background-image: url('/images/footer-background.jpg'); 
   background-size: cover;
   background-position: center;
-  opacity: 0.2; /* <--- شفافیت عکس را تنظیم کنید */
-  z-index: 0; /* <--- پشت محتوای فوتر قرار گیرد */
+  opacity: 0.2; 
+  z-index: 0; 
 }
 
-.footerContent { /* .footer-content */
+.footerContent { 
   max-width: 1200px;
   width: 100%;
-  display: flex; /* <--- حفظ شود: برای چیدمان داخلی (left و right) */
+  display: flex;
   justify-content: space-between;
-  flex-wrap: wrap; /* <--- حفظ شود: برای ریسپانسیو بودن */
+  flex-wrap: wrap; 
   gap: 2rem;
 }
 
-.footerLeft, .footerRight { /* .footer-left, .footer-right */
+.footerLeft, .footerRight {
   flex: 1;
   min-width: 300px;
-  /* در طرح اصلی، اینها در یک خط هستند. اگر در React روی هم افتادند، min-width را چک کنید. */
 }
 
 .footerLeft h2,
@@ -54,8 +53,8 @@
   direction: rtl;
 }
 
-.subscribeBox { /* .subscribe-box */
-  display: flex; /* <--- مهم: برای اینکه input و button در یک ردیف باشند */
+.subscribeBox { 
+  display: flex; 
   gap: 1rem;
 }
 
@@ -65,8 +64,8 @@
   border-radius: 6px;
   border: none;
   font-size: 1rem;
-  background-color: #333; /* <--- اضافه شد: پس‌زمینه خاکستری تیره (مطابق طرح) */
-  color: white; /* <--- اضافه شد: رنگ متن داخل input */
+  background-color: #333; 
+  color: white; 
 }
 
 .subscribeBox button {
@@ -87,9 +86,8 @@
 }
 
 .socialIcons a {
-  background-color: goldenrod; /* <--- اضافه شد: پس‌زمینه طلایی */
-  border: 1px solid goldenrod; /* <--- تغییر از dotted به solid و ضخامت (مطابق طرح) */
-  color: white;
+  background-color: goldenrod; 
+  border: 1px solid goldenrod; 
   border-radius: 50%;
   width: 45px;
   height: 45px;
@@ -108,7 +106,7 @@
 .footerBottom { /* .footer-bottom */
   background-color: #000000b2;
   color: #ccc;
-  display: flex; /* <--- حفظ شود: برای چیدمان لوگوها و متن در یک ردیف */
+  display: flex; 
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
@@ -116,13 +114,13 @@
   flex-wrap: wrap;
   border-top: 1px solid #222;
   border-radius: 50px;
-  width: 100%; /* <--- اضافه شد: برای اینکه عرض کامل .siteFooter را بگیرد */
-  max-width: 1200px; /* <--- اضافه شد: برای محدود کردن عرض همانند footerContent */
-  margin-top: 2rem; /* <--- اضافه شد: فاصله از بخش بالایی فوتر */
+  width: 100%; 
+  max-width: 1200px;
+  margin-top: 2rem;
 }
 .footerContent, .footerBottom {
   position: relative;
-  z-index: 1; /* <--- مهم: محتوای فوتر روی پس‌زمینه باشد */
+  z-index: 1;
 }
 
 .footerBottomLeft img {
@@ -135,7 +133,7 @@
   min-width: 300px;
   font-size: 0.85rem;
   line-height: 1.5;
-  text-align: center; /* <--- اضافه شد: برای مرکز کردن متن کپی‌رایت */
+  text-align: center;
 }
 
 .footerBottomRight {
@@ -153,7 +151,6 @@
 /* Responsive styles */
 @media (max-width: 768px) {
     .footerBackground {
-    background-position: left; /* برای موبایل پس‌زمینه را به چپ منتقل کن */
     opacity: 0.1;
   }
   .footerBottom {
@@ -171,7 +168,7 @@
     font-size: 0.8rem;
     line-height: 1.4;
     margin-bottom: 1rem;
-    text-align: left; /* در موبایل چپ چین شود */
+    text-align: left; 
   }
 
   .footerBottomRight {
@@ -188,7 +185,7 @@
     min-width: 100%;
   }
 
-  .subscribeBox { /* در موبایل input و button ممکن است روی هم بیایند */
+  .subscribeBox {
     flex-direction: column;
   }
 }

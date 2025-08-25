@@ -1,81 +1,135 @@
-/* src/components/UserProfileDropdown.module.css */
+/* src/components/UserProfileDropdown.module.css (نسخه بازطراحی شده) */
+
+/* انیمیشن برای باز شدن نرم منو */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
 .dropdownContainer {
-  position: absolute;
-  top: 60px; /* <--- فاصله از بالای هدر (یا user-info) */
-  right: 0; /* <--- تراز با سمت راست user-info */
-  background-color: #2b2b2b; /* رنگ پس‌زمینه تیره */
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-  width: 280px; /* <--- عرض پاپ‌آپ */
-  padding: 10px 0;
-  z-index: 1002; /* <--- بالاتر از هدر و بقیه محتوا */
-  color: white;
-  display: flex;
-  flex-direction: column;
+    position: absolute;
+    direction: rtl;
+    /* IMPROVEMENT: موقعیت‌دهی دقیقاً زیر والد + 10 پیکسل فاصله */
+    top: calc(100% + 10px); 
+    right: 0;
+    
+    /* IMPROVEMENT: ظاهر مدرن شیشه‌ای */
+    background-color: rgba(30, 30, 45, 0.85); /* پس‌زمینه تیره‌تر و نیمه‌شفاف */
+    backdrop-filter: blur(10px); /* افکت مات‌کننده */
+    border: 1px solid rgba(255, 255, 255, 0.1); /* حاشیه بسیار ظریف */
+    
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    width: 280px;
+    padding: 10px 0;
+    z-index: 1002;
+    color: white;
+    
+    /* IMPROVEMENT: اعمال انیمیشن ورود */
+    animation: fadeInDown 0.3s ease-out;
 }
 
 .userInfoHeader {
-  display: flex;
-  align-items: center;
-  padding: 15px 20px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 10px;
 }
 
 .userAvatarLarge {
-  width: 50px; /* اندازه آواتار بزرگتر */
-  height: 50px;
-  border-radius: 50%;
-  margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 15px; /* تغییر به margin-left برای هماهنگی با متن راست‌چین */
+    border: 2px solid #00aaff; /* حاشیه آبی هماهنگ با تم */
 }
 
 .usernameDisplayLarge {
-  font-size: 1.1rem;
-  font-weight: bold;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .dropdownOption {
-  display: flex;
-  align-items: center;
-  padding: 10px 20px;
+    padding: 0 15px; /* پدینگ افقی برای گزینه‌ها */
 }
 
 .dropdownOption button {
-  background: none;
-  border: none;
-  color: white;
-  font-size: 1rem;
-  padding: 8px 0;
-  width: 100%;
-  text-align: left; /* متن چپ چین باشد */
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 15px; /* فاصله بین آیکون و متن */
-  transition: background-color 0.2s ease;
+    background: none;
+    border: none;
+    color: #e0e0e0; /* رنگ متن کمی ملایم‌تر */
+    font-size: 1rem;
+    padding: 12px 10px;
+    width: 100%;
+    text-align: right; /* متن راست‌چین */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: color 0.2s ease, background-color 0.2s ease;
+    border-radius: 8px;
+    position: relative; /* برای افکت هاور */
+    overflow: hidden; /* برای افکت هاور */
+}
+
+/* IMPROVEMENT: افکت هاور جذاب و مدرن */
+.dropdownOption button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 4px; /* عرض نوار نورانی */
+    height: 100%;
+    background-color: #00aaff; /* رنگ آبی تم */
+    transform: scaleY(0); /* در حالت عادی مخفی است */
+    transform-origin: center;
+    transition: transform 0.3s ease-out;
 }
 
 .dropdownOption button:hover {
-  background-color: rgba(255, 255, 255, 0.1); /* پس‌زمینه روشن‌تر هنگام هاور */
+    background-color: rgba(255, 255, 255, 0.05);
+    color: white;
 }
 
-.dropdownOption i { /* استایل برای آیکون‌های Font Awesome */
-  font-size: 1.1rem;
-  width: 25px; /* عرض ثابت برای آیکون‌ها */
-  text-align: center;
+.dropdownOption button:hover::before {
+    transform: scaleY(1); /* در حالت هاور، نوار نورانی ظاهر می‌شود */
+}
+
+.dropdownOption i {
+    font-size: 1.1rem;
+    width: 25px;
+    text-align: center;
+    color: #888; /* رنگ خنثی برای آیکون‌ها */
+    transition: color 0.2s ease;
+}
+
+.dropdownOption button:hover i {
+    color: #00aaff; /* آیکون‌ها در حالت هاور آبی می‌شوند */
 }
 
 .logoutOption {
-  border-top: 1px solid rgba(255, 255, 255, 0.1); /* خط جداکننده برای خروج */
-  margin-top: 10px;
-  padding-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 10px 0 0 0;
+    padding: 10px 15px 0 15px;
 }
 
 .logoutOption button {
-  color: #ff6347; /* رنگ قرمز برای خروج */
+    color: #ff6347; /* رنگ قرمز برای خروج */
 }
 
 .logoutOption button:hover {
-  background-color: rgba(255, 99, 71, 0.2);
+    background-color: rgba(255, 99, 71, 0.1);
+}
+
+.logoutOption button::before {
+    background-color: #ff6347; /* نوار نورانی برای دکمه خروج قرمز باشد */
+}
+.logoutOption button:hover i {
+    color: #ff6347;
 }

@@ -223,7 +223,8 @@
 /* Responsive Styles */
 @media (max-width: 992px) {
   .heroSliderContainer {
-    height: 70vh;
+    height: 40vh;
+    width: 100%;
   }
 
   .contentWrapper {
@@ -248,6 +249,7 @@
   .gameInfo {
     text-align: center;
     padding-left: 0;
+    padding-top:190px
   }
 
   .title {
@@ -277,7 +279,7 @@
 
 @media (max-width: 768px) {
   .heroSliderContainer {
-    height: 70vh;
+    height: 40vh;
   }
 
   .title {
