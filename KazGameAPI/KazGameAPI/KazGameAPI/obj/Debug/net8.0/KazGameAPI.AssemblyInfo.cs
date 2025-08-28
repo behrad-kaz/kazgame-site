@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KazGameAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4e828834f6cad82611b6a93803e118ab8eb49bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01245ef85c6cd5c104f2b9c7470188a3f6eb6f77")]
 [assembly: System.Reflection.AssemblyProductAttribute("KazGameAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KazGameAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -19,11 +19,11 @@ const Footer = () => {
           <h2>Follow us</h2>
           <p>Become part of the community</p>
           <div className={styles.socialIcons}>
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
+            <a href="https://t.me/KazGameacc" target="_blank" rel="noopener noreferrer"><i className="fab fa-telegram"></i></a>
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-x-twitter"></i></a>
             <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i></a>
             <a href="https://www.twitch.tv" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitch"></i></a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/kaz_games_pro" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
           </div>
         </div>
       </div>

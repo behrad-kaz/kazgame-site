@@ -6,6 +6,7 @@ import AuthPage from './pagess/AuthPage'; // <--- ایمپورت AuthPage
 import GamePage from './pagess/GamePage';
 import GamesList from './pagess/GamesList';
 import ResetPasswordPage from './pagess/ResetPasswordPage';
+import ContactPage from './pagess/ContactPage';
 
 import './style.css'; // استایل‌های گلوبال شما
 
@@ -15,11 +16,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/signup" element={<AuthPage />} />
-        {/* <--- مسیر جدید برای صفحات بازی (دینامیک) */}
         <Route path="/games/:slug" element={<GamePage />} /> 
-        {/* می‌توانید یک مسیر کلی /games هم برای لیست بازی‌ها اضافه کنید */}
         <Route path="/games" element={<GamesList />} />
-         <Route path="/reset-password" element={<ResetPasswordPage />} /> {/* <--- **مسیر جدید** */}
+         <Route path="/reset-password" element={<ResetPasswordPage />} /> 
+         <Route path="/services" element={<ContactPage />} />
       </Routes>
     </Router>
   );

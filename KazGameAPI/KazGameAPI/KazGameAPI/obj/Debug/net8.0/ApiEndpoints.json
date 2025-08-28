@@ -42,6 +42,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ContactController",
+    "Method": "SendMessage",
+    "RelativePath": "api/Contact/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formData",
+        "Type": "KazGameAPI.Models.ContactFormDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NewsArticlesController",
     "Method": "GetRecentArticles",
     "RelativePath": "api/NewsArticles",

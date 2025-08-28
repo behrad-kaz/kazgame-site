@@ -347,3 +347,8 @@ E:\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\obj\Debug\net8.0\refint\KazGameAPI.d
 E:\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\obj\Debug\net8.0\KazGameAPI.pdb
 E:\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\obj\Debug\net8.0\KazGameAPI.genruntimeconfig.cache
 E:\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\obj\Debug\net8.0\ref\KazGameAPI.dll
+E:\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+E:\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\bin\Debug\net8.0\MailKit.dll
+E:\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\bin\Debug\net8.0\MimeKit.dll
+E:\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+E:\Kazgame\KazGameAPI\KazGameAPI\KazGameAPI\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll

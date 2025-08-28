@@ -86,8 +86,7 @@
 }
 
 .socialIcons a {
-  background-color: goldenrod; 
-  border: 1px solid goldenrod; 
+  background-color: black; 
   border-radius: 50%;
   width: 45px;
   height: 45px;
@@ -101,6 +100,7 @@
 
 .socialIcons a:hover {
   background-color: #000000;
+  border: 1px solid goldenrod; 
 }
 
 .footerBottom { /* .footer-bottom */
