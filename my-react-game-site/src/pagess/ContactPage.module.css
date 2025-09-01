@@ -16,12 +16,6 @@
     align-items: center;
 }
 
-.bannerLogo {
-    width: 150px;
-    height: auto;
-    opacity: 0.9;
-}
-
 .supportInfoBox {
     max-width: 1200px;
     margin: 2rem auto 0 auto;
@@ -166,9 +160,22 @@
     text-align: center;
 }
 
+@media (min-width: 1830px) {
+        .banner {
+        background-size: cover;
+        height: 90rem;
+    }
+}
+
 @media (max-width: 768px) {
     .mainContent {
         flex-direction: column;
+    }
+
+    .banner {
+        background-image: url('/images/18927.jpg');
+        background-size: cover;
+        height: 30rem;
     }
 
     .inputGroup {

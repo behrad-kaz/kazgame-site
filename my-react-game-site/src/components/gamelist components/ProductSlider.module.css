@@ -1,158 +1,193 @@
-/* src/components/ProductSlider.module.css */
+/* src/components/gamelist components/ProductSlider.module.css (نسخه نهایی با موقعیت‌یابی صحیح دکمه‌ها) */
 
 .sliderSection {
-    padding: 40px 20px;
-    background: #0d071b;
+    padding: 3rem 0;
+    background-color: #0d071b;
     text-align: center;
+    position: relative; /* مرجع اصلی برای دکمه‌ها */
 }
 
 .sliderTitle {
-    font-size: 28px;
-    margin-bottom: 30px;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
     font-weight: bold;
-    color: #ffea00;
+    color: gold;
 }
 
 .productSlider {
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
 }
-.swiperInner { /* <--- این کلاس جدید را اضافه کنید */
-    padding: 0 50px; /* <--- به خود Swiper پدینگ می‌دهیم (مقداری که دکمه‌ها را در خود جای دهد) */
-    width: 100%; /* مطمئن شوید که عرض کامل را می‌گیرد */
-     z-index: 1;
+
+.cardLink {
+    text-decoration: none;
+    color: inherit;
+    display: block;
 }
-/* **مهم: استایل کارت‌های محصول** */
+
 .productCard {
-    min-width: 160px;
-    max-width: 200px;
-    height: 240px;
-    background: rgb(255, 255, 255);
+    height: 280px;
+    background: #1a1a2e;
     border-radius: 12px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    padding: 15px;
-    text-align: center;
-    flex-shrink: 0;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    /* اضافه کردن display: flex و flex-direction: column برای تراز عمودی بهتر */
+    border: 1px solid rgba(0, 170, 255, 0.2);
+    padding: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    /* محتوا را پخش می‌کند */
     align-items: center;
+    transition: all 0.3s ease;
 }
 
 .productCard:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-color: rgba(0, 170, 255, 0.7);
+    box-shadow: 0 10px 30px rgba(0, 170, 255, 0.2);
 }
 
-.productCard img {
-    width: 90%;
-    height: 160px;
+.imageContainer {
+    width: 100%;
+    height: 180px;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.imageContainer img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    border-radius: 6px;
-    margin-bottom: 10px;
 }
 
-.productCard p {
-    margin-top: 10px;
-    font-weight: 500;
-    font-size: 0.75rem;
-    color: #333;
+.cardContent {
+    text-align: center;
 }
 
-.productSlider :global(.swiper-button-prev),
-.productSlider :global(.swiper-button-next) {
-    background: #007bff !important;
-    color: white !important;
-    border: none !important;
-    width: 30px !important;
-    height: 30px !important;
-    border-radius: 50% !important;
-    font-size: 12px !important;
-    cursor: pointer !important;
-    position: absolute !important;
-    top: 50% !important;
-    transform: translateY(-50%) !important;
-    z-index: 10 !important;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2) !important;
-    transition: background-color 0.3s ease, transform 0.2s ease !important;
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-
-    background-image: none !important;
+.productTitle {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #f0f0f0;
+    margin: 0;
 }
 
-.productSlider :global(.swiper-button-prev) {
-    left: 10px !important;
+.productPrice {
+    font-size: 0.9rem;
+    color: #00aaff;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+.navButton {
+    position: absolute;
+    top: 55%; /* کمی پایین‌تر از وسط برای هماهنگی با عنوان */
+    transform: translateY(-55%);
+    width: 50px; /* کمی بزرگ‌تر */
+    height: 50px; /* کمی بزرگ‌تر */
+    
+    /* پس‌زمینه جدید: گرادینت آبی-بنفش متناسب با تم سایت */
+    background: rgba(0, 170, 255, 0.2);
+    backdrop-filter: blur(8px); /* افکت شیشه‌ای قوی‌تر */
+    
+    color: white; /* رنگ فلش‌ها */
+    border-radius: 50%; /* کاملاً گرد */
+    border: 2px solid rgba(255, 255, 255, 0.3); /* حاشیه سفید ظریف */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); /* سایه عمیق‌تر */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem; /* فلش بزرگ‌تر و خواناتر */
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10;
+    transition: all 0.4s ease-in-out; /* انتقال نرم‌تر برای هاور */
 }
 
-.productSlider :global(.swiper-button-next) {
-    right: 10px !important;
+.navButton:hover {
+    /* افکت هاور: گرادینت روشن‌تر و سایه درخشان‌تر */
+    background: linear-gradient(135deg, rgba(0, 200, 255, 0.9), rgba(150, 0, 255, 0.9));
+    border-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 6px 25px rgba(0, 170, 255, 0.6); /* درخشش آبی */
+    transform: translateY(-55%) scale(1.1); /* کمی بزرگ‌تر می‌شود */
 }
-.productSlider :global(.swiper) { /* <--- این کلاس را اضافه کنید */
-    margin: 0 20px !important; /* <--- 20px از چپ و راست margin به خود Swiper بدهید */
-    /* این margin باعث می‌شود کارت‌ها در Swiper از دکمه‌ها فاصله بگیرند */
+.prevButton {
+    left: 5vw; /* فاصله ۵٪ از عرض صفحه از سمت چپ */
 }
-
-.productSlider :global(.swiper-button-prev:hover),
-.productSlider :global(.swiper-button-next:hover) {
-    background-color: #01366e !important;
-    transform: translateY(-50%) scale(1.05) !important;
-}
-
-.productSlider :global(.swiper-button-prev::after),
-.productSlider :global(.swiper-button-next::after) {
-    font-size: 18px !important;
-    /* اندازه فلش */
-    color: white !important;
-    /* رنگ فلش */
-}
-
-.productSlider :global(.swiper-button-next::after) {
-    content: "❯" !important;
-}
-
-.productSlider :global(.swiper-button-prev::after) {
-    content: "❮" !important;
+.nextButton {
+    right: 5vw; /* فاصله ۵٪ از عرض صفحه از سمت راست */
 }
 
 
-/* **مهم: استایل‌های دات‌های Pagination Swiper** */
+
+
+
+/* --- استایل دات‌های Pagination (بدون تغییر) --- */
 .productSlider :global(.swiper-pagination) {
     position: relative;
-    /* برای اینکه margin-top کار کند */
-    margin-top: 20px;
-    /* فاصله از پایین کارت‌ها (مطابق با HTML اصلی) */
+    margin-top: 2rem;
     bottom: auto !important;
-    /* reset کردن استایل bottom پیش‌فرض Swiper */
-    left: auto !important;
-    /* reset */
-    width: auto !important;
-    /* reset */
-    text-align: center;
-    z-index: 5 !important;
 }
 
 .productSlider :global(.swiper-pagination-bullet) {
-    height: 10px !important;
-    width: 10px !important;
-    margin: 0 6px !important;
-    /* فاصله 6px بین دات‌ها */
-    background-color: #ccc !important;
-    border-radius: 50% !important;
+    background-color: #888 !important;
     opacity: 1 !important;
-    /* برای اینکه همیشه کاملاً واضح باشد */
-    display: inline-block !important;
-    transition: background-color 0.3s ease !important;
 }
 
 .productSlider :global(.swiper-pagination-bullet-active) {
-    background-color: #007bff !important;
-    /* دات فعال آبی */
+    background-color: gold !important;
+}
+
+@media (max-width: 1024px) {
+    .productCard {
+        height: 260px; /* کاهش ارتفاع کارت */
+    }
+    .imageContainer {
+        height: 160px; /* کاهش ارتفاع عکس */
+    }
+    .productTitle {
+        font-size: 0.9rem; /* کاهش اندازه فونت */
+    }
+}
+/* در حالت موبایل، دکمه‌ها همچنان مخفی هستند */
+@media (max-width: 992px) {
+
+    /* نقطه شکست را کمی بالاتر بردیم تا دکمه‌ها زودتر حذف شوند */
+    .sliderTitle {
+        font-size: 2rem;
+    }
+        .navButton {
+        display: none; /* در تبلت و موبایل دکمه‌ها مخفی شوند */
+    }
+
+    .productSlider :global(.swiper-button-prev),
+    .productSlider :global(.swiper-button-next) {
+        display: none;
+        /* مخفی کردن فلش‌ها در تبلت و موبایل */
+    }
+    @media (max-width: 768px) {
+    .sliderTitle { 
+        font-size: 2rem; 
+    }
+    
+    /* مخفی کردن فلش‌ها در موبایل همچنان ایده خوبی است */
+    .sliderSection :global(.swiper-button-prev),
+    .sliderSection :global(.swiper-button-next) {
+        display: none;
+    }
+    
+    /* **مهم: کوچک کردن کارت‌ها برای جا شدن ۴ عدد** */
+    .productCard {
+        height: 220px; /* ارتفاع کارت بسیار کمتر می‌شود */
+        padding: 0.7rem;
+    }
+    .imageContainer {
+        height: 130px; /* ارتفاع عکس کمتر می‌شود */
+        margin-bottom: 0.8rem;
+    }
+    .productTitle {
+        font-size: 0.8rem; /* فونت عنوان کوچک‌تر */
+    }
+    .productPrice {
+        font-size: 0.75rem; /* فونت قیمت کوچک‌تر */
+    }
+}
 }

@@ -99,5 +99,16 @@ namespace KazGameAPI.Controllers
 
             return Ok(products);
         }
+        [HttpGet("featured")]
+        public async Task<IActionResult> GetFeaturedProducts()
+        {
+            var featuredProducts = await _context.Products
+                .Where(p => p.IsFeatured == true)
+                .OrderByDescending(p => p.ReleaseDate) // یا هر ترتیب دیگری که می‌خواهید
+                .Take(10) // حداکثر ۱۰ محصول ویژه
+                .ToListAsync();
+
+            return Ok(featuredProducts);
+        }
     }
 }

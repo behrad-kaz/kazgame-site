@@ -86,10 +86,22 @@ const Header = () => {
         <SearchBar />
 
         <nav id="nav" className={`${styles.nav} ${isMenuOpen ? styles.active : ''}`}>
-          <Link to="/">خانه</Link>
-          <Link to="/games">بازی ها </Link>
-          <Link to="/services">تماس با ما </Link>
-          <Link to="/contact">تبلیغات </Link>
+          <Link to="/" onClick={toggleMenu}>
+            <i className="fas fa-home"></i>
+            <span>خانه</span>
+          </Link>
+          <Link to="/games" onClick={toggleMenu}>
+            <i className="fas fa-gamepad"></i>
+            <span>بازی ها</span>
+          </Link>
+          <Link to="/services" onClick={toggleMenu}>
+            <i className="fas fa-headset"></i>
+            <span>تماس با ما</span>
+          </Link>
+          <Link to="/contact" onClick={toggleMenu}>
+            <i className="fas fa-ad"></i>
+            <span>تبلیغات</span>
+          </Link>
         </nav>
 
         {!isLoggedIn ? (

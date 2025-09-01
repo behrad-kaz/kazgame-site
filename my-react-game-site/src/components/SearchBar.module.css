@@ -4,6 +4,7 @@
   position: relative;
   display: flex;
   align-items: center;
+  margin: 0 2rem;
   max-width: 350px; /* عرض حداکثر نوار جستجو */
   flex-grow: 1; /* می‌تواند رشد کند */
 }

@@ -64,7 +64,6 @@ const ContactPage = () => {
             <Header />
 
             <div className={styles.banner}>
-                <img src="/images/kazgame-logo.png" alt="KazGame Logo" className={styles.bannerLogo} />
             </div>
 
             {/* **** تغییر ۱: بخش خدمات و پشتیبانی به اینجا منتقل شد **** */}

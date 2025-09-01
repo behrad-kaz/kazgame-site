@@ -1,55 +1,81 @@
-// src/components/ProductSlider.jsx
-import React from 'react';
+// src/components/gamelist components/ProductSlider.jsx (نسخه نهایی و بازطراحی شده)
+import React, { useRef } from 'react';
+import { Link } from 'react-router-dom'; // <--- ایمپورت Link برای لینک‌دهی
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import 'swiper/css/navigation'; // برای دکمه‌های ناوبری
-import 'swiper/css/pagination'; // برای دات‌ها
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
-import { Navigation, Pagination, A11y } from 'swiper/modules';
+import { Navigation, Pagination, A11y, Autoplay } from 'swiper/modules';
 
-import styles from './ProductSlider.module.css'; // ایمپورت CSS Modules
+import styles from './ProductSlider.module.css';
 
-const ProductSlider = ({ products }) => {
+const API_BASE_URL = 'https://localhost:7055';
+
+const ProductSlider = ({ games }) => {
+  const navigationPrevRef = useRef(null);
+  const navigationNextRef = useRef(null);
   return (
     <section className={styles.sliderSection}>
-      <h2 className={styles.sliderTitle}>Best Games</h2>
+      <h2 className={styles.sliderTitle}>جدید ترین بازی ها </h2>
       <div className={styles.productSlider}>
-        <Swiper className={styles.swiperInner} 
-          modules={[Navigation, Pagination, A11y]}
-          spaceBetween={20} // فاصله بین اسلایدها (20px برای 200px کارت + 10px margin)
+        <Swiper
+          modules={[Navigation, Pagination, A11y, Autoplay]}
+          spaceBetween={30}
           slidesPerView={1}
-          breakpoints={{
-            640: {
-              slidesPerView: 2,
+           breakpoints={{
+            // برای کوچک‌ترین سایزها (موبایل)
+            320: {
+              slidesPerView: 4,
+              spaceBetween: 15,
+            },
+            // تبلت
+            768: {
+              slidesPerView: 5,
               spaceBetween: 20,
             },
-            768: {
-              slidesPerView: 3,
+            // دسکتاپ
+            1024: {
+              slidesPerView: 6,
               spaceBetween: 30,
             },
-            1024: {
-              slidesPerView: 6, // طبق تصویر شما
-              spaceBetween: 30, // فاصله بین 6 کارت
-            },
-            // اگر بیش از 6 کارت میخواهید در 1400px نشان دهید، آن را تنظیم کنید
-            1400: {
-              slidesPerView: 6,
-              spaceBetween: 40,
-            }
           }}
-          navigation={true}
+          navigation={{
+            prevEl: navigationPrevRef.current,
+            nextEl: navigationNextRef.current,
+          }}
+          // این تابع برای اطمینان از اتصال صحیح Ref ها در اولین رندر است
+          onBeforeInit={(swiper) => {
+            swiper.params.navigation.prevEl = navigationPrevRef.current;
+            swiper.params.navigation.nextEl = navigationNextRef.current;
+          }}
           pagination={{ clickable: true }}
           loop={true}
+          autoplay={{ delay: 4000, disableOnInteraction: false }}
+          className={styles.swiperContainer}
         >
-          {products.map((product) => (
-            <SwiperSlide key={product.id}>
-              <div className={styles.productCard}>
-                <img src={product.imageUrl} alt={product.title} />
-                <p>{product.title}</p>
-              </div>
+          {games.map((game) => (
+            <SwiperSlide key={game.id}>
+              <Link to={`/games/${game.slug}`} className={styles.cardLink}>
+                <div className={styles.productCard}>
+                  <div className={styles.imageContainer}>
+                    <img src={game.imageUrl} alt={game.title} />
+                  </div>
+                  <div className={styles.cardContent}>
+                    <p className={styles.productTitle}>{game.title}</p>
+                    {game.price && <p className={styles.productPrice}>${game.price}</p>}
+                  </div>
+                </div>
+              </Link>
             </SwiperSlide>
           ))}
         </Swiper>
+      </div>
+      <div ref={navigationPrevRef} className={`${styles.navButton} ${styles.prevButton}`}>
+        <i className="fas fa-chevron-left"></i>
+      </div>
+      <div ref={navigationNextRef} className={`${styles.navButton} ${styles.nextButton}`}>
+        <i className="fas fa-chevron-right"></i>
       </div>
     </section>
   );

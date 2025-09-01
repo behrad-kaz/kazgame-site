@@ -27,11 +27,37 @@ const dummyProducts = [
 
 const GamesList = () => {
   const [games, setGames] = useState([]);
+  const [featuredGames, setFeaturedGames] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [currentPage, setCurrentPage] = useState(1); // <--- **State برای شماره صفحه فعلی**
   const [totalPages, setTotalPages] = useState(1); // <--- **State برای تعداد کل صفحات**
-
+   const processGameUrls = (gameData) => {
+        const processUrl = (url) => {
+            if (!url || url.startsWith('http')) return url;
+            return `${PRODUCTS_API_BASE_URL}${url}`;
+        };
+        return {
+            ...gameData,
+            imageUrl: processUrl(gameData.imageUrl),
+            videoUrl: processUrl(gameData.videoUrl),
+            // ... بقیه پراپرتی‌های URL ...
+        };
+    };
+       // useEffectبرای دریافت بازی‌های ویژه د
+        useEffect(() => {
+        const fetchFeaturedGames = async () => {
+            try {
+                const response = await fetch(`${PRODUCTS_API_BASE_URL}/api/Products/featured`);
+                const data = await response.json();
+                const processedData = data.map(processGameUrls);
+                setFeaturedGames(processedData);
+            } catch (err) {
+                console.error("خطا در دریافت بازی‌های ویژه:", err);
+            }
+        };
+        fetchFeaturedGames();
+    }, []);
 
   useEffect(() => {
     const fetchGames = async () => {
@@ -97,7 +123,7 @@ const GamesList = () => {
   return (
     <div className={styles.gamesListPageContainer}>
       <Header />
-      <ProductSlider products={dummyProducts} />
+       <ProductSlider games={featuredGames} />
       <main className={styles.mainContent}>
         <h1 className={styles.pageTitle}>لیست بازی‌ها</h1>
 

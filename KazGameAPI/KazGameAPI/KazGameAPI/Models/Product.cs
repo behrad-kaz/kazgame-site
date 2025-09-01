@@ -41,7 +41,7 @@
         public string? RecDirectX { get; set; }
         public string? DownloadLinksJson { get; set; } // لینک‌های دانلود به صورت JSON string
         public string? RelatedGameIdsJson { get; set; }
-        // <--- **پایان فیلد جدید**
+        public bool IsFeatured { get; set; }
     }
 
 

@@ -2,7 +2,7 @@
 
 
 .header {
-  background: #0d071b;
+  background: #190e33ab;
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
   position: sticky;
@@ -11,27 +11,23 @@
 }
 
 .headerContainer {
-  /* className ها در React به camelCase تبدیل میشن */
-  max-width: 1200px;
+  max-width: 1400px;
   margin: auto;
-  padding: 12px 32px;
+  padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 24px;
 }
 
 .logoCircle {
-  width: 70px;
-  height: 70px;
-  margin: 0;
-  border-radius: 40px;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
   overflow: hidden;
   background: radial-gradient(circle at center, #007bff 0%, #001f3f 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   box-shadow: 0 0 12px rgba(0, 123, 255, 0.7);
+  flex-shrink: 0;
+  /* جلوگیری از کوچک شدن لوگو */
 }
 
 .logoCircle img {
@@ -42,52 +38,96 @@
 
 .nav {
   display: flex;
-  gap: 24px;
+  gap: 1rem;
+  align-items: center;
 }
 
 .nav a {
-  color: #ddd;
+  display: flex;
+  align-items: center;
+
+  max-width: 400px;
+  padding: 0.5rem 1rem;
+  gap: 8px;
+  color: #d0d0d0;
   text-decoration: none;
-  font-size: 14px;
-  font-weight: 500;
-  transition: color 0.3s;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-align: center;
+
+  border-radius: 8px;
+  transition: background-color 0.3s ease-out, color 0.3s ease-out, transform 0.2s ease-out;
+  border-bottom: 1px solid;
+  /* یک خط گرادیانی زیبا به جای خط صاف و ساده */
+  border-image: linear-gradient(to right,
+      transparent,
+      rgba(0, 170, 255, 0.3),
+      /* رنگ آبی تم شما در وسط */
+      transparent) 1;
 }
 
+
+/* --- ۳. افکت هاور (Hover) جذاب --- */
 .nav a:hover {
-  color: #00d9ff;
+  background-color: rgba(0, 170, 255, 0.1);
+  /* پس‌زمینه آبی بسیار محو */
+  color: white;
+  /* متن کاملا سفید و درخشان */
+  transform: translateX(-5px);
+  /* حرکت ظریف به سمت چپ */
+  cursor: pointer;
+}
+
+/* برای حس بهتر، وقتی روی یک لینک هاور می‌شود، بقیه کمی مات شوند */
+.nav:hover a:not(:hover) {
+  opacity: 0.7;
+}
+
+.nav a i {
+  font-size: 1rem;
+  margin-left: 40px;
+  /* فاصله آیکون از متن */
+  width: 30px;
+  /* هم‌ترازی آیکون‌ها */
+  color: #888;
+  transition: color 0.3s ease-out;
+}
+
+.nav a:hover i {
+  color: #00aaff;
+  /* رنگ آیکون در حالت هاور */
 }
 
 .ctaButton {
-  margin: 0;
   background: linear-gradient(135deg, #00c6ff, #0072ff);
   color: white;
-  padding: 8px 20px;
+  padding: 0.7rem 1.5rem;
   border: none;
   border-radius: 50px;
   /* margin-right: -90px; */
   font-weight: bold;
   cursor: pointer;
+  text-decoration: none;
   transition: transform 0.2s, box-shadow 0.2s;
+  white-space: nowrap;
 }
 
 .ctaButton:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 8px 20px rgba(0, 114, 255, 0.5);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 114, 255, 0.4);
 }
 
 .userInfo {
-  /* .user-info */
   display: flex;
   align-items: center;
   gap: 10px;
   background-color: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
   color: white;
   font-weight: bold;
   cursor: pointer;
-  padding: 8px 12px;
-  border-radius: 20px;
-  transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.1s ease;
+  padding: 0.5rem 0.8rem;
+  border-radius: 50px;
 }
 
 .userAvatar {
@@ -96,24 +136,18 @@
   height: 40px;
   border-radius: 50%;
   object-fit: cover;
-  /* <--- اضافه شد: برای اطمینان از پوشش کامل آواتار */
   border: 2px solid transparent;
-  /* <--- اضافه شد: بردر پیش‌فرض */
   transition: border-color 0.2s ease;
-  /* <--- انیمیشن نرم برای بردر */
 }
 
-/* **استایل هاور (Hover Style)** */
+
 .userInfo:hover {
   color: #007bff;
 }
 
-/* **استایل فعال (Active/Clicked Style) - برای حس فشرده شدن دکمه** */
 .userInfo:active {
   transform: translateY(1px);
-  /* <--- کمی به پایین حرکت کند */
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.7);
-  /* <--- سایه کوچک‌تر هنگام کلیک */
   background-color: rgba(255, 255, 255, 0.15);
   /* <--- کمی پررنگ‌تر شود */
 }
@@ -121,7 +155,6 @@
 /* می‌توانید یک بردر بنفش یا آبی به آواتار در حالت هاور یا فعال اضافه کنید */
 .userInfo:hover .userAvatar {
   border-color: #00d9ff;
-  /* <--- بردر آبی روشن به آواتار در هاور */
 }
 
 .menuToggle {
@@ -134,8 +167,6 @@
   position: relative;
   cursor: pointer;
   z-index: 1001;
-  /* برای اینکه بالاتر از منوی باز شده باشد */
-  /* transition: all 0.3s ease-in-out;  برای انیمیشن کلی */
 }
 
 .hamburgerLine {
@@ -181,9 +212,51 @@
   transform: translateY(-11px) rotate(-45deg);
   /* خط سوم به X تبدیل می‌شود */
 }
-
 /* Responsive */
+@media (max-width: 1200px) and (min-width: 768.1px) {
+
+    /* ۱. کاهش پدینگ کلی هدر برای ایجاد فضای بیشتر */
+    .headerContainer {
+        padding: 0.8rem 1.5rem;
+    }
+
+    /* ۲. مخفی کردن منوی اصلی و دکمه ثبت‌نام */
+    /* چون فضای کافی ندارند */
+    .nav {
+        display: none;
+    }
+    .ctaButton {
+        display: none;
+    }
+
+    /* ۳. نمایش آیکون همبرگر (که در دسکتاپ مخفی بود) */
+    .menuToggle {
+        display: block; /* یا display: flex اگر ساختار داخلی آن نیاز دارد */
+    }
+
+    /* ۴. مخفی کردن نام کاربر و کوچک کردن کادر یوزر */
+    /* در JSX شما span آیدی دارد اما کلاسی ندارد، پس آن را از طریق والد هدف قرار می‌دهیم */
+    .userInfo span {
+        display: none;
+    }
+    .userInfo {
+        padding: 0.5rem; /* پدینگ کمتر چون فقط آواتار وجود دارد */
+    }
+
+    /* ۵. مخفی کردن نوار جستجو */
+    /* برای این کار باید یک کلاس به نگهدارنده SearchBar در JSX بدهیم (مرحله بعد) */
+    .searchBarContainer {
+        display: none;
+    }
+}
+
+
 @media (max-width: 768px) {
+  .logoCircle {
+    width: 4rem;
+    height: 4rem;
+  }
+
   .ctaButton {
     margin-right: 0;
   }
@@ -193,38 +266,54 @@
   }
 
   .nav {
-    display: none;
+    direction: rtl;
+    display: flex;
     flex-direction: column;
-    background-color: #1c1c1c;
+    align-items: center;
     position: absolute;
-    top: 80px;
+    top: 86px;
     left: 0;
     width: 100%;
+
     padding: 20px 0;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
-    align-items: center;
+    opacity: 0;
+    /* در حالت عادی کاملا شفاف */
+    pointer-events: none;
+    /* غیرقابل کلیک در حالت مخفی */
+    transform: translateY(-15px);
+    /* کمی بالاتر از جای اصلی برای افکت حرکت */
+
+    /* تعریف انیمیشن نرم */
+    transition: opacity 0.3s ease-out, transform 0.3s ease-out;
   }
 
+  /* --- حالت فعال و خلاقانه منو (وقتی باز می‌شود) --- */
   .nav.active {
-    display: flex;
-    /* top: 80px;  این را از قبل داشتید، اگر هدر ثابت است این مقدار صحیح است */
-    top: 80px;
-    /* از ارتفاع هدر به پایین */
-    left: 0;
-    width: 100%;
-    /* height: calc(100vh - 80px); /* اگر می‌خواهید منو کل صفحه را پر کند */
-    padding: 20px 0;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
-    align-items: center;
-    justify-content: flex-start;
-    /* آیتم‌ها از بالا شروع شوند */
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+    background-color: rgba(28, 28, 40, 0.85);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(0, 170, 255, 0.3);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5),
+      inset 0 1px 0 rgba(0, 170, 255, 0.2);
   }
+
+  .nav a {
+    width: 90%;
+    max-width: 400px;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    text-align: right;
+  }
+
 
   .menuToggle {
     display: block;
+     margin-left: 16px;
   }
-
-  .ctaButton {
-    display: none;
-  }
+      .userInfo span {
+        display: none;
+    }
 }

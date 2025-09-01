@@ -94,8 +94,11 @@
 
 /* Responsive adjustments for gameCard */
 @media (max-width: 768px) {
+    .gameCard{
+        height: 700px; /* ارتفاع کمتر در موبایل */
+    }
     .gameCardMedia {
-        height: 200px; /* ارتفاع کمتر در موبایل */
+        height: 500px; /* ارتفاع کمتر در موبایل */
     }
     .gameCardTitle {
         font-size: 1.1rem;

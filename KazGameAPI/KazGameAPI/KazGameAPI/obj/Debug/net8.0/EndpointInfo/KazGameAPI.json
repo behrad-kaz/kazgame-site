@@ -399,6 +399,18 @@
         }
       }
     },
+    "/api/Products/featured": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/SteamDeals/top-deals": {
       "get": {
         "tags": [
@@ -827,6 +839,9 @@
           "relatedGameIdsJson": {
             "type": "string",
             "nullable": true
+          },
+          "isFeatured": {
+            "type": "boolean"
           }
         },
         "additionalProperties": false

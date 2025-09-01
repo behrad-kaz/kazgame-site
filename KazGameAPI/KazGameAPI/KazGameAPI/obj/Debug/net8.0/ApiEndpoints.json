@@ -205,6 +205,16 @@
   },
   {
     "ContainingType": "KazGameAPI.Controllers.ProductsController",
+    "Method": "GetFeaturedProducts",
+    "RelativePath": "api/Products/featured",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KazGameAPI.Controllers.ProductsController",
     "Method": "GetLatestReleases",
     "RelativePath": "api/Products/latest-releases",
     "HttpMethod": "GET",
