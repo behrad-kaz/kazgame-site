@@ -1,0 +1,105 @@
+/* src/pages/AdvertisingPage.module.css */
+
+/* انیمیشن برای حرکت افقی و بی‌نهایت */
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%); /* حرکت به اندازه عرض یک تصویر */
+    }
+}
+
+.pageContainer {
+    background-color: #0d071b;
+    color: white;
+}
+
+/* --- بخش بنر متحرک --- */
+.scrollingBanner {
+    width: 100%;
+    height: 400px; /* ارتفاع بنر */
+    overflow: hidden; /* مهم: برای مخفی کردن بخش اضافه تصویر */
+    position: relative;
+}
+
+.scrollingImageWrapper {
+    width: 200%; /* عرض دو برابر برای جا دادن دو تصویر */
+    height: 100%;
+    display: flex; /* تصاویر را کنار هم می‌چیند */
+    
+    /* اعمال انیمیشن */
+    animation: scrollLeft 40s linear infinite; /* 40 ثانیه زمان برای یک دور کامل */
+}
+
+.scrollingImageWrapper img {
+    width: 50%; /* هر تصویر نصف عرض والد را می‌گیرد */
+    height: 100%;
+    object-fit: cover;
+}
+
+/* --- بخش کارت‌های ویژگی --- */
+.featuresSection {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    /* برای قرار گرفتن روی بنر (مانند gbaz) */
+    margin-top: -80px;
+    position: relative;
+    z-index: 10;
+}
+
+.featureBox {
+    background-color: rgba(30, 30, 45, 0.85);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    flex: 1; /* هر سه کارت فضای مساوی بگیرند */
+    max-width: 350px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featureBox:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 170, 255, 0.3);
+}
+
+.featureIcon {
+    font-size: 3rem;
+    color: #00aaff; /* رنگ آبی تم */
+    margin-bottom: 1.5rem;
+}
+
+.featureTitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.featureDescription {
+    color: #ccc;
+    line-height: 1.6;
+    font-size: 0.9rem;
+}
+
+.futureContentPlaceholder {
+    min-height: 300px; /* یک فضای خالی برای محتوای آینده */
+}
+
+/* --- ریسپانسیو --- */
+@media (max-width: 768px) {
+    .featuresSection {
+        flex-direction: column;
+        align-items: center;
+        margin-top: -120px; /* مارجین بیشتر برای موبایل */
+    }
+    .featureBox {
+        width: 100%;
+        max-width: 400px;
+    }
+}

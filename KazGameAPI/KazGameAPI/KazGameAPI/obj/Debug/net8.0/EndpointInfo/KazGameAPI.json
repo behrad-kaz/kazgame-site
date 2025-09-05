@@ -113,6 +113,18 @@
         }
       }
     },
+    "/api/Dashboard/stats": {
+      "get": {
+        "tags": [
+          "Dashboard"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/NewsArticles": {
       "get": {
         "tags": [

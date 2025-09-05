@@ -7,6 +7,7 @@ import GamePage from './pagess/GamePage';
 import GamesList from './pagess/GamesList';
 import ResetPasswordPage from './pagess/ResetPasswordPage';
 import ContactPage from './pagess/ContactPage';
+import AdvertisingPage from './pagess/AdvertisingPage';
 
 import './style.css'; // استایل‌های گلوبال شما
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/games" element={<GamesList />} />
          <Route path="/reset-password" element={<ResetPasswordPage />} /> 
          <Route path="/services" element={<ContactPage />} />
+          <Route path="/contact" element={<AdvertisingPage />} />
       </Routes>
     </Router>
   );

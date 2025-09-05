@@ -1,0 +1,83 @@
+/* src/components/FaqSection.module.css */
+.faqSection {
+    padding: 4rem 2rem;
+    background-color: #0d071b;
+    color: white;
+    direction: rtl; /* راست به چپ */
+}
+
+.sectionTitle {
+    text-align: center;
+    font-size: 2.5rem;
+    color: gold;
+    margin-bottom: 3rem;
+}
+
+.faqContainer {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.faqQuestion {
+    display: flex;
+    justify-content: space-between; /* متن راست، آیکون چپ */
+    align-items: center;
+    width: 100%;
+    padding: 1.5rem;
+    background-color: #1a1a2e;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    color: white;
+    font-size: 1.2rem;
+    font-family: inherit;
+    cursor: pointer;
+    text-align: right;
+    transition: background-color 0.3s;
+}
+
+.faqQuestion:hover {
+    background-color: #2a2a3e;
+}
+
+.toggleIcon {
+    font-size: 2rem;
+    font-weight: 300;
+    color: #00aaff;
+    transition: transform 0.4s ease-in-out;
+}
+
+/* چرخش آیکون + به - */
+.toggleIcon.open {
+    transform: rotate(45deg);
+}
+
+/* --- بخش اصلی انیمیشن --- */
+.faqAnswer {
+    background-color: #1a1a2e;
+    border-radius: 0 0 8px 8px;
+    margin-top: -8px; /* برای چسبیدن به سوال */
+    
+    /* در حالت بسته، ارتفاع صفر و محتوا مخفی است */
+    max-height: 0;
+    overflow: hidden;
+    
+    /* انیمیشن نرم برای باز و بسته شدن */
+    transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+.faqAnswer.open {
+    /* در حالت باز، ارتفاع به مقدار کافی بزرگ می‌شود */
+    max-height: 500px; /* یک عدد بزرگ که از ارتفاع محتوا بیشتر باشد */
+    padding: 1.5rem; /* پدینگ فقط در حالت باز اعمال می‌شود */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: none; /* حاشیه بالا را حذف می‌کنیم */
+}
+
+.answerContent {
+    color: #ccc;
+    line-height: 1.8;
+    text-align: justify;
+}

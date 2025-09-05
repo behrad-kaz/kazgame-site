@@ -58,6 +58,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "DashboardController",
+    "Method": "GetStats",
+    "RelativePath": "api/Dashboard/stats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NewsArticlesController",
     "Method": "GetRecentArticles",
     "RelativePath": "api/NewsArticles",

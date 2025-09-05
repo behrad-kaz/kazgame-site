@@ -1,0 +1,73 @@
+/* src/components/CollaborationCta.module.css (نسخه اصلاح شده) */
+
+.ctaSection {
+    position: relative;
+    max-width: 1200px;
+    margin: 4rem auto;
+    background-image: url('/images/collaboration-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    direction: rtl;
+}
+
+.ctaContent {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.ctaLink {
+    /* **** بخش اصلی موقعیت‌دهی جدید **** */
+    position: absolute;
+    top: 8rem;         /* فاصله ۲ واحدی از پایین */
+    left: 3rem;          /* فاصله ۴ واحدی از چپ */
+    transform: none;       /* حذف ترنسفورم مرکزگرایی */
+    
+    width: auto;           /* عرض خودکار بر اساس محتوا */
+    max-width: 450px;      /* حداکثر عرض برای جلوگیری از طولانی شدن */
+
+    /* استایل‌های ظاهری (بدون تغییر) */
+    padding: 1.5rem;
+
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s ease;
+    text-align: right; /* متن راست چین برای فارسی */
+}
+
+
+.ctaText {
+    font-size: 1rem;
+    margin: 0;
+    line-height: 1.6; /* خوانایی بهتر */
+}
+
+/* --- ریسپانسیو بهبود یافته --- */
+@media (max-width: 768px) {
+    .ctaSection {
+        height: auto; /* ارتفاع خودکار */
+        padding: 2rem;
+        /* تغییر چیدمان برای قرارگیری متن در پایین */
+        display: flex;
+        align-items: flex-end; /* چیدن آیتم‌ها در انتهای کانتینر */
+        min-height: 250px;
+    }
+
+    .ctaLink {
+        position: static; /* حذف موقعیت absolute در موبایل */
+        transform: none;
+        width: 100%; /* عرض کامل */
+        text-align: center; /* متن وسط‌چین در موبایل */
+    }
+
+    .mouseIcon {
+        display: none; /* مخفی کردن آیکون موس در موبایل */
+    }
+}
