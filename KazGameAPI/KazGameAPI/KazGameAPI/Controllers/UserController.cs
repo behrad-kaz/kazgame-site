@@ -176,5 +176,57 @@ namespace KazGameAPI.Controllers
 
             return Ok(new { message = "آواتار با موفقیت آپلود شد.", avatarUrl = user.AvatarUrl });
         }
+        [HttpGet("{id}/profile")]
+        public async Task<IActionResult> GetUserProfile(int id)
+        {
+            var user = await _context.Users
+                .Include(u => u.FavoriteGames)
+                .ThenInclude(fg => fg.Product)
+                .FirstOrDefaultAsync(u => u.Id == id);
+
+            if (user == null) return NotFound();
+
+            var profileData = new
+            {
+                user.Id,
+                user.FullName,
+                user.Email,
+                AvatarUrl = user.AvatarUrl, // اطمینان از نام درست پراپرتی
+                JoinDate = user.CreatedAt, // فرض می‌کنیم چنین فیلدی دارید
+                FavoriteGamesCount = user.FavoriteGames.Count,
+                FavoriteGames = user.FavoriteGames.Select(fg => new {
+                    fg.Product.Id,
+                    fg.Product.Title,
+                    fg.Product.ImageUrl,
+                    fg.Product.Slug
+                }).ToList()
+            };
+
+            return Ok(profileData);
+        }
+
+        // Endpoint برای لایک کردن (افزودن به علاقه‌مندی)
+        [HttpPost("{userId}/favorites/{productId}")]
+        public async Task<IActionResult> AddFavorite(int userId, int productId)
+        {
+            var favorite = new UserFavoriteGame { UserId = userId, ProductId = productId };
+            _context.UserFavoriteGames.Add(favorite);
+            await _context.SaveChangesAsync();
+            return Ok();
+        }
+
+        // Endpoint برای آنلایک کردن (حذف از علاقه‌مندی)
+        [HttpDelete("{userId}/favorites/{productId}")]
+        public async Task<IActionResult> RemoveFavorite(int userId, int productId)
+        {
+            var favorite = await _context.UserFavoriteGames
+                .FirstOrDefaultAsync(f => f.UserId == userId && f.ProductId == productId);
+            if (favorite != null)
+            {
+                _context.UserFavoriteGames.Remove(favorite);
+                await _context.SaveChangesAsync();
+            }
+            return Ok();
+        }
     }
 }

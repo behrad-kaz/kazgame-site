@@ -1,5 +1,5 @@
-// src/components/GameOverviewSection.jsx
-import React, { useState, useEffect, forwardRef } from 'react'; 
+// src/components/GameOverviewSection.jsx (نسخه اصلاح شده با دکمه لایک)
+import React, { useState, useEffect, forwardRef } from 'react';
 import { Link } from 'react-router-dom';
 import styles from './GameOverviewSection.module.css';
 
@@ -8,32 +8,36 @@ const PRODUCTS_API_BASE_URL = 'https://localhost:7055'; // URL پایه API
 const GameOverviewSection = ({ game, scrollToDownload, scrollToComments }) => {
   const [currentMainMediaUrl, setCurrentMainMediaUrl] = useState('');
   const [isMainMediaVideo, setIsMainMediaVideo] = useState(false);
+  const [isLiked, setIsLiked] = useState(false); // <--- تغییر جدید: وضعیت لایک
 
   useEffect(() => {
     if (game) {
       if (game.mainPageVideoUrl) {
         setCurrentMainMediaUrl(game.mainPageVideoUrl);
         setIsMainMediaVideo(true);
-      } else if (game.videoUrl) { // Fallback به videoUrl قدیمی (تریلر)
+      } else if (game.videoUrl) {
         setCurrentMainMediaUrl(game.videoUrl);
         setIsMainMediaVideo(true);
-      } else if (game.imageUrl) { // Fallback به imageUrl اگر ویدیو نبود (برای GameOverviewSection)
+      } else if (game.imageUrl) {
         setCurrentMainMediaUrl(game.imageUrl);
         setIsMainMediaVideo(false);
       }
-      // اگر گالری تصاویر دارد و هیچ ویدیوی اصلی/تریلری وجود ندارد، از اولین تصویر گالری به عنوان رسانه اصلی استفاده کن
       if (game.galleryImages && game.galleryImages.length > 0 && !game.mainPageVideoUrl && !game.videoUrl) {
         setCurrentMainMediaUrl(game.galleryImages[0]);
         setIsMainMediaVideo(false);
       }
 
-      // **LOG برای دیباگ: بررسی داده‌های Genre**
       console.log(`Game ID: ${game.id}, Title: ${game.title}`);
-      console.log(`  game.Genre from API: "${game.Genre}"`); // <--- **این LOG را بررسی کنید**
-      console.log(`  game.Developer from API: "${game.Developer}"`);
-      console.log(`  game.ReleaseDate from API: "${game.ReleaseDate}"`);
+      console.log(`  game.Genre from API: "${game.Genre}"`);
+      console.log(`  game.Developer from API: "${game.Developer}"`);
+      console.log(`  game.ReleaseDate from API: "${game.ReleaseDate}"`);
+
+      // <--- تغییر جدید: در اینجا باید وضعیت لایک را از API دریافت کنید (در حال حاضر ثابت است)
+      // فرض می‌کنیم در آینده API به ما بگوید آیا این بازی توسط کاربر فعلی لایک شده است یا خیر
+      // فعلاً برای تست، می‌توانید آن را true یا false کنید.
+      setIsLiked(game.isLiked || false);
     }
-  }, [game]); // وقتی Prop 'game' تغییر می‌کند، این useEffect دوباره اجرا می‌شود
+  }, [game]);
 
   const handleThumbnailClick = (imgUrl) => {
     setCurrentMainMediaUrl(imgUrl);
@@ -50,12 +54,37 @@ const GameOverviewSection = ({ game, scrollToDownload, scrollToComments }) => {
     }
   };
 
-  // **Genres اینجا تعریف می‌شود (داخل کامپوننت)**
+  const handleLikeToggle = async () => {
+    const userId = localStorage.getItem('loggedInUserId');
+    if (!userId) {
+        alert("برای لایک کردن، ابتدا وارد شوید.");
+        return;
+    }
+    if (!game || !game.id) return;
+
+    const newIsLiked = !isLiked;
+    setIsLiked(newIsLiked);
+
+    // **** تغییر ۲: این تابع اکنون به API_BASE_URL دسترسی دارد ****
+    const url = `${PRODUCTS_API_BASE_URL}/api/user/${userId}/favorites/${game.id}`;
+    const method = newIsLiked ? 'POST' : 'DELETE';
+    
+    try {
+        const response = await fetch(url, { method: method });
+        if (!response.ok) {
+            // اگر عملیات ناموفق بود، وضعیت لایک را به حالت قبل برگردان
+            setIsLiked(!newIsLiked);
+            alert("خطا در ثبت لایک.");
+        }
+    } catch (error) {
+        setIsLiked(!newIsLiked);
+        alert("خطا در ارتباط با سرور.");
+        console.error("Like toggle error:", error);
+    }
+  };
+
   const genres = game.genre ? game.genre.split(',').map(g => g.trim()) : [];
-
-  // **DEBUG: بررسی آرایه genres بعد از پردازش**
   console.log('Processed Genres array:', genres);
-
 
   return (
     <section
@@ -97,7 +126,7 @@ const GameOverviewSection = ({ game, scrollToDownload, scrollToComments }) => {
                 ) : null
               ))
             ) : (
-              game.imageUrl && <img src={`${PRODUCTS_API_BASE_URL}${game.imageUrl}`} alt={game.title} className={styles.galleryThumbnailItem} onClick={() => handleThumbnailClick(`${PRODUCTS_API_BASE_URL}${game.imageUrl}`)} onError={(e) => { e.target.onerror = null; e.target.src = '/images/default-image-error.png'; console.error(`Default thumbnail load error for ${game.title} from: ${PRODUCTS_API_BASE_URL}${game.imageUrl}`, e); }} />
+              game.imageUrl && <img src={game.imageUrl} alt={game.title} className={styles.galleryThumbnailItem} onClick={() => handleThumbnailClick(game.imageUrl)} onError={(e) => { e.target.onerror = null; e.target.src = '/images/default-image-error.png'; console.error(`Default thumbnail load error for ${game.title} from: ${game.imageUrl}`, e); }} />
             )}
           </div>
         </div>
@@ -106,7 +135,6 @@ const GameOverviewSection = ({ game, scrollToDownload, scrollToComments }) => {
           <h2 className={styles.gamePanelTitle}>{game.title}</h2>
 
           <div className={styles.gameTags}>
-            {/* **استفاده از آرایه genres پردازش شده** */}
             {genres.map((genre, index) => (
               <span key={index} className={styles.gameTag}>{genre}</span>
             ))}
@@ -130,8 +158,16 @@ const GameOverviewSection = ({ game, scrollToDownload, scrollToComments }) => {
             <div className={styles.ratingBox}>
               <i className="fas fa-star"></i> {game.rating && <span>{game.rating}</span>}
             </div>
+            <button
+              className={`${styles.likeButton} ${isLiked ? styles.liked : ''}`}
+              onClick={handleLikeToggle}
+              title={isLiked ? "حذف از علاقه‌مندی‌ها" : "افزودن به علاقه‌مندی‌ها"}
+            >
+              <i className={isLiked ? "fas fa-heart" : "far fa-heart"}></i>
+            </button>
+
             <div className={styles.ageRating}>
-              <img src={`${PRODUCTS_API_BASE_URL}${game.pegi}`} alt="PEGI 16" />
+              <img src={`${PRODUCTS_API_BASE_URL}${game.pegi}`} alt="PEGI" />
             </div>
           </div>
         </div>

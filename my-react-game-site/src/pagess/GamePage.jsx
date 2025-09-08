@@ -6,9 +6,9 @@ import Footer from '../components/Footer';
 import GameOverviewSection from '../components/GameOverviewSection';
 import GameDetailsSection from '../components/GameDetailsSection';
 import GameSystemRequirementsSection from '../components/GameSystemRequirementsSection';
-import DownloadSection from '../components/DownloadSection'; 
+import DownloadSection from '../components/DownloadSection';
 import RelatedGamesSection from '../components/RelatedGamesSection';
-import CommentSection from '../components/CommentSection'; 
+import CommentSection from '../components/CommentSection';
 
 import styles from './GamePage.module.css';
 
@@ -23,7 +23,7 @@ const GamePage = () => {
   const [error, setError] = useState(null);
 
 
-   // **تعریف Refs برای بخش‌های هدف**
+  // **تعریف Refs برای بخش‌های هدف**
   const downloadSectionRef = useRef(null); // <--- **جدید**
   const commentSectionRef = useRef(null); // <--- **جدید**
 
@@ -37,22 +37,30 @@ const GamePage = () => {
 
   useEffect(() => {
     const fetchGameDetails = async () => {
+      setLoading(true); // <--- اضافه شد: برای هر بار فچ، لودینگ را فعال کن
+      setError(null);   // <--- اضافه شد: خطاهای قبلی را پاک کن
+
+      const loggedInUserId = localStorage.getItem('loggedInUserId');
+
+      // آدرس API را بر اساس لاگین بودن کاربر می‌سازیم
+      let apiUrl = `${PRODUCTS_API_BASE_URL}/api/Products/by-slug/${slug}`;
+      if (loggedInUserId) {
+        apiUrl += `?userId=${loggedInUserId}`;
+      }
+
       try {
-        const response = await fetch(`${PRODUCTS_API_BASE_URL}/api/Products/by-slug/${slug}`);
+        const response = await fetch(apiUrl);
 
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
 
-        const data = await response.json();
-        // **تابع کمکی برای پردازش URLها از API**
+        const data = await response.json(); // <-- data شامل IsLiked و تمام پراپرتی‌های بازی است
+
+        // **مهم:** ساختار پاسخ API تغییر کرده. دیگر نیازی به پردازش دستی URLها نیست اگر در بک‌اند انجام شود
+        // اما چون کد پردازش URL در کد شما وجود دارد، آن را حفظ می‌کنیم.
         const processUrl = (url) => {
-          if (!url) return null;
-          // اگر URL از قبل کامل است (شامل http/s)، همان را برگردان
-          if (url.startsWith('http://') || url.startsWith('https://')) {
-            return url;
-          }
-          // در غیر این صورت (اگر نسبی بود)، PRODUCTS_API_BASE_URL را اضافه کن
+          if (!url || url.startsWith('http')) return url;
           return `${PRODUCTS_API_BASE_URL}${url}`;
         };
         console.log("Raw downloadLinksJson from API:", data.downloadLinksJson);
@@ -85,15 +93,28 @@ const GamePage = () => {
         console.log("Processed Download Links (Final to DownloadSection):", processedDownloadLinks);
 
         const processedGameData = {
-          ...data, // کپی کردن تمام فیلدها
-          fullDescription: data.fullDescription, // اگر از API به همین نام می آید
-          developer: data.developer,
-          publisher: data.publisher,
-          releaseDate: data.releaseDate,
-          genre: data.genre,
-          rating: data.rating,
-          pegi: data.pegi
+          ...data, // کپی کردن تمام فیلدها از جمله IsLiked, Title, Id, Slug, ...
+
+          // پردازش URLها و JSONها مانند کد قبلی شما
+          imageUrl: processUrl(data.imageUrl),
+          videoUrl: processUrl(data.videoUrl),
+          mainPageVideoUrl: processUrl(data.mainPageVideoUrl),
+          backgroundImageUrl: processUrl(data.backgroundImageUrl),
+
+          galleryImages: data.galleryImagesJson
+            ? JSON.parse(data.galleryImagesJson).map(img => processUrl(img))
+            : [],
+          middleImages: data.middleImagesJson
+            ? JSON.parse(data.middleImagesJson).map(img => processUrl(img))
+            : [],
+          downloadLinks: data.downloadLinksJson
+            ? JSON.parse(data.downloadLinksJson).map(link => ({
+              ...link,
+              Url: processUrl(link.Url)
+            }))
+            : [],
         };
+
         console.log("Game Data fetched from API:", data); // <--- **LOG جدید ۱**
 
 
@@ -105,13 +126,7 @@ const GamePage = () => {
           `/images/red dead redemption 2/Red_Dead_Redemption_2-1.webp`,
         ].map(img => `${PRODUCTS_API_BASE_URL}${img}`); // ساخت آدرس کامل برای Dummy Data
 
-        setGame({
-          ...data,
-          galleryImages: processedGalleryImages,
-          middleImages: processedMiddleImages,
-          gameData: processedGalleryImages,
-          downloadLinks: processedDownloadLinks,
-        });
+        setGame(processedGameData);
         console.log("Game ID after fetching and setting state:", data.id);
 
       } catch (err) {
@@ -160,7 +175,7 @@ const GamePage = () => {
   return (
     <div className={styles.gamePageWrapper}>
       <Header />
-     <GameOverviewSection
+      <GameOverviewSection
         game={game}
         scrollToDownload={() => scrollToSection(downloadSectionRef)} // <--- **جدید**
         scrollToComments={() => scrollToSection(commentSectionRef)} // <--- **جدید**

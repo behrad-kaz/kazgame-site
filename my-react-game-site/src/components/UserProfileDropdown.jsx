@@ -76,11 +76,13 @@ const UserProfileDropdown = ({ username, userAvatarSrc, onClose }) => {
     }
   };
 
-  const handleProfileEditClick = () => {
-    alert("صفحه شخصی‌سازی پروفایل (بعداً طراحی می‌شود).");
+const handleProfileEditClick = () => {
+    const userId = localStorage.getItem('loggedInUserId');
+    if (userId) {
+        navigate(`/profile/${userId}`);
+    }
     onClose();
-  };
-
+};
   const handlePurchaseHistoryClick = () => {
     alert("صفحه صندوق خریدها (بعداً طراحی می‌شود).");
     onClose();

@@ -8,6 +8,7 @@ import GamesList from './pagess/GamesList';
 import ResetPasswordPage from './pagess/ResetPasswordPage';
 import ContactPage from './pagess/ContactPage';
 import AdvertisingPage from './pagess/AdvertisingPage';
+import ProfilePage from './pagess/ProfilePage';
 
 import './style.css'; // استایل‌های گلوبال شما
 
@@ -22,6 +23,7 @@ function App() {
          <Route path="/reset-password" element={<ResetPasswordPage />} /> 
          <Route path="/services" element={<ContactPage />} />
           <Route path="/contact" element={<AdvertisingPage />} />
+          <Route path="/profile/:userId" element={<ProfilePage />} />
       </Routes>
     </Router>
   );

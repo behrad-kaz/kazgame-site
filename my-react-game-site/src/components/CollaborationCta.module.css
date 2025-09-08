@@ -52,22 +52,32 @@
 /* --- ریسپانسیو بهبود یافته --- */
 @media (max-width: 768px) {
     .ctaSection {
-        height: auto; /* ارتفاع خودکار */
-        padding: 2rem;
-        /* تغییر چیدمان برای قرارگیری متن در پایین */
+        background-image: url('/images/collaboration-bg - Copy.jpg');
+        height: auto; /* ارتفاع خودکار تا متن جا شود */
+        min-height: 250px; /* حداقل ارتفاع برای نمایش عکس */
+        padding: 1.5rem;
         display: flex;
-        align-items: flex-end; /* چیدن آیتم‌ها در انتهای کانتینر */
-        min-height: 250px;
+        align-items: center;
+        justify-content: flex-end; /* محتوا را به پایین کانتینر می‌چسباند */
     }
 
+    .ctaContent {
+       display: contents;
+    }
+    
     .ctaLink {
-        position: static; /* حذف موقعیت absolute در موبایل */
+        /* ۱. بازنشانی موقعیت‌یابی به حالت عادی */
+        position: static; 
         transform: none;
+        
+        /* ۲. استایل‌دهی جدید برای موبایل */
         width: 100%; /* عرض کامل */
-        text-align: center; /* متن وسط‌چین در موبایل */
+        margin-top: 8rem; /* ایجاد فاصله از بالای عکس */
+        padding: 1rem;
+        text-align: center; /* متن وسط‌چین */
     }
 
-    .mouseIcon {
-        display: none; /* مخفی کردن آیکون موس در موبایل */
+    .ctaText {
+        font-size: 1rem; /* فونت کوچک‌تر برای موبایل */
     }
 }

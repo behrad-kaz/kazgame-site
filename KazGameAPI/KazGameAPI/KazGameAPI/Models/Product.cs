@@ -42,6 +42,7 @@
         public string? DownloadLinksJson { get; set; } // لینک‌های دانلود به صورت JSON string
         public string? RelatedGameIdsJson { get; set; }
         public bool IsFeatured { get; set; }
+        public ICollection<UserFavoriteGame> FavoritedByUsers { get; set; } = new List<UserFavoriteGame>();
     }
 
 

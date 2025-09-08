@@ -229,7 +229,37 @@
 .ageRating img {
   height: 60px;
 }
+.likeButton {
+    position: static; 
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.8rem; /* اندازه آیکون متناسب با بخش ریتینگ */
+    color: #999;
+    transition: color 0.2s ease, transform 0.2s ease;
+    padding: 0;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.likeButton:hover {
+    color: #fff; 
+    transform: scale(1.1);
+}
+
+.likeButton.liked {
+    color:  #0056b3;
+    transform: scale(1.1); 
+}
+.likeButton:focus {
+    outline: none; 
+}
+.likeButton:focus-visible {
+    box-shadow: 0 0 0 3px rgba(0, 170, 255, 0.5); 
+    border-radius: 50%;
+}
 /* Responsive */
 @media (max-width: 1200px) {
   .overviewContentWrapper {
@@ -273,6 +303,11 @@
   .ratingInfo {
     justify-content: center;
   }
+      .likeButton {
+        top: 20px; /* تنظیم موقعیت در صفحات کوچکتر */
+        left: 20px;
+        font-size: 1.8rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -299,4 +334,9 @@
     width: 100px;
     height: 60px;
   }
+      .likeButton {
+        top: 15px;
+        left: 15px;
+        font-size: 1.6rem;
+    }
 }

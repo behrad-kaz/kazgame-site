@@ -60,9 +60,8 @@ namespace KazGameAPI.Controllers
             }
             return Ok(product);
         }
-
-        [HttpGet("by-slug/{slug}")] // <--- **Endpoint جدید برای فچ بر اساس Slug**
-        public async Task<ActionResult<Product>> GetProductBySlug(string slug)
+        [HttpGet("by-slug/{slug}")]
+        public async Task<ActionResult> GetProductBySlug(string slug, [FromQuery] int? userId)
         {
             var product = await _context.Products.FirstOrDefaultAsync(p => p.Slug == slug);
 
@@ -71,7 +70,56 @@ namespace KazGameAPI.Controllers
                 return NotFound(new { message = "محصول با این Slug یافت نشد." });
             }
 
-            return Ok(product);
+            bool isLikedByCurrentUser = false;
+            if (userId.HasValue)
+            {
+                isLikedByCurrentUser = await _context.UserFavoriteGames
+                    .AnyAsync(f => f.UserId == userId.Value && f.ProductId == product.Id);
+            }
+
+            // **مهم:** ما دیگر خود محصول را به تنهایی برنمی‌گردانیم
+            // بلکه یک آبجکت جدید که شامل محصول و وضعیت لایک است را برمی‌گردانیم
+            var productDetail = new
+            {
+                // تمام پراپرتی‌های محصول را به صورت جداگانه ارسال می‌کنیم تا در فرانت‌اند راحت‌تر باشیم
+                // این کار از ایجاد آبجکت تودرتوی Product.product جلوگیری می‌کند
+                Id = product.Id,
+                Title = product.Title,
+                Slug = product.Slug,
+                Description = product.Description,
+                ImageUrl = product.ImageUrl,
+                VideoUrl = product.VideoUrl,
+                Price = product.Price,
+                GalleryImagesJson = product.GalleryImagesJson,
+                BackgroundImageUrl = product.BackgroundImageUrl,
+                MainPageVideoUrl = product.MainPageVideoUrl,
+                FullDescription = product.FullDescription,
+                MiddleImagesJson = product.MiddleImagesJson,
+                Developer = product.Developer,
+                Publisher = product.Publisher,
+                ReleaseDate = product.ReleaseDate,
+                Genre = product.Genre,
+                Rating = product.Rating,
+                Pegi = product.Pegi,
+                MinOS = product.MinOS,
+                MinProcessor = product.MinProcessor,
+                MinMemory = product.MinMemory,
+                MinGraphics = product.MinGraphics,
+                MinStorage = product.MinStorage,
+                MinDirectX = product.MinDirectX,
+                RecOS = product.RecOS,
+                RecProcessor = product.RecProcessor,
+                RecMemory = product.RecMemory,
+                RecGraphics = product.RecGraphics,
+                RecStorage = product.RecStorage,
+                RecDirectX = product.RecDirectX,
+                DownloadLinksJson = product.DownloadLinksJson,
+                IsFeatured = product.IsFeatured,
+                // و در نهایت، وضعیت لایک
+                IsLiked = isLikedByCurrentUser
+            };
+
+            return Ok(productDetail);
         }
         [HttpGet("latest-releases")]
         public async Task<IActionResult> GetLatestReleases([FromQuery] int count = 5)
