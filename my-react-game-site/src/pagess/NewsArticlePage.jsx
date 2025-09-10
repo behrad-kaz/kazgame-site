@@ -14,26 +14,52 @@ const NewsArticlePage = () => {
     const [isLiked, setIsLiked] = useState(false);
     const [loading, setLoading] = useState(true);
 
-    useEffect(() => {
-        const fetchArticle = async () => {
-            const userId = localStorage.getItem('loggedInUserId');
-            let url = `${API_BASE_URL}/api/newsarticles/by-slug/${slug}`;
-            if (userId) url += `?userId=${userId}`;
+  useEffect(() => {
+    const fetchArticle = async () => {
+        setLoading(true);
 
+        // ۱. یک کلید منحصر به فرد برای این مقاله در sessionStorage می‌سازیم
+        const viewedKey = `viewed_article_${slug}`;
+
+        // ۲. چک می‌کنیم آیا این مقاله قبلاً در این جلسه مشاهده شده است
+        const hasViewed = sessionStorage.getItem(viewedKey);
+
+        // ۳. اگر مشاهده نشده بود، بازدید را ثبت می‌کنیم
+        if (!hasViewed) {
             try {
-                const response = await fetch(url);
-                const data = await response.json();
-                setArticle(data.article);
-                setLikeCount(data.likeCount);
-                setIsLiked(data.isLiked);
+                // درخواست افزایش شمارنده به Endpoint جدید
+                await fetch(`${API_BASE_URL}/api/newsarticles/by-slug/${slug}/increment-view`, {
+                    method: 'POST'
+                });
+                // این مقاله را به عنوان "مشاهده شده" در این جلسه علامت می‌زنیم
+                sessionStorage.setItem(viewedKey, 'true');
             } catch (error) {
-                console.error("Failed to fetch article:", error);
-            } finally {
-                setLoading(false);
+                console.error("Failed to increment view count:", error);
             }
-        };
+        }
+
+        // ۴. حالا اطلاعات کامل مقاله را دریافت می‌کنیم (با بازدید به‌روز شده)
+        const userId = localStorage.getItem('loggedInUserId');
+        let url = `${API_BASE_URL}/api/newsarticles/by-slug/${slug}`;
+        if (userId) url += `?userId=${userId}`;
+
+        try {
+            const response = await fetch(url);
+            const data = await response.json();
+            setArticle(data.article);
+            setLikeCount(data.likeCount);
+            setIsLiked(data.isLiked);
+        } catch (error) {
+            console.error("Failed to fetch article:", error);
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    if (slug) {
         fetchArticle();
-    }, [slug]);
+    }
+}, [slug]);
 
     const handleLikeToggle = async () => {
         const userId = localStorage.getItem('loggedInUserId');

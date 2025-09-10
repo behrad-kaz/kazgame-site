@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Hosting; // برای IWebHostEnvironment (در User Controller)
 using Microsoft.EntityFrameworkCore;
 using KazGameAPI.Services;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,8 +14,19 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddControllers();
 builder.Services.AddHttpClient();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    // **** این بخش کلیدی و به احتمال زیاد فراموش شده یا ناقص است ****
+    c.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "KazGame API",           // نام API شما
+        Version = "v1",                  // نسخه
+        Description = "API for the KazGame website and services" // توضیحات دلخواه
+    });
+});
 builder.Services.AddAuthorization();
+
+
 
 // اضافه کردن CORS به سرویس‌ها
 builder.Services.AddCors(options =>
@@ -34,7 +46,15 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c =>
+    {
+        // این خط به Swagger UI می‌گوید فایل JSON را از کجا بخواند
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "KazGame API v1");
+
+        // این خط مشخص می‌کند که Swagger در چه آدرسی نمایش داده شود
+        // آدرس شما /swagger/index.html است، پس این تنظیم صحیح است
+        c.RoutePrefix = "swagger";
+    });
 }
 
 app.UseHttpsRedirection();

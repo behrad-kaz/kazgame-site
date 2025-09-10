@@ -1,3 +1,4 @@
+// src/components/widgets/HotGamesWidget.jsx (نسخه اصلاح شده با slug)
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import styles from './HotGamesWidget.module.css';
@@ -21,14 +22,14 @@ const HotGamesWidget = () => {
             <h3 className={styles.widgetTitle}>رادار بازی‌های داغ</h3>
             <div className={styles.gamesGrid}>
                 {games.map(game => {
-                    // **بهبود:** یک متغیر برای آدرس کامل و صحیح عکس می‌سازیم
                     const imageUrl = game.imageUrl && game.imageUrl.startsWith('http')
                         ? game.imageUrl
                         : `${API_BASE_URL}${game.imageUrl}`;
 
                     return (
-                        <Link to={`/games/${game.id}`} key={game.id} className={styles.gameCard}>
-                            {/* **اصلاح:** از متغیر جدید استفاده می‌کنیم */}
+                        // **** تغییر اصلی اینجاست ****
+                        // to از game.id به game.slug تغییر کرد
+                        <Link to={`/games/${game.slug}`} key={game.id} className={styles.gameCard}>
                             <img src={imageUrl} alt={game.title} />
                             <div className={styles.overlay}>
                                 <span>{game.title}</span>

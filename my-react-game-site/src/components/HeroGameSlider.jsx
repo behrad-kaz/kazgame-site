@@ -22,7 +22,8 @@ const HeroGameSlider = ({ slides }) => {
         spaceBetween={0}
         slidesPerView={1}
         navigation={false}
-        pagination={{ clickable: true, renderBullet: function (index, className) {
+        pagination={{
+          clickable: true, renderBullet: function (index, className) {
             return '<span class="' + className + '">' + (index + 1) + '</span>'; // Pagination عددی
           },
         }}
@@ -40,11 +41,10 @@ const HeroGameSlider = ({ slides }) => {
 
             <div className={styles.contentWrapper}>
               <div className={styles.leftSocialPanel}>
-                {/* آیکون‌های شبکه‌های اجتماعی - Font Awesome نیاز است */}
-                <a href="#"><i className="fas fa-download"></i></a>
-                <a href="#"><i className="fab fa-telegram-plane"></i></a>
-                <a href="#"><i className="fab fa-instagram"></i></a>
-                <a href="#"><i className="fas fa-envelope"></i></a>
+                <a href="https://t.me/KazGameacc" target="_blank" rel="noopener noreferrer"><i className="fab fa-telegram"></i></a>
+                <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i></a>
+                <a href="https://wa.me/31612345678" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/kaz_games_pro" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
               </div>
 
               <div className={styles.gameInfo}>

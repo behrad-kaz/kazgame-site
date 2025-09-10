@@ -32,7 +32,7 @@ const featuredGameData = [
     trailerVideoUrl: "/videos/The_Last_of_Us_Part_I_Official_Launch_Trailer_1080p.mp4",
     steamLink: "https://store.steampowered.com/app/1091500/Cyberpunk_2077/",
     epicGamesLink: "https://store.epicgames.com/en-US/p/cyberpunk-2077",
-    moreInfoLink: "/games/the-last-of-us-part-1",
+    moreInfoLink: "/games/last-of-us-1",
   },
   {
     id: 5,

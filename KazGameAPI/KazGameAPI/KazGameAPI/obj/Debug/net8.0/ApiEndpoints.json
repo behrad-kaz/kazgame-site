@@ -69,19 +69,34 @@
   },
   {
     "ContainingType": "NewsArticlesController",
-    "Method": "GetRecentArticles",
+    "Method": "GetAllArticles",
     "RelativePath": "api/NewsArticles",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "count",
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
         "Type": "System.Int32",
         "IsRequired": false
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "KazGameAPI.Models.PagedResult\u00601[[NewsArticle, KazGameAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "NewsArticlesController",
@@ -144,6 +159,32 @@
         "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewsArticlesController",
+    "Method": "IncrementViewCount",
+    "RelativePath": "api/NewsArticles/by-slug/{slug}/increment-view",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "slug",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewsArticlesController",
+    "Method": "GetHomepageArticles",
+    "RelativePath": "api/NewsArticles/homepage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

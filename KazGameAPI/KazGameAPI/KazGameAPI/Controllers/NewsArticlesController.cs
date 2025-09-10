@@ -1,5 +1,6 @@
 ﻿// KazGameAPI/Controllers/NewsArticlesController.cs
 using KazGameAPI.Data;
+using KazGameAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
@@ -19,22 +20,54 @@ public class NewsArticlesController : ControllerBase
 
     // دریافت لیست خلاصه‌ای از آخرین اخبار (برای صفحه اصلی)
     [HttpGet]
-    public async Task<IActionResult> GetRecentArticles([FromQuery] int count = 5)
+    public async Task<ActionResult<PagedResult<NewsArticle>>> GetAllArticles(
+         [FromQuery] int pageNumber = 1,
+         [FromQuery] int pageSize = 12) // ۱۲ خبر در هر صفحه
     {
-        var articles = await _context.NewsArticles
-            .OrderByDescending(a => a.PublishedDate)
-            .Take(count)
-            .Select(a => new { // فقط اطلاعات ضروری را برمی‌گردانیم
-                a.Id,
-                a.Title,
-                a.Slug,
-                a.Summary,
-                a.ImageUrl,
-                a.PublishedDate,
-                a.Category
+        var query = _context.NewsArticles.OrderByDescending(a => a.PublishedDate).AsQueryable();
+        var totalCount = await query.CountAsync();
+        var articles = await query
+            .Skip((pageNumber - 1) * pageSize)
+            .Take(pageSize)
+            .Select(a => new NewsArticle // فقط خلاصه‌ی اخبار را برمی‌گردانیم تا سریع‌تر باشد
+            {
+                Id = a.Id,
+                Title = a.Title,
+                Slug = a.Slug,
+                Summary = a.Summary,
+                ImageUrl = a.ImageUrl,
+                PublishedDate = a.PublishedDate,
+                Category = a.Category
             })
             .ToListAsync();
 
+        var pagedResult = new PagedResult<NewsArticle>
+        {
+            Items = articles,
+            TotalCount = totalCount,
+            PageNumber = pageNumber,
+            PageSize = pageSize,
+            TotalPages = (int)Math.Ceiling(totalCount / (double)pageSize)
+        };
+        return Ok(pagedResult);
+    }
+    [HttpGet("homepage")]
+    public async Task<IActionResult> GetHomepageArticles()
+    {
+        var articles = await _context.NewsArticles
+            .OrderByDescending(a => a.PublishedDate)
+            .Take(5) // همیشه ۵ خبر آخر
+             .Select(a => new NewsArticle // فقط خلاصه‌ی اخبار
+             {
+                 Id = a.Id,
+                 Title = a.Title,
+                 Slug = a.Slug,
+                 Summary = a.Summary,
+                 ImageUrl = a.ImageUrl,
+                 PublishedDate = a.PublishedDate,
+                 Category = a.Category
+             })
+            .ToListAsync();
         return Ok(articles);
     }
 
@@ -45,9 +78,6 @@ public class NewsArticlesController : ControllerBase
         var article = await _context.NewsArticles.FirstOrDefaultAsync(a => a.Slug == slug);
         if (article == null) return NotFound();
 
-        // افزایش شمارنده بازدید
-        article.ViewCount++;
-        await _context.SaveChangesAsync();
 
         var likeCount = await _context.UserLikedArticles.CountAsync(l => l.ArticleId == article.Id);
         bool isLikedByCurrentUser = userId.HasValue &&
@@ -60,6 +90,17 @@ public class NewsArticlesController : ControllerBase
             IsLiked = isLikedByCurrentUser
         };
         return Ok(articleDetail);
+    }
+    [HttpPost("by-slug/{slug}/increment-view")]
+    public async Task<IActionResult> IncrementViewCount(string slug)
+    {
+        var article = await _context.NewsArticles.FirstOrDefaultAsync(a => a.Slug == slug);
+        if (article == null) return NotFound();
+
+        article.ViewCount++;
+        await _context.SaveChangesAsync();
+
+        return Ok(new { newViewCount = article.ViewCount });
     }
 
     // Endpoint برای لایک کردن

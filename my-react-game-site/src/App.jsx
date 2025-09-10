@@ -9,6 +9,7 @@ import ResetPasswordPage from './pagess/ResetPasswordPage';
 import ContactPage from './pagess/ContactPage';
 import AdvertisingPage from './pagess/AdvertisingPage';
 import NewsArticlePage from './pagess/NewsArticlePage';
+import NewsListPage from './pagess/NewsListPage';
 import ProfilePage from './pagess/ProfilePage';
 
 import './style.css'; // استایل‌های گلوبال شما
@@ -24,6 +25,7 @@ function App() {
          <Route path="/reset-password" element={<ResetPasswordPage />} /> 
          <Route path="/services" element={<ContactPage />} />
           <Route path="/contact" element={<AdvertisingPage />} />
+          <Route path="/news" element={<NewsListPage />} />
           <Route path="/news/:slug" element={<NewsArticlePage />} />
           <Route path="/profile/:userId" element={<ProfilePage />} />
       </Routes>

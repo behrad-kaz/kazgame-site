@@ -7,25 +7,14 @@ const Footer = () => {
     <footer className={styles.siteFooter}>
       <div className={styles.footerBackground}></div>
       <div className={styles.footerContent}>
-        <div className={styles.footerLeft}>
-          <h2> ایمیل خود را وارد کنید :</h2>
-          <p>از آخرین خبر ها درمورد محصولات و خدمات ما مطلع شوید </p>
-          <div className={styles.subscribeBox}>
-            <input type="email" placeholder="Your email" />
-            <button>SUBSCRIBE</button>
-          </div>
-        </div>
-        <div className={styles.footerRight}>
           <h2>Follow us</h2>
           <p>Become part of the community</p>
           <div className={styles.socialIcons}>
             <a href="https://t.me/KazGameacc" target="_blank" rel="noopener noreferrer"><i className="fab fa-telegram"></i></a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-x-twitter"></i></a>
             <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i></a>
-            <a href="https://www.twitch.tv" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitch"></i></a>
+           <a href="https://wa.me/31612345678" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp"></i></a>
             <a href="https://www.instagram.com/kaz_games_pro" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
           </div>
-        </div>
       </div>
       <div className={styles.footerBottom}>
         <div className={styles.footerBottomLeft}>

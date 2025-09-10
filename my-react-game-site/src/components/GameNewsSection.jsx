@@ -11,14 +11,15 @@ const GameNewsSection = () => {
     const [articles, setArticles] = useState([]);
     const [loading, setLoading] = useState(true);
 
-    useEffect(() => {
+ useEffect(() => {
         const fetchArticles = async () => {
             try {
-                const response = await fetch(`${API_BASE_URL}/api/NewsArticles?count=2`); // تعداد مقالات را به ۲ کاهش می‌دهیم تا در ستون وسط بهتر جا شوند
+                // **** تغییر اصلی: استفاده از Endpoint جدید برای ۵ خبر آخر ****
+                const response = await fetch(`${API_BASE_URL}/api/NewsArticles/homepage`);
                 const data = await response.json();
                 setArticles(data);
             } catch (error) {
-                console.error("Error fetching news articles:", error);
+                console.error("Error fetching homepage news articles:", error);
             } finally {
                 setLoading(false);
             }

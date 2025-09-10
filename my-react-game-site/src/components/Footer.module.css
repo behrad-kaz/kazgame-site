@@ -28,57 +28,18 @@
   max-width: 1200px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap; 
+  flex-direction: column;
   gap: 2rem;
-}
-
-.footerLeft, .footerRight {
-  flex: 1;
-  min-width: 300px;
-}
-
-.footerLeft h2,
-.footerRight h2 {
-  font-size: 1.8rem;
+    font-size: 1.4rem;
   color: white;
   margin-bottom: 0.5rem;
   direction: rtl;
 }
 
-.footerLeft p,
-.footerRight p {
-  font-size: 1rem;
-  margin-bottom: 1rem;
-  direction: rtl;
-}
-
-.subscribeBox { 
-  display: flex; 
-  gap: 1rem;
-}
-
-.subscribeBox input {
-  flex: 1;
-  padding: 0.8rem;
-  border-radius: 6px;
-  border: none;
-  font-size: 1rem;
-  background-color: #333; 
-  color: white; 
-}
-
-.subscribeBox button {
-  background-color: goldenrod;
-  border: none;
-  padding: 0.8rem 1.5rem;
-  border-radius: 6px;
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.socialIcons { /* .social-icons */
+.socialIcons { 
   display: flex;
   gap: 1rem;
   margin-top: 1rem;
@@ -88,8 +49,8 @@
 .socialIcons a {
   background-color: black; 
   border-radius: 50%;
-  width: 45px;
-  height: 45px;
+  width: 65px;
+  height: 65px;
   display: flex;
   align-items: center;
   justify-content: center;

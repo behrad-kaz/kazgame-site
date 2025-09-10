@@ -29,6 +29,14 @@
 .supportInfoBox h3 {
     font-size: 1.8rem;
     margin-bottom: 1rem;
+    direction: rtl;
+    /* ۱. جهت اصلی متن را راست‌به‌چپ تنظیم می‌کند */
+    text-align: justify;
+    /* ۲. متن را از دو طرف تراز می‌کند تا ظاهری مرتب داشته باشد */
+    unicode-bidi: embed;
+    /* ۳. به مرورگر در مدیریت صحیح متن‌های تودرتو کمک می‌کند */
+    line-height: 1.8;
+    /* ۴. افزایش فاصله بین خطوط برای خوانایی بهتر */
 }
 
 .supportInfoBox p {
@@ -36,6 +44,14 @@
     color: #ccc;
     max-width: 800px;
     margin: 0 auto;
+    direction: rtl;
+    /* ۱. جهت اصلی متن را راست‌به‌چپ تنظیم می‌کند */
+    text-align: justify;
+    /* ۲. متن را از دو طرف تراز می‌کند تا ظاهری مرتب داشته باشد */
+    unicode-bidi: embed;
+    /* ۳. به مرورگر در مدیریت صحیح متن‌های تودرتو کمک می‌کند */
+    line-height: 1.8;
+    /* ۴. افزایش فاصله بین خطوط برای خوانایی بهتر */
 }
 
 .mainContent {
@@ -161,7 +177,7 @@
 }
 
 @media (min-width: 1830px) {
-        .banner {
+    .banner {
         background-size: cover;
         height: 90rem;
     }

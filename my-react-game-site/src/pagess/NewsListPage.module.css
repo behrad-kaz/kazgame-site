@@ -1,0 +1,29 @@
+/* src/pages/NewsListPage.module.css */
+.pageContainer {
+    background-color: #0d071b;
+    color: white;
+    min-height: 100vh;
+}
+.mainContent {
+        direction: rtl;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 120px 2rem 4rem 2rem; /* فاصله از بالا برای هدر */
+}
+.pageTitle {
+    font-size: 3rem;
+    color: gold;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.loading {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 4rem;
+}
+.articlesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}

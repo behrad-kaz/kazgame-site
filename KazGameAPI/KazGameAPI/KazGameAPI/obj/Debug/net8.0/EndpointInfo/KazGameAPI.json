@@ -1,8 +1,9 @@
 {
   "openapi": "3.0.4",
   "info": {
-    "title": "KazGameAPI",
-    "version": "1.0"
+    "title": "KazGame API",
+    "description": "API for the KazGame website and services",
+    "version": "v1"
   },
   "paths": {
     "/api/Comments": {
@@ -132,14 +133,52 @@
         ],
         "parameters": [
           {
-            "name": "count",
+            "name": "pageNumber",
             "in": "query",
             "schema": {
               "type": "integer",
               "format": "int32",
-              "default": 5
+              "default": 1
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 12
             }
           }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/NewsArticlePagedResult"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/NewsArticlePagedResult"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/NewsArticlePagedResult"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/NewsArticles/homepage": {
+      "get": {
+        "tags": [
+          "NewsArticles"
         ],
         "responses": {
           "200": {
@@ -168,6 +207,28 @@
             "schema": {
               "type": "integer",
               "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/NewsArticles/by-slug/{slug}/increment-view": {
+      "post": {
+        "tags": [
+          "NewsArticles"
+        ],
+        "parameters": [
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
             }
           }
         ],
@@ -937,6 +998,35 @@
               "$ref": "#/components/schemas/UserLikedArticle"
             },
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "NewsArticlePagedResult": {
+        "type": "object",
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/NewsArticle"
+            },
+            "nullable": true
+          },
+          "totalCount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pageNumber": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pageSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalPages": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
