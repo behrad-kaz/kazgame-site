@@ -1,5 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
-using KazGameAPI.Models; 
+﻿using KazGameAPI.Models; 
+using Microsoft.EntityFrameworkCore;
+using static NewsArticle;
 
 namespace KazGameAPI.Data
 {
@@ -13,6 +14,7 @@ namespace KazGameAPI.Data
         public DbSet<NewsArticle> NewsArticles { get; set; }
         public DbSet<Poll> Polls { get; set; }
         public DbSet<UserFavoriteGame> UserFavoriteGames { get; set; }
+        public DbSet<UserLikedArticle> UserLikedArticles { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -34,6 +36,19 @@ namespace KazGameAPI.Data
                 .HasOne(ufg => ufg.Product)
                 .WithMany(p => p.FavoritedByUsers)
                 .HasForeignKey(ufg => ufg.ProductId);
+
+            modelBuilder.Entity<UserLikedArticle>()
+       .HasKey(ula => new { ula.UserId, ula.ArticleId });
+
+            modelBuilder.Entity<UserLikedArticle>()
+                .HasOne(ula => ula.User)
+                .WithMany(u => u.LikedArticles)
+                .HasForeignKey(ula => ula.UserId);
+
+            modelBuilder.Entity<UserLikedArticle>()
+                .HasOne(ula => ula.Article)
+                .WithMany(a => a.LikedByUsers)
+                .HasForeignKey(ula => ula.ArticleId);
         }
     }
 }

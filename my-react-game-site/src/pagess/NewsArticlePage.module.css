@@ -1,0 +1,19 @@
+/* src/pages/NewsArticlePage.module.css */
+.pageContainer { direction: rtl; background-color: #0d071b; color: white; }
+.articleMain { max-width: 900px; margin: 2rem auto; padding: 2rem; }
+.breadcrumbs { margin-bottom: 1rem; color: #aaa; }
+.breadcrumbs a { color: #00aaff; text-decoration: none; }
+.headerImage { width: 100%; height: 400px; object-fit: cover; border-radius: 12px; margin-bottom: 1rem; }
+.metaBar {
+    display: flex; align-items: center; gap: 1.5rem;
+    padding: 1rem; background-color: #1a1a2e; border-radius: 8px; margin-bottom: 2rem;
+}
+.metaBar span, .likeButton { display: flex; align-items: center; gap: 8px; color: #ccc; }
+.metaBar i { color: #888; }
+.likeButton { background: none; border: none; font-family: inherit; font-size: 1rem; cursor: pointer; transition: color 0.2s; }
+.likeButton:hover { color: white; }
+.likeButton.liked { color: #00aaff; } /* رنگ آبی برای لایک شده */
+.articleTitle { font-size: 2.8rem; margin-bottom: 2rem; }
+.articleContent { line-height: 2; font-size: 1.1rem; }
+.articleContent p { margin-bottom: 1.5rem; }
+.articleContent a { color: #00aaff; }

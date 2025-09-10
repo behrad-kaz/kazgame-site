@@ -1,4 +1,5 @@
 ﻿// KazGameAPI/Models/NewsArticle.cs
+using KazGameAPI.Models;
 using System;
 
 public class NewsArticle
@@ -12,4 +13,14 @@ public class NewsArticle
     public string Author { get; set; }
     public DateTime PublishedDate { get; set; }
     public string? Category { get; set; } // دسته‌بندی
+    public int ViewCount { get; set; } = 0; // شمارنده بازدید
+    public ICollection<UserLikedArticle> LikedByUsers { get; set; } = new List<UserLikedArticle>();
+    public class UserLikedArticle
+    {
+        public int UserId { get; set; }
+        public User User { get; set; }
+
+        public int ArticleId { get; set; }
+        public NewsArticle Article { get; set; }
+    }
 }

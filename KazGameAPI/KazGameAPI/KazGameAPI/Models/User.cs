@@ -1,4 +1,6 @@
-﻿namespace KazGameAPI.Models
+﻿using static NewsArticle;
+
+namespace KazGameAPI.Models
 {
     public class User
     {
@@ -11,5 +13,6 @@
         public DateTime? ResetTokenExpires { get; set; } // تاریخ انقضای توکن (برای امنیت)
         public DateTime CreatedAt { get; set; }
         public ICollection<UserFavoriteGame> FavoriteGames { get; set; } = new List<UserFavoriteGame>();
+        public ICollection<UserLikedArticle> LikedArticles { get; set; } = new List<UserLikedArticle>();
     }
 }

@@ -105,3 +105,4 @@ wwwroot\videos\marvel-spider-man-2\Untitled.mp4
 wwwroot\videos\r.mp4
 wwwroot\videos\Red Dead Redemption 2  Official Gameplay Video.mp4
 wwwroot\videos\spider-man-2-trailer.mp4
+wwwroot\avatars\cd76102d-8cbf-4940-b3ed-c5ac1f2f56d8.jpg
