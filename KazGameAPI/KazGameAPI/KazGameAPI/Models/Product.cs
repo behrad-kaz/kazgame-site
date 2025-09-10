@@ -10,8 +10,8 @@
         public string? VideoUrl { get; set; } // ویدیوی اصلی بازی (تریلر)
         public decimal? Price { get; set; }
 
-        public string? GalleryImagesJson { get; set; } // آدرس تصاویر گالری به صورت JSON string
-        public string? BackgroundImageUrl { get; set; } // تصویر پس‌زمینه برای GameOverviewSection
+        public string? GalleryImagesJson { get; set; } 
+        public string? BackgroundImageUrl { get; set; } 
 
         public string? FullDescription { get; set; }
         public string? MiddleImagesJson { get; set; } 
@@ -25,7 +25,7 @@
         public string? Pegi { get; set; }
 
 
-        // **فیلدهای جدید برای سیستم مورد نیاز**
+        // ** سیستم مورد نیاز**
         public string? MinOS { get; set; }
         public string? MinProcessor { get; set; }
         public string? MinMemory { get; set; }

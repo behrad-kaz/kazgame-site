@@ -1,341 +1,178 @@
 /* src/pages/AuthPage.module.css */
 
+@keyframes moveBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 .authPageContainer {
-    position: relative;
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     width: 100vw;
-    background: #095682;
-    background: linear-gradient(1deg, rgba(9, 86, 130, 1) 0%, rgba(1, 25, 82, 1) 50%, rgba(0, 0, 28, 1) 100%);
-    /* گرادیان پس‌زمینه کلی */
-    overflow: hidden;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* فونت پیشنهادی */
+    padding: 20px;
+    box-sizing: border-box;
     color: white;
-    justify-content: center;
-    /* مرکز افقی */
-    align-items: center;
-    /* مرکز عمودی */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+    background: linear-gradient(-45deg, #0d071b, #1a1a2e, #052c42, #121223);
+    background-size: 400% 400%;
+    animation: moveBackground 15s ease infinite;
 }
 
 .authFormWrapper {
     display: flex;
-    /* برای اینکه leftPanel و rightPanel کنار هم باشند */
-    width: 900px;
-    /* <--- عرض ثابت برای کل فرم (left + right). می توانید تنظیم کنید */
-    height: 660px;
-    /* <--- ارتفاع ثابت برای کل فرم. می توانید تنظیم کنید */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
-    /* سایه کلی فرم */
+    width: 100%;
+    max-width: 900px;
+    height: 600px;
     border-radius: 15px;
-    /* <--- گردی گوشه‌های کل فرم */
     overflow: hidden;
-    /* برای اینکه محتوا از گوشه‌های گرد بیرون نزند */
-    position: relative;
-    /* برای هرگونه عنصر absolute داخل آن */
+
+    background: rgba(26, 26, 46, 0.6);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
 }
 
 .leftPanel {
     flex: 1;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding: 20px;
-    /* افکت شیشه */
-    border-right: 1px solid rgba(255, 255, 255, 0.1);
-    position: relative;
-    /* برای لوگو و محتوا */
-    background-color: #090613;
-    max-width: 50%;
 }
 
-.leftPanel::before {
-    /* افکت نویز یا نورپردازی در پس زمینه چپ */
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url('/images/key-sharer-bg-pattern.png') no-repeat center center / cover;
-    /* الگوی پس‌زمینه یا تصویر */
-    opacity: 0.1;
-    z-index: -1;
-}
 
-.logo img {
-    width: 120px;
-    /* اندازه لوگو */
-    height: auto;
-    opacity: 0.8;
-}
-
-.leftPanelContent h1 {
-    font-size: 3rem;
-    font-weight: 700;
-    margin-bottom: 10px;
-    line-height: 1.1;
-    color: #c0c0ff;
-    /* رنگ بنفش روشن برای عنوان‌ها */
-}
-
-.leftPanelContent p {
-    font-size: 0.9rem;
-    line-height: 1.6;
-    color: rgba(255, 255, 255, 0.7);
-    margin-top: 20px;
-    max-width: 350px;
-}
 
 .rightPanel {
     flex: 1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px;
-    background-color: #121223;
-    /* رنگ تیره برای پنل راست */
-    position: relative;
-    max-width: 50%;
+    padding: 40px;
+    direction: rtl;
+}
+
+.logo img {
+    width: 100px;
+    opacity: 0.9;
+    margin-bottom: 1rem;
 }
 
 .authForms {
     width: 100%;
-    max-width: 400px;
+    max-width: 350px;
     text-align: center;
-    /* background-color: rgba(255, 255, 255, 0.05); /* پس زمینه فرم شفاف */
-    /* padding: 30px; */
-    /* border-radius: 10px; */
+}
+
+.authForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .authTitle {
-    font-size: 1.4rem;
-    margin-bottom: 30px;
+    font-size: 1.8rem;
     color: #e0e0ff;
-}
-
-.socialAuthButtons {
-    display: flex;
-    justify-content: space-between;
-    gap: 12px;
-    margin-bottom: 20px;
-}
-
-.socialButton {
-    flex: 1;
-    background-color: #333;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 12px 20px;
-    font-size: 0.9rem;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    transition: background-color 0.3s ease;
-}
-
-.socialButton img {
-    width: 20px;
-    height: 20px;
-}
-
-.socialButton:hover {
-    background-color: #555;
-}
-
-.orDivider {
-    margin: 10px 0;
-    position: relative;
-    font-size: 0.9rem;
-    color: rgba(255, 255, 255, 0.5);
-}
-
-.orDivider::before,
-.orDivider::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    width: 40%;
-    height: 1px;
-    background-color: rgba(255, 255, 255, 0.2);
-}
-
-.orDivider::before {
-    left: 0;
-}
-
-.orDivider::after {
-    right: 0;
-}
-
-.authForm .inputGroup {
-    margin-bottom: 20px;
-    text-align: left;
-    /* برای تراز کردن متن راهنما */
+    margin-bottom: 1.5rem;
 }
 
 .authForm input {
     width: 100%;
-    padding: 10px 15px;
-    margin-bottom: 12px;
-    /* فاصله بین فیلدها */
-    background-color: rgba(255, 255, 255, 0.1);
-    /* پس زمینه شفاف برای ورودی‌ها */
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 5px;
+    padding: 12px 15px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
     color: white;
-    font-size: 0.8rem;
+    font-size: 1rem;
     outline: none;
     transition: border-color 0.3s ease;
-}
-
-.authForm input::placeholder {
-    color: rgba(255, 255, 255, 0.5);
+    text-align: right;
 }
 
 .authForm input:focus {
     border-color: #8a2be2;
-    /* رنگ بنفش هنگام فوکوس */
 }
 
-.passwordHint {
-    direction: rtl;
-    font-size: 0.6rem;
-    color: rgba(255, 255, 255, 0.6);
-    margin-top: -10px;
-    margin-bottom: 10px;
+.authForm input::placeholder {
+    text-align: right;
+}
+
+.forgotPasswordLink,
+.switchFormLink {
+    color: #8a2be2;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.8rem;
+    transition: color 0.3s ease;
+}
+
+.forgotPasswordLink:hover,
+.switchFormLink:hover {
+    color: #be8eff;
+}
+
+.forgotPasswordLink {
+    text-align: right;
+}
+
+.switchFormText {
+    font-size: 0.9rem;
+    color: #ccc;
+    margin-top: 1rem;
 }
 
 .submitButton {
     width: 100%;
-    background-color: #8a2be2;
-    /* رنگ بنفش برای دکمه اصلی */
+    background: linear-gradient(45deg, #8a2be2, #4a00e0);
     color: white;
     border: none;
-    border-radius: 5px;
-    padding: 10px 18px;
-    font-size: 1rem;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 1.1rem;
     font-weight: bold;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .submitButton:hover {
-    background-color: #6a1aae;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(138, 43, 226, 0.4);
 }
 
-.switchFormText {
-    margin-top: 10px;
-    font-size: 0.6rem;
-    color: rgba(255, 255, 255, 0.7);
-}
-
-.switchFormLink {
-    color: #8a2be2;
-    /* رنگ بنفش برای لینک جابجایی */
-    cursor: pointer;
-    font-weight: bold;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.switchFormLink:hover {
-    color: #be8eff;
-}
-.forgotPasswordLink {
-  margin-top: 5px; /* فاصله از input پسورد */
-  margin-bottom: 20px; /* فاصله از دکمه Login */
-  font-size: 0.7rem;
-  color: #8a2be2;
-  cursor: pointer;
-  text-decoration: underline; /* زیرخط دار برای شبیه شدن به لینک */
-  transition: color 0.3s ease;
-  text-align: right;
-}
-.forgotPasswordLink:hover {
-    color: #be8eff;
-}
-
-.forgotPasswordForm h2 {
-  font-size: 1.8rem;
-  color: #e0e0ff;
-  margin-bottom: 0;
-}
-.forgotPasswordForm p {
-  color: #ccc;
-  font-size: 0.9rem;
-  line-height: 1.5;
-}
-.forgotPasswordForm .formButtons {
-    display: flex;
-    justify-content: space-between;
-    gap: 15px;
-}
-.cancelButton {
-    background-color: #6c757d;
-    color: white;
-    padding: 10px 18px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-.cancelButton:hover {
-    background-color: #5a6268;
-}
-
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-    .authPageContainer {
+@media (max-width: 900px) {
+    .authFormWrapper {
         flex-direction: column;
         height: auto;
-        /* ارتفاع خودکار در موبایل */
-        min-height: 100vh;
+        max-height: 95vh;
+        width: 90%;
+        max-width: 450px;
     }
 
     .leftPanel {
-        height: 30vh;
-        /* ارتفاع پنل چپ در موبایل */
-        padding: 20px;
-        border-right: none;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        flex: 0;
+        height: 200px;
+    }
+
+    .leftPanelContent {
+        display: none;
+    }
+
+    .leftPanelOverlay {
         justify-content: center;
-        /* مرکز کردن محتوا در موبایل */
-        text-align: center;
-    }
-
-    .logo {
-        position: static;
-        /* موقعیت استاتیک در موبایل */
-        margin-bottom: 20px;
-        /* فاصله از محتوا */
-    }
-
-    .leftPanelContent h1 {
-        font-size: 2rem;
-    }
-
-    .leftPanelContent p {
-        max-width: none;
-        /* بدون محدودیت عرض در موبایل */
-    }
-
-    .rightPanel {
-        flex-grow: 1;
-        /* فضای باقیمانده را اشغال کند */
-        padding: 30px;
-    }
-
-    .authForms {
-        max-width: 100%;
-    }
-
-    .socialAuthButtons {
-        flex-direction: column;
     }
 }

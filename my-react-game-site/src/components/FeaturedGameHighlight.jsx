@@ -25,10 +25,10 @@ const FeaturedGameHighlight = ({ game }) => {
 
                     <div className={styles.buyButtons}>
                         <a href={game.steamLink} target="_blank" rel="noopener noreferrer" className={styles.buyButton}>
-                            open on Steam
+                            دیدن در استیم
                         </a>
                         <Link to={game.moreInfoLink} className={styles.moreInfoButton}>
-                            More informatie
+                            اطلاعات بیشتر
                         </Link>
                     </div>
 

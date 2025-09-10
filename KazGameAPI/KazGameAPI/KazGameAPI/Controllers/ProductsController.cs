@@ -81,8 +81,6 @@ namespace KazGameAPI.Controllers
             // بلکه یک آبجکت جدید که شامل محصول و وضعیت لایک است را برمی‌گردانیم
             var productDetail = new
             {
-                // تمام پراپرتی‌های محصول را به صورت جداگانه ارسال می‌کنیم تا در فرانت‌اند راحت‌تر باشیم
-                // این کار از ایجاد آبجکت تودرتوی Product.product جلوگیری می‌کند
                 Id = product.Id,
                 Title = product.Title,
                 Slug = product.Slug,
@@ -115,7 +113,6 @@ namespace KazGameAPI.Controllers
                 RecDirectX = product.RecDirectX,
                 DownloadLinksJson = product.DownloadLinksJson,
                 IsFeatured = product.IsFeatured,
-                // و در نهایت، وضعیت لایک
                 IsLiked = isLikedByCurrentUser
             };
 

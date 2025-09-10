@@ -3,11 +3,11 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useParams } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import GameOverviewSection from '../components/GameOverviewSection';
-import GameDetailsSection from '../components/GameDetailsSection';
-import GameSystemRequirementsSection from '../components/GameSystemRequirementsSection';
-import DownloadSection from '../components/DownloadSection';
-import RelatedGamesSection from '../components/RelatedGamesSection';
+import GameOverviewSection from '../components/gamepage components/GameOverviewSection';
+import GameDetailsSection from '../components/gamepage components/GameDetailsSection';
+import GameSystemRequirementsSection from '../components/gamepage components/GameSystemRequirementsSection';
+import DownloadSection from '../components/gamepage components/DownloadSection';
+import RelatedGamesSection from '../components/gamepage components/RelatedGamesSection';
 import CommentSection from '../components/CommentSection';
 
 import styles from './GamePage.module.css';

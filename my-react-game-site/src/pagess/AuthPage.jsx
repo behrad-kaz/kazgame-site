@@ -1,50 +1,68 @@
-// src/pages/AuthPage.jsx
+// src/pages/AuthPage.jsx (نسخه ترکیبی: منطق اصلی شما + ظاهر جدید)
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import styles from './AuthPage.module.css'; // برای استایل‌های این صفحه
+import styles from './AuthPage.module.css';
+
+// ثابت API_BASE_URL برای هماهنگی با توابع شما
+const API_BASE_URL = 'https://localhost:7055';
+
+// تصاویر برای اسلایدشوی پنل چپ (از طراحی جدید)
+const sliderImages = [
+    '/images/auth-slider/image1.jpg',
+    '/images/auth-slider/image2.jpg',
+    '/images/auth-slider/image3.jpg',
+];
 
 const AuthPage = () => {
-    const [isLoginActive, setIsLoginActive] = useState(false); // true برای Login, false برای Sign Up
-    // State برای فیلدهای فرم Sign Up
-    const [registerUsername, setRegisterUsername] = useState(''); // در طراحی جدید username است
+    // ۱. بازگشت به state اصلی شما (isLoginActive)
+    const [isLoginActive, setIsLoginActive] = useState(false);
+
+    // State های فرم‌ها (مانند کد اصلی شما)
+    const [registerUsername, setRegisterUsername] = useState('');
     const [registerEmail, setRegisterEmail] = useState('');
     const [registerPassword, setRegisterPassword] = useState('');
-    const [registerConfirmPassword, setRegisterConfirmPassword] = useState(''); // برای تایید رمز عبور
-    // State برای فیلدهای فرم Login
+    const [registerConfirmPassword, setRegisterConfirmPassword] = useState('');
     const [loginEmail, setLoginEmail] = useState('');
     const [loginPassword, setLoginPassword] = useState('');
 
     const navigate = useNavigate();
 
-    // تابع برای مدیریت ثبت‌نام
+    // منطق اسلایدشوی عکس (از طراحی جدید، چون فقط ظاهری است)
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentImageIndex(prevIndex => (prevIndex + 1) % sliderImages.length);
+        }, 5000);
+        return () => clearInterval(interval);
+    }, []);
+
+
+    // ۲. استفاده از توابع handle...Submit اصلی و کارآمد شما
     const handleRegisterSubmit = async (e) => {
         e.preventDefault();
-
-        // اعتبارسنجی‌های فرانت‌اند
+        // ... (تمام کدهای اعتبارسنجی شما) ...
         if (!registerUsername.trim()) { alert("نام کاربری الزامی است."); return; }
-        if (!registerEmail.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(registerEmail)) { alert("ایمیل معتبر وارد کنید."); return; }
-        if (registerPassword.length < 8) { alert("رمز عبور باید حداقل 8 کاراکتر باشد."); return; } // معمولا 8 کاراکتر برای امنیت بیشتر
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(registerEmail)) { alert("ایمیل معتبر وارد کنید."); return; }
+        if (registerPassword.length < 8) { alert("رمز عبور باید حداقل 8 کاراکتر باشد."); return; }
         if (registerPassword !== registerConfirmPassword) { alert("رمز عبور و تایید آن مطابقت ندارند."); return; }
-        // بردرسی کاراکترهای خاص (اگر می‌خواهید این را اعمال کنید)
         if (!/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/.test(registerPassword)) {
             alert("رمز عبور باید حداقل شامل یک حرف بزرگ، یک حرف کوچک، یک عدد و یک کاراکتر خاص باشد.");
             return;
         }
 
         const data = {
-            fullName: registerUsername, // FullName در API شماست، اینجا به username مپ می‌شود
+            fullName: registerUsername,
             email: registerEmail,
             password: registerPassword
         };
 
         try {
-            const response = await fetch("https://localhost:7055/api/User/register", {
+            const response = await fetch(`${API_BASE_URL}/api/User/register`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(data)
             });
             const responseData = await response.json();
-
             if (!response.ok) {
                 alert(responseData.message || "خطا در ثبت‌نام.");
             } else {
@@ -53,7 +71,7 @@ const AuthPage = () => {
                 setRegisterEmail('');
                 setRegisterPassword('');
                 setRegisterConfirmPassword('');
-                setIsLoginActive(true); // بعد از ثبت‌نام موفق به فرم Login بروید
+                setIsLoginActive(true); // استفاده از منطق اصلی شما
             }
         } catch (error) {
             alert("خطا در ارتباط با سرور.");
@@ -61,35 +79,30 @@ const AuthPage = () => {
         }
     };
 
-    // تابع برای مدیریت ورود
     const handleLoginSubmit = async (e) => {
         e.preventDefault();
-
         if (!loginEmail || !loginPassword) {
             alert("ایمیل و رمز عبور را وارد کنید.");
             return;
         }
-
         const data = {
             email: loginEmail,
             password: loginPassword
         };
-
         try {
-            const response = await fetch("https://localhost:7055/api/User/login", {
+            const response = await fetch(`${API_BASE_URL}/api/User/login`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(data)
             });
             const responseData = await response.json();
-
             if (!response.ok) {
                 alert(responseData.message || "ایمیل یا رمز عبور اشتباه است.");
             } else {
+                // استفاده از منطق اصلی شما برای ذخیره در localStorage
                 localStorage.setItem('loggedInUsername', responseData.fullName);
                 localStorage.setItem('loggedInUserId', responseData.userId);
-                localStorage.setItem('userAvatar', responseData.avatarUrl || '/images/default-user.png'); // اگر API آواتار را هم برمی‌گرداند، ذخیره کن
-
+                localStorage.setItem('userAvatar', responseData.avatarUrl || '/images/default-user.png');
                 alert("ورود با موفقیت انجام شد.");
                 navigate('/');
             }
@@ -98,19 +111,18 @@ const AuthPage = () => {
             console.error("Login Error:", error);
         }
     };
-        const handleForgotPasswordClick = async () => {
+
+    const handleForgotPasswordClick = async () => {
         if (!loginEmail) {
             alert("لطفاً ایمیل خود را در فیلد بالا وارد کنید.");
             return;
         }
-
         try {
-            const response = await fetch("https://localhost:7055/api/User/forgot-password", {
+            const response = await fetch(`${API_BASE_URL}/api/User/forgot-password`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ email: loginEmail })
             });
-
             const responseData = await response.json();
             alert(responseData.message || "خطا در ارسال درخواست.");
         } catch (error) {
@@ -120,61 +132,37 @@ const AuthPage = () => {
     };
 
     return (
+        // ۳. استفاده از ساختار JSX و کلاس‌های CSS طراحی جدید
         <div className={styles.authPageContainer}>
             <div className={styles.authFormWrapper}>
-                <div className={styles.leftPanel}>
-                    <div className={styles.logo}>
-                        <img src="/images/key-sharer-logo.png" alt="Key Sharer Logo" /> {/* لوگوی Key Sharer */}
-                    </div>
-                    <div className={styles.leftPanelContent}>
-                        <h1>Your Games</h1>
-                        <h1>Your Story</h1>
-                        <h1>Your Destiny</h1>
-                        <p>Take control of your word, ensuring that only you and your recipients have access to your communication.</p>
-                    </div>
+                <div
+                    className={styles.leftPanel}
+                    style={{ backgroundImage: `url(${sliderImages[currentImageIndex]})` }}
+                >
                 </div>
-
                 <div className={styles.rightPanel}>
+                    <div className={styles.logo}><img src="/images/image.png" alt="KazGame Logo" />
+                    </div>
                     <div className={styles.authForms}>
-                        <h2 className={styles.authTitle}>{isLoginActive ? "Login To Your Account" : "Sign Up An Account"}</h2>
-
-                        {/* دکمه‌های Google و Apple - فعلاً فقط بصری هستند */}
-                        <div className={styles.socialAuthButtons}>
-                            <button className={styles.socialButton}><img src="/images/google-logo.png" alt="Google" /> Google</button>
-                            <button className={styles.socialButton}><img src="/images/apple-logo.png" alt="Apple" /> Apple</button>
-                        </div>
-                        <div className={styles.orDivider}><span>OR</span></div>
-
-                        {/* فرم Sign Up / Register */}
-                        {!isLoginActive && (
+                        {/* ۴. شرط نمایش فرم‌ها بر اساس isLoginActive (منطق اصلی شما) */}
+                        {!isLoginActive ? (
                             <form className={styles.authForm} onSubmit={handleRegisterSubmit}>
-                                <div className={styles.inputGroup}>
-                                    <input type="text" placeholder="Username" value={registerUsername} onChange={(e) => setRegisterUsername(e.target.value)} required />
-                                    <input type="email" placeholder="Email" value={registerEmail} onChange={(e) => setRegisterEmail(e.target.value)} required />
-                                </div>
-                                <div className={styles.inputGroup}>
-                                    <input type="password" placeholder="Password" value={registerPassword} onChange={(e) => setRegisterPassword(e.target.value)} required />
-                                    <p className={styles.passwordHint}>رمز عبور باید حداقل 8 کاراکتر باشد و شامل حروف بزرگ، کوچک، عدد و کاراکتر خاص باشد.</p>
-                                    <input type="password" placeholder="Confirm password" value={registerConfirmPassword} onChange={(e) => setRegisterConfirmPassword(e.target.value)} required />
-                                </div>
-                                <button type="submit" className={styles.submitButton}>Sign Up</button>
-                                <p className={styles.switchFormText}>Already have an account? <span onClick={() => setIsLoginActive(true)} className={styles.switchFormLink}>Log In</span></p>
+                                <h2 className={styles.authTitle}>ایجاد حساب کاربری</h2>
+                                <input type="text" placeholder="نام کاربری" value={registerUsername} onChange={(e) => setRegisterUsername(e.target.value)} required />
+                                <input type="email" placeholder="ایمیل" value={registerEmail} onChange={(e) => setRegisterEmail(e.target.value)} required />
+                                <input type="password" placeholder="رمز عبور" value={registerPassword} onChange={(e) => setRegisterPassword(e.target.value)} required />
+                                <input type="password" placeholder="تکرار رمز عبور" value={registerConfirmPassword} onChange={(e) => setRegisterConfirmPassword(e.target.value)} required />
+                                <button type="submit" className={styles.submitButton}>ثبت‌نام</button>
+                                <p className={styles.switchFormText}>قبلاً ثبت‌نام کرده‌اید؟ <span onClick={() => setIsLoginActive(true)} className={styles.switchFormLink}>وارد شوید</span></p>
                             </form>
-                        )}
-
-                        {/* فرم Login */}
-                        {isLoginActive && (
+                        ) : (
                             <form className={styles.authForm} onSubmit={handleLoginSubmit}>
-                                <div className={styles.inputGroup}>
-                                    <input type="email" placeholder="Email" value={loginEmail} onChange={(e) => setLoginEmail(e.target.value)} required />
-                                </div>
-                                <div className={styles.inputGroup}>
-                                    <input type="password" placeholder="Password" value={loginPassword} onChange={(e) => setLoginPassword(e.target.value)} required />
-                                     <p className={styles.forgotPasswordLink} onClick={handleForgotPasswordClick}> Forget password ? </p> 
-                                </div>
-                                 
-                                <button type="submit" className={styles.submitButton}>Log In</button>
-                                <p className={styles.switchFormText}>Don't have an account? <span onClick={() => setIsLoginActive(false)} className={styles.switchFormLink}>Sign Up</span></p>
+                                <h2 className={styles.authTitle}>ورود به حساب کاربری</h2>
+                                <input type="email" placeholder="ایمیل" value={loginEmail} onChange={(e) => setLoginEmail(e.target.value)} required />
+                                <input type="password" placeholder="رمز عبور" value={loginPassword} onChange={(e) => setLoginPassword(e.target.value)} required />
+                                <p className={styles.forgotPasswordLink} onClick={handleForgotPasswordClick}>رمز عبور خود را فراموش کرده‌اید؟</p>
+                                <button type="submit" className={styles.submitButton}>ورود</button>
+                                <p className={styles.switchFormText}>حساب کاربری ندارید؟ <span onClick={() => setIsLoginActive(false)} className={styles.switchFormLink}>ثبت‌نام کنید</span></p>
                             </form>
                         )}
                     </div>

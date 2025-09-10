@@ -12,7 +12,6 @@ const FeaturedProducts = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        // آدرس API شما. اطمینان حاصل کنید که سرور C# در حال اجرا است.
         const response = await fetch("https://localhost:7055/api/products");
 
         if (!response.ok) {
@@ -20,7 +19,6 @@ const FeaturedProducts = () => {
         }
 
         const data = await response.json();
-        // حالا که API مستقیماً VideoUrl را برمی‌گرداند، دیگر نیازی به کد تست موقتی نیست.
         setProducts(data);
       } catch (err) {
         console.error("خطا در دریافت محصولات:", err);
@@ -31,10 +29,8 @@ const FeaturedProducts = () => {
     };
 
     fetchProducts();
-  }, []); // [] به معنای اجرای useEffect فقط یک بار پس از اولین رندر
+  }, []); 
 
-  // کامپوننت داخلی ProductCard برای تمیزتر شدن کد
-  // این یک Functional Component معمولی است که در داخل FeaturedProducts تعریف شده است.
   const FeaturedProductCard = ({ product }) => {
     return (
       <div
@@ -44,7 +40,6 @@ const FeaturedProducts = () => {
         onMouseEnter={() => product.videoUrl && setHoveredProductId(product.id)}
         onMouseLeave={() => setHoveredProductId(null)}
       >
-        {/* رندر مشروط: اگر هاور شده و videoUrl دارد، ویدیو را نشان بده، در غیر این صورت تصویر را */}
         {hoveredProductId === product.id && product.videoUrl ? (
           <video
             src={product.videoUrl}
@@ -67,7 +62,7 @@ const FeaturedProducts = () => {
   };
 
   if (loading) {
-    return <div className={styles.loading}>در حال بارگذاری محصولات...</div>;
+    return <div className={styles.loading}>در حال بارگذاری بازی ها...</div>;
   }
 
   if (error) {
@@ -83,7 +78,7 @@ const FeaturedProducts = () => {
             <FeaturedProductCard key={product.id} product={product} />
           ))
         ) : (
-          <p>محصولی برای نمایش وجود ندارد.</p>
+          <p>بازی ای برای نمایش وجود ندارد.</p>
         )}
       </div>
     </section>

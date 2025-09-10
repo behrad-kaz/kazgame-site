@@ -1,6 +1,6 @@
 // src/components/RelatedGamesSection.jsx
 import React, { useState, useEffect } from 'react';
-import GameCard from '../components/gamelist components/GameCard'; // استفاده از GameCard موجود برای نمایش بازی‌های مشابه
+import GameCard from '../gamelist components/GameCard'; // استفاده از GameCard موجود برای نمایش بازی‌های مشابه
 import styles from './RelatedGamesSection.module.css';
 
 const PRODUCTS_API_BASE_URL = 'https://localhost:7055';
