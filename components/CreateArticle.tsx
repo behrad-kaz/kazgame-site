@@ -1,22 +1,32 @@
-import React from "react";
+"use client";
 
-("use client");
-
-import { useState } from "react";
+import React, { useState } from "react";  
 
 function CreateArticle() {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
 
-  const handelCreateArticle = () => {
-    fetch("http://localhost:3001/articles", {
-      method: "POST",
-      body: JSON.stringify({
-        id: Math.floor(Math.random() *1000).toString(),
-        title: title,
-        description: description,
-      }),
-    });
+  const handleCreateArticle = async () => {  
+    try {
+      await fetch("http://localhost:3001/articles", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          id: Math.floor(Math.random() * 1000).toString(),
+          title: title,
+          description: description,
+        }),
+      });
+      
+      // پاک کردن فرم بعد از ارسال موفق
+      setTitle("");
+      setDescription("");
+      
+    } catch (error) {
+      console.error("خطا در ایجاد مقاله:", error);
+    }
   };
 
   return (
@@ -34,11 +44,12 @@ function CreateArticle() {
         className="bg-white border h-40"
         value={description}
         onChange={(e) => setDescription(e.target.value)}
-      ></textarea>
+      />
+
       <div className="flex justify-end">
         <button
-          onClick={handelCreateArticle}
-          className="bg-red-600 relative mt-6 w-24 h-10 rounded-2xl shadow hover:text-cyan-700 "
+          onClick={handleCreateArticle}
+          className="bg-red-600 relative mt-6 w-24 h-10 rounded-2xl shadow hover:text-cyan-700"
         >
           Submit
         </button>
